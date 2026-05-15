@@ -1,0 +1,121 @@
+model,taxonomy,code,metric,value,source,notes
+felten_aei,isco2,11,exposure,0.9019,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,11,augmentation_share,0.1767,derived,n=54 tasks
+felten_aei,isco2,11,automation_share,0.8233,derived,n=54 tasks
+felten_aei,isco2,12,exposure,0.9487,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,12,augmentation_share,0.1477,derived,n=119 tasks
+felten_aei,isco2,12,automation_share,0.8523,derived,n=119 tasks
+felten_aei,isco2,13,exposure,0.844,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,13,augmentation_share,0.1521,derived,n=110 tasks
+felten_aei,isco2,13,automation_share,0.8479,derived,n=110 tasks
+felten_aei,isco2,14,exposure,0.7598,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,14,augmentation_share,0.1624,derived,n=70 tasks
+felten_aei,isco2,14,automation_share,0.8376,derived,n=70 tasks
+felten_aei,isco2,21,exposure,0.8894,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,21,augmentation_share,0.2092,derived,n=160 tasks
+felten_aei,isco2,21,automation_share,0.7908,derived,n=160 tasks
+felten_aei,isco2,22,exposure,0.7073,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,22,augmentation_share,0.1779,derived,n=63 tasks
+felten_aei,isco2,22,automation_share,0.8221,derived,n=63 tasks
+felten_aei,isco2,23,exposure,0.9214,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,23,augmentation_share,0.3508,derived,n=483 tasks
+felten_aei,isco2,23,automation_share,0.6492,derived,n=483 tasks
+felten_aei,isco2,24,exposure,1.0,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,24,augmentation_share,0.1151,derived,n=186 tasks
+felten_aei,isco2,24,automation_share,0.8849,derived,n=186 tasks
+felten_aei,isco2,25,exposure,0.9478,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,25,augmentation_share,0.1982,derived,n=327 tasks
+felten_aei,isco2,25,automation_share,0.8018,derived,n=327 tasks
+felten_aei,isco2,26,exposure,0.8467,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,26,augmentation_share,0.235,derived,n=171 tasks
+felten_aei,isco2,26,automation_share,0.765,derived,n=171 tasks
+felten_aei,isco2,31,exposure,0.5491,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,31,augmentation_share,0.2024,derived,n=129 tasks
+felten_aei,isco2,31,automation_share,0.7976,derived,n=129 tasks
+felten_aei,isco2,32,exposure,0.5053,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,32,augmentation_share,0.1905,derived,n=42 tasks
+felten_aei,isco2,32,automation_share,0.8095,derived,n=42 tasks
+felten_aei,isco2,33,exposure,0.8845,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,33,augmentation_share,0.095,derived,n=391 tasks
+felten_aei,isco2,33,automation_share,0.905,derived,n=391 tasks
+felten_aei,isco2,34,exposure,0.5555,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,34,augmentation_share,0.2525,derived,n=38 tasks
+felten_aei,isco2,34,automation_share,0.7475,derived,n=38 tasks
+felten_aei,isco2,35,exposure,0.7097,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,35,augmentation_share,0.1527,derived,n=55 tasks
+felten_aei,isco2,35,automation_share,0.8473,derived,n=55 tasks
+felten_aei,isco2,41,exposure,0.8663,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,41,augmentation_share,0.161,derived,n=33 tasks
+felten_aei,isco2,41,automation_share,0.839,derived,n=33 tasks
+felten_aei,isco2,42,exposure,0.827,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,42,augmentation_share,0.0918,derived,n=73 tasks
+felten_aei,isco2,42,automation_share,0.9082,derived,n=73 tasks
+felten_aei,isco2,43,exposure,0.8248,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,43,augmentation_share,0.0267,derived,n=46 tasks
+felten_aei,isco2,43,automation_share,0.9733,derived,n=46 tasks
+felten_aei,isco2,44,exposure,0.5441,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,44,augmentation_share,0.1124,derived,n=36 tasks
+felten_aei,isco2,44,automation_share,0.8876,derived,n=36 tasks
+felten_aei,isco2,51,exposure,0.4335,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,51,augmentation_share,0.1507,derived,n=78 tasks
+felten_aei,isco2,51,automation_share,0.8493,derived,n=78 tasks
+felten_aei,isco2,52,exposure,0.5273,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,52,augmentation_share,0.1293,derived,n=48 tasks
+felten_aei,isco2,52,automation_share,0.8707,derived,n=48 tasks
+felten_aei,isco2,53,exposure,0.3995,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,53,augmentation_share,0.204,derived,n=21 tasks
+felten_aei,isco2,53,automation_share,0.796,derived,n=21 tasks
+felten_aei,isco2,54,exposure,0.3999,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,54,augmentation_share,0.1613,derived_aug_fallback,n=7 tasks; isco1-mean fallback
+felten_aei,isco2,54,automation_share,0.8387,derived_aug_fallback,n=7 tasks; isco1-mean fallback
+felten_aei,isco2,61,exposure,0.2416,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,61,augmentation_share,0.0,derived,n=10 tasks
+felten_aei,isco2,61,automation_share,1.0,derived,n=10 tasks
+felten_aei,isco2,62,exposure,0.2136,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,62,augmentation_share,0.0,derived_aug_fallback,n=5 tasks; isco1-mean fallback
+felten_aei,isco2,62,automation_share,1.0,derived_aug_fallback,n=5 tasks; isco1-mean fallback
+felten_aei,isco2,63,exposure,0.0565,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,63,augmentation_share,0.0,derived_aug_fallback,n=2 tasks; isco1-mean fallback
+felten_aei,isco2,63,automation_share,1.0,derived_aug_fallback,n=2 tasks; isco1-mean fallback
+felten_aei,isco2,71,exposure,0.0895,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,71,augmentation_share,0.0698,derived,n=16 tasks
+felten_aei,isco2,71,automation_share,0.9302,derived,n=16 tasks
+felten_aei,isco2,72,exposure,0.2089,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,72,augmentation_share,0.2904,derived,n=15 tasks
+felten_aei,isco2,72,automation_share,0.7096,derived,n=15 tasks
+felten_aei,isco2,73,exposure,0.344,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,73,augmentation_share,0.1297,derived,n=20 tasks
+felten_aei,isco2,73,automation_share,0.8703,derived,n=20 tasks
+felten_aei,isco2,74,exposure,0.313,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,74,augmentation_share,0.1163,derived,n=26 tasks
+felten_aei,isco2,74,automation_share,0.8837,derived,n=26 tasks
+felten_aei,isco2,75,exposure,0.2315,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,75,augmentation_share,0.1516,derived_aug_fallback,n=9 tasks; isco1-mean fallback
+felten_aei,isco2,75,automation_share,0.8484,derived_aug_fallback,n=9 tasks; isco1-mean fallback
+felten_aei,isco2,81,exposure,0.1819,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,81,augmentation_share,0.1198,derived,n=17 tasks
+felten_aei,isco2,81,automation_share,0.8802,derived,n=17 tasks
+felten_aei,isco2,82,exposure,0.3005,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,82,augmentation_share,0.0673,derived_aug_fallback,n=5 tasks; isco1-mean fallback
+felten_aei,isco2,82,automation_share,0.9327,derived_aug_fallback,n=5 tasks; isco1-mean fallback
+felten_aei,isco2,83,exposure,0.3044,derived,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,83,augmentation_share,0.0148,derived,n=14 tasks
+felten_aei,isco2,83,automation_share,0.9852,derived,n=14 tasks
+felten_aei,isco2,91,exposure,0.0,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,91,augmentation_share,0.1529,derived_aug_fallback,n=2 tasks; isco1-mean fallback
+felten_aei,isco2,91,automation_share,0.8471,derived_aug_fallback,n=2 tasks; isco1-mean fallback
+felten_aei,isco2,92,exposure,0.0496,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,92,augmentation_share,0.1529,derived_aug_fallback,n=3 tasks; isco1-mean fallback
+felten_aei,isco2,92,automation_share,0.8471,derived_aug_fallback,n=3 tasks; isco1-mean fallback
+felten_aei,isco2,93,exposure,0.0581,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,93,augmentation_share,0.1529,derived_aug_fallback,n=9 tasks; isco1-mean fallback
+felten_aei,isco2,93,automation_share,0.8471,derived_aug_fallback,n=9 tasks; isco1-mean fallback
+felten_aei,isco2,94,exposure,0.104,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,94,augmentation_share,0.1529,derived_aug_fallback,n=0 tasks; isco1-mean fallback
+felten_aei,isco2,94,automation_share,0.8471,derived_aug_fallback,n=0 tasks; isco1-mean fallback
+felten_aei,isco2,95,exposure,0.9394,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,95,augmentation_share,0.1529,derived_aug_fallback,n=4 tasks; isco1-mean fallback
+felten_aei,isco2,95,automation_share,0.8471,derived_aug_fallback,n=4 tasks; isco1-mean fallback
+felten_aei,isco2,96,exposure,0.2486,derived_aug_fallback,Felten AIOE × BLS crosswalk; min-max rescaled
+felten_aei,isco2,96,augmentation_share,0.1529,derived_aug_fallback,n=5 tasks; isco1-mean fallback
+felten_aei,isco2,96,automation_share,0.8471,derived_aug_fallback,n=5 tasks; isco1-mean fallback
