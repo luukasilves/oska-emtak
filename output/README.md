@@ -29,6 +29,43 @@ A matrix file is produced per `(model, scenario)` combination, with output chart
 
 No code changes needed beyond registering the new aggregator/builder; matrices/summaries/charts are produced automatically for every viable combo.
 
+## Dashboard
+
+Interactive Streamlit explorer over the v2 outputs.
+
+### Run locally
+
+```bash
+cd ~/code/oska-emtak    # or wherever the repo is cloned
+pip install -r requirements.txt
+streamlit run src/dashboard.py
+```
+
+Opens at http://localhost:8501. The app auto-discovers `(model, scenario)` combos from `data/processed/matrices/`; currently only `felten_aei × 2021_census` is registered, but the dropdowns expand automatically as new combos are added.
+
+### Features
+
+- **Map tab** — Folium choropleth at maakond (15) or municipality + linnaosa (~90) granularity, colored by exposure / opportunity / risk / absolute people-affected. Click any region to see its top-N occupations broken into augmentation vs automation people.
+- **Occupations tab** — National Opportunity × Risk scatter (sized by employment, colored by ISCO major group), plus top-N people-affected bar chart with augmentation/automation split.
+- **AEI breakdown tab** — Per-ISCO-2 100% stacked bar of augmentation vs automation share, with explainer about Anthropic's collaboration-pattern classification and the API-vs-consumer caveat.
+- **Data tab** — Filtered long-format matrix, downloadable as CSV.
+- **Sidebar filters** — model, scenario, geography level, metric, ISCO 1-digit major-group filter, top-N slider.
+
+### Deploy to Streamlit Community Cloud
+
+The repo is already on GitHub at https://github.com/luukasilves/oska-emtak. To deploy:
+
+1. Visit https://share.streamlit.io and sign in with GitHub.
+2. Click "New app", select the `oska-emtak` repo, set the main file to `src/dashboard.py`, branch `main`.
+3. Streamlit auto-installs `requirements.txt`. First deploy takes ~3 minutes.
+4. On the first run, `fetch_ai_scores.ensure_aei_raw_downloaded()` re-fetches the gitignored AEI 1P-API CSV (~44 MB) from Hugging Face. Adds ~30 sec to cold start; subsequent loads are fast.
+
+No secrets are required for the v2 baseline. If a future model variant needs an API key, add it to the Streamlit Cloud app settings under "Secrets" and read with `st.secrets["KEY_NAME"]`. See `.streamlit/secrets.toml.example` for the format.
+
+URL pattern: `https://<your-app-name>.streamlit.app`.
+
+The dashboard reads CSVs and GeoJSON from `data/processed/`. Those processed files are small (matrix ~700 KB, geometry ~3 MB) and committed to the repo. Heavy raw AEI inputs (~92 MB Claude.ai + ~42 MB 1P-API CSVs) are gitignored.
+
 ## Directory layout
 
 ```
@@ -122,6 +159,23 @@ python3 src/build_weights.py
 python3 src/build_matrix.py
 python3 src/visualize.py
 ```
+
+## Future model variants — Anthropic Economic Index extensions
+
+The current `felten_aei` model uses the AEI March 2026 1P-API release's `onet_task::collaboration` facet to derive augmentation/automation shares. AEI publishes considerably more that could feed additional models or scenarios under the v2 architecture (each is a drop-in: new aggregator/builder function, no schema changes):
+
+| Slice | What it adds | Architectural slot |
+|---|---|---|
+| **AEI Claude.ai consumer data** | Same release also contains `aei_raw_claude_ai_<date>.csv`. Consumer conversations tilt augmentation-heavier than the API's directive/programmatic ~80%-automation pattern. Different policy story. | Second `model`, e.g. `felten_aei_consumer`. Identical pipeline, point at the Claude.ai CSV. ~30 min. |
+| **`ai_autonomy` facet** | Continuous 0–1 score per O*NET task of how autonomously AI completed it. More granular than discrete collaboration buckets. | Either refined aug/auto split inside `felten_aei`, or a parallel model `felten_aei_autonomy`. |
+| **Time-savings facets** (`human_only_time` vs `human_with_ai_time`) | Per-task ratio = productivity multiplier. Could size the 100k workshop pool by expected hours saved, not just headcount. | New `metric` column on existing scores (`productivity_multiplier`). |
+| **AEI usage volumes per SOC** (`onet_task_count`) | Where AI is being *adopted right now*, not where it could be. | New `scenario` (e.g. `2026_aei_observed`) that multiplies census employment by per-SOC usage share. Answers "where are the currently-AI-using workers?" |
+| **Country-state geographic facet** | AEI publishes per-country usage; Estonia-specific patterns (filter `geo_id=EST` or similar). Likely small sample but Estonia-relative. | Model variant like `felten_aei_estonia`. |
+
+Sources:
+- AEI dataset: https://huggingface.co/datasets/Anthropic/EconomicIndex
+- AEI March 2026 documentation: `release_2026_03_24/data_documentation.md`
+- AEI Feb 2025 paper (collaboration-pattern classification): "Which Economic Tasks are Performed with AI?"
 
 ## Known limitations (v2 → future)
 
