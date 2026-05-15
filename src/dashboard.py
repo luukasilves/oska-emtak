@@ -8,7 +8,14 @@ Run locally:
 """
 from __future__ import annotations
 
+import sys
 from pathlib import Path
+
+# Ensure src/ is on sys.path so `from common import ...` works regardless of how
+# Streamlit launches the script (some Streamlit Cloud setups don't auto-add it).
+_HERE = Path(__file__).resolve().parent
+if str(_HERE) not in sys.path:
+    sys.path.insert(0, str(_HERE))
 
 import folium
 import geopandas as gpd
