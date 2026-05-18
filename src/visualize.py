@@ -73,12 +73,42 @@ def _read_combo(matrix_path: Path):
     return matrix, summary, model, scenario, taxonomy
 
 
+def _render_exposure_only_choropleths(summary: pd.DataFrame, out_dir: Path):
+    """Render the exposure-only maakond choropleth as chart 06 for models that
+    measure exposure but not augmentation/automation (e.g. jrc_casas)."""
+    gdf = gpd.read_file(RAW / "maakond.geojson")
+    gdf["maakond"] = gdf["MNIMI"].str.replace(" maakond", "", regex=False).str.title()
+    merged = gdf.merge(summary, on="maakond", how="left")
+
+    fig, ax = plt.subplots(figsize=(7, 6.5))
+    merged.plot(column="exposure_avg", ax=ax, cmap="Purples", edgecolor="white",
+                linewidth=0.8, legend=True,
+                legend_kwds={"shrink": 0.6, "label": "score (0–1)"})
+    ax.set_title("AI Exposure by maakond — employment-weighted",
+                 fontsize=12, weight="bold")
+    ax.set_axis_off()
+    fig.text(0.5, 0.02,
+             "Model emits exposure only; Opportunity/Risk panels omitted.",
+             ha="center", fontsize=8, color="gray")
+    plt.savefig(out_dir / "06_estonia_choropleth.png")
+    plt.close()
+    print("  06_estonia_choropleth.png  (exposure-only)")
+
+
 def _render(matrix: pd.DataFrame, summary: pd.DataFrame, out_dir: Path):
     """Render the 8 charts to out_dir."""
     out_dir.mkdir(parents=True, exist_ok=True)
     summary = summary.copy()
     summary["maakond"] = summary["location_name"].str.title() \
         .str.replace(" Maakond", "", regex=False)
+    # Models that emit only the exposure metric (e.g. jrc_casas) have aug/auto filled
+    # with zero by build_matrix.py. Render exposure-only charts (01, 02, exposure
+    # panel of 06) and skip the Opportunity/Risk overlays (03, 04, 05, 07, 08).
+    has_aug_auto = (
+        "opportunity_avg" in summary.columns
+        and summary["opportunity_avg"].fillna(0).abs().sum() > 0
+        and summary["risk_avg"].fillna(0).abs().sum() > 0
+    )
 
     # =================================================================================
     # 01 Employment by maakond
@@ -115,6 +145,12 @@ def _render(matrix: pd.DataFrame, summary: pd.DataFrame, out_dir: Path):
     plt.savefig(out_dir / "02_exposure_by_maakond.png")
     plt.close()
     print("  02_exposure_by_maakond.png")
+
+    if not has_aug_auto:
+        print("  [skipping 03/04/05/07/08 — model has no augmentation/automation split]")
+        # Still render the exposure panel of the choropleth as chart 06.
+        _render_exposure_only_choropleths(summary, out_dir)
+        return
 
     # =================================================================================
     # 03 Opportunity vs Risk per maakond

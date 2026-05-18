@@ -23,3 +23,8 @@ data/raw/anthropic_aei/aei_raw_*.csv
 # Claude Code session state (private, not project artefacts)
 .claude/
 SESSION_HANDOFF.md
+
+# Heavy PDFs fetched for offline analysis; CSVs extracted are tracked
+data/raw/jrc_casas/JRC145832*.pdf
+data/raw/cazzaniga_2024/
+isco4.patch
