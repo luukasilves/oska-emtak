@@ -239,7 +239,12 @@ def _render(matrix: pd.DataFrame, summary: pd.DataFrame, out_dir: Path):
     # 04 Opportunity × Risk scatter of ISCO 2-digit groups (national)
     # =================================================================================
     nat = matrix[matrix["location_name"] == "Kogu Eesti"].copy()
-    nat = nat.dropna(subset=["code"])
+    # Drop codes with missing exposure (and therefore NaN opportunity/risk) —
+    # otherwise max() on the axis-limit calculation below returns NaN and
+    # matplotlib refuses to render. Affects ISCO-4 scenarios where a few codes
+    # lack a score; ISCO-2 cases were immune because crosswalk aggregation
+    # filled the holes.
+    nat = nat.dropna(subset=["code", "opportunity", "risk"])
 
     fig, ax = plt.subplots(figsize=(11, 7.5))
     for isco1 in sorted(nat["isco1"].unique()):
@@ -585,9 +590,12 @@ def main():
         # Extra: people-affected ranking for scenarios that carry true ISCO-4
         # headcounts (e.g. 2025q4_palgad_isco4). The standard chart 05 also
         # ranks by people-affected but only for ISCO-2 scenarios; this one is
-        # at the model's native granularity.
-        if taxonomy in ("isco3", "isco4") and matrix["location_name"].nunique() == 1:
-            _render_top_isco4_people_affected(matrix, model, out_dir)
+        # at the model's native granularity. Filter to the national row so the
+        # chart still renders when per-maakond rows are present alongside it.
+        if taxonomy in ("isco3", "isco4"):
+            national = matrix[matrix["location_code"].astype(str) == "all"]
+            if len(national):
+                _render_top_isco4_people_affected(national, model, out_dir)
 
     print(f"\n[cross-model] → {CHARTS_DIR}/_cross_model")
     _render_cross_model_rank_correlation(scores_long, CHARTS_DIR)

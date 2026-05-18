@@ -28,3 +28,8 @@ SESSION_HANDOFF.md
 data/raw/jrc_casas/JRC145832*.pdf
 data/raw/cazzaniga_2024/
 isco4.patch
+
+# Per-cell HTML cache from palgad.stat.ee — ~6,848 files / ~150 MB.
+# Re-fetched by scripts/scrape_palgad_stat_ee.py; workers_long.csv is the
+# tracked canonical artefact.
+data/raw/palgad_stat_ee/workers_raw/

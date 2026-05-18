@@ -71,12 +71,20 @@ def build_2025q4_palgad_isco4():
     agg = (df.groupby(["isco4", "name_et", "county", "county_name"], as_index=False)
              ["count"].sum())
 
+    # Maakond rows need uppercase names ("HARJU MAAKOND") so the summary
+    # derivation in build_matrix.py (filters via str.endswith("MAAKOND")) picks
+    # them up — matches the REL2021 convention. The national row ("Kogu Eesti")
+    # stays mixed-case to match how chart 04 selects it.
+    location_name = agg["county_name"].where(
+        agg["county"] == "all", agg["county_name"].str.upper()
+    )
+
     out = pd.DataFrame({
         "scenario": "2025q4_palgad_isco4",
         "taxonomy": "isco4",
         "code": agg["isco4"].astype(str),
         "location_code": agg["county"].astype(str),
-        "location_name": agg["county_name"].astype(str),
+        "location_name": location_name.astype(str),
         "code_label": agg["name_et"].astype(str),
         "employed": agg["count"].astype(int),
         "source": "palgad_stat_ee_2025q4",

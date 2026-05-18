@@ -72,12 +72,41 @@ The script caches per-cell HTML under `workers_raw/`; re-runs only fetch
 missing cells. Default delay is 1.0 s between requests; lower with `--delay`
 only if you have a reason.
 
+## Coverage
+
+The current scrape covers **2025 Q4** for **national + all 15 maakonnad**
+(16 locations × 428 ISCO-4 codes = 6,848 cells fetched). The `workers_raw/`
+per-cell HTML cache is gitignored (~150 MB); the canonical artefact is
+`workers_long.csv` (7,951 rows).
+
 ## Quality caveats
 
-- **Suppression**: cells with <20 persons return no table. Roughly 15–30% of
-  ISCO-4 × maakond cells in low-density counties are suppressed.
-  Aggregating to national (county=all) eliminates most suppression because
-  the threshold is satisfied at the country level for the bulk of codes.
+- **Suppression**: cells with <20 persons return no table. Actual observed
+  suppression rates per maakond (2025 Q4, out of 390 ISCO-4 codes that have
+  any data nationally):
+
+  | Maakond | Suppression rate | Surviving codes |
+  |---|---|---|
+  | Kogu Eesti (national) | 1% | 385 |
+  | Harju | 7% | 362 |
+  | Tartu | 31% | 270 |
+  | Ida-Viru | 51% | 193 |
+  | Pärnu | 52% | 187 |
+  | Lääne-Viru | 66% | 133 |
+  | Viljandi | 68% | 125 |
+  | Võru | 74% | 100 |
+  | Saare | 75% | 97 |
+  | Rapla | 77% | 89 |
+  | Järva | 80% | 79 |
+  | Jõgeva | 82% | 69 |
+  | Põlva | 84% | 62 |
+  | Valga | 84% | 63 |
+  | Lääne | 85% | 59 |
+  | Hiiu | 95% | 18 |
+
+  Aggregating to national eliminates almost all suppression. Hiiu and
+  Saare retain so few codes that any per-maakond ISCO-4 analysis there
+  must lean on coarser groupings (ISCO-1 or ISCO-2 rollups).
 - **Single quarter snapshot**: 2025 Q4 is the most recent at scrape time.
   Re-run with `--year=Y --quarter=Q` for any quarter 2021Q1 onward.
 - **Sex coverage**: cells are published as M / F separately. We sum to total
