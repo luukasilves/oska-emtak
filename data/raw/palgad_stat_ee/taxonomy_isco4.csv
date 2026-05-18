@@ -1,0 +1,429 @@
+isco4,name_et
+1111,Seadusandjad
+1112,Kõrgemad valitsusametnikud
+1114,Ühiskondlike ja huviorganisatsioonide juhid
+1120,Suurettevõtete tegevdirektorid ja tippjuhid
+1211,Finantsjuhid
+1212,Personalijuhid
+1213,Poliitika- ja strateegiajuhid
+1219,"Äriteenindus- ja haldusjuhid, mujal liigitamata"
+1221,Müügi- ja turundusjuhid
+1222,Reklaami- ja suhtekorraldusjuhid
+1223,Teadus- ja arendusjuhid
+1311,Põllumajandus- ja metsandusjuhid
+1312,Vesiviljeluse ja kalandusjuhid
+1321,Töötleva tööstuse juhid
+1322,Mäetööstuse juhid
+1323,Ehitusjuhid
+1324,"Tarne-, turustus- jms juhid"
+1330,IKT-juhid
+1341,Lapsehoiuteenuste juhid
+1342,Tervishoiuteenuste juhid
+1343,Eakate hooldusteenuste juhid
+1344,Sotsiaalhoolekande teenuste juhid
+1345,Haridus- ja koolitusteenuste juhid
+1346,Finantsvahendus- ja kindlustusteenuste juhid
+1349,"Kutseteenuste juhid, mujal liigitamata"
+1411,"Hotellide, motellide ja hostelite juhid"
+1412,Restoranide ja kohvikute juhid
+1420,Hulgi- ja jaekaubandusjuhid
+1431,"Spordi-, vabaaja- ja kultuurikeskuste juhid"
+1439,"Teenuste juhid, mujal liigitamata"
+2111,Füüsikud ja astronoomid
+2112,Meteoroloogid
+2113,Keemikud
+2114,Geoloogid ja geofüüsikud
+2120,"Matemaatikud, aktuaarid ja statistikud"
+2131,"Bioloogid, botaanikud, zooloogid jms tippspetsialistid"
+2132,"Põllumajanduse, metsanduse ja kalanduse nõuandjad"
+2133,Keskkonnakaitse tippspetsialistid
+2141,Tööstus- ja tootmisinsenerid
+2142,Ehitusinsenerid
+2143,Keskkonnatehnika tippspetsialistid
+2144,Mehaanikainsenerid
+2145,Keemiainsenerid
+2146,"Mäetööstuse, metallurgia jms valdkondade tippspetsialistid"
+2149,"Tehnikateaduste tippspetsialistid, mujal liigitamata"
+2151,Elektriinsenerid
+2152,Elektroonikainsenerid
+2153,Telekommunikatsiooniinsenerid
+2161,Ehitusarhitektid
+2162,Maastikuarhitektid
+2163,Toote- ja rõivadisainerid
+2164,Linna- ja liiklusplaneerijad
+2165,Kartograafid ja maamõõtjad
+2166,Kujundajad ja multimeediadisainerid
+2211,Üldarstid
+2212,Eriarstid
+2221,Õenduse tippspetsialistid
+2222,Ämmaemandad
+2230,Täiendmeditsiini ja loodusravi tippspetsialistid
+2240,Erialase kõrgharidusega parameedikud
+2250,Veterinaararstid
+2261,Hambaarstid
+2262,Proviisorid ja farmatseudid
+2263,Töötervishoiu ja tööohutuse tippspetsialistid
+2264,Füsioterapeudid
+2265,Dieedi ja toitumise tippspetsialistid
+2266,Audioloogid ja logopeedid
+2267,Optomeetria tippspetsialistid
+2269,"Tervishoiu tippspetsialistid, mujal liigitamata"
+2310,Ülikoolide ja kõrgkoolide õppejõud
+2320,Kutseõpetajad
+2330,Gümnaasiumiõpetajad
+2341,Põhikooli (1.–9. klass) õpetajad
+2342,Koolieelse lasteasutuse õpetajad
+2351,Õppemetoodika tippspetsialistid
+2352,Eripedagoogid
+2353,Huvikoolide ja eratundide keeleõpetajad
+2354,Huvikoolide ja eratundide muusikaõpetajad
+2355,Huvikoolide ja eratundide kunstiõpetajad
+2356,Infotehnoloogia erakoolitajad
+2359,"Pedagoogika tippspetsialistid, mujal liigitamata"
+2411,Raamatupidamise tippspetsialistid
+2412,Finants- ja investeerimisnõustajad
+2413,Finantsanalüütikud
+2421,Juhtimis- ja organisatsioonianalüütikud
+2422,Strateegiate väljatöötajad
+2423,Personali ja karjääri tippspetsialistid
+2424,Töötajate koolituse ja täiendõppe tippspetsialistid
+2431,Reklaami ja turunduse tippspetsialistid
+2432,Avalike suhete tippspetsialistid
+2433,Tehnika- (v.a IKT) ja meditsiinitoodete müügi tippspetsialistid
+2434,IKT-lahenduste müügi tippspetsialistid
+2511,Süsteemianalüütikud
+2512,Tarkvaraarendajad
+2513,Veebi- ja multimeediaarendajad
+2514,Rakenduste programmeerijad
+2519,"Tarkvara ja rakenduste arendajad ning analüütikud, mujal liigitamata"
+2521,Andmebaaside projekteerijad ja administraatorid
+2522,Süsteemiadministraatorid
+2523,Arvutivõrkude tippspetsialistid
+2529,"Andmebaasi ja arvutivõrgu tippspetsialistid, mujal liigitamata"
+2611,"Advokaadid, prokurörid ja kohtujuristid"
+2612,Kohtunikud
+2619,"Õigusvaldkonna tippspetsialistid, mujal liigitamata"
+2621,Arhivaarid ja kuraatorid
+2622,Raamatukoguhoidjad jms teabe tippspetsialistid
+2631,Majandusteadlased
+2632,"Sotsioloogid, antropoloogid jms tippspetsialistid"
+2633,"Filosoofid, ajaloolased ja politoloogid"
+2634,Psühholoogid
+2635,Sotsiaaltöötajad ja nõustajad
+2636,Religioonivaldkonna tippspetsialistid
+2641,Kirjanikud
+2642,Ajakirjanikud
+2643,"Tõlkijad, tõlgid ja keeleteadlased"
+2651,Kujutavad kunstnikud
+2652,"Muusikud, lauljad ja heliloojad"
+2653,Tantsijad ja koreograafid
+2654,"Filmi-, teatri- jms lavastajad ja -produtsendid"
+2655,Näitlejad
+2656,"Raadio, televisiooni jms saatejuhid"
+2659,"Loomingulised töötajad, mujal liigitamata"
+3111,Keemia- ja füüsikateaduste tehnikud
+3112,Ehitustehnikud
+3113,Elektrotehniliste alade tehnikud
+3114,Elektroonikatehnikud
+3115,Masinaehitustehnikud
+3116,Keemiatööstuse tehnikud
+3117,Mäe- ja metallurgiatehnikud
+3118,Joonestajad
+3119,"Füüsika- ja tehnikateaduste tehnikud, mujal liigitamata"
+3121,Kaevanduse töödejuhatajad
+3122,Töötleva tööstuse töödejuhatajad
+3123,Ehituse töödejuhatajad
+3131,Energiatootmisettevõtete operaatorid
+3132,Jäätmepõletustehaste ja veepuhastusjaamade operaatorid
+3133,Keemiatööstuse protsessijuhtimistehnikud
+3134,"Naftasaaduste, õlide ja maagaasi töötlemise operaatorid"
+3135,Metallurgiatööstuse protsessijuhtimistehnikud
+3139,"Tööstuse protsessijuhtimistehnikud, mujal liigitamata"
+3141,Biotehnikud (v.a meditsiinivaldkonna tehnikud)
+3142,Põllumajandustehnikud
+3143,Metsandustehnikud
+3151,Laevamehaanikud
+3152,Laevajuhid ja lootsid
+3153,Piloodid ja lennumeeskonna liikmed
+3154,Lennujuhid
+3155,Lennuohutuselektroonika tehnikud
+3211,Meditsiiniliste kuvamis- ja raviseadmete tehnikud
+3212,Meditsiini- ja patoloogialaborite tehnikud
+3213,Farmaatsiatehnikud ja farmatseudi abilised
+3214,Meditsiiniliste ja hambaproteeside tehnikud
+3221,Hooldustöötajad
+3222,Ämmaemanda abid
+3230,Täiendmeditsiini ja loodusravi keskastme spetsialistid
+3240,Veterinaartehnikud
+3251,Hambaraviõed ja hambaravi keskastme spetsialistid
+3252,Meditsiiniregistrite ja terviseteabe keskastme spetsialistid
+3253,Kohalike omavalitsuste tervishoiutöötajad
+3254,Optometristid ja optikud
+3255,Abifüsioterapeudid
+3256,Abiarstid
+3257,Tervisekaitse- ja töötervishoiuinspektorid jms keskastme spetsialistid
+3258,Kiirabitehnikud
+3259,"Tervishoiu keskastme spetsialistid, mujal liigitamata"
+3311,Väärtpaberi- ja valuutamaaklerid ning -vahendajad
+3312,Krediidi- ja laenuhaldurid
+3313,Raamatupidamise keskastme spetsialistid
+3314,Statistilise ja matemaatilise arvestuse jms keskastme spetsialistid
+3315,Hindajad ja kahjuhindajad
+3321,Kindlustusagendid
+3322,Müügiesindajad
+3323,Varustajad
+3324,Kaubamaaklerid
+3331,Tollimaaklerid ja ekspedeerijad
+3332,Konverentside ja ürituste korraldajad
+3333,Töövahendajad
+3334,Kinnisvaramaaklerid ja -haldurid
+3339,"Äriteenuste agendid, mujal liigitamata"
+3341,Kontorijuhatajad
+3342,Juristid-asjaajajad
+3343,Sekretärid-asjaajajad ja sekretärid-juhiabid
+3344,Meditsiinivaldkonna sekretärid
+3351,Tolli- ja piiriinspektorid
+3352,Maksu- ja aktsiisiametnikud
+3353,Sotsiaalkindlustusametnikud
+3354,Litsentside ja lubade menetlejad
+3359,"Valitsuse haldusalade ametnikud, mujal liigitamata"
+3411,Õigusvaldkonna keskastme spetsialistid
+3412,Sotsiaaltöö keskastme spetsialistid
+3413,Religioonivaldkonna keskastme spetsialistid
+3421,Sportlased
+3422,"Treenerid, spordiinstruktorid ja -ametnikud"
+3423,Tervisespordi- ja vabaajateenuste instruktorid ja programmijuhid
+3431,Fotograafid
+3432,Sisekujundajad ja dekoraatorid
+3433,"Galeriide, muuseumide ja raamatukogude tehnilised töötajad"
+3434,Peakokad
+3435,Muud kunsti- ja kultuurivaldkonna keskastme spetsialistid
+3511,IKT operaatorid
+3512,IKT kasutajatoe tehnikud
+3513,Arvutivõrkude ja -süsteemide tehnikud
+3514,Veebitehnikud
+3521,Audiovisuaal- ja ringhäälingutehnikud
+3522,Telekommunikatsioonitehnikud
+4110,Kontoriabilised
+4120,Asjaajamise tugitöötajad
+4131,Masinakirjutajad jms tekstitöötlejad
+4132,Andmesisestajad
+4211,Pangatellerid jms klienditeenindajad
+4212,"Kihlvedude vahendajad, krupjeed jm hasartmängutöötajad"
+4213,Pandimajapidajad ja rahalaenajad
+4214,Võlgade sissenõudjad jms töötajad
+4221,Reisikonsultandid jm reisibüroo klienditeenindajad
+4222,Kõne- ja kontaktikeskuse klienditeenindajad
+4223,Telefonivahendusjaama operaatorid
+4224,Hotelliadministraatorid
+4225,Infopunkti klienditeenindajad
+4226,Üldadministraatorid
+4227,"Uuringute, sh turu-uuringute küsitlejad"
+4229,"Klienditeenindajad, mujal liigitamata"
+4311,Raamatupidamise kontoritöötajad
+4312,"Statistilise arvestuse, rahanduse ja kindlustuse kontoritöötajad"
+4313,Palgaarvestajad
+4321,Laoarvestuse kontoritöötajad
+4322,Tootmisarvestuse kontoritöötajad
+4323,Transpordivaldkonna kontoritöötajad
+4411,Raamatukogutöö assistendid
+4412,Posti sorteerijad ja kättetoimetajad
+4413,"Kodeerijad, korrektorid jms töötajad"
+4414,Kirjaabilised jms töötajad
+4415,Kartoteegi- ja registripidajad
+4416,Personalitöö assistendid
+4419,"Kontoritöötajad ja klienditeenindajad, mujal liigitamata"
+5111,Reisi- ja lennusaatjad
+5112,Kontrolörid ja konduktorid
+5113,Giidid
+5120,Kokad
+5131,Ettekandjad ja kelnerid
+5132,Baariteenindajad
+5141,Juuksurid
+5142,Iluteenindajad (v.a juuksurid)
+5151,"Kontorite, hotellide jm asutuste koristus- ja majapidamistööde juhatajad"
+5152,Kodumajapidajad
+5153,Hoonete haldajad
+5161,"Astroloogid, ennustajad jms töötajad"
+5162,Seltsilised ja teenrid
+5163,Surnumatjad ja lahkunute korrastajad
+5164,Lemmikloomade hooldajad
+5165,Sõiduõpetajad
+5169,"Isikuteenindajad, mujal liigitamata"
+5211,Kioski- ja turumüüjad
+5212,Toidu välimüüjad
+5221,Väikepoepidajad
+5222,Müüjate vahetusevanemad
+5223,Poemüüjad
+5230,Kassapidajad ja piletimüüjad
+5241,Rõiva- jm modellid
+5242,Tootetutvustajad
+5243,Lävemüüjad
+5244,Telefonimüügi agendid
+5245,Tanklatöötajad
+5246,Toitlustuse letitöötajad
+5249,"Müügitöötajad, mujal liigitamata"
+5311,Lapsehoidjad
+5312,Õpetajaabid
+5321,Tervishoiu- ja hoolekandeasutuste hooldustöötajad
+5322,Koduhooldustöötajad
+5329,"Tervishoiu hooldustöötajad, mujal liigitamata"
+5413,Vangivalvurid
+5414,Turvatöötajad
+5419,"Turvatöötajad, mujal liigitamata"
+6111,Põllusaaduste ja köögiviljakasvatajad
+6112,Puuvilja- ja marjakasvatajad
+6113,"Aednikud, puukooli töötajad ja istikukasvatajad"
+6114,Eri põllukultuuride kasvatajad
+6121,Loomakasvatajad
+6122,Linnukasvatajad
+6123,Mesinikud ja siidiussikasvatajad
+6129,"Loomakasvatuse oskustöölised, mujal liigitamata"
+6130,Segapõllumajanduse oskustöölised
+6210,Metsanduse jms oskustöölised
+6221,Vesiviljeluse oskustöölised
+6222,Sisevete- ja rannapüügikalurid
+6223,Avamerekalurid
+6224,Jahimehed ja karusnahakütid
+6310,Oma tarbeks taimekasvatusega tegelevad talunikud
+6320,Oma tarbeks loomakasvatusega tegelevad talunikud
+6330,Oma tarbeks segapõllumajandusega tegelevad talunikud
+6340,"Oma tarbeks kalapüügi, jahi ja metsasaaduste korjamisega tegelejad"
+7111,Üldehitajad
+7112,Müürsepad jms töölised
+7113,"Kiviraidurid, -tahujad jms töölised"
+7114,"Betoneerijad, betoonpindade viimistlejad jms töölised"
+7115,Puusepad
+7119,"Üldehitustöölised, mujal liigitamata"
+7121,Katusekatjad
+7122,Põrandategijad ja plaatijad
+7123,Krohvijad
+7124,Isoleerijad
+7125,Klaasijad
+7126,Torulukksepad
+7127,Kliima- ja külmutusseadmete mehaanikud
+7131,Ehitusmaalrid jms töölised
+7132,Pihustusseadmetega värvijad-lakkijad
+7133,Ehitustarindite puhastajad
+7211,Valuvormide ja kärnide valmistajad
+7212,Keevitajad ja leeklõikajad
+7213,Lehtmetallitöölised
+7214,Metallkonstruktsioonide valmistajad ja monteerijad
+7215,Troppijad ja trossijätkajad
+7221,"Sepad, stantsijad jms oskustöölised"
+7222,Tööriistavalmistajad jms töölised
+7223,Metallitöötluspinkide seadistajad ja operaatorid
+7224,"Metallilihvijad, -poleerijad ja tööriistateritajad"
+7231,Mootorsõidukimehaanikud ja -lukksepad
+7232,Õhusõidukimehaanikud ja -lukksepad
+7233,Põllumajandus- ja tööstusmasinate mehaanikud ning lukksepad
+7234,Jalgrataste jms sõidukite mehaanikud
+7311,Täppisinstrumentide valmistajad ja parandajad
+7312,Pillimeistrid ja -häälestajad
+7313,Juveeli- ja väärismetallitöötlejad
+7314,Savi- ja portselanimeistrid
+7315,"Klaasipuhujad, -lõikajad, -lihvijad ja -viimistlejad"
+7316,"Klaasi, keraamika jms materjalide dekoratiivmaalijad, graveerijad ja söövitajad"
+7317,"Puidust, punumis- jm materjalidest tooteid valmistavad käsitöömeistrid"
+7318,"Tekstiil-, nahk- jms tooteid valmistavad käsitöömeistrid"
+7319,"Käsitöömeistrid, mujal liigitamata"
+7321,Trükiettevalmistajad
+7322,Trükkalid
+7323,Trükiste järeltöötlejad
+7411,Ehituselektrikud
+7412,Elektriseadmete mehaanikud ja paigaldajad
+7413,Elektriliinide paigaldajad ja hooldajad
+7421,Elektroonikaseadmete mehaanikud ja hooldajad
+7422,IKT-seadmete paigaldajad ja hooldajad
+7511,"Lihatöötlejad, kalakäitlejad jms töölised"
+7512,"Pagarid, kondiitrid ja maiustuste valmistajad"
+7513,Piimatöötlejad
+7514,Puu- ja köögivilja ning marjade töötlejad
+7515,Toidu ja jookide degusteerijad ja hindajad
+7521,Puidutöötlejad
+7522,Tislerid jms töölised
+7523,Puidutöötluspinkide seadistajad ja operaatorid
+7531,"Rätsepad, köösnerid ja kübarategijad"
+7532,Rõiva- jms lekaalide valmistajad ning juurdelõikajad
+7533,"Õmblejad, tikkijad jms töölised"
+7534,Polsterdajad jms töölised
+7535,Toorkarusnaha ettevalmistajad ja parkalid
+7536,Kingsepad jms töölised
+7541,Allveetöötajad
+7542,Lõhkajad ja õhkijad
+7543,Toodete (v.a toidud ja joogid) testijad
+7544,Kahjuri- ja umbrohutõrjujad
+7549,"Oskus- ja käsitöölised, mujal liigitamata"
+8111,"Kaevurid ja karjääritöölised, mäeseadmete operaatorid"
+8112,Maavarade rikastamise seadmete ja kivitöötlusmasinate operaatorid
+8113,Puurseadmete operaatorid
+8114,"Tsement-, kivi- jm mineraalsete toodete masinate operaatorid"
+8121,Metallitootmisseadmete operaatorid
+8122,Metallitöötlusmasinate operaatorid
+8131,Keemiatoodete seadmete ja masinate operaatorid
+8132,Fotograafiatoodete masinate operaatorid
+8141,Kummitoodete masinate operaatorid
+8142,Plasttoodete masinate operaatorid
+8143,Pabertoodete masinate operaatorid
+8151,"Ettevalmistus-, ketrus- ja poolimismasinate operaatorid"
+8152,Kudumismasinate operaatorid
+8153,Masinõmblejad
+8154,"Pleegitus-, värvimis- ja puhastusmasinate operaatorid"
+8155,Karusnaha ja naha ettevalmistusmasinate operaatorid
+8156,Jalatsitootmis- jms masinate operaatorid
+8157,Pesumasinate operaatorid
+8159,"Tekstiil-, karusnahk- ja nahktoodete masinate operaatorid, mujal liigitamata"
+8160,Toiduainete jms toodete masinate operaatorid
+8171,Tselluloosi- ja paberitootmisseadmete operaatorid
+8172,Puidutöötlemisseadmete operaatorid
+8181,Klaasi- ja keraamikaahjude jms seadmete operaatorid
+8182,Aurumasinate ja -katelde operaatorid
+8183,"Pakke-, villimis- ja märgistusseadmete operaatorid"
+8189,"Seadme- ja masinaoperaatorid, mujal liigitamata"
+8211,Mehaaniliste seadmete koostajad
+8212,Elektri- ja elektroonikaseadmete koostajad
+8219,"Koostajad, mujal liigitamata"
+8311,Veduri- ja rongijuhid
+8312,Raudtee liiklustöötajad
+8321,Mootorrattajuhid
+8322,"Sõiduauto-, takso- ja pakiautojuhid"
+8331,Bussi- ja trammijuhid
+8332,Veoautojuhid
+8341,Põllu- ja metsamasinate juhid
+8342,"Maaparandus-, tee- jms masinate juhid"
+8343,"Kraana-, tõstuki- jm tõsteseadmete juhid"
+8344,Kahveltõstukite jms masinate juhid
+8350,Laeva tekimeeskond jms töötajad
+9111,Kodukoristajad ja -abilised
+9112,"Koristajad ja abilised kontoris, hotellis jms asutustes"
+9121,Pesupesijad ja triikijad
+9122,Sõidukite käsipesijad
+9123,Aknapesijad
+9129,Muid puhastustöid tegevad lihttöölised
+9211,Taimekasvatuse lihttöölised
+9212,Loomakasvatuse lihttöölised
+9213,Segapõllumajanduse lihttöölised
+9214,Aianduse lihttöölised
+9215,Metsanduse lihttöölised
+9216,Kalapüügi ja vesiviljeluse lihttöölised
+9311,Mäetööstuse lihttöölised
+9312,Rajatiste ehituse lihttöölised
+9313,Hooneehituse lihttöölised
+9321,Pakkijad
+9329,"Töötleva tööstuse lihttöölised, mujal liigitamata"
+9331,Käsi- ja pedaalsõidukijuhid
+9332,Loomveokijuhid
+9333,Transporditöölised ja laadijad
+9334,Kaubaladujad
+9411,Kiirtoitlustuse abitöölised
+9412,Köögiabilised
+9510,Tänaval jms kohtades teenuse osutajad
+9520,Välimüüjad (v.a toidu- ja joogimüüjad)
+9611,Jäätmekogujad ja -laadijad
+9612,Jäätmesortijad
+9613,"Välikoristajad, tootmishoonete koristajad jms lihttöölised"
+9621,"Käskjalad, pakkide kättetoimetajad ja pakikandjad"
+9622,Halduse abitöölised
+9623,Arvestikontrolörid ning müügi- ja parkimisautomaatide rahakogujad
+9624,Vee ja küttepuude kogujad
+9629,"Lihttöölised, mujal liigitamata"

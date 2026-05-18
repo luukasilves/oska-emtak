@@ -1,0 +1,385 @@
+model,scenario,taxonomy,location_code,location_name,code,code_label,employed,exposure,augmentation_share,automation_share,opportunity,risk,score_source,weight_source,crosswalk
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1111,Seadusandjad,114,0.2263,0.7612,0.2388,0.17225956,0.05404044,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1112,Kõrgemad valitsusametnikud,722,0.1627,0.4751,0.5249,0.07729877,0.08540123000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1114,Ühiskondlike ja huviorganisatsioonide juhid,160,0.2193,0.5389,0.4611,0.11818077,0.10111923,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1120,Suurettevõtete tegevdirektorid ja tippjuhid,1386,0.2017,0.5874,0.4126,0.11847858,0.08322142,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1211,Finantsjuhid,1361,0.3795,0.6491,0.3509,0.24633345,0.13316655,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1212,Personalijuhid,1252,0.1791,0.5708,0.4292,0.10223028,0.07686972,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1213,Poliitika- ja strateegiajuhid,696,0.3074,0.5135,0.4865,0.1578499,0.1495501,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1219,"Äriteenindus- ja haldusjuhid, mujal liigitamata",6349,0.1788,0.6732,0.3268,0.12036815999999999,0.05843183999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1221,Müügi- ja turundusjuhid,5137,0.5125,0.4831,0.5169,0.24758874999999997,0.26491125,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1222,Reklaami- ja suhtekorraldusjuhid,334,0.2478,0.658,0.342,0.16305240000000001,0.0847476,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1223,Teadus- ja arendusjuhid,1629,0.3615,0.4594,0.5406,0.16607309999999997,0.1954269,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1311,Põllumajandus- ja metsandusjuhid,824,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1312,Vesiviljeluse ja kalandusjuhid,37,0.051,0.7138,0.2862,0.0364038,0.0145962,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1321,Töötleva tööstuse juhid,3683,0.2394,0.5071,0.4929,0.12139974,0.11800026,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1322,Mäetööstuse juhid,89,0.254,0.4254,0.5746,0.1080516,0.1459484,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1323,Ehitusjuhid,4917,0.2005,0.6436,0.3564,0.12904179999999998,0.0714582,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1324,"Tarne-, turustus- jms juhid",2453,0.2129,0.4965,0.5035,0.10570485,0.10719514999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1330,IKT-juhid,2240,0.2812,0.5971,0.4029,0.16790452,0.11329547999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1341,Lapsehoiuteenuste juhid,358,0.027,0.5554,0.4446,0.0149958,0.0120042,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1342,Tervishoiuteenuste juhid,868,0.4949,0.5408,0.4592,0.26764192,0.22725808,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1343,Eakate hooldusteenuste juhid,124,0.0638,0.4901,0.5099,0.03126838,0.03253162,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1344,Sotsiaalhoolekande teenuste juhid,213,0.075,0.5492,0.4508,0.04119,0.03381,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1345,Haridus- ja koolitusteenuste juhid,1939,0.0313,0.5315,0.4685,0.01663595,0.014664050000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1346,Finantsvahendus- ja kindlustusteenuste juhid,479,0.3631,0.4689,0.5311,0.17025759,0.19284241,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1349,"Kutseteenuste juhid, mujal liigitamata",1525,0.1965,0.4031,0.5969,0.07920915,0.11729085,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1411,"Hotellide, motellide ja hostelite juhid",340,0.254,0.4602,0.5398,0.1168908,0.1371092,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1412,Restoranide ja kohvikute juhid,1096,0.0532,0.25,0.75,0.0133,0.0399,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1420,Hulgi- ja jaekaubandusjuhid,4560,0.2701,0.3214,0.6786,0.08681014000000001,0.18328986,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1431,"Spordi-, vabaaja- ja kultuurikeskuste juhid",650,0.0817,0.3608,0.6392,0.029477359999999998,0.052222639999999994,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,1439,"Teenuste juhid, mujal liigitamata",1685,0.2703,0.5243,0.4757,0.14171829,0.12858171,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2111,Füüsikud ja astronoomid,207,0.0621,0.8286,0.1714,0.051456060000000005,0.010643940000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2113,Keemikud,425,0.135,0.3811,0.6189,0.0514485,0.0835515,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2114,Geoloogid ja geofüüsikud,135,0.1166,0.7684,0.2316,0.08959544,0.02700456,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2120,"Matemaatikud, aktuaarid ja statistikud",900,0.188,0.5694,0.4306,0.10704720000000001,0.08095279999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2131,"Bioloogid, botaanikud, zooloogid jms tippspetsialistid",802,0.0909,0.5533,0.4467,0.05029497,0.04060502999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2132,"Põllumajanduse, metsanduse ja kalanduse nõuandjad",499,0.0703,0.4322,0.5678,0.03038366,0.03991634,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2133,Keskkonnakaitse tippspetsialistid,704,0.089,0.4512,0.5488,0.0401568,0.048843199999999996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2141,Tööstus- ja tootmisinsenerid,2903,0.1445,0.6066,0.3934,0.0876537,0.0568463,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2142,Ehitusinsenerid,1929,0.0736,0.6588,0.3412,0.048487680000000005,0.02511232,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2143,Keskkonnatehnika tippspetsialistid,159,0.2552,0.4318,0.5682,0.11019535999999999,0.14500464,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2144,Mehaanikainsenerid,1160,0.1774,0.4678,0.5322,0.08298772,0.09441228,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2145,Keemiainsenerid,276,0.1369,0.6106,0.3894,0.08359114,0.05330886,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2146,"Mäetööstuse, metallurgia jms valdkondade tippspetsialistid",44,0.2504,0.5622,0.4378,0.14077488000000002,0.10962512,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2149,"Tehnikateaduste tippspetsialistid, mujal liigitamata",644,0.1708,0.5642,0.4358,0.09636536000000001,0.07443464000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2151,Elektriinsenerid,1391,0.1525,0.5341,0.4659,0.08145025,0.07104975,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2152,Elektroonikainsenerid,937,0.2679,0.7383,0.2617,0.19779057,0.07010943,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2153,Telekommunikatsiooniinsenerid,408,0.0548,0.5,0.5,0.0274,0.0274,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2161,Ehitusarhitektid,1070,0.1335,0.2807,0.7193,0.037473450000000005,0.09602655000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2162,Maastikuarhitektid,130,0.0975,0.25,0.75,0.024375,0.073125,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2163,Toote- ja rõivadisainerid,489,0.1056,0.3826,0.6174,0.04040256,0.06519744,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2164,Linna- ja liiklusplaneerijad,316,0.2322,0.6719,0.3281,0.15601518,0.07618482,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2165,Kartograafid ja maamõõtjad,709,0.0491,0.7787,0.2213,0.03823417,0.01086583,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2166,Kujundajad ja multimeediadisainerid,1414,0.1613,0.4784,0.5216,0.07716592,0.08413407999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2211,Üldarstid,1667,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2212,Eriarstid,4059,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2221,Õenduse tippspetsialistid,10832,0.179,0.3865,0.6135,0.0691835,0.1098165,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2222,Ämmaemandad,502,0.078,0.1818,0.8182,0.0141804,0.0638196,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2250,Veterinaararstid,451,0.0112,0.2006,0.7994,0.00224672,0.00895328,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2261,Hambaarstid,1552,0.1755,0.3966,0.6034,0.06960329999999999,0.1058967,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2262,Proviisorid ja farmatseudid,1552,0.2952,0.246,0.754,0.07261920000000001,0.22258080000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2263,Töötervishoiu ja tööohutuse tippspetsialistid,207,0.337,0.3979,0.6021,0.1340923,0.2029077,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2264,Füsioterapeudid,881,0.2347,0.4481,0.5519,0.10516906999999999,0.12953093,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2266,Audioloogid ja logopeedid,749,0.2131,0.3835,0.6165,0.08172385,0.13137615000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2269,"Tervishoiu tippspetsialistid, mujal liigitamata",907,0.2774,0.4742,0.5258,0.13154308,0.14585692,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2310,Ülikoolide ja kõrgkoolide õppejõud,4703,0.0932,0.4016,0.5984,0.03742912,0.05577088000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2320,Kutseõpetajad,1654,0.2935,0.4364,0.5636,0.1280834,0.1654166,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2330,Gümnaasiumiõpetajad,5524,0.2424,0.4672,0.5328,0.11324928000000001,0.12915072000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2341,Põhikooli (1.–9. klass) õpetajad,11026,0.2149,0.4603,0.5397,0.09891847,0.11598153,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2342,Koolieelse lasteasutuse õpetajad,7009,0.1908,0.478,0.522,0.09120239999999999,0.09959760000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2351,Õppemetoodika tippspetsialistid,493,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2352,Eripedagoogid,1790,0.2053,0.4775,0.5225,0.09803075,0.10726925,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2353,Huvikoolide ja eratundide keeleõpetajad,247,0.2228,0.4048,0.5952,0.09018944,0.13261056,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2354,Huvikoolide ja eratundide muusikaõpetajad,1799,0.277,0.4603,0.5397,0.1275031,0.1494969,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2355,Huvikoolide ja eratundide kunstiõpetajad,536,0.1535,0.4899,0.5101,0.07519964999999999,0.07830035,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2356,Infotehnoloogia erakoolitajad,66,0.5264,0.4325,0.5675,0.22766799999999998,0.298732,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2359,"Pedagoogika tippspetsialistid, mujal liigitamata",2669,0.211,0.5198,0.4802,0.1096778,0.1013222,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2411,Raamatupidamise tippspetsialistid,7291,0.3296,0.6615,0.3385,0.21803039999999999,0.1115696,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2412,Finants- ja investeerimisnõustajad,651,0.4369,0.5571,0.4429,0.24339699000000004,0.19350301,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2413,Finantsanalüütikud,1776,0.5626,0.4904,0.5096,0.27589904,0.28670096,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2421,Juhtimis- ja organisatsioonianalüütikud,4664,0.4498,0.6283,0.3717,0.28260934,0.16719066,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2422,Strateegiate väljatöötajad,3045,0.148,0.4453,0.5547,0.06590439999999999,0.08209559999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2423,Personali ja karjääri tippspetsialistid,1241,0.2648,0.6478,0.3522,0.17153743999999999,0.09326256,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2424,Töötajate koolituse ja täiendõppe tippspetsialistid,709,0.1451,0.7036,0.2964,0.10209236000000001,0.04300764,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2431,Reklaami ja turunduse tippspetsialistid,3969,0.5908,0.5364,0.4636,0.31690512,0.27389488,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2432,Avalike suhete tippspetsialistid,1185,0.1579,0.6297,0.3703,0.09942963000000002,0.05847037000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2433,Tehnika- (v.a IKT) ja meditsiinitoodete müügi tippspetsialistid,1009,0.6043,0.4691,0.5309,0.28347712999999997,0.32082287,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2434,IKT-lahenduste müügi tippspetsialistid,599,0.5337,0.4468,0.5532,0.23845715999999997,0.29524284,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2511,Süsteemianalüütikud,3852,0.3436,0.5407,0.4593,0.18578451999999998,0.15781548,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2512,Tarkvaraarendajad,9633,0.3435,0.3314,0.6686,0.1138359,0.2296641,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2513,Veebi- ja multimeediaarendajad,572,0.3022,0.4604,0.5396,0.13913288000000001,0.16306712,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2514,Rakenduste programmeerijad,933,0.4665,0.3093,0.6907,0.14428845,0.32221155,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2519,"Tarkvara ja rakenduste arendajad ning analüütikud, mujal liigitamata",2067,0.3521,0.3873,0.6127,0.13636833,0.21573167000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2521,Andmebaaside projekteerijad ja administraatorid,1027,0.3076,0.3913,0.6087,0.12036387999999999,0.18723612,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2522,Süsteemiadministraatorid,1613,0.272,0.234,0.766,0.06364800000000001,0.208352,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2523,Arvutivõrkude tippspetsialistid,230,0.4937,0.3906,0.6094,0.19283922,0.30086078000000005,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2529,"Andmebaasi ja arvutivõrgu tippspetsialistid, mujal liigitamata",751,0.4913,0.4111,0.5889,0.20197343,0.28932657,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2611,"Advokaadid, prokurörid ja kohtujuristid",1186,0.2818,0.3642,0.6358,0.10263156000000001,0.17916844,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2612,Kohtunikud,132,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2619,"Õigusvaldkonna tippspetsialistid, mujal liigitamata",1969,0.2823,0.4404,0.5596,0.12432492,0.15797508,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2621,Arhivaarid ja kuraatorid,580,0.0382,0.4451,0.5549,0.01700282,0.021197179999999996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2622,Raamatukoguhoidjad jms teabe tippspetsialistid,1349,0.1462,0.3393,0.6607,0.049605659999999996,0.09659433999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2631,Majandusteadlased,198,0.4468,0.3846,0.6154,0.17183927999999998,0.27496071999999994,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2632,"Sotsioloogid, antropoloogid jms tippspetsialistid",273,0.0613,0.7081,0.2919,0.04340653,0.017893469999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2633,"Filosoofid, ajaloolased ja politoloogid",216,0.1371,0.8087,0.1913,0.11087277,0.02622723,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2634,Psühholoogid,848,0.19,0.5403,0.4597,0.102657,0.087343,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2635,Sotsiaaltöötajad ja nõustajad,2345,0.0414,0.5623,0.4377,0.02327922,0.01812078,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2636,Religioonivaldkonna tippspetsialistid,236,0.0745,0.2,0.8,0.0149,0.0596,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2641,Kirjanikud,265,0.1532,0.7176,0.2824,0.10993632,0.04326368,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2642,Ajakirjanikud,1185,0.0261,0.624,0.376,0.0162864,0.0098136,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2643,"Tõlkijad, tõlgid ja keeleteadlased",563,0.5636,0.6319,0.3681,0.35613884,0.20746115999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2651,Kujutavad kunstnikud,290,0.0437,0.8633,0.1367,0.03772621,0.00597379,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2652,"Muusikud, lauljad ja heliloojad",1123,0.0258,1.0,0.0,0.0258,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2653,Tantsijad ja koreograafid,195,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2654,"Filmi-, teatri- jms lavastajad ja -produtsendid",515,0.1458,0.5693,0.4307,0.08300394000000001,0.06279606000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2655,Näitlejad,283,0.0585,0.4444,0.5556,0.025997400000000004,0.0325026,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2656,"Raadio, televisiooni jms saatejuhid",237,0.1387,0.6314,0.3686,0.08757517999999999,0.051124819999999994,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,2659,"Loomingulised töötajad, mujal liigitamata",108,0.0329,0.3362,0.6638,0.01106098,0.021839019999999997,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3111,Keemia- ja füüsikateaduste tehnikud,543,0.1461,0.6722,0.3278,0.09820842,0.04789158,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3112,Ehitustehnikud,1946,0.2356,0.4922,0.5078,0.11596232000000001,0.11963768000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3113,Elektrotehniliste alade tehnikud,795,0.1622,0.3888,0.6112,0.06306336,0.09913664,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3114,Elektroonikatehnikud,544,0.1858,0.3237,0.6763,0.060143459999999996,0.12565654,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3115,Masinaehitustehnikud,2092,0.2772,0.5005,0.4995,0.1387386,0.1384614,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3116,Keemiatööstuse tehnikud,116,0.2466,0.2149,0.7851,0.05299434000000001,0.19360566,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3118,Joonestajad,587,0.0287,0.6111,0.3889,0.01753857,0.01116143,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3119,"Füüsika- ja tehnikateaduste tehnikud, mujal liigitamata",616,0.3248,0.4334,0.5666,0.14076832,0.18403167999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3121,Kaevanduse töödejuhatajad,195,0.195,0.2187,0.7813,0.042646500000000004,0.1523535,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3122,Töötleva tööstuse töödejuhatajad,2320,0.1891,0.3936,0.6064,0.07442976,0.11467024,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3123,Ehituse töödejuhatajad,2130,0.07,0.5,0.5,0.035,0.035,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3131,Energiatootmisettevõtete operaatorid,200,0.1898,0.5737,0.4263,0.10888826,0.08091174,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3132,Jäätmepõletustehaste ja veepuhastusjaamade operaatorid,272,0.1305,0.5187,0.4813,0.06769035000000001,0.06280965000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3133,Keemiatööstuse protsessijuhtimistehnikud,71,0.2937,0.5033,0.4967,0.14781921,0.14588079,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3139,"Tööstuse protsessijuhtimistehnikud, mujal liigitamata",827,0.1724,0.371,0.629,0.0639604,0.1084396,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3141,Biotehnikud (v.a meditsiinivaldkonna tehnikud),506,0.2526,0.6968,0.3032,0.17601167999999998,0.07658832,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3142,Põllumajandustehnikud,153,0.1374,0.6395,0.3605,0.0878673,0.0495327,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3143,Metsandustehnikud,309,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3152,Laevajuhid ja lootsid,421,0.0195,0.7778,0.2222,0.015167100000000001,0.0043329,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3153,Piloodid ja lennumeeskonna liikmed,39,0.0626,0.4556,0.5444,0.02852056,0.03407944,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3211,Meditsiiniliste kuvamis- ja raviseadmete tehnikud,539,0.3384,0.5482,0.4518,0.18551088,0.15288912,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3212,Meditsiini- ja patoloogialaborite tehnikud,823,0.2393,0.5975,0.4025,0.14298175000000002,0.09631825000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3213,Farmaatsiatehnikud ja farmatseudi abilised,154,0.4396,0.4126,0.5874,0.18137896,0.25822104,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3214,Meditsiiniliste ja hambaproteeside tehnikud,310,0.1653,0.5689,0.4311,0.09403916999999999,0.07126083,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3240,Veterinaartehnikud,188,0.039,0.3714,0.6286,0.0144846,0.024515400000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3251,Hambaraviõed ja hambaravi keskastme spetsialistid,1295,0.1554,0.3333,0.6667,0.05179482,0.10360518,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3252,Meditsiiniregistrite ja terviseteabe keskastme spetsialistid,200,1.0,0.4497,0.5503,0.4497,0.5503,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3253,Kohalike omavalitsuste tervishoiutöötajad,53,0.117,0.3333,0.6667,0.0389961,0.0780039,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3254,Optometristid ja optikud,260,0.0731,0.2875,0.7125,0.021016249999999997,0.05208375,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3255,Abifüsioterapeudid,582,0.2795,0.357,0.643,0.09978150000000001,0.17971850000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3256,Abiarstid,44,0.5317,0.3823,0.6177,0.20326890999999997,0.32843109,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3257,Tervisekaitse- ja töötervishoiuinspektorid jms keskastme spetsialistid,395,0.3735,0.3288,0.6712,0.1228068,0.2506932,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3258,Kiirabitehnikud,761,0.2239,0.3334,0.6666,0.07464826,0.14925174,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3259,"Tervishoiu keskastme spetsialistid, mujal liigitamata",200,0.452,0.4945,0.5055,0.223514,0.228486,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3311,Väärtpaberi- ja valuutamaaklerid ning -vahendajad,68,0.6713,0.4723,0.5277,0.31705499,0.35424500999999997,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3312,Krediidi- ja laenuhaldurid,1109,0.4902,0.6447,0.3553,0.31603194000000007,0.17416806,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3313,Raamatupidamise keskastme spetsialistid,4605,0.0418,0.0,1.0,0.0,0.0418,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3314,Statistilise ja matemaatilise arvestuse jms keskastme spetsialistid,544,0.7896,0.6687,0.3313,0.5280055199999999,0.26159447999999996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3315,Hindajad ja kahjuhindajad,454,0.3902,0.4561,0.5439,0.17797021999999998,0.21222978,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3321,Kindlustusagendid,454,0.6889,0.5342,0.4658,0.36801037999999997,0.32088962,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3322,Müügiesindajad,9801,0.5699,0.4646,0.5354,0.26477554,0.30512446,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3323,Varustajad,2999,0.2276,0.2418,0.7582,0.055033679999999995,0.17256632,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3324,Kaubamaaklerid,30,0.5328,0.2961,0.7039,0.15776208,0.37503792,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3331,Tollimaaklerid ja ekspedeerijad,307,0.0046,0.4878,0.5122,0.00224388,0.0023561199999999997,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3332,Konverentside ja ürituste korraldajad,379,0.071,0.5602,0.4398,0.039774199999999996,0.031225799999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3333,Töövahendajad,265,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3334,Kinnisvaramaaklerid ja -haldurid,1614,0.3345,0.5883,0.4117,0.19678635000000003,0.13771365000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3339,"Äriteenuste agendid, mujal liigitamata",371,0.3128,0.4353,0.5647,0.13616184,0.17663816000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3341,Kontorijuhatajad,1980,0.3516,0.6249,0.3751,0.21971484000000002,0.13188516,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3342,Juristid-asjaajajad,192,0.1253,0.1667,0.8333,0.020887509999999998,0.10441249,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3343,Sekretärid-asjaajajad ja sekretärid-juhiabid,5974,0.1914,0.3923,0.6077,0.07508622,0.11631377999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3344,Meditsiinivaldkonna sekretärid,709,0.7145,0.4702,0.5298,0.33595790000000003,0.37854210000000005,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3351,Tolli- ja piiriinspektorid,329,0.2762,0.2395,0.7605,0.0661499,0.2100501,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3352,Maksu- ja aktsiisiametnikud,316,0.0731,0.2,0.8,0.014620000000000001,0.058480000000000004,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3354,Litsentside ja lubade menetlejad,260,0.1625,0.6641,0.3359,0.10791625,0.05458375,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3359,"Valitsuse haldusalade ametnikud, mujal liigitamata",867,0.1998,0.4478,0.5522,0.08947044,0.11032956000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3411,Õigusvaldkonna keskastme spetsialistid,541,0.251,0.2364,0.7636,0.0593364,0.1916636,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3412,Sotsiaaltöö keskastme spetsialistid,4003,0.081,0.6693,0.3307,0.0542133,0.0267867,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3413,Religioonivaldkonna keskastme spetsialistid,24,0.0975,0.2,0.8,0.019500000000000003,0.07800000000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3421,Sportlased,253,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3422,"Treenerid, spordiinstruktorid ja -ametnikud",3145,0.1858,0.8297,0.1703,0.15415826,0.03164174,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3423,Tervisespordi- ja vabaajateenuste instruktorid ja programmijuhid,213,0.1125,0.3676,0.6324,0.041354999999999996,0.071145,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3431,Fotograafid,377,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3432,Sisekujundajad ja dekoraatorid,416,0.0571,0.2887,0.7113,0.01648477,0.04061523,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3433,"Galeriide, muuseumide ja raamatukogude tehnilised töötajad",150,0.0487,0.5,0.5,0.02435,0.02435,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3434,Peakokad,1099,0.1173,0.2184,0.7816,0.02561832,0.09168168,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3435,Muud kunsti- ja kultuurivaldkonna keskastme spetsialistid,1043,0.0629,0.5073,0.4927,0.031909169999999994,0.03099083,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3511,IKT operaatorid,362,0.4387,0.1818,0.8182,0.07975565999999999,0.35894434,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3512,IKT kasutajatoe tehnikud,2618,0.3941,0.3812,0.6188,0.15023092,0.24386908000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3513,Arvutivõrkude ja -süsteemide tehnikud,1068,0.3107,0.3199,0.6801,0.09939293,0.21130706999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3514,Veebitehnikud,317,0.1595,0.25,0.75,0.039875,0.11962500000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3521,Audiovisuaal- ja ringhäälingutehnikud,675,0.0703,0.2178,0.7822,0.01531134,0.05498866,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,3522,Telekommunikatsioonitehnikud,335,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4110,Kontoriabilised,2350,0.2681,0.656,0.344,0.17587360000000002,0.0922264,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4120,Asjaajamise tugitöötajad,2678,0.3509,0.3382,0.6618,0.11867438,0.23222562000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4132,Andmesisestajad,1992,0.8773,0.3883,0.6117,0.34065558999999995,0.53664441,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4211,Pangatellerid jms klienditeenindajad,772,0.7311,0.4613,0.5387,0.33725643,0.39384357,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4212,"Kihlvedude vahendajad, krupjeed jm hasartmängutöötajad",721,0.1344,0.3838,0.6162,0.05158271999999999,0.08281728,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4213,Pandimajapidajad ja rahalaenajad,106,0.5013,0.4018,0.5982,0.20142233999999998,0.29987765999999993,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4214,Võlgade sissenõudjad jms töötajad,176,0.3481,0.645,0.355,0.22452450000000002,0.1235755,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4221,Reisikonsultandid jm reisibüroo klienditeenindajad,930,0.3899,0.4384,0.5616,0.17093216000000003,0.21896784,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4222,Kõne- ja kontaktikeskuse klienditeenindajad,2769,0.4387,0.6004,0.3996,0.26339548,0.17530452,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4223,Telefonivahendusjaama operaatorid,21,0.3107,0.0942,0.9058,0.02926794,0.28143206,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4224,Hotelliadministraatorid,1041,0.289,0.4376,0.5624,0.12646639999999998,0.1625336,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4225,Infopunkti klienditeenindajad,3820,0.3342,0.4291,0.5709,0.14340522,0.19079478,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4226,Üldadministraatorid,2629,0.4401,0.3735,0.6265,0.16437735,0.27572264999999996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4227,"Uuringute, sh turu-uuringute küsitlejad",45,0.5515,0.5233,0.4767,0.28859995,0.26290005,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4229,"Klienditeenindajad, mujal liigitamata",2181,0.4073,0.3185,0.6815,0.12972505,0.27757495,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4311,Raamatupidamise kontoritöötajad,6278,0.0877,0.1667,0.8333,0.014619589999999998,0.07308041,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4312,"Statistilise arvestuse, rahanduse ja kindlustuse kontoritöötajad",449,0.1258,0.4432,0.5568,0.055754559999999995,0.07004543999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4313,Palgaarvestajad,197,0.2193,0.8,0.2,0.17544,0.04386,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4321,Laoarvestuse kontoritöötajad,6803,0.403,0.5826,0.4174,0.23478780000000002,0.1682122,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4322,Tootmisarvestuse kontoritöötajad,1089,0.319,0.4821,0.5179,0.1537899,0.1652101,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4323,Transpordivaldkonna kontoritöötajad,3536,0.0767,0.4133,0.5867,0.031700110000000004,0.04499989,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4411,Raamatukogutöö assistendid,225,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4412,Posti sorteerijad ja kättetoimetajad,1627,0.1845,0.5,0.5,0.09225,0.09225,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4413,"Kodeerijad, korrektorid jms töötajad",48,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4415,Kartoteegi- ja registripidajad,344,0.1595,0.1667,0.8333,0.02658865,0.13291135,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4416,Personalitöö assistendid,865,0.2339,0.4813,0.5187,0.11257607,0.12132393000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,4419,"Kontoritöötajad ja klienditeenindajad, mujal liigitamata",3552,0.6684,0.5497,0.4503,0.36741947999999996,0.30098052,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5111,Reisi- ja lennusaatjad,463,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5112,Kontrolörid ja konduktorid,108,0.1672,0.3397,0.6603,0.056797839999999995,0.11040215999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5113,Giidid,284,0.0853,0.3869,0.6131,0.03300257,0.05229743,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5120,Kokad,8075,0.1332,0.1875,0.8125,0.024975000000000004,0.10822500000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5131,Ettekandjad ja kelnerid,3703,0.1733,0.5894,0.4106,0.10214302000000001,0.07115698000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5132,Baariteenindajad,1259,0.0684,0.2418,0.7582,0.01653912,0.05186088,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5141,Juuksurid,1791,0.1412,0.385,0.615,0.054362,0.086838,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5142,Iluteenindajad (v.a juuksurid),2231,0.1958,0.2925,0.7075,0.057271499999999996,0.1385285,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5151,"Kontorite, hotellide jm asutuste koristus- ja majapidamistööde juhatajad",1753,0.236,0.3694,0.6306,0.0871784,0.1488216,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5152,Kodumajapidajad,33,0.2444,0.3991,0.6009,0.09754004000000001,0.14685996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5153,Hoonete haldajad,2049,0.0627,0.2,0.8,0.012540000000000003,0.05016000000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5163,Surnumatjad ja lahkunute korrastajad,97,0.0731,0.1176,0.8824,0.00859656,0.06450344,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5164,Lemmikloomade hooldajad,508,0.0236,0.3886,0.6114,0.00917096,0.01442904,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5165,Sõiduõpetajad,307,0.275,0.6519,0.3481,0.17927250000000003,0.09572750000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5169,"Isikuteenindajad, mujal liigitamata",384,0.0949,0.2277,0.7723,0.02160873,0.07329126999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5211,Kioski- ja turumüüjad,420,0.195,0.0,1.0,0.0,0.195,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5212,Toidu välimüüjad,53,0.1595,0.0,1.0,0.0,0.1595,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5221,Väikepoepidajad,583,0.7629,0.3922,0.6078,0.29920938,0.46369062,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5222,Müüjate vahetusevanemad,3049,0.0439,0.2,0.8,0.008780000000000001,0.035120000000000005,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5223,Poemüüjad,23694,0.344,0.3127,0.6873,0.10756879999999998,0.23643119999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5230,Kassapidajad ja piletimüüjad,3843,0.3663,0.2308,0.7692,0.08454204,0.28175796000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5242,Tootetutvustajad,286,0.4785,0.7754,0.2246,0.3710289,0.10747109999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5244,Telefonimüügi agendid,962,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5245,Tanklatöötajad,737,0.3249,0.3037,0.6963,0.09867213000000001,0.22622787000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5246,Toitlustuse letitöötajad,4534,0.0877,0.3889,0.6111,0.03410653,0.05359347,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5249,"Müügitöötajad, mujal liigitamata",3671,0.5125,0.2389,0.7611,0.12243625,0.39006375,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5311,Lapsehoidjad,1212,0.0137,0.6667,0.3333,0.00913379,0.00456621,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5312,Õpetajaabid,7420,0.1207,0.4062,0.5938,0.049028340000000004,0.07167166,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5321,Tervishoiu- ja hoolekandeasutuste hooldustöötajad,7780,0.2855,0.4522,0.5478,0.1291031,0.15639689999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5322,Koduhooldustöötajad,721,0.0923,0.5,0.5,0.04615,0.04615,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5329,"Tervishoiu hooldustöötajad, mujal liigitamata",1145,0.2684,0.4575,0.5425,0.12279300000000001,0.14560700000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5413,Vangivalvurid,528,0.2193,0.1875,0.8125,0.041118749999999996,0.17818124999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5414,Turvatöötajad,4066,0.2843,0.2498,0.7502,0.07101814,0.21328186,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,5419,"Turvatöötajad, mujal liigitamata",104,0.2715,0.2929,0.7071,0.07952235,0.19197765,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6111,Põllusaaduste ja köögiviljakasvatajad,479,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6113,"Aednikud, puukooli töötajad ja istikukasvatajad",532,0.0225,0.5,0.5,0.01125,0.01125,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6114,Eri põllukultuuride kasvatajad,138,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6121,Loomakasvatajad,1584,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6122,Linnukasvatajad,110,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6123,Mesinikud ja siidiussikasvatajad,45,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6129,"Loomakasvatuse oskustöölised, mujal liigitamata",79,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6130,Segapõllumajanduse oskustöölised,681,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6210,Metsanduse jms oskustöölised,1210,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6221,Vesiviljeluse oskustöölised,22,0.0239,0.3118,0.6882,0.007452020000000001,0.01644798,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,6223,Avamerekalurid,103,0.039,0.0,1.0,0.0,0.039,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7111,Üldehitajad,9293,0.0877,0.0,1.0,0.0,0.0877,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7113,"Kiviraidurid, -tahujad jms töölised",343,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7114,"Betoneerijad, betoonpindade viimistlejad jms töölised",1403,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7115,Puusepad,1690,0.0298,0.5294,0.4706,0.01577612,0.01402388,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7119,"Üldehitustöölised, mujal liigitamata",1996,0.0548,0.0,1.0,0.0,0.0548,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7121,Katusekatjad,365,0.0798,0.0,1.0,0.0,0.0798,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7122,Põrandategijad ja plaatijad,461,0.0512,0.0,1.0,0.0,0.0512,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7123,Krohvijad,326,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7124,Isoleerijad,261,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7125,Klaasijad,152,0.0975,0.5,0.5,0.04875,0.04875,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7126,Torulukksepad,2652,0.0768,0.7702,0.2298,0.05915135999999999,0.01764864,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7127,Kliima- ja külmutusseadmete mehaanikud,383,0.0836,1.0,0.0,0.0836,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7131,Ehitusmaalrid jms töölised,1652,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7132,Pihustusseadmetega värvijad-lakkijad,854,0.1354,0.4075,0.5925,0.055175499999999995,0.0802245,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7133,Ehitustarindite puhastajad,105,0.0702,0.6667,0.3333,0.04680234,0.023397659999999997,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7211,Valuvormide ja kärnide valmistajad,63,0.1215,0.5,0.5,0.06075,0.06075,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7212,Keevitajad ja leeklõikajad,4219,0.1007,0.6105,0.3895,0.06147735,0.03922265,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7213,Lehtmetallitöölised,838,0.0274,0.5,0.5,0.0137,0.0137,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7214,Metallkonstruktsioonide valmistajad ja monteerijad,1519,0.0627,0.5,0.5,0.03135,0.03135,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7215,Troppijad ja trossijätkajad,144,0.1054,0.2103,0.7897,0.022165619999999997,0.08323438,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7221,"Sepad, stantsijad jms oskustöölised",113,0.0813,0.5,0.5,0.04065,0.04065,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7222,Tööriistavalmistajad jms töölised,1655,0.1399,0.296,0.704,0.0414104,0.0984896,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7223,Metallitöötluspinkide seadistajad ja operaatorid,2647,0.1412,0.5471,0.4529,0.07725052,0.06394948,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7224,"Metallilihvijad, -poleerijad ja tööriistateritajad",346,0.2437,0.4726,0.5274,0.11517262,0.12852738,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7231,Mootorsõidukimehaanikud ja -lukksepad,5374,0.2537,0.5434,0.4566,0.13786057999999998,0.11583942,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7232,Õhusõidukimehaanikud ja -lukksepad,214,0.2782,0.4309,0.5691,0.11987638,0.15832362000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7233,Põllumajandus- ja tööstusmasinate mehaanikud ning lukksepad,3448,0.1421,0.5875,0.4125,0.08348375000000001,0.05861625,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7234,Jalgrataste jms sõidukite mehaanikud,128,0.1462,0.7143,0.2857,0.10443066000000001,0.04176934,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7311,Täppisinstrumentide valmistajad ja parandajad,237,0.0986,0.2473,0.7527,0.024383779999999997,0.07421622,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7312,Pillimeistrid ja -häälestajad,41,0.0423,0.2184,0.7816,0.00923832,0.033061679999999996,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7313,Juveeli- ja väärismetallitöötlejad,128,0.027,0.4333,0.5667,0.0116991,0.0153009,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7314,Savi- ja portselanimeistrid,23,0.1831,0.3249,0.6751,0.05948919000000001,0.12361081000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7315,"Klaasipuhujad, -lõikajad, -lihvijad ja -viimistlejad",494,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7316,"Klaasi, keraamika jms materjalide dekoratiivmaalijad, graveerijad ja söövitajad",36,0.1086,0.932,0.068,0.1012152,0.0073848,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7317,"Puidust, punumis- jm materjalidest tooteid valmistavad käsitöömeistrid",126,0.1524,0.3789,0.6211,0.05774436000000001,0.09465564,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7318,"Tekstiil-, nahk- jms tooteid valmistavad käsitöömeistrid",202,0.0585,0.0,1.0,0.0,0.0585,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7319,"Käsitöömeistrid, mujal liigitamata",335,0.4136,0.4736,0.5264,0.19588096000000002,0.21771904,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7321,Trükiettevalmistajad,227,0.0793,0.5947,0.4053,0.04715971,0.032140289999999995,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7322,Trükkalid,506,0.2519,0.1928,0.8072,0.04856632,0.20333368000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7323,Trükiste järeltöötlejad,778,0.1805,0.2747,0.7253,0.04958335,0.13091665,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7411,Ehituselektrikud,2782,0.0699,0.2712,0.7288,0.018956880000000002,0.05094312,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7412,Elektriseadmete mehaanikud ja paigaldajad,2088,0.2234,0.5261,0.4739,0.11753074,0.10586925999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7413,Elektriliinide paigaldajad ja hooldajad,766,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7421,Elektroonikaseadmete mehaanikud ja hooldajad,1583,0.2229,0.5406,0.4594,0.12049973999999998,0.10240025999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7422,IKT-seadmete paigaldajad ja hooldajad,655,0.2674,0.5018,0.4982,0.13418132000000002,0.13321868,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7511,"Lihatöötlejad, kalakäitlejad jms töölised",1767,0.0215,0.5,0.5,0.01075,0.01075,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7512,"Pagarid, kondiitrid ja maiustuste valmistajad",2133,0.0769,0.4593,0.5407,0.03532017,0.04157983,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7513,Piimatöötlejad,287,0.0462,0.0,1.0,0.0,0.0462,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7514,Puu- ja köögivilja ning marjade töötlejad,229,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7515,Toidu ja jookide degusteerijad ja hindajad,87,0.1071,0.5236,0.4764,0.05607756,0.05102244,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7521,Puidutöötlejad,3098,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7522,Tislerid jms töölised,2336,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7523,Puidutöötluspinkide seadistajad ja operaatorid,1903,0.0726,0.5,0.5,0.0363,0.0363,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7531,"Rätsepad, köösnerid ja kübarategijad",143,0.1755,0.2824,0.7176,0.04956119999999999,0.1259388,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7532,Rõiva- jms lekaalide valmistajad ning juurdelõikajad,361,0.19,0.3311,0.6689,0.062909,0.127091,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7533,"Õmblejad, tikkijad jms töölised",2378,0.1755,0.0,1.0,0.0,0.1755,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7534,Polsterdajad jms töölised,650,0.1747,0.3784,0.6216,0.06610648,0.10859352,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7536,Kingsepad jms töölised,188,0.0278,0.5385,0.4615,0.014970299999999999,0.0128297,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7541,Allveetöötajad,21,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7543,Toodete (v.a toidud ja joogid) testijad,613,0.3281,0.3649,0.6351,0.11972369000000001,0.20837631,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,7544,Kahjuri- ja umbrohutõrjujad,23,0.1097,0.5,0.5,0.05485,0.05485,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8111,"Kaevurid ja karjääritöölised, mäeseadmete operaatorid",417,0.2206,0.5,0.5,0.1103,0.1103,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8112,Maavarade rikastamise seadmete ja kivitöötlusmasinate operaatorid,219,0.2817,0.4434,0.5566,0.12490578000000001,0.15679422,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8113,Puurseadmete operaatorid,119,0.0524,0.3995,0.6005,0.020933800000000002,0.0314662,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8114,"Tsement-, kivi- jm mineraalsete toodete masinate operaatorid",359,0.0738,0.3782,0.6218,0.02791116,0.04588884000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8121,Metallitootmisseadmete operaatorid,292,0.1574,0.4035,0.5965,0.06351090000000001,0.09388910000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8122,Metallitöötlusmasinate operaatorid,912,0.0788,0.5,0.5,0.0394,0.0394,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8131,Keemiatoodete seadmete ja masinate operaatorid,1150,0.2089,0.3828,0.6172,0.07996692,0.12893308,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8132,Fotograafiatoodete masinate operaatorid,23,0.1894,0.25,0.75,0.04735,0.14205,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8141,Kummitoodete masinate operaatorid,340,0.0637,0.4395,0.5605,0.027996150000000004,0.03570385,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8142,Plasttoodete masinate operaatorid,935,0.2715,0.478,0.522,0.129777,0.14172300000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8143,Pabertoodete masinate operaatorid,280,0.1614,0.5,0.5,0.0807,0.0807,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8151,"Ettevalmistus-, ketrus- ja poolimismasinate operaatorid",146,0.0947,0.1618,0.8382,0.015322460000000001,0.07937754,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8152,Kudumismasinate operaatorid,94,0.159,0.0,1.0,0.0,0.159,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8153,Masinõmblejad,1229,0.2566,0.3514,0.6486,0.09016924,0.16643075999999998,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8157,Pesumasinate operaatorid,509,0.1275,0.0955,0.9045,0.01217625,0.11532375,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8159,"Tekstiil-, karusnahk- ja nahktoodete masinate operaatorid, mujal liigitamata",261,0.0901,0.0,1.0,0.0,0.0901,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8160,Toiduainete jms toodete masinate operaatorid,1604,0.0595,0.2701,0.7299,0.01607095,0.04342905,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8172,Puidutöötlemisseadmete operaatorid,2102,0.1564,0.5413,0.4587,0.08465932000000001,0.07174068,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8181,Klaasi- ja keraamikaahjude jms seadmete operaatorid,102,0.3004,0.3863,0.6137,0.11604452,0.18435548000000002,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8182,Aurumasinate ja -katelde operaatorid,545,0.1974,0.7,0.3,0.13818,0.059219999999999995,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8183,"Pakke-, villimis- ja märgistusseadmete operaatorid",935,0.159,0.3514,0.6486,0.0558726,0.1031274,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8189,"Seadme- ja masinaoperaatorid, mujal liigitamata",2554,0.2507,0.4167,0.5833,0.10446669,0.14623331,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8211,Mehaaniliste seadmete koostajad,792,0.2868,0.4139,0.5861,0.11870652,0.16809348,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8212,Elektri- ja elektroonikaseadmete koostajad,5290,0.0872,0.3429,0.6571,0.029900879999999998,0.05729912,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8219,"Koostajad, mujal liigitamata",3753,0.2043,0.2829,0.7171,0.05779647,0.14650353,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8322,"Sõiduauto-, takso- ja pakiautojuhid",3264,0.1313,0.3324,0.6676,0.043644119999999995,0.08765587999999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8331,Bussi- ja trammijuhid,4233,0.0685,0.5,0.5,0.03425,0.03425,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8332,Veoautojuhid,13448,0.0387,0.3177,0.6823,0.012294989999999999,0.02640501,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8341,Põllu- ja metsamasinate juhid,2618,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8342,"Maaparandus-, tee- jms masinate juhid",3066,0.0175,0.5,0.5,0.00875,0.00875,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8343,"Kraana-, tõstuki- jm tõsteseadmete juhid",666,0.027,0.6667,0.3333,0.0180009,0.0089991,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8344,Kahveltõstukite jms masinate juhid,2016,0.0585,0.0,1.0,0.0,0.0585,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,8350,Laeva tekimeeskond jms töötajad,318,0.0125,0.0,1.0,0.0,0.0125,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9111,Kodukoristajad ja -abilised,249,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9112,"Koristajad ja abilised kontoris, hotellis jms asutustes",18584,0.0849,0.131,0.869,0.0111219,0.0737781,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9121,Pesupesijad ja triikijad,386,0.2193,0.2857,0.7143,0.06265401,0.15664599,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9122,Sõidukite käsipesijad,665,0.1462,0.5,0.5,0.0731,0.0731,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9123,Aknapesijad,26,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9129,Muid puhastustöid tegevad lihttöölised,287,0.3057,0.3175,0.6825,0.09705975000000001,0.20864025000000003,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9211,Taimekasvatuse lihttöölised,307,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9212,Loomakasvatuse lihttöölised,1142,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9213,Segapõllumajanduse lihttöölised,372,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9214,Aianduse lihttöölised,880,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9215,Metsanduse lihttöölised,510,0.0798,0.6,0.4,0.04788,0.03192,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9216,Kalapüügi ja vesiviljeluse lihttöölised,130,0.0125,0.6,0.4,0.0075,0.005000000000000001,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9311,Mäetööstuse lihttöölised,203,0.195,0.5,0.5,0.0975,0.0975,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9312,Rajatiste ehituse lihttöölised,2154,0.0157,0.8333,0.1667,0.01308281,0.0026171899999999997,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9313,Hooneehituse lihttöölised,2806,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9321,Pakkijad,3859,0.1755,0.75,0.25,0.131625,0.043875,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9329,"Töötleva tööstuse lihttöölised, mujal liigitamata",5607,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9333,Transporditöölised ja laadijad,2958,0.1577,0.4823,0.5177,0.07605871,0.08164129,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9334,Kaubaladujad,3202,0.2193,0.5,0.5,0.10965,0.10965,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9411,Kiirtoitlustuse abitöölised,1318,0.1143,0.0,1.0,0.0,0.1143,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9412,Köögiabilised,4209,0.1504,0.0854,0.9146,0.01284416,0.13755584,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9510,Tänaval jms kohtades teenuse osutajad,155,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9611,Jäätmekogujad ja -laadijad,161,0.2924,0.0,1.0,0.0,0.2924,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9612,Jäätmesortijad,615,0.6392,0.0551,0.9449,0.03521992,0.6039800799999999,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9613,"Välikoristajad, tootmishoonete koristajad jms lihttöölised",2949,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9621,"Käskjalad, pakkide kättetoimetajad ja pakikandjad",28,0.0,0.0,0.0,0.0,0.0,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9622,Halduse abitöölised,2993,0.1755,0.6667,0.3333,0.11700584999999998,0.058494149999999995,derived,palgad_stat_ee_2025q4,direct
+demirev_ai_products,2025q4_palgad_isco4,isco4,all,Kogu Eesti,9629,"Lihttöölised, mujal liigitamata",2978,0.1437,0.3028,0.6972,0.04351236,0.10018764000000001,derived,palgad_stat_ee_2025q4,direct

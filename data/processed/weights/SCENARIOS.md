@@ -3,6 +3,7 @@
 | scenario | taxonomy | basis | added | notes |
 |---|---|---|---|---|
 | 2021_census | isco2 | REL2021 RL21154 raw counts | 2026-05-15 | v1 baseline; register-based, no sampling |
+| 2025q4_palgad_isco4 | isco4 | palgad.stat.ee scrape, 2025 Q4 | 2026-05-18 | Administrative TÖR + tax records; ISCO-4 × all 15 maakonnad + national. Cells <20 persons suppressed by stat.ee. Pulled via Playwright from `/api/charts/workers_total_section/{isco4}/2025/Q4/...`. See `scripts/scrape_palgad_stat_ee.py` and `data/raw/palgad_stat_ee/README.md`. |
 
 ## How to add a new scenario
 1. Implement a builder function in `src/build_weights.py` that emits rows with `scenario = <new_id>` and `taxonomy = <one of KNOWN_TAXONOMIES>`.

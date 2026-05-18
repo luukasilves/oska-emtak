@@ -73,6 +73,55 @@ def _read_combo(matrix_path: Path):
     return matrix, summary, model, scenario, taxonomy
 
 
+def _render_top_isco4_people_affected(matrix: pd.DataFrame, model: str,
+                                      out_dir: Path, top_n: int = 25):
+    """Chart 11 — top-N detailed occupations by employed × exposure (people-affected).
+
+    Splits each bar into Opportunity (augmentation) and Risk (automation) per
+    occupation. Only fires when the scenario carries genuine ISCO-4 headcounts
+    at national level (e.g. 2025q4_palgad_isco4).
+    """
+    m = matrix.copy()
+    m["people_affected"] = m["employed"] * m["exposure"]
+    m["people_opportunity"] = m["employed"] * m["opportunity"]
+    m["people_risk"] = m["employed"] * m["risk"]
+    top = m.nlargest(top_n, "people_affected").copy()
+    top["label"] = (top["code"].astype(str) + " — "
+                    + top["code_label"].astype(str).str.lstrip(".").str.strip())
+    top = top.sort_values("people_affected", ascending=True)
+
+    fig, ax = plt.subplots(figsize=(12, max(8, top_n * 0.35)))
+    y = np.arange(len(top))
+    has_aug = top["people_opportunity"].abs().sum() > 0 and top["people_risk"].abs().sum() > 0
+    if has_aug:
+        ax.barh(y, top["people_opportunity"], color=C_OPP,
+                label="Opportunity (augmentation)", edgecolor="white")
+        ax.barh(y, top["people_risk"], left=top["people_opportunity"],
+                color=C_RISK, label="Risk (automation)", edgecolor="white")
+        ax.legend(loc="lower right", frameon=False)
+    else:
+        ax.barh(y, top["people_affected"], color=C_EXP,
+                label="People affected", edgecolor="white")
+    ax.set_yticks(y)
+    ax.set_yticklabels([lbl[:60] for lbl in top["label"]], fontsize=8)
+    ax.set_xlabel("People affected (employed × exposure)")
+    ax.set_title(f"Top {top_n} ISCO-4 occupations by people-affected — "
+                 f"national, model: {model}",
+                 fontsize=12, weight="bold")
+    ax.spines[["top", "right"]].set_visible(False)
+    for i, (pa, emp) in enumerate(zip(top["people_affected"], top["employed"])):
+        ax.text(pa + max(top["people_affected"]) * 0.01, i,
+                f"{int(pa):,} of {int(emp):,}", va="center", fontsize=7.5, color="#333")
+    fig.text(0.5, -0.02,
+             "Source: palgad.stat.ee (2025 Q4 admin headcounts at ISCO-4) × "
+             f"{model} exposure scores. National totals only.",
+             ha="center", fontsize=8, color="gray")
+    plt.savefig(out_dir / "11_top_isco4_people_affected_national.png",
+                bbox_inches="tight")
+    plt.close()
+    print("  11_top_isco4_people_affected_national.png")
+
+
 def _render_exposure_only_choropleths(summary: pd.DataFrame, out_dir: Path):
     """Render the exposure-only maakond choropleth as chart 06 for models that
     measure exposure but not augmentation/automation (e.g. jrc_casas)."""
@@ -98,6 +147,14 @@ def _render_exposure_only_choropleths(summary: pd.DataFrame, out_dir: Path):
 def _render(matrix: pd.DataFrame, summary: pd.DataFrame, out_dir: Path):
     """Render the 8 charts to out_dir."""
     out_dir.mkdir(parents=True, exist_ok=True)
+    # Scenarios that only carry national-level data (e.g. 2025q4_palgad_isco4)
+    # have no per-maakond rows. Skip the geographic charts (01-08) and emit
+    # only chart 09 (top-N occupations) plus an exposure-by-occupation chart.
+    distinct_locations = matrix["location_name"].nunique() if len(matrix) else 0
+    if distinct_locations <= 1:
+        print(f"  [scenario has only {distinct_locations} location(s) — "
+              "skipping geographic charts 01-08]")
+        return
     summary = summary.copy()
     summary["maakond"] = summary["location_name"].str.title() \
         .str.replace(" Maakond", "", regex=False)
@@ -525,6 +582,12 @@ def main():
         print(f"\n[{model} × {scenario}] taxonomy={taxonomy} → {out_dir}")
         _render(matrix, summary, out_dir)
         _render_top_isco4_per_model(scores_long, model, out_dir)
+        # Extra: people-affected ranking for scenarios that carry true ISCO-4
+        # headcounts (e.g. 2025q4_palgad_isco4). The standard chart 05 also
+        # ranks by people-affected but only for ISCO-2 scenarios; this one is
+        # at the model's native granularity.
+        if taxonomy in ("isco3", "isco4") and matrix["location_name"].nunique() == 1:
+            _render_top_isco4_people_affected(matrix, model, out_dir)
 
     print(f"\n[cross-model] → {CHARTS_DIR}/_cross_model")
     _render_cross_model_rank_correlation(scores_long, CHARTS_DIR)

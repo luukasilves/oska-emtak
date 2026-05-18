@@ -1,0 +1,747 @@
+isco4,name_et,county,county_name,gender,count,source_url
+1111,Seadusandjad,all,Kogu Eesti,M,82,https://palgad.stat.ee/api/charts/workers_total_section/1111/2025/Q4/average/all/all/all
+1111,Seadusandjad,all,Kogu Eesti,F,32,https://palgad.stat.ee/api/charts/workers_total_section/1111/2025/Q4/average/all/all/all
+1112,Kõrgemad valitsusametnikud,all,Kogu Eesti,M,325,https://palgad.stat.ee/api/charts/workers_total_section/1112/2025/Q4/average/all/all/all
+1112,Kõrgemad valitsusametnikud,all,Kogu Eesti,F,397,https://palgad.stat.ee/api/charts/workers_total_section/1112/2025/Q4/average/all/all/all
+1114,Ühiskondlike ja huviorganisatsioonide juhid,all,Kogu Eesti,M,65,https://palgad.stat.ee/api/charts/workers_total_section/1114/2025/Q4/average/all/all/all
+1114,Ühiskondlike ja huviorganisatsioonide juhid,all,Kogu Eesti,F,95,https://palgad.stat.ee/api/charts/workers_total_section/1114/2025/Q4/average/all/all/all
+1120,Suurettevõtete tegevdirektorid ja tippjuhid,all,Kogu Eesti,M,1077,https://palgad.stat.ee/api/charts/workers_total_section/1120/2025/Q4/average/all/all/all
+1120,Suurettevõtete tegevdirektorid ja tippjuhid,all,Kogu Eesti,F,309,https://palgad.stat.ee/api/charts/workers_total_section/1120/2025/Q4/average/all/all/all
+1211,Finantsjuhid,all,Kogu Eesti,M,599,https://palgad.stat.ee/api/charts/workers_total_section/1211/2025/Q4/average/all/all/all
+1211,Finantsjuhid,all,Kogu Eesti,F,762,https://palgad.stat.ee/api/charts/workers_total_section/1211/2025/Q4/average/all/all/all
+1212,Personalijuhid,all,Kogu Eesti,M,178,https://palgad.stat.ee/api/charts/workers_total_section/1212/2025/Q4/average/all/all/all
+1212,Personalijuhid,all,Kogu Eesti,F,1074,https://palgad.stat.ee/api/charts/workers_total_section/1212/2025/Q4/average/all/all/all
+1213,Poliitika- ja strateegiajuhid,all,Kogu Eesti,M,415,https://palgad.stat.ee/api/charts/workers_total_section/1213/2025/Q4/average/all/all/all
+1213,Poliitika- ja strateegiajuhid,all,Kogu Eesti,F,281,https://palgad.stat.ee/api/charts/workers_total_section/1213/2025/Q4/average/all/all/all
+1219,"Äriteenindus- ja haldusjuhid, mujal liigitamata",all,Kogu Eesti,M,4263,https://palgad.stat.ee/api/charts/workers_total_section/1219/2025/Q4/average/all/all/all
+1219,"Äriteenindus- ja haldusjuhid, mujal liigitamata",all,Kogu Eesti,F,2086,https://palgad.stat.ee/api/charts/workers_total_section/1219/2025/Q4/average/all/all/all
+1221,Müügi- ja turundusjuhid,all,Kogu Eesti,M,3078,https://palgad.stat.ee/api/charts/workers_total_section/1221/2025/Q4/average/all/all/all
+1221,Müügi- ja turundusjuhid,all,Kogu Eesti,F,2059,https://palgad.stat.ee/api/charts/workers_total_section/1221/2025/Q4/average/all/all/all
+1222,Reklaami- ja suhtekorraldusjuhid,all,Kogu Eesti,M,122,https://palgad.stat.ee/api/charts/workers_total_section/1222/2025/Q4/average/all/all/all
+1222,Reklaami- ja suhtekorraldusjuhid,all,Kogu Eesti,F,212,https://palgad.stat.ee/api/charts/workers_total_section/1222/2025/Q4/average/all/all/all
+1223,Teadus- ja arendusjuhid,all,Kogu Eesti,M,1041,https://palgad.stat.ee/api/charts/workers_total_section/1223/2025/Q4/average/all/all/all
+1223,Teadus- ja arendusjuhid,all,Kogu Eesti,F,588,https://palgad.stat.ee/api/charts/workers_total_section/1223/2025/Q4/average/all/all/all
+1311,Põllumajandus- ja metsandusjuhid,all,Kogu Eesti,M,674,https://palgad.stat.ee/api/charts/workers_total_section/1311/2025/Q4/average/all/all/all
+1311,Põllumajandus- ja metsandusjuhid,all,Kogu Eesti,F,150,https://palgad.stat.ee/api/charts/workers_total_section/1311/2025/Q4/average/all/all/all
+1312,Vesiviljeluse ja kalandusjuhid,all,Kogu Eesti,M,37,https://palgad.stat.ee/api/charts/workers_total_section/1312/2025/Q4/average/all/all/all
+1321,Töötleva tööstuse juhid,all,Kogu Eesti,M,3135,https://palgad.stat.ee/api/charts/workers_total_section/1321/2025/Q4/average/all/all/all
+1321,Töötleva tööstuse juhid,all,Kogu Eesti,F,548,https://palgad.stat.ee/api/charts/workers_total_section/1321/2025/Q4/average/all/all/all
+1322,Mäetööstuse juhid,all,Kogu Eesti,M,89,https://palgad.stat.ee/api/charts/workers_total_section/1322/2025/Q4/average/all/all/all
+1323,Ehitusjuhid,all,Kogu Eesti,M,4618,https://palgad.stat.ee/api/charts/workers_total_section/1323/2025/Q4/average/all/all/all
+1323,Ehitusjuhid,all,Kogu Eesti,F,299,https://palgad.stat.ee/api/charts/workers_total_section/1323/2025/Q4/average/all/all/all
+1324,"Tarne-, turustus- jms juhid",all,Kogu Eesti,M,1785,https://palgad.stat.ee/api/charts/workers_total_section/1324/2025/Q4/average/all/all/all
+1324,"Tarne-, turustus- jms juhid",all,Kogu Eesti,F,668,https://palgad.stat.ee/api/charts/workers_total_section/1324/2025/Q4/average/all/all/all
+1330,IKT-juhid,all,Kogu Eesti,M,1800,https://palgad.stat.ee/api/charts/workers_total_section/1330/2025/Q4/average/all/all/all
+1330,IKT-juhid,all,Kogu Eesti,F,440,https://palgad.stat.ee/api/charts/workers_total_section/1330/2025/Q4/average/all/all/all
+1341,Lapsehoiuteenuste juhid,all,Kogu Eesti,F,358,https://palgad.stat.ee/api/charts/workers_total_section/1341/2025/Q4/average/all/all/all
+1342,Tervishoiuteenuste juhid,all,Kogu Eesti,M,165,https://palgad.stat.ee/api/charts/workers_total_section/1342/2025/Q4/average/all/all/all
+1342,Tervishoiuteenuste juhid,all,Kogu Eesti,F,703,https://palgad.stat.ee/api/charts/workers_total_section/1342/2025/Q4/average/all/all/all
+1343,Eakate hooldusteenuste juhid,all,Kogu Eesti,F,124,https://palgad.stat.ee/api/charts/workers_total_section/1343/2025/Q4/average/all/all/all
+1344,Sotsiaalhoolekande teenuste juhid,all,Kogu Eesti,M,27,https://palgad.stat.ee/api/charts/workers_total_section/1344/2025/Q4/average/all/all/all
+1344,Sotsiaalhoolekande teenuste juhid,all,Kogu Eesti,F,186,https://palgad.stat.ee/api/charts/workers_total_section/1344/2025/Q4/average/all/all/all
+1345,Haridus- ja koolitusteenuste juhid,all,Kogu Eesti,M,362,https://palgad.stat.ee/api/charts/workers_total_section/1345/2025/Q4/average/all/all/all
+1345,Haridus- ja koolitusteenuste juhid,all,Kogu Eesti,F,1577,https://palgad.stat.ee/api/charts/workers_total_section/1345/2025/Q4/average/all/all/all
+1346,Finantsvahendus- ja kindlustusteenuste juhid,all,Kogu Eesti,M,203,https://palgad.stat.ee/api/charts/workers_total_section/1346/2025/Q4/average/all/all/all
+1346,Finantsvahendus- ja kindlustusteenuste juhid,all,Kogu Eesti,F,276,https://palgad.stat.ee/api/charts/workers_total_section/1346/2025/Q4/average/all/all/all
+1349,"Kutseteenuste juhid, mujal liigitamata",all,Kogu Eesti,M,710,https://palgad.stat.ee/api/charts/workers_total_section/1349/2025/Q4/average/all/all/all
+1349,"Kutseteenuste juhid, mujal liigitamata",all,Kogu Eesti,F,815,https://palgad.stat.ee/api/charts/workers_total_section/1349/2025/Q4/average/all/all/all
+1411,"Hotellide, motellide ja hostelite juhid",all,Kogu Eesti,M,129,https://palgad.stat.ee/api/charts/workers_total_section/1411/2025/Q4/average/all/all/all
+1411,"Hotellide, motellide ja hostelite juhid",all,Kogu Eesti,F,211,https://palgad.stat.ee/api/charts/workers_total_section/1411/2025/Q4/average/all/all/all
+1412,Restoranide ja kohvikute juhid,all,Kogu Eesti,M,390,https://palgad.stat.ee/api/charts/workers_total_section/1412/2025/Q4/average/all/all/all
+1412,Restoranide ja kohvikute juhid,all,Kogu Eesti,F,706,https://palgad.stat.ee/api/charts/workers_total_section/1412/2025/Q4/average/all/all/all
+1420,Hulgi- ja jaekaubandusjuhid,all,Kogu Eesti,M,1595,https://palgad.stat.ee/api/charts/workers_total_section/1420/2025/Q4/average/all/all/all
+1420,Hulgi- ja jaekaubandusjuhid,all,Kogu Eesti,F,2965,https://palgad.stat.ee/api/charts/workers_total_section/1420/2025/Q4/average/all/all/all
+1431,"Spordi-, vabaaja- ja kultuurikeskuste juhid",all,Kogu Eesti,M,249,https://palgad.stat.ee/api/charts/workers_total_section/1431/2025/Q4/average/all/all/all
+1431,"Spordi-, vabaaja- ja kultuurikeskuste juhid",all,Kogu Eesti,F,401,https://palgad.stat.ee/api/charts/workers_total_section/1431/2025/Q4/average/all/all/all
+1439,"Teenuste juhid, mujal liigitamata",all,Kogu Eesti,M,1089,https://palgad.stat.ee/api/charts/workers_total_section/1439/2025/Q4/average/all/all/all
+1439,"Teenuste juhid, mujal liigitamata",all,Kogu Eesti,F,596,https://palgad.stat.ee/api/charts/workers_total_section/1439/2025/Q4/average/all/all/all
+2111,Füüsikud ja astronoomid,all,Kogu Eesti,M,160,https://palgad.stat.ee/api/charts/workers_total_section/2111/2025/Q4/average/all/all/all
+2111,Füüsikud ja astronoomid,all,Kogu Eesti,F,47,https://palgad.stat.ee/api/charts/workers_total_section/2111/2025/Q4/average/all/all/all
+2112,Meteoroloogid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/2112/2025/Q4/average/all/all/all
+2113,Keemikud,all,Kogu Eesti,M,159,https://palgad.stat.ee/api/charts/workers_total_section/2113/2025/Q4/average/all/all/all
+2113,Keemikud,all,Kogu Eesti,F,266,https://palgad.stat.ee/api/charts/workers_total_section/2113/2025/Q4/average/all/all/all
+2114,Geoloogid ja geofüüsikud,all,Kogu Eesti,M,79,https://palgad.stat.ee/api/charts/workers_total_section/2114/2025/Q4/average/all/all/all
+2114,Geoloogid ja geofüüsikud,all,Kogu Eesti,F,56,https://palgad.stat.ee/api/charts/workers_total_section/2114/2025/Q4/average/all/all/all
+2120,"Matemaatikud, aktuaarid ja statistikud",all,Kogu Eesti,M,372,https://palgad.stat.ee/api/charts/workers_total_section/2120/2025/Q4/average/all/all/all
+2120,"Matemaatikud, aktuaarid ja statistikud",all,Kogu Eesti,F,528,https://palgad.stat.ee/api/charts/workers_total_section/2120/2025/Q4/average/all/all/all
+2131,"Bioloogid, botaanikud, zooloogid jms tippspetsialistid",all,Kogu Eesti,M,262,https://palgad.stat.ee/api/charts/workers_total_section/2131/2025/Q4/average/all/all/all
+2131,"Bioloogid, botaanikud, zooloogid jms tippspetsialistid",all,Kogu Eesti,F,540,https://palgad.stat.ee/api/charts/workers_total_section/2131/2025/Q4/average/all/all/all
+2132,"Põllumajanduse, metsanduse ja kalanduse nõuandjad",all,Kogu Eesti,M,246,https://palgad.stat.ee/api/charts/workers_total_section/2132/2025/Q4/average/all/all/all
+2132,"Põllumajanduse, metsanduse ja kalanduse nõuandjad",all,Kogu Eesti,F,253,https://palgad.stat.ee/api/charts/workers_total_section/2132/2025/Q4/average/all/all/all
+2133,Keskkonnakaitse tippspetsialistid,all,Kogu Eesti,M,255,https://palgad.stat.ee/api/charts/workers_total_section/2133/2025/Q4/average/all/all/all
+2133,Keskkonnakaitse tippspetsialistid,all,Kogu Eesti,F,449,https://palgad.stat.ee/api/charts/workers_total_section/2133/2025/Q4/average/all/all/all
+2141,Tööstus- ja tootmisinsenerid,all,Kogu Eesti,M,2246,https://palgad.stat.ee/api/charts/workers_total_section/2141/2025/Q4/average/all/all/all
+2141,Tööstus- ja tootmisinsenerid,all,Kogu Eesti,F,657,https://palgad.stat.ee/api/charts/workers_total_section/2141/2025/Q4/average/all/all/all
+2142,Ehitusinsenerid,all,Kogu Eesti,M,1499,https://palgad.stat.ee/api/charts/workers_total_section/2142/2025/Q4/average/all/all/all
+2142,Ehitusinsenerid,all,Kogu Eesti,F,430,https://palgad.stat.ee/api/charts/workers_total_section/2142/2025/Q4/average/all/all/all
+2143,Keskkonnatehnika tippspetsialistid,all,Kogu Eesti,M,81,https://palgad.stat.ee/api/charts/workers_total_section/2143/2025/Q4/average/all/all/all
+2143,Keskkonnatehnika tippspetsialistid,all,Kogu Eesti,F,78,https://palgad.stat.ee/api/charts/workers_total_section/2143/2025/Q4/average/all/all/all
+2144,Mehaanikainsenerid,all,Kogu Eesti,M,1099,https://palgad.stat.ee/api/charts/workers_total_section/2144/2025/Q4/average/all/all/all
+2144,Mehaanikainsenerid,all,Kogu Eesti,F,61,https://palgad.stat.ee/api/charts/workers_total_section/2144/2025/Q4/average/all/all/all
+2145,Keemiainsenerid,all,Kogu Eesti,M,106,https://palgad.stat.ee/api/charts/workers_total_section/2145/2025/Q4/average/all/all/all
+2145,Keemiainsenerid,all,Kogu Eesti,F,170,https://palgad.stat.ee/api/charts/workers_total_section/2145/2025/Q4/average/all/all/all
+2146,"Mäetööstuse, metallurgia jms valdkondade tippspetsialistid",all,Kogu Eesti,M,44,https://palgad.stat.ee/api/charts/workers_total_section/2146/2025/Q4/average/all/all/all
+2149,"Tehnikateaduste tippspetsialistid, mujal liigitamata",all,Kogu Eesti,M,510,https://palgad.stat.ee/api/charts/workers_total_section/2149/2025/Q4/average/all/all/all
+2149,"Tehnikateaduste tippspetsialistid, mujal liigitamata",all,Kogu Eesti,F,134,https://palgad.stat.ee/api/charts/workers_total_section/2149/2025/Q4/average/all/all/all
+2151,Elektriinsenerid,all,Kogu Eesti,M,1261,https://palgad.stat.ee/api/charts/workers_total_section/2151/2025/Q4/average/all/all/all
+2151,Elektriinsenerid,all,Kogu Eesti,F,130,https://palgad.stat.ee/api/charts/workers_total_section/2151/2025/Q4/average/all/all/all
+2152,Elektroonikainsenerid,all,Kogu Eesti,M,856,https://palgad.stat.ee/api/charts/workers_total_section/2152/2025/Q4/average/all/all/all
+2152,Elektroonikainsenerid,all,Kogu Eesti,F,81,https://palgad.stat.ee/api/charts/workers_total_section/2152/2025/Q4/average/all/all/all
+2153,Telekommunikatsiooniinsenerid,all,Kogu Eesti,M,355,https://palgad.stat.ee/api/charts/workers_total_section/2153/2025/Q4/average/all/all/all
+2153,Telekommunikatsiooniinsenerid,all,Kogu Eesti,F,53,https://palgad.stat.ee/api/charts/workers_total_section/2153/2025/Q4/average/all/all/all
+2161,Ehitusarhitektid,all,Kogu Eesti,M,477,https://palgad.stat.ee/api/charts/workers_total_section/2161/2025/Q4/average/all/all/all
+2161,Ehitusarhitektid,all,Kogu Eesti,F,593,https://palgad.stat.ee/api/charts/workers_total_section/2161/2025/Q4/average/all/all/all
+2162,Maastikuarhitektid,all,Kogu Eesti,M,30,https://palgad.stat.ee/api/charts/workers_total_section/2162/2025/Q4/average/all/all/all
+2162,Maastikuarhitektid,all,Kogu Eesti,F,100,https://palgad.stat.ee/api/charts/workers_total_section/2162/2025/Q4/average/all/all/all
+2163,Toote- ja rõivadisainerid,all,Kogu Eesti,M,193,https://palgad.stat.ee/api/charts/workers_total_section/2163/2025/Q4/average/all/all/all
+2163,Toote- ja rõivadisainerid,all,Kogu Eesti,F,296,https://palgad.stat.ee/api/charts/workers_total_section/2163/2025/Q4/average/all/all/all
+2164,Linna- ja liiklusplaneerijad,all,Kogu Eesti,M,168,https://palgad.stat.ee/api/charts/workers_total_section/2164/2025/Q4/average/all/all/all
+2164,Linna- ja liiklusplaneerijad,all,Kogu Eesti,F,148,https://palgad.stat.ee/api/charts/workers_total_section/2164/2025/Q4/average/all/all/all
+2165,Kartograafid ja maamõõtjad,all,Kogu Eesti,M,462,https://palgad.stat.ee/api/charts/workers_total_section/2165/2025/Q4/average/all/all/all
+2165,Kartograafid ja maamõõtjad,all,Kogu Eesti,F,247,https://palgad.stat.ee/api/charts/workers_total_section/2165/2025/Q4/average/all/all/all
+2166,Kujundajad ja multimeediadisainerid,all,Kogu Eesti,M,714,https://palgad.stat.ee/api/charts/workers_total_section/2166/2025/Q4/average/all/all/all
+2166,Kujundajad ja multimeediadisainerid,all,Kogu Eesti,F,700,https://palgad.stat.ee/api/charts/workers_total_section/2166/2025/Q4/average/all/all/all
+2211,Üldarstid,all,Kogu Eesti,M,350,https://palgad.stat.ee/api/charts/workers_total_section/2211/2025/Q4/average/all/all/all
+2211,Üldarstid,all,Kogu Eesti,F,1317,https://palgad.stat.ee/api/charts/workers_total_section/2211/2025/Q4/average/all/all/all
+2212,Eriarstid,all,Kogu Eesti,M,1344,https://palgad.stat.ee/api/charts/workers_total_section/2212/2025/Q4/average/all/all/all
+2212,Eriarstid,all,Kogu Eesti,F,2715,https://palgad.stat.ee/api/charts/workers_total_section/2212/2025/Q4/average/all/all/all
+2221,Õenduse tippspetsialistid,all,Kogu Eesti,M,638,https://palgad.stat.ee/api/charts/workers_total_section/2221/2025/Q4/average/all/all/all
+2221,Õenduse tippspetsialistid,all,Kogu Eesti,F,10194,https://palgad.stat.ee/api/charts/workers_total_section/2221/2025/Q4/average/all/all/all
+2222,Ämmaemandad,all,Kogu Eesti,F,502,https://palgad.stat.ee/api/charts/workers_total_section/2222/2025/Q4/average/all/all/all
+2230,Täiendmeditsiini ja loodusravi tippspetsialistid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/2230/2025/Q4/average/all/all/all
+2240,Erialase kõrgharidusega parameedikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/2240/2025/Q4/average/all/all/all
+2250,Veterinaararstid,all,Kogu Eesti,M,111,https://palgad.stat.ee/api/charts/workers_total_section/2250/2025/Q4/average/all/all/all
+2250,Veterinaararstid,all,Kogu Eesti,F,340,https://palgad.stat.ee/api/charts/workers_total_section/2250/2025/Q4/average/all/all/all
+2261,Hambaarstid,all,Kogu Eesti,M,352,https://palgad.stat.ee/api/charts/workers_total_section/2261/2025/Q4/average/all/all/all
+2261,Hambaarstid,all,Kogu Eesti,F,1200,https://palgad.stat.ee/api/charts/workers_total_section/2261/2025/Q4/average/all/all/all
+2262,Proviisorid ja farmatseudid,all,Kogu Eesti,M,106,https://palgad.stat.ee/api/charts/workers_total_section/2262/2025/Q4/average/all/all/all
+2262,Proviisorid ja farmatseudid,all,Kogu Eesti,F,1446,https://palgad.stat.ee/api/charts/workers_total_section/2262/2025/Q4/average/all/all/all
+2263,Töötervishoiu ja tööohutuse tippspetsialistid,all,Kogu Eesti,M,75,https://palgad.stat.ee/api/charts/workers_total_section/2263/2025/Q4/average/all/all/all
+2263,Töötervishoiu ja tööohutuse tippspetsialistid,all,Kogu Eesti,F,132,https://palgad.stat.ee/api/charts/workers_total_section/2263/2025/Q4/average/all/all/all
+2264,Füsioterapeudid,all,Kogu Eesti,M,172,https://palgad.stat.ee/api/charts/workers_total_section/2264/2025/Q4/average/all/all/all
+2264,Füsioterapeudid,all,Kogu Eesti,F,709,https://palgad.stat.ee/api/charts/workers_total_section/2264/2025/Q4/average/all/all/all
+2265,Dieedi ja toitumise tippspetsialistid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/2265/2025/Q4/average/all/all/all
+2266,Audioloogid ja logopeedid,all,Kogu Eesti,F,749,https://palgad.stat.ee/api/charts/workers_total_section/2266/2025/Q4/average/all/all/all
+2267,Optomeetria tippspetsialistid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/2267/2025/Q4/average/all/all/all
+2269,"Tervishoiu tippspetsialistid, mujal liigitamata",all,Kogu Eesti,M,93,https://palgad.stat.ee/api/charts/workers_total_section/2269/2025/Q4/average/all/all/all
+2269,"Tervishoiu tippspetsialistid, mujal liigitamata",all,Kogu Eesti,F,814,https://palgad.stat.ee/api/charts/workers_total_section/2269/2025/Q4/average/all/all/all
+2310,Ülikoolide ja kõrgkoolide õppejõud,all,Kogu Eesti,M,2280,https://palgad.stat.ee/api/charts/workers_total_section/2310/2025/Q4/average/all/all/all
+2310,Ülikoolide ja kõrgkoolide õppejõud,all,Kogu Eesti,F,2423,https://palgad.stat.ee/api/charts/workers_total_section/2310/2025/Q4/average/all/all/all
+2320,Kutseõpetajad,all,Kogu Eesti,M,752,https://palgad.stat.ee/api/charts/workers_total_section/2320/2025/Q4/average/all/all/all
+2320,Kutseõpetajad,all,Kogu Eesti,F,902,https://palgad.stat.ee/api/charts/workers_total_section/2320/2025/Q4/average/all/all/all
+2330,Gümnaasiumiõpetajad,all,Kogu Eesti,M,1118,https://palgad.stat.ee/api/charts/workers_total_section/2330/2025/Q4/average/all/all/all
+2330,Gümnaasiumiõpetajad,all,Kogu Eesti,F,4406,https://palgad.stat.ee/api/charts/workers_total_section/2330/2025/Q4/average/all/all/all
+2341,Põhikooli (1.–9. klass) õpetajad,all,Kogu Eesti,M,1653,https://palgad.stat.ee/api/charts/workers_total_section/2341/2025/Q4/average/all/all/all
+2341,Põhikooli (1.–9. klass) õpetajad,all,Kogu Eesti,F,9373,https://palgad.stat.ee/api/charts/workers_total_section/2341/2025/Q4/average/all/all/all
+2342,Koolieelse lasteasutuse õpetajad,all,Kogu Eesti,M,100,https://palgad.stat.ee/api/charts/workers_total_section/2342/2025/Q4/average/all/all/all
+2342,Koolieelse lasteasutuse õpetajad,all,Kogu Eesti,F,6909,https://palgad.stat.ee/api/charts/workers_total_section/2342/2025/Q4/average/all/all/all
+2351,Õppemetoodika tippspetsialistid,all,Kogu Eesti,M,66,https://palgad.stat.ee/api/charts/workers_total_section/2351/2025/Q4/average/all/all/all
+2351,Õppemetoodika tippspetsialistid,all,Kogu Eesti,F,427,https://palgad.stat.ee/api/charts/workers_total_section/2351/2025/Q4/average/all/all/all
+2352,Eripedagoogid,all,Kogu Eesti,M,107,https://palgad.stat.ee/api/charts/workers_total_section/2352/2025/Q4/average/all/all/all
+2352,Eripedagoogid,all,Kogu Eesti,F,1683,https://palgad.stat.ee/api/charts/workers_total_section/2352/2025/Q4/average/all/all/all
+2353,Huvikoolide ja eratundide keeleõpetajad,all,Kogu Eesti,M,22,https://palgad.stat.ee/api/charts/workers_total_section/2353/2025/Q4/average/all/all/all
+2353,Huvikoolide ja eratundide keeleõpetajad,all,Kogu Eesti,F,225,https://palgad.stat.ee/api/charts/workers_total_section/2353/2025/Q4/average/all/all/all
+2354,Huvikoolide ja eratundide muusikaõpetajad,all,Kogu Eesti,M,589,https://palgad.stat.ee/api/charts/workers_total_section/2354/2025/Q4/average/all/all/all
+2354,Huvikoolide ja eratundide muusikaõpetajad,all,Kogu Eesti,F,1210,https://palgad.stat.ee/api/charts/workers_total_section/2354/2025/Q4/average/all/all/all
+2355,Huvikoolide ja eratundide kunstiõpetajad,all,Kogu Eesti,M,83,https://palgad.stat.ee/api/charts/workers_total_section/2355/2025/Q4/average/all/all/all
+2355,Huvikoolide ja eratundide kunstiõpetajad,all,Kogu Eesti,F,453,https://palgad.stat.ee/api/charts/workers_total_section/2355/2025/Q4/average/all/all/all
+2356,Infotehnoloogia erakoolitajad,all,Kogu Eesti,M,28,https://palgad.stat.ee/api/charts/workers_total_section/2356/2025/Q4/average/all/all/all
+2356,Infotehnoloogia erakoolitajad,all,Kogu Eesti,F,38,https://palgad.stat.ee/api/charts/workers_total_section/2356/2025/Q4/average/all/all/all
+2359,"Pedagoogika tippspetsialistid, mujal liigitamata",all,Kogu Eesti,M,503,https://palgad.stat.ee/api/charts/workers_total_section/2359/2025/Q4/average/all/all/all
+2359,"Pedagoogika tippspetsialistid, mujal liigitamata",all,Kogu Eesti,F,2166,https://palgad.stat.ee/api/charts/workers_total_section/2359/2025/Q4/average/all/all/all
+2411,Raamatupidamise tippspetsialistid,all,Kogu Eesti,M,555,https://palgad.stat.ee/api/charts/workers_total_section/2411/2025/Q4/average/all/all/all
+2411,Raamatupidamise tippspetsialistid,all,Kogu Eesti,F,6736,https://palgad.stat.ee/api/charts/workers_total_section/2411/2025/Q4/average/all/all/all
+2412,Finants- ja investeerimisnõustajad,all,Kogu Eesti,M,309,https://palgad.stat.ee/api/charts/workers_total_section/2412/2025/Q4/average/all/all/all
+2412,Finants- ja investeerimisnõustajad,all,Kogu Eesti,F,342,https://palgad.stat.ee/api/charts/workers_total_section/2412/2025/Q4/average/all/all/all
+2413,Finantsanalüütikud,all,Kogu Eesti,M,735,https://palgad.stat.ee/api/charts/workers_total_section/2413/2025/Q4/average/all/all/all
+2413,Finantsanalüütikud,all,Kogu Eesti,F,1041,https://palgad.stat.ee/api/charts/workers_total_section/2413/2025/Q4/average/all/all/all
+2421,Juhtimis- ja organisatsioonianalüütikud,all,Kogu Eesti,M,2063,https://palgad.stat.ee/api/charts/workers_total_section/2421/2025/Q4/average/all/all/all
+2421,Juhtimis- ja organisatsioonianalüütikud,all,Kogu Eesti,F,2601,https://palgad.stat.ee/api/charts/workers_total_section/2421/2025/Q4/average/all/all/all
+2422,Strateegiate väljatöötajad,all,Kogu Eesti,M,997,https://palgad.stat.ee/api/charts/workers_total_section/2422/2025/Q4/average/all/all/all
+2422,Strateegiate väljatöötajad,all,Kogu Eesti,F,2048,https://palgad.stat.ee/api/charts/workers_total_section/2422/2025/Q4/average/all/all/all
+2423,Personali ja karjääri tippspetsialistid,all,Kogu Eesti,M,83,https://palgad.stat.ee/api/charts/workers_total_section/2423/2025/Q4/average/all/all/all
+2423,Personali ja karjääri tippspetsialistid,all,Kogu Eesti,F,1158,https://palgad.stat.ee/api/charts/workers_total_section/2423/2025/Q4/average/all/all/all
+2424,Töötajate koolituse ja täiendõppe tippspetsialistid,all,Kogu Eesti,M,163,https://palgad.stat.ee/api/charts/workers_total_section/2424/2025/Q4/average/all/all/all
+2424,Töötajate koolituse ja täiendõppe tippspetsialistid,all,Kogu Eesti,F,546,https://palgad.stat.ee/api/charts/workers_total_section/2424/2025/Q4/average/all/all/all
+2431,Reklaami ja turunduse tippspetsialistid,all,Kogu Eesti,M,1489,https://palgad.stat.ee/api/charts/workers_total_section/2431/2025/Q4/average/all/all/all
+2431,Reklaami ja turunduse tippspetsialistid,all,Kogu Eesti,F,2480,https://palgad.stat.ee/api/charts/workers_total_section/2431/2025/Q4/average/all/all/all
+2432,Avalike suhete tippspetsialistid,all,Kogu Eesti,M,266,https://palgad.stat.ee/api/charts/workers_total_section/2432/2025/Q4/average/all/all/all
+2432,Avalike suhete tippspetsialistid,all,Kogu Eesti,F,919,https://palgad.stat.ee/api/charts/workers_total_section/2432/2025/Q4/average/all/all/all
+2433,Tehnika- (v.a IKT) ja meditsiinitoodete müügi tippspetsialistid,all,Kogu Eesti,M,641,https://palgad.stat.ee/api/charts/workers_total_section/2433/2025/Q4/average/all/all/all
+2433,Tehnika- (v.a IKT) ja meditsiinitoodete müügi tippspetsialistid,all,Kogu Eesti,F,368,https://palgad.stat.ee/api/charts/workers_total_section/2433/2025/Q4/average/all/all/all
+2434,IKT-lahenduste müügi tippspetsialistid,all,Kogu Eesti,M,361,https://palgad.stat.ee/api/charts/workers_total_section/2434/2025/Q4/average/all/all/all
+2434,IKT-lahenduste müügi tippspetsialistid,all,Kogu Eesti,F,238,https://palgad.stat.ee/api/charts/workers_total_section/2434/2025/Q4/average/all/all/all
+2511,Süsteemianalüütikud,all,Kogu Eesti,M,2085,https://palgad.stat.ee/api/charts/workers_total_section/2511/2025/Q4/average/all/all/all
+2511,Süsteemianalüütikud,all,Kogu Eesti,F,1767,https://palgad.stat.ee/api/charts/workers_total_section/2511/2025/Q4/average/all/all/all
+2512,Tarkvaraarendajad,all,Kogu Eesti,M,8270,https://palgad.stat.ee/api/charts/workers_total_section/2512/2025/Q4/average/all/all/all
+2512,Tarkvaraarendajad,all,Kogu Eesti,F,1363,https://palgad.stat.ee/api/charts/workers_total_section/2512/2025/Q4/average/all/all/all
+2513,Veebi- ja multimeediaarendajad,all,Kogu Eesti,M,416,https://palgad.stat.ee/api/charts/workers_total_section/2513/2025/Q4/average/all/all/all
+2513,Veebi- ja multimeediaarendajad,all,Kogu Eesti,F,156,https://palgad.stat.ee/api/charts/workers_total_section/2513/2025/Q4/average/all/all/all
+2514,Rakenduste programmeerijad,all,Kogu Eesti,M,771,https://palgad.stat.ee/api/charts/workers_total_section/2514/2025/Q4/average/all/all/all
+2514,Rakenduste programmeerijad,all,Kogu Eesti,F,162,https://palgad.stat.ee/api/charts/workers_total_section/2514/2025/Q4/average/all/all/all
+2519,"Tarkvara ja rakenduste arendajad ning analüütikud, mujal liigitamata",all,Kogu Eesti,M,1255,https://palgad.stat.ee/api/charts/workers_total_section/2519/2025/Q4/average/all/all/all
+2519,"Tarkvara ja rakenduste arendajad ning analüütikud, mujal liigitamata",all,Kogu Eesti,F,812,https://palgad.stat.ee/api/charts/workers_total_section/2519/2025/Q4/average/all/all/all
+2521,Andmebaaside projekteerijad ja administraatorid,all,Kogu Eesti,M,661,https://palgad.stat.ee/api/charts/workers_total_section/2521/2025/Q4/average/all/all/all
+2521,Andmebaaside projekteerijad ja administraatorid,all,Kogu Eesti,F,366,https://palgad.stat.ee/api/charts/workers_total_section/2521/2025/Q4/average/all/all/all
+2522,Süsteemiadministraatorid,all,Kogu Eesti,M,1412,https://palgad.stat.ee/api/charts/workers_total_section/2522/2025/Q4/average/all/all/all
+2522,Süsteemiadministraatorid,all,Kogu Eesti,F,201,https://palgad.stat.ee/api/charts/workers_total_section/2522/2025/Q4/average/all/all/all
+2523,Arvutivõrkude tippspetsialistid,all,Kogu Eesti,M,200,https://palgad.stat.ee/api/charts/workers_total_section/2523/2025/Q4/average/all/all/all
+2523,Arvutivõrkude tippspetsialistid,all,Kogu Eesti,F,30,https://palgad.stat.ee/api/charts/workers_total_section/2523/2025/Q4/average/all/all/all
+2529,"Andmebaasi ja arvutivõrgu tippspetsialistid, mujal liigitamata",all,Kogu Eesti,M,561,https://palgad.stat.ee/api/charts/workers_total_section/2529/2025/Q4/average/all/all/all
+2529,"Andmebaasi ja arvutivõrgu tippspetsialistid, mujal liigitamata",all,Kogu Eesti,F,190,https://palgad.stat.ee/api/charts/workers_total_section/2529/2025/Q4/average/all/all/all
+2611,"Advokaadid, prokurörid ja kohtujuristid",all,Kogu Eesti,M,487,https://palgad.stat.ee/api/charts/workers_total_section/2611/2025/Q4/average/all/all/all
+2611,"Advokaadid, prokurörid ja kohtujuristid",all,Kogu Eesti,F,699,https://palgad.stat.ee/api/charts/workers_total_section/2611/2025/Q4/average/all/all/all
+2612,Kohtunikud,all,Kogu Eesti,M,49,https://palgad.stat.ee/api/charts/workers_total_section/2612/2025/Q4/average/all/all/all
+2612,Kohtunikud,all,Kogu Eesti,F,83,https://palgad.stat.ee/api/charts/workers_total_section/2612/2025/Q4/average/all/all/all
+2619,"Õigusvaldkonna tippspetsialistid, mujal liigitamata",all,Kogu Eesti,M,591,https://palgad.stat.ee/api/charts/workers_total_section/2619/2025/Q4/average/all/all/all
+2619,"Õigusvaldkonna tippspetsialistid, mujal liigitamata",all,Kogu Eesti,F,1378,https://palgad.stat.ee/api/charts/workers_total_section/2619/2025/Q4/average/all/all/all
+2621,Arhivaarid ja kuraatorid,all,Kogu Eesti,M,131,https://palgad.stat.ee/api/charts/workers_total_section/2621/2025/Q4/average/all/all/all
+2621,Arhivaarid ja kuraatorid,all,Kogu Eesti,F,449,https://palgad.stat.ee/api/charts/workers_total_section/2621/2025/Q4/average/all/all/all
+2622,Raamatukoguhoidjad jms teabe tippspetsialistid,all,Kogu Eesti,M,54,https://palgad.stat.ee/api/charts/workers_total_section/2622/2025/Q4/average/all/all/all
+2622,Raamatukoguhoidjad jms teabe tippspetsialistid,all,Kogu Eesti,F,1295,https://palgad.stat.ee/api/charts/workers_total_section/2622/2025/Q4/average/all/all/all
+2631,Majandusteadlased,all,Kogu Eesti,M,84,https://palgad.stat.ee/api/charts/workers_total_section/2631/2025/Q4/average/all/all/all
+2631,Majandusteadlased,all,Kogu Eesti,F,114,https://palgad.stat.ee/api/charts/workers_total_section/2631/2025/Q4/average/all/all/all
+2632,"Sotsioloogid, antropoloogid jms tippspetsialistid",all,Kogu Eesti,M,83,https://palgad.stat.ee/api/charts/workers_total_section/2632/2025/Q4/average/all/all/all
+2632,"Sotsioloogid, antropoloogid jms tippspetsialistid",all,Kogu Eesti,F,190,https://palgad.stat.ee/api/charts/workers_total_section/2632/2025/Q4/average/all/all/all
+2633,"Filosoofid, ajaloolased ja politoloogid",all,Kogu Eesti,M,102,https://palgad.stat.ee/api/charts/workers_total_section/2633/2025/Q4/average/all/all/all
+2633,"Filosoofid, ajaloolased ja politoloogid",all,Kogu Eesti,F,114,https://palgad.stat.ee/api/charts/workers_total_section/2633/2025/Q4/average/all/all/all
+2634,Psühholoogid,all,Kogu Eesti,M,97,https://palgad.stat.ee/api/charts/workers_total_section/2634/2025/Q4/average/all/all/all
+2634,Psühholoogid,all,Kogu Eesti,F,751,https://palgad.stat.ee/api/charts/workers_total_section/2634/2025/Q4/average/all/all/all
+2635,Sotsiaaltöötajad ja nõustajad,all,Kogu Eesti,M,176,https://palgad.stat.ee/api/charts/workers_total_section/2635/2025/Q4/average/all/all/all
+2635,Sotsiaaltöötajad ja nõustajad,all,Kogu Eesti,F,2169,https://palgad.stat.ee/api/charts/workers_total_section/2635/2025/Q4/average/all/all/all
+2636,Religioonivaldkonna tippspetsialistid,all,Kogu Eesti,M,192,https://palgad.stat.ee/api/charts/workers_total_section/2636/2025/Q4/average/all/all/all
+2636,Religioonivaldkonna tippspetsialistid,all,Kogu Eesti,F,44,https://palgad.stat.ee/api/charts/workers_total_section/2636/2025/Q4/average/all/all/all
+2641,Kirjanikud,all,Kogu Eesti,M,77,https://palgad.stat.ee/api/charts/workers_total_section/2641/2025/Q4/average/all/all/all
+2641,Kirjanikud,all,Kogu Eesti,F,188,https://palgad.stat.ee/api/charts/workers_total_section/2641/2025/Q4/average/all/all/all
+2642,Ajakirjanikud,all,Kogu Eesti,M,479,https://palgad.stat.ee/api/charts/workers_total_section/2642/2025/Q4/average/all/all/all
+2642,Ajakirjanikud,all,Kogu Eesti,F,706,https://palgad.stat.ee/api/charts/workers_total_section/2642/2025/Q4/average/all/all/all
+2643,"Tõlkijad, tõlgid ja keeleteadlased",all,Kogu Eesti,M,116,https://palgad.stat.ee/api/charts/workers_total_section/2643/2025/Q4/average/all/all/all
+2643,"Tõlkijad, tõlgid ja keeleteadlased",all,Kogu Eesti,F,447,https://palgad.stat.ee/api/charts/workers_total_section/2643/2025/Q4/average/all/all/all
+2651,Kujutavad kunstnikud,all,Kogu Eesti,M,92,https://palgad.stat.ee/api/charts/workers_total_section/2651/2025/Q4/average/all/all/all
+2651,Kujutavad kunstnikud,all,Kogu Eesti,F,198,https://palgad.stat.ee/api/charts/workers_total_section/2651/2025/Q4/average/all/all/all
+2652,"Muusikud, lauljad ja heliloojad",all,Kogu Eesti,M,561,https://palgad.stat.ee/api/charts/workers_total_section/2652/2025/Q4/average/all/all/all
+2652,"Muusikud, lauljad ja heliloojad",all,Kogu Eesti,F,562,https://palgad.stat.ee/api/charts/workers_total_section/2652/2025/Q4/average/all/all/all
+2653,Tantsijad ja koreograafid,all,Kogu Eesti,M,66,https://palgad.stat.ee/api/charts/workers_total_section/2653/2025/Q4/average/all/all/all
+2653,Tantsijad ja koreograafid,all,Kogu Eesti,F,129,https://palgad.stat.ee/api/charts/workers_total_section/2653/2025/Q4/average/all/all/all
+2654,"Filmi-, teatri- jms lavastajad ja -produtsendid",all,Kogu Eesti,M,308,https://palgad.stat.ee/api/charts/workers_total_section/2654/2025/Q4/average/all/all/all
+2654,"Filmi-, teatri- jms lavastajad ja -produtsendid",all,Kogu Eesti,F,207,https://palgad.stat.ee/api/charts/workers_total_section/2654/2025/Q4/average/all/all/all
+2655,Näitlejad,all,Kogu Eesti,M,156,https://palgad.stat.ee/api/charts/workers_total_section/2655/2025/Q4/average/all/all/all
+2655,Näitlejad,all,Kogu Eesti,F,127,https://palgad.stat.ee/api/charts/workers_total_section/2655/2025/Q4/average/all/all/all
+2656,"Raadio, televisiooni jms saatejuhid",all,Kogu Eesti,M,91,https://palgad.stat.ee/api/charts/workers_total_section/2656/2025/Q4/average/all/all/all
+2656,"Raadio, televisiooni jms saatejuhid",all,Kogu Eesti,F,146,https://palgad.stat.ee/api/charts/workers_total_section/2656/2025/Q4/average/all/all/all
+2659,"Loomingulised töötajad, mujal liigitamata",all,Kogu Eesti,M,58,https://palgad.stat.ee/api/charts/workers_total_section/2659/2025/Q4/average/all/all/all
+2659,"Loomingulised töötajad, mujal liigitamata",all,Kogu Eesti,F,50,https://palgad.stat.ee/api/charts/workers_total_section/2659/2025/Q4/average/all/all/all
+3111,Keemia- ja füüsikateaduste tehnikud,all,Kogu Eesti,M,187,https://palgad.stat.ee/api/charts/workers_total_section/3111/2025/Q4/average/all/all/all
+3111,Keemia- ja füüsikateaduste tehnikud,all,Kogu Eesti,F,356,https://palgad.stat.ee/api/charts/workers_total_section/3111/2025/Q4/average/all/all/all
+3112,Ehitustehnikud,all,Kogu Eesti,M,1350,https://palgad.stat.ee/api/charts/workers_total_section/3112/2025/Q4/average/all/all/all
+3112,Ehitustehnikud,all,Kogu Eesti,F,596,https://palgad.stat.ee/api/charts/workers_total_section/3112/2025/Q4/average/all/all/all
+3113,Elektrotehniliste alade tehnikud,all,Kogu Eesti,M,733,https://palgad.stat.ee/api/charts/workers_total_section/3113/2025/Q4/average/all/all/all
+3113,Elektrotehniliste alade tehnikud,all,Kogu Eesti,F,62,https://palgad.stat.ee/api/charts/workers_total_section/3113/2025/Q4/average/all/all/all
+3114,Elektroonikatehnikud,all,Kogu Eesti,M,466,https://palgad.stat.ee/api/charts/workers_total_section/3114/2025/Q4/average/all/all/all
+3114,Elektroonikatehnikud,all,Kogu Eesti,F,78,https://palgad.stat.ee/api/charts/workers_total_section/3114/2025/Q4/average/all/all/all
+3115,Masinaehitustehnikud,all,Kogu Eesti,M,2043,https://palgad.stat.ee/api/charts/workers_total_section/3115/2025/Q4/average/all/all/all
+3115,Masinaehitustehnikud,all,Kogu Eesti,F,49,https://palgad.stat.ee/api/charts/workers_total_section/3115/2025/Q4/average/all/all/all
+3116,Keemiatööstuse tehnikud,all,Kogu Eesti,M,38,https://palgad.stat.ee/api/charts/workers_total_section/3116/2025/Q4/average/all/all/all
+3116,Keemiatööstuse tehnikud,all,Kogu Eesti,F,78,https://palgad.stat.ee/api/charts/workers_total_section/3116/2025/Q4/average/all/all/all
+3117,Mäe- ja metallurgiatehnikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3117/2025/Q4/average/all/all/all
+3118,Joonestajad,all,Kogu Eesti,M,396,https://palgad.stat.ee/api/charts/workers_total_section/3118/2025/Q4/average/all/all/all
+3118,Joonestajad,all,Kogu Eesti,F,191,https://palgad.stat.ee/api/charts/workers_total_section/3118/2025/Q4/average/all/all/all
+3119,"Füüsika- ja tehnikateaduste tehnikud, mujal liigitamata",all,Kogu Eesti,M,452,https://palgad.stat.ee/api/charts/workers_total_section/3119/2025/Q4/average/all/all/all
+3119,"Füüsika- ja tehnikateaduste tehnikud, mujal liigitamata",all,Kogu Eesti,F,164,https://palgad.stat.ee/api/charts/workers_total_section/3119/2025/Q4/average/all/all/all
+3121,Kaevanduse töödejuhatajad,all,Kogu Eesti,M,195,https://palgad.stat.ee/api/charts/workers_total_section/3121/2025/Q4/average/all/all/all
+3122,Töötleva tööstuse töödejuhatajad,all,Kogu Eesti,M,1647,https://palgad.stat.ee/api/charts/workers_total_section/3122/2025/Q4/average/all/all/all
+3122,Töötleva tööstuse töödejuhatajad,all,Kogu Eesti,F,673,https://palgad.stat.ee/api/charts/workers_total_section/3122/2025/Q4/average/all/all/all
+3123,Ehituse töödejuhatajad,all,Kogu Eesti,M,2032,https://palgad.stat.ee/api/charts/workers_total_section/3123/2025/Q4/average/all/all/all
+3123,Ehituse töödejuhatajad,all,Kogu Eesti,F,98,https://palgad.stat.ee/api/charts/workers_total_section/3123/2025/Q4/average/all/all/all
+3131,Energiatootmisettevõtete operaatorid,all,Kogu Eesti,M,200,https://palgad.stat.ee/api/charts/workers_total_section/3131/2025/Q4/average/all/all/all
+3132,Jäätmepõletustehaste ja veepuhastusjaamade operaatorid,all,Kogu Eesti,M,209,https://palgad.stat.ee/api/charts/workers_total_section/3132/2025/Q4/average/all/all/all
+3132,Jäätmepõletustehaste ja veepuhastusjaamade operaatorid,all,Kogu Eesti,F,63,https://palgad.stat.ee/api/charts/workers_total_section/3132/2025/Q4/average/all/all/all
+3133,Keemiatööstuse protsessijuhtimistehnikud,all,Kogu Eesti,M,71,https://palgad.stat.ee/api/charts/workers_total_section/3133/2025/Q4/average/all/all/all
+3134,"Naftasaaduste, õlide ja maagaasi töötlemise operaatorid",all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3134/2025/Q4/average/all/all/all
+3135,Metallurgiatööstuse protsessijuhtimistehnikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3135/2025/Q4/average/all/all/all
+3139,"Tööstuse protsessijuhtimistehnikud, mujal liigitamata",all,Kogu Eesti,M,703,https://palgad.stat.ee/api/charts/workers_total_section/3139/2025/Q4/average/all/all/all
+3139,"Tööstuse protsessijuhtimistehnikud, mujal liigitamata",all,Kogu Eesti,F,124,https://palgad.stat.ee/api/charts/workers_total_section/3139/2025/Q4/average/all/all/all
+3141,Biotehnikud (v.a meditsiinivaldkonna tehnikud),all,Kogu Eesti,M,139,https://palgad.stat.ee/api/charts/workers_total_section/3141/2025/Q4/average/all/all/all
+3141,Biotehnikud (v.a meditsiinivaldkonna tehnikud),all,Kogu Eesti,F,367,https://palgad.stat.ee/api/charts/workers_total_section/3141/2025/Q4/average/all/all/all
+3142,Põllumajandustehnikud,all,Kogu Eesti,M,62,https://palgad.stat.ee/api/charts/workers_total_section/3142/2025/Q4/average/all/all/all
+3142,Põllumajandustehnikud,all,Kogu Eesti,F,91,https://palgad.stat.ee/api/charts/workers_total_section/3142/2025/Q4/average/all/all/all
+3143,Metsandustehnikud,all,Kogu Eesti,M,275,https://palgad.stat.ee/api/charts/workers_total_section/3143/2025/Q4/average/all/all/all
+3143,Metsandustehnikud,all,Kogu Eesti,F,34,https://palgad.stat.ee/api/charts/workers_total_section/3143/2025/Q4/average/all/all/all
+3151,Laevamehaanikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3151/2025/Q4/average/all/all/all
+3152,Laevajuhid ja lootsid,all,Kogu Eesti,M,421,https://palgad.stat.ee/api/charts/workers_total_section/3152/2025/Q4/average/all/all/all
+3153,Piloodid ja lennumeeskonna liikmed,all,Kogu Eesti,M,39,https://palgad.stat.ee/api/charts/workers_total_section/3153/2025/Q4/average/all/all/all
+3154,Lennujuhid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3154/2025/Q4/average/all/all/all
+3155,Lennuohutuselektroonika tehnikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3155/2025/Q4/average/all/all/all
+3211,Meditsiiniliste kuvamis- ja raviseadmete tehnikud,all,Kogu Eesti,M,131,https://palgad.stat.ee/api/charts/workers_total_section/3211/2025/Q4/average/all/all/all
+3211,Meditsiiniliste kuvamis- ja raviseadmete tehnikud,all,Kogu Eesti,F,408,https://palgad.stat.ee/api/charts/workers_total_section/3211/2025/Q4/average/all/all/all
+3212,Meditsiini- ja patoloogialaborite tehnikud,all,Kogu Eesti,M,74,https://palgad.stat.ee/api/charts/workers_total_section/3212/2025/Q4/average/all/all/all
+3212,Meditsiini- ja patoloogialaborite tehnikud,all,Kogu Eesti,F,749,https://palgad.stat.ee/api/charts/workers_total_section/3212/2025/Q4/average/all/all/all
+3213,Farmaatsiatehnikud ja farmatseudi abilised,all,Kogu Eesti,F,154,https://palgad.stat.ee/api/charts/workers_total_section/3213/2025/Q4/average/all/all/all
+3214,Meditsiiniliste ja hambaproteeside tehnikud,all,Kogu Eesti,M,97,https://palgad.stat.ee/api/charts/workers_total_section/3214/2025/Q4/average/all/all/all
+3214,Meditsiiniliste ja hambaproteeside tehnikud,all,Kogu Eesti,F,213,https://palgad.stat.ee/api/charts/workers_total_section/3214/2025/Q4/average/all/all/all
+3221,Hooldustöötajad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3221/2025/Q4/average/all/all/all
+3222,Ämmaemanda abid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3222/2025/Q4/average/all/all/all
+3230,Täiendmeditsiini ja loodusravi keskastme spetsialistid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3230/2025/Q4/average/all/all/all
+3240,Veterinaartehnikud,all,Kogu Eesti,M,32,https://palgad.stat.ee/api/charts/workers_total_section/3240/2025/Q4/average/all/all/all
+3240,Veterinaartehnikud,all,Kogu Eesti,F,156,https://palgad.stat.ee/api/charts/workers_total_section/3240/2025/Q4/average/all/all/all
+3251,Hambaraviõed ja hambaravi keskastme spetsialistid,all,Kogu Eesti,M,30,https://palgad.stat.ee/api/charts/workers_total_section/3251/2025/Q4/average/all/all/all
+3251,Hambaraviõed ja hambaravi keskastme spetsialistid,all,Kogu Eesti,F,1265,https://palgad.stat.ee/api/charts/workers_total_section/3251/2025/Q4/average/all/all/all
+3252,Meditsiiniregistrite ja terviseteabe keskastme spetsialistid,all,Kogu Eesti,F,200,https://palgad.stat.ee/api/charts/workers_total_section/3252/2025/Q4/average/all/all/all
+3253,Kohalike omavalitsuste tervishoiutöötajad,all,Kogu Eesti,F,53,https://palgad.stat.ee/api/charts/workers_total_section/3253/2025/Q4/average/all/all/all
+3254,Optometristid ja optikud,all,Kogu Eesti,F,260,https://palgad.stat.ee/api/charts/workers_total_section/3254/2025/Q4/average/all/all/all
+3255,Abifüsioterapeudid,all,Kogu Eesti,M,107,https://palgad.stat.ee/api/charts/workers_total_section/3255/2025/Q4/average/all/all/all
+3255,Abifüsioterapeudid,all,Kogu Eesti,F,475,https://palgad.stat.ee/api/charts/workers_total_section/3255/2025/Q4/average/all/all/all
+3256,Abiarstid,all,Kogu Eesti,F,44,https://palgad.stat.ee/api/charts/workers_total_section/3256/2025/Q4/average/all/all/all
+3257,Tervisekaitse- ja töötervishoiuinspektorid jms keskastme spetsialistid,all,Kogu Eesti,M,109,https://palgad.stat.ee/api/charts/workers_total_section/3257/2025/Q4/average/all/all/all
+3257,Tervisekaitse- ja töötervishoiuinspektorid jms keskastme spetsialistid,all,Kogu Eesti,F,286,https://palgad.stat.ee/api/charts/workers_total_section/3257/2025/Q4/average/all/all/all
+3258,Kiirabitehnikud,all,Kogu Eesti,M,677,https://palgad.stat.ee/api/charts/workers_total_section/3258/2025/Q4/average/all/all/all
+3258,Kiirabitehnikud,all,Kogu Eesti,F,84,https://palgad.stat.ee/api/charts/workers_total_section/3258/2025/Q4/average/all/all/all
+3259,"Tervishoiu keskastme spetsialistid, mujal liigitamata",all,Kogu Eesti,F,200,https://palgad.stat.ee/api/charts/workers_total_section/3259/2025/Q4/average/all/all/all
+3311,Väärtpaberi- ja valuutamaaklerid ning -vahendajad,all,Kogu Eesti,M,30,https://palgad.stat.ee/api/charts/workers_total_section/3311/2025/Q4/average/all/all/all
+3311,Väärtpaberi- ja valuutamaaklerid ning -vahendajad,all,Kogu Eesti,F,38,https://palgad.stat.ee/api/charts/workers_total_section/3311/2025/Q4/average/all/all/all
+3312,Krediidi- ja laenuhaldurid,all,Kogu Eesti,M,161,https://palgad.stat.ee/api/charts/workers_total_section/3312/2025/Q4/average/all/all/all
+3312,Krediidi- ja laenuhaldurid,all,Kogu Eesti,F,948,https://palgad.stat.ee/api/charts/workers_total_section/3312/2025/Q4/average/all/all/all
+3313,Raamatupidamise keskastme spetsialistid,all,Kogu Eesti,M,305,https://palgad.stat.ee/api/charts/workers_total_section/3313/2025/Q4/average/all/all/all
+3313,Raamatupidamise keskastme spetsialistid,all,Kogu Eesti,F,4300,https://palgad.stat.ee/api/charts/workers_total_section/3313/2025/Q4/average/all/all/all
+3314,Statistilise ja matemaatilise arvestuse jms keskastme spetsialistid,all,Kogu Eesti,M,218,https://palgad.stat.ee/api/charts/workers_total_section/3314/2025/Q4/average/all/all/all
+3314,Statistilise ja matemaatilise arvestuse jms keskastme spetsialistid,all,Kogu Eesti,F,326,https://palgad.stat.ee/api/charts/workers_total_section/3314/2025/Q4/average/all/all/all
+3315,Hindajad ja kahjuhindajad,all,Kogu Eesti,M,213,https://palgad.stat.ee/api/charts/workers_total_section/3315/2025/Q4/average/all/all/all
+3315,Hindajad ja kahjuhindajad,all,Kogu Eesti,F,241,https://palgad.stat.ee/api/charts/workers_total_section/3315/2025/Q4/average/all/all/all
+3321,Kindlustusagendid,all,Kogu Eesti,M,81,https://palgad.stat.ee/api/charts/workers_total_section/3321/2025/Q4/average/all/all/all
+3321,Kindlustusagendid,all,Kogu Eesti,F,373,https://palgad.stat.ee/api/charts/workers_total_section/3321/2025/Q4/average/all/all/all
+3322,Müügiesindajad,all,Kogu Eesti,M,5259,https://palgad.stat.ee/api/charts/workers_total_section/3322/2025/Q4/average/all/all/all
+3322,Müügiesindajad,all,Kogu Eesti,F,4542,https://palgad.stat.ee/api/charts/workers_total_section/3322/2025/Q4/average/all/all/all
+3323,Varustajad,all,Kogu Eesti,M,1251,https://palgad.stat.ee/api/charts/workers_total_section/3323/2025/Q4/average/all/all/all
+3323,Varustajad,all,Kogu Eesti,F,1748,https://palgad.stat.ee/api/charts/workers_total_section/3323/2025/Q4/average/all/all/all
+3324,Kaubamaaklerid,all,Kogu Eesti,M,30,https://palgad.stat.ee/api/charts/workers_total_section/3324/2025/Q4/average/all/all/all
+3331,Tollimaaklerid ja ekspedeerijad,all,Kogu Eesti,M,129,https://palgad.stat.ee/api/charts/workers_total_section/3331/2025/Q4/average/all/all/all
+3331,Tollimaaklerid ja ekspedeerijad,all,Kogu Eesti,F,178,https://palgad.stat.ee/api/charts/workers_total_section/3331/2025/Q4/average/all/all/all
+3332,Konverentside ja ürituste korraldajad,all,Kogu Eesti,M,108,https://palgad.stat.ee/api/charts/workers_total_section/3332/2025/Q4/average/all/all/all
+3332,Konverentside ja ürituste korraldajad,all,Kogu Eesti,F,271,https://palgad.stat.ee/api/charts/workers_total_section/3332/2025/Q4/average/all/all/all
+3333,Töövahendajad,all,Kogu Eesti,M,35,https://palgad.stat.ee/api/charts/workers_total_section/3333/2025/Q4/average/all/all/all
+3333,Töövahendajad,all,Kogu Eesti,F,230,https://palgad.stat.ee/api/charts/workers_total_section/3333/2025/Q4/average/all/all/all
+3334,Kinnisvaramaaklerid ja -haldurid,all,Kogu Eesti,M,854,https://palgad.stat.ee/api/charts/workers_total_section/3334/2025/Q4/average/all/all/all
+3334,Kinnisvaramaaklerid ja -haldurid,all,Kogu Eesti,F,760,https://palgad.stat.ee/api/charts/workers_total_section/3334/2025/Q4/average/all/all/all
+3339,"Äriteenuste agendid, mujal liigitamata",all,Kogu Eesti,M,185,https://palgad.stat.ee/api/charts/workers_total_section/3339/2025/Q4/average/all/all/all
+3339,"Äriteenuste agendid, mujal liigitamata",all,Kogu Eesti,F,186,https://palgad.stat.ee/api/charts/workers_total_section/3339/2025/Q4/average/all/all/all
+3341,Kontorijuhatajad,all,Kogu Eesti,M,391,https://palgad.stat.ee/api/charts/workers_total_section/3341/2025/Q4/average/all/all/all
+3341,Kontorijuhatajad,all,Kogu Eesti,F,1589,https://palgad.stat.ee/api/charts/workers_total_section/3341/2025/Q4/average/all/all/all
+3342,Juristid-asjaajajad,all,Kogu Eesti,M,32,https://palgad.stat.ee/api/charts/workers_total_section/3342/2025/Q4/average/all/all/all
+3342,Juristid-asjaajajad,all,Kogu Eesti,F,160,https://palgad.stat.ee/api/charts/workers_total_section/3342/2025/Q4/average/all/all/all
+3343,Sekretärid-asjaajajad ja sekretärid-juhiabid,all,Kogu Eesti,M,459,https://palgad.stat.ee/api/charts/workers_total_section/3343/2025/Q4/average/all/all/all
+3343,Sekretärid-asjaajajad ja sekretärid-juhiabid,all,Kogu Eesti,F,5515,https://palgad.stat.ee/api/charts/workers_total_section/3343/2025/Q4/average/all/all/all
+3344,Meditsiinivaldkonna sekretärid,all,Kogu Eesti,F,709,https://palgad.stat.ee/api/charts/workers_total_section/3344/2025/Q4/average/all/all/all
+3351,Tolli- ja piiriinspektorid,all,Kogu Eesti,M,151,https://palgad.stat.ee/api/charts/workers_total_section/3351/2025/Q4/average/all/all/all
+3351,Tolli- ja piiriinspektorid,all,Kogu Eesti,F,178,https://palgad.stat.ee/api/charts/workers_total_section/3351/2025/Q4/average/all/all/all
+3352,Maksu- ja aktsiisiametnikud,all,Kogu Eesti,M,21,https://palgad.stat.ee/api/charts/workers_total_section/3352/2025/Q4/average/all/all/all
+3352,Maksu- ja aktsiisiametnikud,all,Kogu Eesti,F,295,https://palgad.stat.ee/api/charts/workers_total_section/3352/2025/Q4/average/all/all/all
+3353,Sotsiaalkindlustusametnikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/3353/2025/Q4/average/all/all/all
+3354,Litsentside ja lubade menetlejad,all,Kogu Eesti,M,78,https://palgad.stat.ee/api/charts/workers_total_section/3354/2025/Q4/average/all/all/all
+3354,Litsentside ja lubade menetlejad,all,Kogu Eesti,F,182,https://palgad.stat.ee/api/charts/workers_total_section/3354/2025/Q4/average/all/all/all
+3359,"Valitsuse haldusalade ametnikud, mujal liigitamata",all,Kogu Eesti,M,309,https://palgad.stat.ee/api/charts/workers_total_section/3359/2025/Q4/average/all/all/all
+3359,"Valitsuse haldusalade ametnikud, mujal liigitamata",all,Kogu Eesti,F,558,https://palgad.stat.ee/api/charts/workers_total_section/3359/2025/Q4/average/all/all/all
+3411,Õigusvaldkonna keskastme spetsialistid,all,Kogu Eesti,M,105,https://palgad.stat.ee/api/charts/workers_total_section/3411/2025/Q4/average/all/all/all
+3411,Õigusvaldkonna keskastme spetsialistid,all,Kogu Eesti,F,436,https://palgad.stat.ee/api/charts/workers_total_section/3411/2025/Q4/average/all/all/all
+3412,Sotsiaaltöö keskastme spetsialistid,all,Kogu Eesti,M,348,https://palgad.stat.ee/api/charts/workers_total_section/3412/2025/Q4/average/all/all/all
+3412,Sotsiaaltöö keskastme spetsialistid,all,Kogu Eesti,F,3655,https://palgad.stat.ee/api/charts/workers_total_section/3412/2025/Q4/average/all/all/all
+3413,Religioonivaldkonna keskastme spetsialistid,all,Kogu Eesti,F,24,https://palgad.stat.ee/api/charts/workers_total_section/3413/2025/Q4/average/all/all/all
+3421,Sportlased,all,Kogu Eesti,M,253,https://palgad.stat.ee/api/charts/workers_total_section/3421/2025/Q4/average/all/all/all
+3422,"Treenerid, spordiinstruktorid ja -ametnikud",all,Kogu Eesti,M,1903,https://palgad.stat.ee/api/charts/workers_total_section/3422/2025/Q4/average/all/all/all
+3422,"Treenerid, spordiinstruktorid ja -ametnikud",all,Kogu Eesti,F,1242,https://palgad.stat.ee/api/charts/workers_total_section/3422/2025/Q4/average/all/all/all
+3423,Tervisespordi- ja vabaajateenuste instruktorid ja programmijuhid,all,Kogu Eesti,M,112,https://palgad.stat.ee/api/charts/workers_total_section/3423/2025/Q4/average/all/all/all
+3423,Tervisespordi- ja vabaajateenuste instruktorid ja programmijuhid,all,Kogu Eesti,F,101,https://palgad.stat.ee/api/charts/workers_total_section/3423/2025/Q4/average/all/all/all
+3431,Fotograafid,all,Kogu Eesti,M,195,https://palgad.stat.ee/api/charts/workers_total_section/3431/2025/Q4/average/all/all/all
+3431,Fotograafid,all,Kogu Eesti,F,182,https://palgad.stat.ee/api/charts/workers_total_section/3431/2025/Q4/average/all/all/all
+3432,Sisekujundajad ja dekoraatorid,all,Kogu Eesti,M,51,https://palgad.stat.ee/api/charts/workers_total_section/3432/2025/Q4/average/all/all/all
+3432,Sisekujundajad ja dekoraatorid,all,Kogu Eesti,F,365,https://palgad.stat.ee/api/charts/workers_total_section/3432/2025/Q4/average/all/all/all
+3433,"Galeriide, muuseumide ja raamatukogude tehnilised töötajad",all,Kogu Eesti,M,54,https://palgad.stat.ee/api/charts/workers_total_section/3433/2025/Q4/average/all/all/all
+3433,"Galeriide, muuseumide ja raamatukogude tehnilised töötajad",all,Kogu Eesti,F,96,https://palgad.stat.ee/api/charts/workers_total_section/3433/2025/Q4/average/all/all/all
+3434,Peakokad,all,Kogu Eesti,M,420,https://palgad.stat.ee/api/charts/workers_total_section/3434/2025/Q4/average/all/all/all
+3434,Peakokad,all,Kogu Eesti,F,679,https://palgad.stat.ee/api/charts/workers_total_section/3434/2025/Q4/average/all/all/all
+3435,Muud kunsti- ja kultuurivaldkonna keskastme spetsialistid,all,Kogu Eesti,M,578,https://palgad.stat.ee/api/charts/workers_total_section/3435/2025/Q4/average/all/all/all
+3435,Muud kunsti- ja kultuurivaldkonna keskastme spetsialistid,all,Kogu Eesti,F,465,https://palgad.stat.ee/api/charts/workers_total_section/3435/2025/Q4/average/all/all/all
+3511,IKT operaatorid,all,Kogu Eesti,M,311,https://palgad.stat.ee/api/charts/workers_total_section/3511/2025/Q4/average/all/all/all
+3511,IKT operaatorid,all,Kogu Eesti,F,51,https://palgad.stat.ee/api/charts/workers_total_section/3511/2025/Q4/average/all/all/all
+3512,IKT kasutajatoe tehnikud,all,Kogu Eesti,M,1907,https://palgad.stat.ee/api/charts/workers_total_section/3512/2025/Q4/average/all/all/all
+3512,IKT kasutajatoe tehnikud,all,Kogu Eesti,F,711,https://palgad.stat.ee/api/charts/workers_total_section/3512/2025/Q4/average/all/all/all
+3513,Arvutivõrkude ja -süsteemide tehnikud,all,Kogu Eesti,M,968,https://palgad.stat.ee/api/charts/workers_total_section/3513/2025/Q4/average/all/all/all
+3513,Arvutivõrkude ja -süsteemide tehnikud,all,Kogu Eesti,F,100,https://palgad.stat.ee/api/charts/workers_total_section/3513/2025/Q4/average/all/all/all
+3514,Veebitehnikud,all,Kogu Eesti,M,204,https://palgad.stat.ee/api/charts/workers_total_section/3514/2025/Q4/average/all/all/all
+3514,Veebitehnikud,all,Kogu Eesti,F,113,https://palgad.stat.ee/api/charts/workers_total_section/3514/2025/Q4/average/all/all/all
+3521,Audiovisuaal- ja ringhäälingutehnikud,all,Kogu Eesti,M,573,https://palgad.stat.ee/api/charts/workers_total_section/3521/2025/Q4/average/all/all/all
+3521,Audiovisuaal- ja ringhäälingutehnikud,all,Kogu Eesti,F,102,https://palgad.stat.ee/api/charts/workers_total_section/3521/2025/Q4/average/all/all/all
+3522,Telekommunikatsioonitehnikud,all,Kogu Eesti,M,311,https://palgad.stat.ee/api/charts/workers_total_section/3522/2025/Q4/average/all/all/all
+3522,Telekommunikatsioonitehnikud,all,Kogu Eesti,F,24,https://palgad.stat.ee/api/charts/workers_total_section/3522/2025/Q4/average/all/all/all
+4110,Kontoriabilised,all,Kogu Eesti,M,491,https://palgad.stat.ee/api/charts/workers_total_section/4110/2025/Q4/average/all/all/all
+4110,Kontoriabilised,all,Kogu Eesti,F,1859,https://palgad.stat.ee/api/charts/workers_total_section/4110/2025/Q4/average/all/all/all
+4120,Asjaajamise tugitöötajad,all,Kogu Eesti,M,282,https://palgad.stat.ee/api/charts/workers_total_section/4120/2025/Q4/average/all/all/all
+4120,Asjaajamise tugitöötajad,all,Kogu Eesti,F,2396,https://palgad.stat.ee/api/charts/workers_total_section/4120/2025/Q4/average/all/all/all
+4131,Masinakirjutajad jms tekstitöötlejad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/4131/2025/Q4/average/all/all/all
+4132,Andmesisestajad,all,Kogu Eesti,M,469,https://palgad.stat.ee/api/charts/workers_total_section/4132/2025/Q4/average/all/all/all
+4132,Andmesisestajad,all,Kogu Eesti,F,1523,https://palgad.stat.ee/api/charts/workers_total_section/4132/2025/Q4/average/all/all/all
+4211,Pangatellerid jms klienditeenindajad,all,Kogu Eesti,M,70,https://palgad.stat.ee/api/charts/workers_total_section/4211/2025/Q4/average/all/all/all
+4211,Pangatellerid jms klienditeenindajad,all,Kogu Eesti,F,702,https://palgad.stat.ee/api/charts/workers_total_section/4211/2025/Q4/average/all/all/all
+4212,"Kihlvedude vahendajad, krupjeed jm hasartmängutöötajad",all,Kogu Eesti,M,242,https://palgad.stat.ee/api/charts/workers_total_section/4212/2025/Q4/average/all/all/all
+4212,"Kihlvedude vahendajad, krupjeed jm hasartmängutöötajad",all,Kogu Eesti,F,479,https://palgad.stat.ee/api/charts/workers_total_section/4212/2025/Q4/average/all/all/all
+4213,Pandimajapidajad ja rahalaenajad,all,Kogu Eesti,M,31,https://palgad.stat.ee/api/charts/workers_total_section/4213/2025/Q4/average/all/all/all
+4213,Pandimajapidajad ja rahalaenajad,all,Kogu Eesti,F,75,https://palgad.stat.ee/api/charts/workers_total_section/4213/2025/Q4/average/all/all/all
+4214,Võlgade sissenõudjad jms töötajad,all,Kogu Eesti,M,50,https://palgad.stat.ee/api/charts/workers_total_section/4214/2025/Q4/average/all/all/all
+4214,Võlgade sissenõudjad jms töötajad,all,Kogu Eesti,F,126,https://palgad.stat.ee/api/charts/workers_total_section/4214/2025/Q4/average/all/all/all
+4221,Reisikonsultandid jm reisibüroo klienditeenindajad,all,Kogu Eesti,M,159,https://palgad.stat.ee/api/charts/workers_total_section/4221/2025/Q4/average/all/all/all
+4221,Reisikonsultandid jm reisibüroo klienditeenindajad,all,Kogu Eesti,F,771,https://palgad.stat.ee/api/charts/workers_total_section/4221/2025/Q4/average/all/all/all
+4222,Kõne- ja kontaktikeskuse klienditeenindajad,all,Kogu Eesti,M,660,https://palgad.stat.ee/api/charts/workers_total_section/4222/2025/Q4/average/all/all/all
+4222,Kõne- ja kontaktikeskuse klienditeenindajad,all,Kogu Eesti,F,2109,https://palgad.stat.ee/api/charts/workers_total_section/4222/2025/Q4/average/all/all/all
+4223,Telefonivahendusjaama operaatorid,all,Kogu Eesti,F,21,https://palgad.stat.ee/api/charts/workers_total_section/4223/2025/Q4/average/all/all/all
+4224,Hotelliadministraatorid,all,Kogu Eesti,M,228,https://palgad.stat.ee/api/charts/workers_total_section/4224/2025/Q4/average/all/all/all
+4224,Hotelliadministraatorid,all,Kogu Eesti,F,813,https://palgad.stat.ee/api/charts/workers_total_section/4224/2025/Q4/average/all/all/all
+4225,Infopunkti klienditeenindajad,all,Kogu Eesti,M,1275,https://palgad.stat.ee/api/charts/workers_total_section/4225/2025/Q4/average/all/all/all
+4225,Infopunkti klienditeenindajad,all,Kogu Eesti,F,2545,https://palgad.stat.ee/api/charts/workers_total_section/4225/2025/Q4/average/all/all/all
+4226,Üldadministraatorid,all,Kogu Eesti,M,383,https://palgad.stat.ee/api/charts/workers_total_section/4226/2025/Q4/average/all/all/all
+4226,Üldadministraatorid,all,Kogu Eesti,F,2246,https://palgad.stat.ee/api/charts/workers_total_section/4226/2025/Q4/average/all/all/all
+4227,"Uuringute, sh turu-uuringute küsitlejad",all,Kogu Eesti,F,45,https://palgad.stat.ee/api/charts/workers_total_section/4227/2025/Q4/average/all/all/all
+4229,"Klienditeenindajad, mujal liigitamata",all,Kogu Eesti,M,579,https://palgad.stat.ee/api/charts/workers_total_section/4229/2025/Q4/average/all/all/all
+4229,"Klienditeenindajad, mujal liigitamata",all,Kogu Eesti,F,1602,https://palgad.stat.ee/api/charts/workers_total_section/4229/2025/Q4/average/all/all/all
+4311,Raamatupidamise kontoritöötajad,all,Kogu Eesti,M,426,https://palgad.stat.ee/api/charts/workers_total_section/4311/2025/Q4/average/all/all/all
+4311,Raamatupidamise kontoritöötajad,all,Kogu Eesti,F,5852,https://palgad.stat.ee/api/charts/workers_total_section/4311/2025/Q4/average/all/all/all
+4312,"Statistilise arvestuse, rahanduse ja kindlustuse kontoritöötajad",all,Kogu Eesti,M,46,https://palgad.stat.ee/api/charts/workers_total_section/4312/2025/Q4/average/all/all/all
+4312,"Statistilise arvestuse, rahanduse ja kindlustuse kontoritöötajad",all,Kogu Eesti,F,403,https://palgad.stat.ee/api/charts/workers_total_section/4312/2025/Q4/average/all/all/all
+4313,Palgaarvestajad,all,Kogu Eesti,F,197,https://palgad.stat.ee/api/charts/workers_total_section/4313/2025/Q4/average/all/all/all
+4321,Laoarvestuse kontoritöötajad,all,Kogu Eesti,M,3898,https://palgad.stat.ee/api/charts/workers_total_section/4321/2025/Q4/average/all/all/all
+4321,Laoarvestuse kontoritöötajad,all,Kogu Eesti,F,2905,https://palgad.stat.ee/api/charts/workers_total_section/4321/2025/Q4/average/all/all/all
+4322,Tootmisarvestuse kontoritöötajad,all,Kogu Eesti,M,313,https://palgad.stat.ee/api/charts/workers_total_section/4322/2025/Q4/average/all/all/all
+4322,Tootmisarvestuse kontoritöötajad,all,Kogu Eesti,F,776,https://palgad.stat.ee/api/charts/workers_total_section/4322/2025/Q4/average/all/all/all
+4323,Transpordivaldkonna kontoritöötajad,all,Kogu Eesti,M,1964,https://palgad.stat.ee/api/charts/workers_total_section/4323/2025/Q4/average/all/all/all
+4323,Transpordivaldkonna kontoritöötajad,all,Kogu Eesti,F,1572,https://palgad.stat.ee/api/charts/workers_total_section/4323/2025/Q4/average/all/all/all
+4411,Raamatukogutöö assistendid,all,Kogu Eesti,F,225,https://palgad.stat.ee/api/charts/workers_total_section/4411/2025/Q4/average/all/all/all
+4412,Posti sorteerijad ja kättetoimetajad,all,Kogu Eesti,M,1007,https://palgad.stat.ee/api/charts/workers_total_section/4412/2025/Q4/average/all/all/all
+4412,Posti sorteerijad ja kättetoimetajad,all,Kogu Eesti,F,620,https://palgad.stat.ee/api/charts/workers_total_section/4412/2025/Q4/average/all/all/all
+4413,"Kodeerijad, korrektorid jms töötajad",all,Kogu Eesti,F,48,https://palgad.stat.ee/api/charts/workers_total_section/4413/2025/Q4/average/all/all/all
+4414,Kirjaabilised jms töötajad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/4414/2025/Q4/average/all/all/all
+4415,Kartoteegi- ja registripidajad,all,Kogu Eesti,M,39,https://palgad.stat.ee/api/charts/workers_total_section/4415/2025/Q4/average/all/all/all
+4415,Kartoteegi- ja registripidajad,all,Kogu Eesti,F,305,https://palgad.stat.ee/api/charts/workers_total_section/4415/2025/Q4/average/all/all/all
+4416,Personalitöö assistendid,all,Kogu Eesti,M,83,https://palgad.stat.ee/api/charts/workers_total_section/4416/2025/Q4/average/all/all/all
+4416,Personalitöö assistendid,all,Kogu Eesti,F,782,https://palgad.stat.ee/api/charts/workers_total_section/4416/2025/Q4/average/all/all/all
+4419,"Kontoritöötajad ja klienditeenindajad, mujal liigitamata",all,Kogu Eesti,M,1047,https://palgad.stat.ee/api/charts/workers_total_section/4419/2025/Q4/average/all/all/all
+4419,"Kontoritöötajad ja klienditeenindajad, mujal liigitamata",all,Kogu Eesti,F,2505,https://palgad.stat.ee/api/charts/workers_total_section/4419/2025/Q4/average/all/all/all
+5111,Reisi- ja lennusaatjad,all,Kogu Eesti,M,121,https://palgad.stat.ee/api/charts/workers_total_section/5111/2025/Q4/average/all/all/all
+5111,Reisi- ja lennusaatjad,all,Kogu Eesti,F,342,https://palgad.stat.ee/api/charts/workers_total_section/5111/2025/Q4/average/all/all/all
+5112,Kontrolörid ja konduktorid,all,Kogu Eesti,F,108,https://palgad.stat.ee/api/charts/workers_total_section/5112/2025/Q4/average/all/all/all
+5113,Giidid,all,Kogu Eesti,M,82,https://palgad.stat.ee/api/charts/workers_total_section/5113/2025/Q4/average/all/all/all
+5113,Giidid,all,Kogu Eesti,F,202,https://palgad.stat.ee/api/charts/workers_total_section/5113/2025/Q4/average/all/all/all
+5120,Kokad,all,Kogu Eesti,M,2471,https://palgad.stat.ee/api/charts/workers_total_section/5120/2025/Q4/average/all/all/all
+5120,Kokad,all,Kogu Eesti,F,5604,https://palgad.stat.ee/api/charts/workers_total_section/5120/2025/Q4/average/all/all/all
+5131,Ettekandjad ja kelnerid,all,Kogu Eesti,M,769,https://palgad.stat.ee/api/charts/workers_total_section/5131/2025/Q4/average/all/all/all
+5131,Ettekandjad ja kelnerid,all,Kogu Eesti,F,2934,https://palgad.stat.ee/api/charts/workers_total_section/5131/2025/Q4/average/all/all/all
+5132,Baariteenindajad,all,Kogu Eesti,M,366,https://palgad.stat.ee/api/charts/workers_total_section/5132/2025/Q4/average/all/all/all
+5132,Baariteenindajad,all,Kogu Eesti,F,893,https://palgad.stat.ee/api/charts/workers_total_section/5132/2025/Q4/average/all/all/all
+5141,Juuksurid,all,Kogu Eesti,M,118,https://palgad.stat.ee/api/charts/workers_total_section/5141/2025/Q4/average/all/all/all
+5141,Juuksurid,all,Kogu Eesti,F,1673,https://palgad.stat.ee/api/charts/workers_total_section/5141/2025/Q4/average/all/all/all
+5142,Iluteenindajad (v.a juuksurid),all,Kogu Eesti,M,32,https://palgad.stat.ee/api/charts/workers_total_section/5142/2025/Q4/average/all/all/all
+5142,Iluteenindajad (v.a juuksurid),all,Kogu Eesti,F,2199,https://palgad.stat.ee/api/charts/workers_total_section/5142/2025/Q4/average/all/all/all
+5151,"Kontorite, hotellide jm asutuste koristus- ja majapidamistööde juhatajad",all,Kogu Eesti,M,641,https://palgad.stat.ee/api/charts/workers_total_section/5151/2025/Q4/average/all/all/all
+5151,"Kontorite, hotellide jm asutuste koristus- ja majapidamistööde juhatajad",all,Kogu Eesti,F,1112,https://palgad.stat.ee/api/charts/workers_total_section/5151/2025/Q4/average/all/all/all
+5152,Kodumajapidajad,all,Kogu Eesti,F,33,https://palgad.stat.ee/api/charts/workers_total_section/5152/2025/Q4/average/all/all/all
+5153,Hoonete haldajad,all,Kogu Eesti,M,1149,https://palgad.stat.ee/api/charts/workers_total_section/5153/2025/Q4/average/all/all/all
+5153,Hoonete haldajad,all,Kogu Eesti,F,900,https://palgad.stat.ee/api/charts/workers_total_section/5153/2025/Q4/average/all/all/all
+5161,"Astroloogid, ennustajad jms töötajad",all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/5161/2025/Q4/average/all/all/all
+5162,Seltsilised ja teenrid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/5162/2025/Q4/average/all/all/all
+5163,Surnumatjad ja lahkunute korrastajad,all,Kogu Eesti,M,68,https://palgad.stat.ee/api/charts/workers_total_section/5163/2025/Q4/average/all/all/all
+5163,Surnumatjad ja lahkunute korrastajad,all,Kogu Eesti,F,29,https://palgad.stat.ee/api/charts/workers_total_section/5163/2025/Q4/average/all/all/all
+5164,Lemmikloomade hooldajad,all,Kogu Eesti,M,62,https://palgad.stat.ee/api/charts/workers_total_section/5164/2025/Q4/average/all/all/all
+5164,Lemmikloomade hooldajad,all,Kogu Eesti,F,446,https://palgad.stat.ee/api/charts/workers_total_section/5164/2025/Q4/average/all/all/all
+5165,Sõiduõpetajad,all,Kogu Eesti,M,261,https://palgad.stat.ee/api/charts/workers_total_section/5165/2025/Q4/average/all/all/all
+5165,Sõiduõpetajad,all,Kogu Eesti,F,46,https://palgad.stat.ee/api/charts/workers_total_section/5165/2025/Q4/average/all/all/all
+5169,"Isikuteenindajad, mujal liigitamata",all,Kogu Eesti,M,164,https://palgad.stat.ee/api/charts/workers_total_section/5169/2025/Q4/average/all/all/all
+5169,"Isikuteenindajad, mujal liigitamata",all,Kogu Eesti,F,220,https://palgad.stat.ee/api/charts/workers_total_section/5169/2025/Q4/average/all/all/all
+5211,Kioski- ja turumüüjad,all,Kogu Eesti,M,95,https://palgad.stat.ee/api/charts/workers_total_section/5211/2025/Q4/average/all/all/all
+5211,Kioski- ja turumüüjad,all,Kogu Eesti,F,325,https://palgad.stat.ee/api/charts/workers_total_section/5211/2025/Q4/average/all/all/all
+5212,Toidu välimüüjad,all,Kogu Eesti,M,25,https://palgad.stat.ee/api/charts/workers_total_section/5212/2025/Q4/average/all/all/all
+5212,Toidu välimüüjad,all,Kogu Eesti,F,28,https://palgad.stat.ee/api/charts/workers_total_section/5212/2025/Q4/average/all/all/all
+5221,Väikepoepidajad,all,Kogu Eesti,M,171,https://palgad.stat.ee/api/charts/workers_total_section/5221/2025/Q4/average/all/all/all
+5221,Väikepoepidajad,all,Kogu Eesti,F,412,https://palgad.stat.ee/api/charts/workers_total_section/5221/2025/Q4/average/all/all/all
+5222,Müüjate vahetusevanemad,all,Kogu Eesti,M,294,https://palgad.stat.ee/api/charts/workers_total_section/5222/2025/Q4/average/all/all/all
+5222,Müüjate vahetusevanemad,all,Kogu Eesti,F,2755,https://palgad.stat.ee/api/charts/workers_total_section/5222/2025/Q4/average/all/all/all
+5223,Poemüüjad,all,Kogu Eesti,M,4663,https://palgad.stat.ee/api/charts/workers_total_section/5223/2025/Q4/average/all/all/all
+5223,Poemüüjad,all,Kogu Eesti,F,19031,https://palgad.stat.ee/api/charts/workers_total_section/5223/2025/Q4/average/all/all/all
+5230,Kassapidajad ja piletimüüjad,all,Kogu Eesti,M,420,https://palgad.stat.ee/api/charts/workers_total_section/5230/2025/Q4/average/all/all/all
+5230,Kassapidajad ja piletimüüjad,all,Kogu Eesti,F,3423,https://palgad.stat.ee/api/charts/workers_total_section/5230/2025/Q4/average/all/all/all
+5241,Rõiva- jm modellid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/5241/2025/Q4/average/all/all/all
+5242,Tootetutvustajad,all,Kogu Eesti,M,114,https://palgad.stat.ee/api/charts/workers_total_section/5242/2025/Q4/average/all/all/all
+5242,Tootetutvustajad,all,Kogu Eesti,F,172,https://palgad.stat.ee/api/charts/workers_total_section/5242/2025/Q4/average/all/all/all
+5243,Lävemüüjad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/5243/2025/Q4/average/all/all/all
+5244,Telefonimüügi agendid,all,Kogu Eesti,M,232,https://palgad.stat.ee/api/charts/workers_total_section/5244/2025/Q4/average/all/all/all
+5244,Telefonimüügi agendid,all,Kogu Eesti,F,730,https://palgad.stat.ee/api/charts/workers_total_section/5244/2025/Q4/average/all/all/all
+5245,Tanklatöötajad,all,Kogu Eesti,M,184,https://palgad.stat.ee/api/charts/workers_total_section/5245/2025/Q4/average/all/all/all
+5245,Tanklatöötajad,all,Kogu Eesti,F,553,https://palgad.stat.ee/api/charts/workers_total_section/5245/2025/Q4/average/all/all/all
+5246,Toitlustuse letitöötajad,all,Kogu Eesti,M,841,https://palgad.stat.ee/api/charts/workers_total_section/5246/2025/Q4/average/all/all/all
+5246,Toitlustuse letitöötajad,all,Kogu Eesti,F,3693,https://palgad.stat.ee/api/charts/workers_total_section/5246/2025/Q4/average/all/all/all
+5249,"Müügitöötajad, mujal liigitamata",all,Kogu Eesti,M,1915,https://palgad.stat.ee/api/charts/workers_total_section/5249/2025/Q4/average/all/all/all
+5249,"Müügitöötajad, mujal liigitamata",all,Kogu Eesti,F,1756,https://palgad.stat.ee/api/charts/workers_total_section/5249/2025/Q4/average/all/all/all
+5311,Lapsehoidjad,all,Kogu Eesti,M,54,https://palgad.stat.ee/api/charts/workers_total_section/5311/2025/Q4/average/all/all/all
+5311,Lapsehoidjad,all,Kogu Eesti,F,1158,https://palgad.stat.ee/api/charts/workers_total_section/5311/2025/Q4/average/all/all/all
+5312,Õpetajaabid,all,Kogu Eesti,M,66,https://palgad.stat.ee/api/charts/workers_total_section/5312/2025/Q4/average/all/all/all
+5312,Õpetajaabid,all,Kogu Eesti,F,7354,https://palgad.stat.ee/api/charts/workers_total_section/5312/2025/Q4/average/all/all/all
+5321,Tervishoiu- ja hoolekandeasutuste hooldustöötajad,all,Kogu Eesti,M,431,https://palgad.stat.ee/api/charts/workers_total_section/5321/2025/Q4/average/all/all/all
+5321,Tervishoiu- ja hoolekandeasutuste hooldustöötajad,all,Kogu Eesti,F,7349,https://palgad.stat.ee/api/charts/workers_total_section/5321/2025/Q4/average/all/all/all
+5322,Koduhooldustöötajad,all,Kogu Eesti,M,32,https://palgad.stat.ee/api/charts/workers_total_section/5322/2025/Q4/average/all/all/all
+5322,Koduhooldustöötajad,all,Kogu Eesti,F,689,https://palgad.stat.ee/api/charts/workers_total_section/5322/2025/Q4/average/all/all/all
+5329,"Tervishoiu hooldustöötajad, mujal liigitamata",all,Kogu Eesti,M,93,https://palgad.stat.ee/api/charts/workers_total_section/5329/2025/Q4/average/all/all/all
+5329,"Tervishoiu hooldustöötajad, mujal liigitamata",all,Kogu Eesti,F,1052,https://palgad.stat.ee/api/charts/workers_total_section/5329/2025/Q4/average/all/all/all
+5413,Vangivalvurid,all,Kogu Eesti,M,363,https://palgad.stat.ee/api/charts/workers_total_section/5413/2025/Q4/average/all/all/all
+5413,Vangivalvurid,all,Kogu Eesti,F,165,https://palgad.stat.ee/api/charts/workers_total_section/5413/2025/Q4/average/all/all/all
+5414,Turvatöötajad,all,Kogu Eesti,M,3127,https://palgad.stat.ee/api/charts/workers_total_section/5414/2025/Q4/average/all/all/all
+5414,Turvatöötajad,all,Kogu Eesti,F,939,https://palgad.stat.ee/api/charts/workers_total_section/5414/2025/Q4/average/all/all/all
+5419,"Turvatöötajad, mujal liigitamata",all,Kogu Eesti,M,71,https://palgad.stat.ee/api/charts/workers_total_section/5419/2025/Q4/average/all/all/all
+5419,"Turvatöötajad, mujal liigitamata",all,Kogu Eesti,F,33,https://palgad.stat.ee/api/charts/workers_total_section/5419/2025/Q4/average/all/all/all
+6111,Põllusaaduste ja köögiviljakasvatajad,all,Kogu Eesti,M,411,https://palgad.stat.ee/api/charts/workers_total_section/6111/2025/Q4/average/all/all/all
+6111,Põllusaaduste ja köögiviljakasvatajad,all,Kogu Eesti,F,68,https://palgad.stat.ee/api/charts/workers_total_section/6111/2025/Q4/average/all/all/all
+6112,Puuvilja- ja marjakasvatajad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6112/2025/Q4/average/all/all/all
+6113,"Aednikud, puukooli töötajad ja istikukasvatajad",all,Kogu Eesti,M,171,https://palgad.stat.ee/api/charts/workers_total_section/6113/2025/Q4/average/all/all/all
+6113,"Aednikud, puukooli töötajad ja istikukasvatajad",all,Kogu Eesti,F,361,https://palgad.stat.ee/api/charts/workers_total_section/6113/2025/Q4/average/all/all/all
+6114,Eri põllukultuuride kasvatajad,all,Kogu Eesti,M,92,https://palgad.stat.ee/api/charts/workers_total_section/6114/2025/Q4/average/all/all/all
+6114,Eri põllukultuuride kasvatajad,all,Kogu Eesti,F,46,https://palgad.stat.ee/api/charts/workers_total_section/6114/2025/Q4/average/all/all/all
+6121,Loomakasvatajad,all,Kogu Eesti,M,605,https://palgad.stat.ee/api/charts/workers_total_section/6121/2025/Q4/average/all/all/all
+6121,Loomakasvatajad,all,Kogu Eesti,F,979,https://palgad.stat.ee/api/charts/workers_total_section/6121/2025/Q4/average/all/all/all
+6122,Linnukasvatajad,all,Kogu Eesti,M,23,https://palgad.stat.ee/api/charts/workers_total_section/6122/2025/Q4/average/all/all/all
+6122,Linnukasvatajad,all,Kogu Eesti,F,87,https://palgad.stat.ee/api/charts/workers_total_section/6122/2025/Q4/average/all/all/all
+6123,Mesinikud ja siidiussikasvatajad,all,Kogu Eesti,M,45,https://palgad.stat.ee/api/charts/workers_total_section/6123/2025/Q4/average/all/all/all
+6129,"Loomakasvatuse oskustöölised, mujal liigitamata",all,Kogu Eesti,M,49,https://palgad.stat.ee/api/charts/workers_total_section/6129/2025/Q4/average/all/all/all
+6129,"Loomakasvatuse oskustöölised, mujal liigitamata",all,Kogu Eesti,F,30,https://palgad.stat.ee/api/charts/workers_total_section/6129/2025/Q4/average/all/all/all
+6130,Segapõllumajanduse oskustöölised,all,Kogu Eesti,M,572,https://palgad.stat.ee/api/charts/workers_total_section/6130/2025/Q4/average/all/all/all
+6130,Segapõllumajanduse oskustöölised,all,Kogu Eesti,F,109,https://palgad.stat.ee/api/charts/workers_total_section/6130/2025/Q4/average/all/all/all
+6210,Metsanduse jms oskustöölised,all,Kogu Eesti,M,1159,https://palgad.stat.ee/api/charts/workers_total_section/6210/2025/Q4/average/all/all/all
+6210,Metsanduse jms oskustöölised,all,Kogu Eesti,F,51,https://palgad.stat.ee/api/charts/workers_total_section/6210/2025/Q4/average/all/all/all
+6221,Vesiviljeluse oskustöölised,all,Kogu Eesti,M,22,https://palgad.stat.ee/api/charts/workers_total_section/6221/2025/Q4/average/all/all/all
+6222,Sisevete- ja rannapüügikalurid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6222/2025/Q4/average/all/all/all
+6223,Avamerekalurid,all,Kogu Eesti,M,103,https://palgad.stat.ee/api/charts/workers_total_section/6223/2025/Q4/average/all/all/all
+6224,Jahimehed ja karusnahakütid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6224/2025/Q4/average/all/all/all
+6310,Oma tarbeks taimekasvatusega tegelevad talunikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6310/2025/Q4/average/all/all/all
+6320,Oma tarbeks loomakasvatusega tegelevad talunikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6320/2025/Q4/average/all/all/all
+6330,Oma tarbeks segapõllumajandusega tegelevad talunikud,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6330/2025/Q4/average/all/all/all
+6340,"Oma tarbeks kalapüügi, jahi ja metsasaaduste korjamisega tegelejad",all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/6340/2025/Q4/average/all/all/all
+7111,Üldehitajad,all,Kogu Eesti,M,9203,https://palgad.stat.ee/api/charts/workers_total_section/7111/2025/Q4/average/all/all/all
+7111,Üldehitajad,all,Kogu Eesti,F,90,https://palgad.stat.ee/api/charts/workers_total_section/7111/2025/Q4/average/all/all/all
+7112,Müürsepad jms töölised,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/7112/2025/Q4/average/all/all/all
+7113,"Kiviraidurid, -tahujad jms töölised",all,Kogu Eesti,M,343,https://palgad.stat.ee/api/charts/workers_total_section/7113/2025/Q4/average/all/all/all
+7114,"Betoneerijad, betoonpindade viimistlejad jms töölised",all,Kogu Eesti,M,1403,https://palgad.stat.ee/api/charts/workers_total_section/7114/2025/Q4/average/all/all/all
+7115,Puusepad,all,Kogu Eesti,M,1668,https://palgad.stat.ee/api/charts/workers_total_section/7115/2025/Q4/average/all/all/all
+7115,Puusepad,all,Kogu Eesti,F,22,https://palgad.stat.ee/api/charts/workers_total_section/7115/2025/Q4/average/all/all/all
+7119,"Üldehitustöölised, mujal liigitamata",all,Kogu Eesti,M,1968,https://palgad.stat.ee/api/charts/workers_total_section/7119/2025/Q4/average/all/all/all
+7119,"Üldehitustöölised, mujal liigitamata",all,Kogu Eesti,F,28,https://palgad.stat.ee/api/charts/workers_total_section/7119/2025/Q4/average/all/all/all
+7121,Katusekatjad,all,Kogu Eesti,M,365,https://palgad.stat.ee/api/charts/workers_total_section/7121/2025/Q4/average/all/all/all
+7122,Põrandategijad ja plaatijad,all,Kogu Eesti,M,461,https://palgad.stat.ee/api/charts/workers_total_section/7122/2025/Q4/average/all/all/all
+7123,Krohvijad,all,Kogu Eesti,M,326,https://palgad.stat.ee/api/charts/workers_total_section/7123/2025/Q4/average/all/all/all
+7124,Isoleerijad,all,Kogu Eesti,M,219,https://palgad.stat.ee/api/charts/workers_total_section/7124/2025/Q4/average/all/all/all
+7124,Isoleerijad,all,Kogu Eesti,F,42,https://palgad.stat.ee/api/charts/workers_total_section/7124/2025/Q4/average/all/all/all
+7125,Klaasijad,all,Kogu Eesti,M,152,https://palgad.stat.ee/api/charts/workers_total_section/7125/2025/Q4/average/all/all/all
+7126,Torulukksepad,all,Kogu Eesti,M,2652,https://palgad.stat.ee/api/charts/workers_total_section/7126/2025/Q4/average/all/all/all
+7127,Kliima- ja külmutusseadmete mehaanikud,all,Kogu Eesti,M,383,https://palgad.stat.ee/api/charts/workers_total_section/7127/2025/Q4/average/all/all/all
+7131,Ehitusmaalrid jms töölised,all,Kogu Eesti,M,1173,https://palgad.stat.ee/api/charts/workers_total_section/7131/2025/Q4/average/all/all/all
+7131,Ehitusmaalrid jms töölised,all,Kogu Eesti,F,479,https://palgad.stat.ee/api/charts/workers_total_section/7131/2025/Q4/average/all/all/all
+7132,Pihustusseadmetega värvijad-lakkijad,all,Kogu Eesti,M,743,https://palgad.stat.ee/api/charts/workers_total_section/7132/2025/Q4/average/all/all/all
+7132,Pihustusseadmetega värvijad-lakkijad,all,Kogu Eesti,F,111,https://palgad.stat.ee/api/charts/workers_total_section/7132/2025/Q4/average/all/all/all
+7133,Ehitustarindite puhastajad,all,Kogu Eesti,M,105,https://palgad.stat.ee/api/charts/workers_total_section/7133/2025/Q4/average/all/all/all
+7211,Valuvormide ja kärnide valmistajad,all,Kogu Eesti,M,63,https://palgad.stat.ee/api/charts/workers_total_section/7211/2025/Q4/average/all/all/all
+7212,Keevitajad ja leeklõikajad,all,Kogu Eesti,M,4186,https://palgad.stat.ee/api/charts/workers_total_section/7212/2025/Q4/average/all/all/all
+7212,Keevitajad ja leeklõikajad,all,Kogu Eesti,F,33,https://palgad.stat.ee/api/charts/workers_total_section/7212/2025/Q4/average/all/all/all
+7213,Lehtmetallitöölised,all,Kogu Eesti,M,806,https://palgad.stat.ee/api/charts/workers_total_section/7213/2025/Q4/average/all/all/all
+7213,Lehtmetallitöölised,all,Kogu Eesti,F,32,https://palgad.stat.ee/api/charts/workers_total_section/7213/2025/Q4/average/all/all/all
+7214,Metallkonstruktsioonide valmistajad ja monteerijad,all,Kogu Eesti,M,1480,https://palgad.stat.ee/api/charts/workers_total_section/7214/2025/Q4/average/all/all/all
+7214,Metallkonstruktsioonide valmistajad ja monteerijad,all,Kogu Eesti,F,39,https://palgad.stat.ee/api/charts/workers_total_section/7214/2025/Q4/average/all/all/all
+7215,Troppijad ja trossijätkajad,all,Kogu Eesti,M,144,https://palgad.stat.ee/api/charts/workers_total_section/7215/2025/Q4/average/all/all/all
+7221,"Sepad, stantsijad jms oskustöölised",all,Kogu Eesti,M,87,https://palgad.stat.ee/api/charts/workers_total_section/7221/2025/Q4/average/all/all/all
+7221,"Sepad, stantsijad jms oskustöölised",all,Kogu Eesti,F,26,https://palgad.stat.ee/api/charts/workers_total_section/7221/2025/Q4/average/all/all/all
+7222,Tööriistavalmistajad jms töölised,all,Kogu Eesti,M,1619,https://palgad.stat.ee/api/charts/workers_total_section/7222/2025/Q4/average/all/all/all
+7222,Tööriistavalmistajad jms töölised,all,Kogu Eesti,F,36,https://palgad.stat.ee/api/charts/workers_total_section/7222/2025/Q4/average/all/all/all
+7223,Metallitöötluspinkide seadistajad ja operaatorid,all,Kogu Eesti,M,2479,https://palgad.stat.ee/api/charts/workers_total_section/7223/2025/Q4/average/all/all/all
+7223,Metallitöötluspinkide seadistajad ja operaatorid,all,Kogu Eesti,F,168,https://palgad.stat.ee/api/charts/workers_total_section/7223/2025/Q4/average/all/all/all
+7224,"Metallilihvijad, -poleerijad ja tööriistateritajad",all,Kogu Eesti,M,346,https://palgad.stat.ee/api/charts/workers_total_section/7224/2025/Q4/average/all/all/all
+7231,Mootorsõidukimehaanikud ja -lukksepad,all,Kogu Eesti,M,5343,https://palgad.stat.ee/api/charts/workers_total_section/7231/2025/Q4/average/all/all/all
+7231,Mootorsõidukimehaanikud ja -lukksepad,all,Kogu Eesti,F,31,https://palgad.stat.ee/api/charts/workers_total_section/7231/2025/Q4/average/all/all/all
+7232,Õhusõidukimehaanikud ja -lukksepad,all,Kogu Eesti,M,214,https://palgad.stat.ee/api/charts/workers_total_section/7232/2025/Q4/average/all/all/all
+7233,Põllumajandus- ja tööstusmasinate mehaanikud ning lukksepad,all,Kogu Eesti,M,3448,https://palgad.stat.ee/api/charts/workers_total_section/7233/2025/Q4/average/all/all/all
+7234,Jalgrataste jms sõidukite mehaanikud,all,Kogu Eesti,M,128,https://palgad.stat.ee/api/charts/workers_total_section/7234/2025/Q4/average/all/all/all
+7311,Täppisinstrumentide valmistajad ja parandajad,all,Kogu Eesti,M,85,https://palgad.stat.ee/api/charts/workers_total_section/7311/2025/Q4/average/all/all/all
+7311,Täppisinstrumentide valmistajad ja parandajad,all,Kogu Eesti,F,152,https://palgad.stat.ee/api/charts/workers_total_section/7311/2025/Q4/average/all/all/all
+7312,Pillimeistrid ja -häälestajad,all,Kogu Eesti,M,41,https://palgad.stat.ee/api/charts/workers_total_section/7312/2025/Q4/average/all/all/all
+7313,Juveeli- ja väärismetallitöötlejad,all,Kogu Eesti,M,61,https://palgad.stat.ee/api/charts/workers_total_section/7313/2025/Q4/average/all/all/all
+7313,Juveeli- ja väärismetallitöötlejad,all,Kogu Eesti,F,67,https://palgad.stat.ee/api/charts/workers_total_section/7313/2025/Q4/average/all/all/all
+7314,Savi- ja portselanimeistrid,all,Kogu Eesti,F,23,https://palgad.stat.ee/api/charts/workers_total_section/7314/2025/Q4/average/all/all/all
+7315,"Klaasipuhujad, -lõikajad, -lihvijad ja -viimistlejad",all,Kogu Eesti,M,364,https://palgad.stat.ee/api/charts/workers_total_section/7315/2025/Q4/average/all/all/all
+7315,"Klaasipuhujad, -lõikajad, -lihvijad ja -viimistlejad",all,Kogu Eesti,F,130,https://palgad.stat.ee/api/charts/workers_total_section/7315/2025/Q4/average/all/all/all
+7316,"Klaasi, keraamika jms materjalide dekoratiivmaalijad, graveerijad ja söövitajad",all,Kogu Eesti,F,36,https://palgad.stat.ee/api/charts/workers_total_section/7316/2025/Q4/average/all/all/all
+7317,"Puidust, punumis- jm materjalidest tooteid valmistavad käsitöömeistrid",all,Kogu Eesti,M,73,https://palgad.stat.ee/api/charts/workers_total_section/7317/2025/Q4/average/all/all/all
+7317,"Puidust, punumis- jm materjalidest tooteid valmistavad käsitöömeistrid",all,Kogu Eesti,F,53,https://palgad.stat.ee/api/charts/workers_total_section/7317/2025/Q4/average/all/all/all
+7318,"Tekstiil-, nahk- jms tooteid valmistavad käsitöömeistrid",all,Kogu Eesti,M,30,https://palgad.stat.ee/api/charts/workers_total_section/7318/2025/Q4/average/all/all/all
+7318,"Tekstiil-, nahk- jms tooteid valmistavad käsitöömeistrid",all,Kogu Eesti,F,172,https://palgad.stat.ee/api/charts/workers_total_section/7318/2025/Q4/average/all/all/all
+7319,"Käsitöömeistrid, mujal liigitamata",all,Kogu Eesti,M,212,https://palgad.stat.ee/api/charts/workers_total_section/7319/2025/Q4/average/all/all/all
+7319,"Käsitöömeistrid, mujal liigitamata",all,Kogu Eesti,F,123,https://palgad.stat.ee/api/charts/workers_total_section/7319/2025/Q4/average/all/all/all
+7321,Trükiettevalmistajad,all,Kogu Eesti,M,129,https://palgad.stat.ee/api/charts/workers_total_section/7321/2025/Q4/average/all/all/all
+7321,Trükiettevalmistajad,all,Kogu Eesti,F,98,https://palgad.stat.ee/api/charts/workers_total_section/7321/2025/Q4/average/all/all/all
+7322,Trükkalid,all,Kogu Eesti,M,394,https://palgad.stat.ee/api/charts/workers_total_section/7322/2025/Q4/average/all/all/all
+7322,Trükkalid,all,Kogu Eesti,F,112,https://palgad.stat.ee/api/charts/workers_total_section/7322/2025/Q4/average/all/all/all
+7323,Trükiste järeltöötlejad,all,Kogu Eesti,M,350,https://palgad.stat.ee/api/charts/workers_total_section/7323/2025/Q4/average/all/all/all
+7323,Trükiste järeltöötlejad,all,Kogu Eesti,F,428,https://palgad.stat.ee/api/charts/workers_total_section/7323/2025/Q4/average/all/all/all
+7411,Ehituselektrikud,all,Kogu Eesti,M,2782,https://palgad.stat.ee/api/charts/workers_total_section/7411/2025/Q4/average/all/all/all
+7412,Elektriseadmete mehaanikud ja paigaldajad,all,Kogu Eesti,M,2065,https://palgad.stat.ee/api/charts/workers_total_section/7412/2025/Q4/average/all/all/all
+7412,Elektriseadmete mehaanikud ja paigaldajad,all,Kogu Eesti,F,23,https://palgad.stat.ee/api/charts/workers_total_section/7412/2025/Q4/average/all/all/all
+7413,Elektriliinide paigaldajad ja hooldajad,all,Kogu Eesti,M,766,https://palgad.stat.ee/api/charts/workers_total_section/7413/2025/Q4/average/all/all/all
+7421,Elektroonikaseadmete mehaanikud ja hooldajad,all,Kogu Eesti,M,1306,https://palgad.stat.ee/api/charts/workers_total_section/7421/2025/Q4/average/all/all/all
+7421,Elektroonikaseadmete mehaanikud ja hooldajad,all,Kogu Eesti,F,277,https://palgad.stat.ee/api/charts/workers_total_section/7421/2025/Q4/average/all/all/all
+7422,IKT-seadmete paigaldajad ja hooldajad,all,Kogu Eesti,M,655,https://palgad.stat.ee/api/charts/workers_total_section/7422/2025/Q4/average/all/all/all
+7511,"Lihatöötlejad, kalakäitlejad jms töölised",all,Kogu Eesti,M,784,https://palgad.stat.ee/api/charts/workers_total_section/7511/2025/Q4/average/all/all/all
+7511,"Lihatöötlejad, kalakäitlejad jms töölised",all,Kogu Eesti,F,983,https://palgad.stat.ee/api/charts/workers_total_section/7511/2025/Q4/average/all/all/all
+7512,"Pagarid, kondiitrid ja maiustuste valmistajad",all,Kogu Eesti,M,269,https://palgad.stat.ee/api/charts/workers_total_section/7512/2025/Q4/average/all/all/all
+7512,"Pagarid, kondiitrid ja maiustuste valmistajad",all,Kogu Eesti,F,1864,https://palgad.stat.ee/api/charts/workers_total_section/7512/2025/Q4/average/all/all/all
+7513,Piimatöötlejad,all,Kogu Eesti,M,62,https://palgad.stat.ee/api/charts/workers_total_section/7513/2025/Q4/average/all/all/all
+7513,Piimatöötlejad,all,Kogu Eesti,F,225,https://palgad.stat.ee/api/charts/workers_total_section/7513/2025/Q4/average/all/all/all
+7514,Puu- ja köögivilja ning marjade töötlejad,all,Kogu Eesti,M,58,https://palgad.stat.ee/api/charts/workers_total_section/7514/2025/Q4/average/all/all/all
+7514,Puu- ja köögivilja ning marjade töötlejad,all,Kogu Eesti,F,171,https://palgad.stat.ee/api/charts/workers_total_section/7514/2025/Q4/average/all/all/all
+7515,Toidu ja jookide degusteerijad ja hindajad,all,Kogu Eesti,M,21,https://palgad.stat.ee/api/charts/workers_total_section/7515/2025/Q4/average/all/all/all
+7515,Toidu ja jookide degusteerijad ja hindajad,all,Kogu Eesti,F,66,https://palgad.stat.ee/api/charts/workers_total_section/7515/2025/Q4/average/all/all/all
+7521,Puidutöötlejad,all,Kogu Eesti,M,1743,https://palgad.stat.ee/api/charts/workers_total_section/7521/2025/Q4/average/all/all/all
+7521,Puidutöötlejad,all,Kogu Eesti,F,1355,https://palgad.stat.ee/api/charts/workers_total_section/7521/2025/Q4/average/all/all/all
+7522,Tislerid jms töölised,all,Kogu Eesti,M,1935,https://palgad.stat.ee/api/charts/workers_total_section/7522/2025/Q4/average/all/all/all
+7522,Tislerid jms töölised,all,Kogu Eesti,F,401,https://palgad.stat.ee/api/charts/workers_total_section/7522/2025/Q4/average/all/all/all
+7523,Puidutöötluspinkide seadistajad ja operaatorid,all,Kogu Eesti,M,1515,https://palgad.stat.ee/api/charts/workers_total_section/7523/2025/Q4/average/all/all/all
+7523,Puidutöötluspinkide seadistajad ja operaatorid,all,Kogu Eesti,F,388,https://palgad.stat.ee/api/charts/workers_total_section/7523/2025/Q4/average/all/all/all
+7531,"Rätsepad, köösnerid ja kübarategijad",all,Kogu Eesti,F,143,https://palgad.stat.ee/api/charts/workers_total_section/7531/2025/Q4/average/all/all/all
+7532,Rõiva- jms lekaalide valmistajad ning juurdelõikajad,all,Kogu Eesti,M,22,https://palgad.stat.ee/api/charts/workers_total_section/7532/2025/Q4/average/all/all/all
+7532,Rõiva- jms lekaalide valmistajad ning juurdelõikajad,all,Kogu Eesti,F,339,https://palgad.stat.ee/api/charts/workers_total_section/7532/2025/Q4/average/all/all/all
+7533,"Õmblejad, tikkijad jms töölised",all,Kogu Eesti,M,23,https://palgad.stat.ee/api/charts/workers_total_section/7533/2025/Q4/average/all/all/all
+7533,"Õmblejad, tikkijad jms töölised",all,Kogu Eesti,F,2355,https://palgad.stat.ee/api/charts/workers_total_section/7533/2025/Q4/average/all/all/all
+7534,Polsterdajad jms töölised,all,Kogu Eesti,M,352,https://palgad.stat.ee/api/charts/workers_total_section/7534/2025/Q4/average/all/all/all
+7534,Polsterdajad jms töölised,all,Kogu Eesti,F,298,https://palgad.stat.ee/api/charts/workers_total_section/7534/2025/Q4/average/all/all/all
+7535,Toorkarusnaha ettevalmistajad ja parkalid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/7535/2025/Q4/average/all/all/all
+7536,Kingsepad jms töölised,all,Kogu Eesti,M,85,https://palgad.stat.ee/api/charts/workers_total_section/7536/2025/Q4/average/all/all/all
+7536,Kingsepad jms töölised,all,Kogu Eesti,F,103,https://palgad.stat.ee/api/charts/workers_total_section/7536/2025/Q4/average/all/all/all
+7541,Allveetöötajad,all,Kogu Eesti,M,21,https://palgad.stat.ee/api/charts/workers_total_section/7541/2025/Q4/average/all/all/all
+7542,Lõhkajad ja õhkijad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/7542/2025/Q4/average/all/all/all
+7543,Toodete (v.a toidud ja joogid) testijad,all,Kogu Eesti,M,231,https://palgad.stat.ee/api/charts/workers_total_section/7543/2025/Q4/average/all/all/all
+7543,Toodete (v.a toidud ja joogid) testijad,all,Kogu Eesti,F,382,https://palgad.stat.ee/api/charts/workers_total_section/7543/2025/Q4/average/all/all/all
+7544,Kahjuri- ja umbrohutõrjujad,all,Kogu Eesti,M,23,https://palgad.stat.ee/api/charts/workers_total_section/7544/2025/Q4/average/all/all/all
+7549,"Oskus- ja käsitöölised, mujal liigitamata",all,Kogu Eesti,M,538,https://palgad.stat.ee/api/charts/workers_total_section/7549/2025/Q4/average/all/all/all
+7549,"Oskus- ja käsitöölised, mujal liigitamata",all,Kogu Eesti,F,878,https://palgad.stat.ee/api/charts/workers_total_section/7549/2025/Q4/average/all/all/all
+8111,"Kaevurid ja karjääritöölised, mäeseadmete operaatorid",all,Kogu Eesti,M,417,https://palgad.stat.ee/api/charts/workers_total_section/8111/2025/Q4/average/all/all/all
+8112,Maavarade rikastamise seadmete ja kivitöötlusmasinate operaatorid,all,Kogu Eesti,M,172,https://palgad.stat.ee/api/charts/workers_total_section/8112/2025/Q4/average/all/all/all
+8112,Maavarade rikastamise seadmete ja kivitöötlusmasinate operaatorid,all,Kogu Eesti,F,47,https://palgad.stat.ee/api/charts/workers_total_section/8112/2025/Q4/average/all/all/all
+8113,Puurseadmete operaatorid,all,Kogu Eesti,M,119,https://palgad.stat.ee/api/charts/workers_total_section/8113/2025/Q4/average/all/all/all
+8114,"Tsement-, kivi- jm mineraalsete toodete masinate operaatorid",all,Kogu Eesti,M,359,https://palgad.stat.ee/api/charts/workers_total_section/8114/2025/Q4/average/all/all/all
+8121,Metallitootmisseadmete operaatorid,all,Kogu Eesti,M,270,https://palgad.stat.ee/api/charts/workers_total_section/8121/2025/Q4/average/all/all/all
+8121,Metallitootmisseadmete operaatorid,all,Kogu Eesti,F,22,https://palgad.stat.ee/api/charts/workers_total_section/8121/2025/Q4/average/all/all/all
+8122,Metallitöötlusmasinate operaatorid,all,Kogu Eesti,M,822,https://palgad.stat.ee/api/charts/workers_total_section/8122/2025/Q4/average/all/all/all
+8122,Metallitöötlusmasinate operaatorid,all,Kogu Eesti,F,90,https://palgad.stat.ee/api/charts/workers_total_section/8122/2025/Q4/average/all/all/all
+8131,Keemiatoodete seadmete ja masinate operaatorid,all,Kogu Eesti,M,792,https://palgad.stat.ee/api/charts/workers_total_section/8131/2025/Q4/average/all/all/all
+8131,Keemiatoodete seadmete ja masinate operaatorid,all,Kogu Eesti,F,358,https://palgad.stat.ee/api/charts/workers_total_section/8131/2025/Q4/average/all/all/all
+8132,Fotograafiatoodete masinate operaatorid,all,Kogu Eesti,F,23,https://palgad.stat.ee/api/charts/workers_total_section/8132/2025/Q4/average/all/all/all
+8141,Kummitoodete masinate operaatorid,all,Kogu Eesti,M,195,https://palgad.stat.ee/api/charts/workers_total_section/8141/2025/Q4/average/all/all/all
+8141,Kummitoodete masinate operaatorid,all,Kogu Eesti,F,145,https://palgad.stat.ee/api/charts/workers_total_section/8141/2025/Q4/average/all/all/all
+8142,Plasttoodete masinate operaatorid,all,Kogu Eesti,M,641,https://palgad.stat.ee/api/charts/workers_total_section/8142/2025/Q4/average/all/all/all
+8142,Plasttoodete masinate operaatorid,all,Kogu Eesti,F,294,https://palgad.stat.ee/api/charts/workers_total_section/8142/2025/Q4/average/all/all/all
+8143,Pabertoodete masinate operaatorid,all,Kogu Eesti,M,198,https://palgad.stat.ee/api/charts/workers_total_section/8143/2025/Q4/average/all/all/all
+8143,Pabertoodete masinate operaatorid,all,Kogu Eesti,F,82,https://palgad.stat.ee/api/charts/workers_total_section/8143/2025/Q4/average/all/all/all
+8151,"Ettevalmistus-, ketrus- ja poolimismasinate operaatorid",all,Kogu Eesti,M,53,https://palgad.stat.ee/api/charts/workers_total_section/8151/2025/Q4/average/all/all/all
+8151,"Ettevalmistus-, ketrus- ja poolimismasinate operaatorid",all,Kogu Eesti,F,93,https://palgad.stat.ee/api/charts/workers_total_section/8151/2025/Q4/average/all/all/all
+8152,Kudumismasinate operaatorid,all,Kogu Eesti,M,54,https://palgad.stat.ee/api/charts/workers_total_section/8152/2025/Q4/average/all/all/all
+8152,Kudumismasinate operaatorid,all,Kogu Eesti,F,40,https://palgad.stat.ee/api/charts/workers_total_section/8152/2025/Q4/average/all/all/all
+8153,Masinõmblejad,all,Kogu Eesti,F,1229,https://palgad.stat.ee/api/charts/workers_total_section/8153/2025/Q4/average/all/all/all
+8154,"Pleegitus-, värvimis- ja puhastusmasinate operaatorid",all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8154/2025/Q4/average/all/all/all
+8155,Karusnaha ja naha ettevalmistusmasinate operaatorid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8155/2025/Q4/average/all/all/all
+8156,Jalatsitootmis- jms masinate operaatorid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8156/2025/Q4/average/all/all/all
+8157,Pesumasinate operaatorid,all,Kogu Eesti,M,98,https://palgad.stat.ee/api/charts/workers_total_section/8157/2025/Q4/average/all/all/all
+8157,Pesumasinate operaatorid,all,Kogu Eesti,F,411,https://palgad.stat.ee/api/charts/workers_total_section/8157/2025/Q4/average/all/all/all
+8159,"Tekstiil-, karusnahk- ja nahktoodete masinate operaatorid, mujal liigitamata",all,Kogu Eesti,M,134,https://palgad.stat.ee/api/charts/workers_total_section/8159/2025/Q4/average/all/all/all
+8159,"Tekstiil-, karusnahk- ja nahktoodete masinate operaatorid, mujal liigitamata",all,Kogu Eesti,F,127,https://palgad.stat.ee/api/charts/workers_total_section/8159/2025/Q4/average/all/all/all
+8160,Toiduainete jms toodete masinate operaatorid,all,Kogu Eesti,M,961,https://palgad.stat.ee/api/charts/workers_total_section/8160/2025/Q4/average/all/all/all
+8160,Toiduainete jms toodete masinate operaatorid,all,Kogu Eesti,F,643,https://palgad.stat.ee/api/charts/workers_total_section/8160/2025/Q4/average/all/all/all
+8171,Tselluloosi- ja paberitootmisseadmete operaatorid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8171/2025/Q4/average/all/all/all
+8172,Puidutöötlemisseadmete operaatorid,all,Kogu Eesti,M,1660,https://palgad.stat.ee/api/charts/workers_total_section/8172/2025/Q4/average/all/all/all
+8172,Puidutöötlemisseadmete operaatorid,all,Kogu Eesti,F,442,https://palgad.stat.ee/api/charts/workers_total_section/8172/2025/Q4/average/all/all/all
+8181,Klaasi- ja keraamikaahjude jms seadmete operaatorid,all,Kogu Eesti,M,102,https://palgad.stat.ee/api/charts/workers_total_section/8181/2025/Q4/average/all/all/all
+8182,Aurumasinate ja -katelde operaatorid,all,Kogu Eesti,M,520,https://palgad.stat.ee/api/charts/workers_total_section/8182/2025/Q4/average/all/all/all
+8182,Aurumasinate ja -katelde operaatorid,all,Kogu Eesti,F,25,https://palgad.stat.ee/api/charts/workers_total_section/8182/2025/Q4/average/all/all/all
+8183,"Pakke-, villimis- ja märgistusseadmete operaatorid",all,Kogu Eesti,M,406,https://palgad.stat.ee/api/charts/workers_total_section/8183/2025/Q4/average/all/all/all
+8183,"Pakke-, villimis- ja märgistusseadmete operaatorid",all,Kogu Eesti,F,529,https://palgad.stat.ee/api/charts/workers_total_section/8183/2025/Q4/average/all/all/all
+8189,"Seadme- ja masinaoperaatorid, mujal liigitamata",all,Kogu Eesti,M,1836,https://palgad.stat.ee/api/charts/workers_total_section/8189/2025/Q4/average/all/all/all
+8189,"Seadme- ja masinaoperaatorid, mujal liigitamata",all,Kogu Eesti,F,718,https://palgad.stat.ee/api/charts/workers_total_section/8189/2025/Q4/average/all/all/all
+8211,Mehaaniliste seadmete koostajad,all,Kogu Eesti,M,460,https://palgad.stat.ee/api/charts/workers_total_section/8211/2025/Q4/average/all/all/all
+8211,Mehaaniliste seadmete koostajad,all,Kogu Eesti,F,332,https://palgad.stat.ee/api/charts/workers_total_section/8211/2025/Q4/average/all/all/all
+8212,Elektri- ja elektroonikaseadmete koostajad,all,Kogu Eesti,M,1647,https://palgad.stat.ee/api/charts/workers_total_section/8212/2025/Q4/average/all/all/all
+8212,Elektri- ja elektroonikaseadmete koostajad,all,Kogu Eesti,F,3643,https://palgad.stat.ee/api/charts/workers_total_section/8212/2025/Q4/average/all/all/all
+8219,"Koostajad, mujal liigitamata",all,Kogu Eesti,M,2594,https://palgad.stat.ee/api/charts/workers_total_section/8219/2025/Q4/average/all/all/all
+8219,"Koostajad, mujal liigitamata",all,Kogu Eesti,F,1159,https://palgad.stat.ee/api/charts/workers_total_section/8219/2025/Q4/average/all/all/all
+8311,Veduri- ja rongijuhid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8311/2025/Q4/average/all/all/all
+8312,Raudtee liiklustöötajad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8312/2025/Q4/average/all/all/all
+8321,Mootorrattajuhid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/8321/2025/Q4/average/all/all/all
+8322,"Sõiduauto-, takso- ja pakiautojuhid",all,Kogu Eesti,M,3106,https://palgad.stat.ee/api/charts/workers_total_section/8322/2025/Q4/average/all/all/all
+8322,"Sõiduauto-, takso- ja pakiautojuhid",all,Kogu Eesti,F,158,https://palgad.stat.ee/api/charts/workers_total_section/8322/2025/Q4/average/all/all/all
+8331,Bussi- ja trammijuhid,all,Kogu Eesti,M,3708,https://palgad.stat.ee/api/charts/workers_total_section/8331/2025/Q4/average/all/all/all
+8331,Bussi- ja trammijuhid,all,Kogu Eesti,F,525,https://palgad.stat.ee/api/charts/workers_total_section/8331/2025/Q4/average/all/all/all
+8332,Veoautojuhid,all,Kogu Eesti,M,13331,https://palgad.stat.ee/api/charts/workers_total_section/8332/2025/Q4/average/all/all/all
+8332,Veoautojuhid,all,Kogu Eesti,F,117,https://palgad.stat.ee/api/charts/workers_total_section/8332/2025/Q4/average/all/all/all
+8341,Põllu- ja metsamasinate juhid,all,Kogu Eesti,M,2618,https://palgad.stat.ee/api/charts/workers_total_section/8341/2025/Q4/average/all/all/all
+8342,"Maaparandus-, tee- jms masinate juhid",all,Kogu Eesti,M,3066,https://palgad.stat.ee/api/charts/workers_total_section/8342/2025/Q4/average/all/all/all
+8343,"Kraana-, tõstuki- jm tõsteseadmete juhid",all,Kogu Eesti,M,603,https://palgad.stat.ee/api/charts/workers_total_section/8343/2025/Q4/average/all/all/all
+8343,"Kraana-, tõstuki- jm tõsteseadmete juhid",all,Kogu Eesti,F,63,https://palgad.stat.ee/api/charts/workers_total_section/8343/2025/Q4/average/all/all/all
+8344,Kahveltõstukite jms masinate juhid,all,Kogu Eesti,M,1945,https://palgad.stat.ee/api/charts/workers_total_section/8344/2025/Q4/average/all/all/all
+8344,Kahveltõstukite jms masinate juhid,all,Kogu Eesti,F,71,https://palgad.stat.ee/api/charts/workers_total_section/8344/2025/Q4/average/all/all/all
+8350,Laeva tekimeeskond jms töötajad,all,Kogu Eesti,M,297,https://palgad.stat.ee/api/charts/workers_total_section/8350/2025/Q4/average/all/all/all
+8350,Laeva tekimeeskond jms töötajad,all,Kogu Eesti,F,21,https://palgad.stat.ee/api/charts/workers_total_section/8350/2025/Q4/average/all/all/all
+9111,Kodukoristajad ja -abilised,all,Kogu Eesti,M,24,https://palgad.stat.ee/api/charts/workers_total_section/9111/2025/Q4/average/all/all/all
+9111,Kodukoristajad ja -abilised,all,Kogu Eesti,F,225,https://palgad.stat.ee/api/charts/workers_total_section/9111/2025/Q4/average/all/all/all
+9112,"Koristajad ja abilised kontoris, hotellis jms asutustes",all,Kogu Eesti,M,2133,https://palgad.stat.ee/api/charts/workers_total_section/9112/2025/Q4/average/all/all/all
+9112,"Koristajad ja abilised kontoris, hotellis jms asutustes",all,Kogu Eesti,F,16451,https://palgad.stat.ee/api/charts/workers_total_section/9112/2025/Q4/average/all/all/all
+9121,Pesupesijad ja triikijad,all,Kogu Eesti,M,48,https://palgad.stat.ee/api/charts/workers_total_section/9121/2025/Q4/average/all/all/all
+9121,Pesupesijad ja triikijad,all,Kogu Eesti,F,338,https://palgad.stat.ee/api/charts/workers_total_section/9121/2025/Q4/average/all/all/all
+9122,Sõidukite käsipesijad,all,Kogu Eesti,M,423,https://palgad.stat.ee/api/charts/workers_total_section/9122/2025/Q4/average/all/all/all
+9122,Sõidukite käsipesijad,all,Kogu Eesti,F,242,https://palgad.stat.ee/api/charts/workers_total_section/9122/2025/Q4/average/all/all/all
+9123,Aknapesijad,all,Kogu Eesti,M,26,https://palgad.stat.ee/api/charts/workers_total_section/9123/2025/Q4/average/all/all/all
+9129,Muid puhastustöid tegevad lihttöölised,all,Kogu Eesti,M,170,https://palgad.stat.ee/api/charts/workers_total_section/9129/2025/Q4/average/all/all/all
+9129,Muid puhastustöid tegevad lihttöölised,all,Kogu Eesti,F,117,https://palgad.stat.ee/api/charts/workers_total_section/9129/2025/Q4/average/all/all/all
+9211,Taimekasvatuse lihttöölised,all,Kogu Eesti,M,215,https://palgad.stat.ee/api/charts/workers_total_section/9211/2025/Q4/average/all/all/all
+9211,Taimekasvatuse lihttöölised,all,Kogu Eesti,F,92,https://palgad.stat.ee/api/charts/workers_total_section/9211/2025/Q4/average/all/all/all
+9212,Loomakasvatuse lihttöölised,all,Kogu Eesti,M,648,https://palgad.stat.ee/api/charts/workers_total_section/9212/2025/Q4/average/all/all/all
+9212,Loomakasvatuse lihttöölised,all,Kogu Eesti,F,494,https://palgad.stat.ee/api/charts/workers_total_section/9212/2025/Q4/average/all/all/all
+9213,Segapõllumajanduse lihttöölised,all,Kogu Eesti,M,265,https://palgad.stat.ee/api/charts/workers_total_section/9213/2025/Q4/average/all/all/all
+9213,Segapõllumajanduse lihttöölised,all,Kogu Eesti,F,107,https://palgad.stat.ee/api/charts/workers_total_section/9213/2025/Q4/average/all/all/all
+9214,Aianduse lihttöölised,all,Kogu Eesti,M,461,https://palgad.stat.ee/api/charts/workers_total_section/9214/2025/Q4/average/all/all/all
+9214,Aianduse lihttöölised,all,Kogu Eesti,F,419,https://palgad.stat.ee/api/charts/workers_total_section/9214/2025/Q4/average/all/all/all
+9215,Metsanduse lihttöölised,all,Kogu Eesti,M,459,https://palgad.stat.ee/api/charts/workers_total_section/9215/2025/Q4/average/all/all/all
+9215,Metsanduse lihttöölised,all,Kogu Eesti,F,51,https://palgad.stat.ee/api/charts/workers_total_section/9215/2025/Q4/average/all/all/all
+9216,Kalapüügi ja vesiviljeluse lihttöölised,all,Kogu Eesti,M,88,https://palgad.stat.ee/api/charts/workers_total_section/9216/2025/Q4/average/all/all/all
+9216,Kalapüügi ja vesiviljeluse lihttöölised,all,Kogu Eesti,F,42,https://palgad.stat.ee/api/charts/workers_total_section/9216/2025/Q4/average/all/all/all
+9311,Mäetööstuse lihttöölised,all,Kogu Eesti,M,147,https://palgad.stat.ee/api/charts/workers_total_section/9311/2025/Q4/average/all/all/all
+9311,Mäetööstuse lihttöölised,all,Kogu Eesti,F,56,https://palgad.stat.ee/api/charts/workers_total_section/9311/2025/Q4/average/all/all/all
+9312,Rajatiste ehituse lihttöölised,all,Kogu Eesti,M,2120,https://palgad.stat.ee/api/charts/workers_total_section/9312/2025/Q4/average/all/all/all
+9312,Rajatiste ehituse lihttöölised,all,Kogu Eesti,F,34,https://palgad.stat.ee/api/charts/workers_total_section/9312/2025/Q4/average/all/all/all
+9313,Hooneehituse lihttöölised,all,Kogu Eesti,M,2721,https://palgad.stat.ee/api/charts/workers_total_section/9313/2025/Q4/average/all/all/all
+9313,Hooneehituse lihttöölised,all,Kogu Eesti,F,85,https://palgad.stat.ee/api/charts/workers_total_section/9313/2025/Q4/average/all/all/all
+9321,Pakkijad,all,Kogu Eesti,M,1191,https://palgad.stat.ee/api/charts/workers_total_section/9321/2025/Q4/average/all/all/all
+9321,Pakkijad,all,Kogu Eesti,F,2668,https://palgad.stat.ee/api/charts/workers_total_section/9321/2025/Q4/average/all/all/all
+9329,"Töötleva tööstuse lihttöölised, mujal liigitamata",all,Kogu Eesti,M,3617,https://palgad.stat.ee/api/charts/workers_total_section/9329/2025/Q4/average/all/all/all
+9329,"Töötleva tööstuse lihttöölised, mujal liigitamata",all,Kogu Eesti,F,1990,https://palgad.stat.ee/api/charts/workers_total_section/9329/2025/Q4/average/all/all/all
+9331,Käsi- ja pedaalsõidukijuhid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/9331/2025/Q4/average/all/all/all
+9332,Loomveokijuhid,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/9332/2025/Q4/average/all/all/all
+9333,Transporditöölised ja laadijad,all,Kogu Eesti,M,2588,https://palgad.stat.ee/api/charts/workers_total_section/9333/2025/Q4/average/all/all/all
+9333,Transporditöölised ja laadijad,all,Kogu Eesti,F,370,https://palgad.stat.ee/api/charts/workers_total_section/9333/2025/Q4/average/all/all/all
+9334,Kaubaladujad,all,Kogu Eesti,M,1754,https://palgad.stat.ee/api/charts/workers_total_section/9334/2025/Q4/average/all/all/all
+9334,Kaubaladujad,all,Kogu Eesti,F,1448,https://palgad.stat.ee/api/charts/workers_total_section/9334/2025/Q4/average/all/all/all
+9411,Kiirtoitlustuse abitöölised,all,Kogu Eesti,M,408,https://palgad.stat.ee/api/charts/workers_total_section/9411/2025/Q4/average/all/all/all
+9411,Kiirtoitlustuse abitöölised,all,Kogu Eesti,F,910,https://palgad.stat.ee/api/charts/workers_total_section/9411/2025/Q4/average/all/all/all
+9412,Köögiabilised,all,Kogu Eesti,M,410,https://palgad.stat.ee/api/charts/workers_total_section/9412/2025/Q4/average/all/all/all
+9412,Köögiabilised,all,Kogu Eesti,F,3799,https://palgad.stat.ee/api/charts/workers_total_section/9412/2025/Q4/average/all/all/all
+9510,Tänaval jms kohtades teenuse osutajad,all,Kogu Eesti,M,117,https://palgad.stat.ee/api/charts/workers_total_section/9510/2025/Q4/average/all/all/all
+9510,Tänaval jms kohtades teenuse osutajad,all,Kogu Eesti,F,38,https://palgad.stat.ee/api/charts/workers_total_section/9510/2025/Q4/average/all/all/all
+9520,Välimüüjad (v.a toidu- ja joogimüüjad),all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/9520/2025/Q4/average/all/all/all
+9611,Jäätmekogujad ja -laadijad,all,Kogu Eesti,M,161,https://palgad.stat.ee/api/charts/workers_total_section/9611/2025/Q4/average/all/all/all
+9612,Jäätmesortijad,all,Kogu Eesti,M,429,https://palgad.stat.ee/api/charts/workers_total_section/9612/2025/Q4/average/all/all/all
+9612,Jäätmesortijad,all,Kogu Eesti,F,186,https://palgad.stat.ee/api/charts/workers_total_section/9612/2025/Q4/average/all/all/all
+9613,"Välikoristajad, tootmishoonete koristajad jms lihttöölised",all,Kogu Eesti,M,1762,https://palgad.stat.ee/api/charts/workers_total_section/9613/2025/Q4/average/all/all/all
+9613,"Välikoristajad, tootmishoonete koristajad jms lihttöölised",all,Kogu Eesti,F,1187,https://palgad.stat.ee/api/charts/workers_total_section/9613/2025/Q4/average/all/all/all
+9621,"Käskjalad, pakkide kättetoimetajad ja pakikandjad",all,Kogu Eesti,M,28,https://palgad.stat.ee/api/charts/workers_total_section/9621/2025/Q4/average/all/all/all
+9622,Halduse abitöölised,all,Kogu Eesti,M,2584,https://palgad.stat.ee/api/charts/workers_total_section/9622/2025/Q4/average/all/all/all
+9622,Halduse abitöölised,all,Kogu Eesti,F,409,https://palgad.stat.ee/api/charts/workers_total_section/9622/2025/Q4/average/all/all/all
+9623,Arvestikontrolörid ning müügi- ja parkimisautomaatide rahakogujad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/9623/2025/Q4/average/all/all/all
+9624,Vee ja küttepuude kogujad,all,Kogu Eesti,all,,https://palgad.stat.ee/api/charts/workers_total_section/9624/2025/Q4/average/all/all/all
+9629,"Lihttöölised, mujal liigitamata",all,Kogu Eesti,M,1800,https://palgad.stat.ee/api/charts/workers_total_section/9629/2025/Q4/average/all/all/all
+9629,"Lihttöölised, mujal liigitamata",all,Kogu Eesti,F,1178,https://palgad.stat.ee/api/charts/workers_total_section/9629/2025/Q4/average/all/all/all
