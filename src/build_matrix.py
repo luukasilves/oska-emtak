@@ -84,11 +84,16 @@ def _build_combo(model: str, scores_wide: pd.DataFrame, scenario: str,
                   f"{scores_taxonomy}_to_{weights_taxonomy}.csv on disk")
             return None, None, None
         # Distribute each score across its target codes with the given weight, then
-        # collapse (in case multiple from_codes feed the same to_code).
+        # collapse (in case multiple from_codes feed the same to_code). Weights are
+        # renormalised per to_code over the from_codes the model actually covers,
+        # so partial coverage produces a clean simple-mean rather than an
+        # implicit "missing = 0" bias.
         s_sub = scores_wide[scores_wide["taxonomy"] == scores_taxonomy] \
             .drop(columns="taxonomy")
         dist = s_sub.merge(crosswalk_df, left_on="code", right_on="from_code",
                            how="inner")
+        dist["_w_sum_per_to"] = dist.groupby("to_code")["weight"].transform("sum")
+        dist["weight"] = dist["weight"] / dist["_w_sum_per_to"]
         for col in ("exposure", "augmentation_share", "automation_share"):
             dist[col] = dist[col] * dist["weight"]
         agg = dist.groupby("to_code", as_index=False).agg(

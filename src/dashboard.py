@@ -26,7 +26,7 @@ from streamlit_folium import st_folium
 
 from common import (
     GEOMETRY_DIR, MATRICES_DIR, OMAV_REMAP, RAW, SCORES_DIR, SUMMARIES_DIR,
-    parse_rl21154_location_code,
+    load_isco_labels, parse_rl21154_location_code,
 )
 
 # ----- Constants ---------------------------------------------------------------------
@@ -470,6 +470,105 @@ def render_data_tab(filtered: pd.DataFrame):
     )
 
 
+@st.cache_data
+def build_isco4_table(scores_long: pd.DataFrame) -> pd.DataFrame:
+    """Wide ISCO-4 table — one row per code, one set of columns per model.
+
+    Adds a `divergence` column = std-dev of normalised exposure across models,
+    surfacing occupations where the indices disagree.
+    """
+    labels = load_isco_labels()
+    isco4_titles = labels[4]
+    isco2_titles = labels[2]
+
+    sub = scores_long[scores_long["taxonomy"].isin(("isco3", "isco4"))].copy()
+    if sub.empty:
+        return pd.DataFrame()
+
+    # Pivot to (code × model × metric) → wide
+    sub["col"] = sub["metric"] + "_" + sub["model"]
+    wide = sub.pivot_table(index=["taxonomy", "code"], columns="col",
+                           values="value", aggfunc="first").reset_index()
+
+    wide["isco4_title_en"] = wide["code"].map(isco4_titles).fillna(
+        wide["code"].astype(str).str[:3].map(labels[3])).fillna(wide["code"])
+    wide["isco2_parent"] = wide["code"].astype(str).str[:2]
+    wide["isco2_label"] = wide["isco2_parent"].map(isco2_titles).fillna("")
+    wide["isco_major"] = wide["code"].astype(str).str[0]
+
+    exposure_cols = [c for c in wide.columns if c.startswith("exposure_")]
+    if exposure_cols:
+        ex = wide[exposure_cols].apply(pd.to_numeric, errors="coerce")
+        wide["mean_exposure"] = ex.mean(axis=1)
+        wide["divergence"] = ex.std(axis=1)
+    else:
+        wide["mean_exposure"] = pd.NA
+        wide["divergence"] = pd.NA
+
+    front = ["code", "isco4_title_en", "isco2_parent", "isco2_label",
+             "isco_major", "mean_exposure", "divergence"]
+    rest = [c for c in wide.columns if c not in front + ["taxonomy"]]
+    return wide[front + rest]
+
+
+def render_isco4_tab(scores_long: pd.DataFrame):
+    st.markdown("### ISCO-4 detailed-occupation view (multi-index)")
+    st.caption(
+        "One row per detailed occupation (ISCO-08 4-digit, ~430 codes), with exposure / "
+        "augmentation / automation scores from each registered ISCO-3 or ISCO-4 model. "
+        "**`divergence`** is the standard deviation of exposure across models — high "
+        "values flag occupations where the literature disagrees."
+    )
+
+    table = build_isco4_table(scores_long)
+    if table.empty:
+        st.info("No ISCO-3/4 native models registered yet. Add one in `src/fetch_ai_scores.py` "
+                "and re-run the pipeline.")
+        return
+
+    c1, c2 = st.columns([1, 2])
+    with c1:
+        majors = sorted(table["isco_major"].unique())
+        chosen_majors = st.multiselect(
+            "ISCO major group filter",
+            options=majors,
+            format_func=lambda x: f"{x} {ISCO1_LABELS.get(x, '')}",
+        )
+    with c2:
+        q = st.text_input("Search by occupation title (English)").strip().lower()
+
+    view = table.copy()
+    if chosen_majors:
+        view = view[view["isco_major"].isin(chosen_majors)]
+    if q:
+        view = view[view["isco4_title_en"].str.lower().str.contains(q, na=False)]
+
+    sort_col = "divergence" if "divergence" in view.columns and view["divergence"].notna().any() else "mean_exposure"
+    view = view.sort_values(sort_col, ascending=False, na_position="last")
+
+    st.caption(f"{len(view):,} occupations after filter.  Default sort: **{sort_col}** (descending).")
+    st.dataframe(view, use_container_width=True, height=540)
+
+    st.download_button(
+        "Download ISCO-4 detail as CSV",
+        data=view.to_csv(index=False),
+        file_name="isco4_multi_model_detail.csv",
+        mime="text/csv",
+    )
+
+    st.markdown("""
+    **Reading guide.** Each occupation has an `exposure_<model>` column from each
+    model registered at ISCO-3 or ISCO-4. The matrix on the **Map** and **Occupations**
+    tabs aggregates these to ISCO-2 via `data/crosswalks/isco4_to_isco2.csv` and
+    `isco3_to_isco2.csv` (simple-mean per ISCO-2 parent, renormalised over codes
+    each model actually covers — no fabricated weights).
+
+    Statistics Estonia does not publish ISCO-4 × county employment counts (RL21154
+    caps at ISCO-2). The ISCO-4 richness is therefore on the *score* side only —
+    the geographic distribution still uses honest ISCO-2 census counts.
+    """)
+
+
 # ----- Main --------------------------------------------------------------------------
 
 def main():
@@ -494,14 +593,18 @@ def main():
         + (f"  |  **ISCO filter:** {', '.join(ctrl['isco1_filter'])}" if ctrl["isco1_filter"] else "")
     )
 
-    tabs = st.tabs(["🗺️ Map", "👥 Occupations", "🤝 AEI breakdown", "📊 Data"])
+    tabs = st.tabs(["🗺️ Map", "👥 Occupations", "🤝 AEI breakdown",
+                    "🔬 ISCO-4 detail", "📊 Data"])
+    scores_long = load_scores_long()
     with tabs[0]:
         render_map_tab(filtered, matrix, ctrl)
     with tabs[1]:
         render_occupations_tab(filtered, ctrl)
     with tabs[2]:
-        render_aei_tab(load_scores_long(), ctrl["model"])
+        render_aei_tab(scores_long, ctrl["model"])
     with tabs[3]:
+        render_isco4_tab(scores_long)
+    with tabs[4]:
         render_data_tab(filtered)
 
 

@@ -16,15 +16,44 @@ A matrix file is produced per `(model, scenario)` combination, with output chart
 
 | dimension | id | taxonomy | source |
 |---|---|---|---|
-| model | `felten_aei` | `isco2` | Felten AIOE × Anthropic AEI March 2026 |
+| model | `felten_aei` | `isco2` | Felten AIOE × Anthropic AEI March 2026 — v1 baseline |
+| model | `felten_aei_isco4` | `isco4` | Felten AIOE × Anthropic AEI March 2026 — native at ISCO-4 |
+| model | `ilo_wp140` | `isco4` | ILO Working Paper 140 / Gmyrek et al. 2025 — categorical exposure |
+| model | `demirev_ai_products` | `isco4` | Demirev 2026 (Industry & Innovation) — AI-product method |
+| model | `jrc_casas` (stub) | `isco3` | JRC Casas et al. 2025/26 — needs manual data drop |
 | scenario | `2021_census` | `isco2` | REL2021 RL21154 raw counts |
-| crosswalks | (none) | — | scaffolding only; the only registered model and scenario share `taxonomy=isco2` |
+| crosswalks | `isco4_to_isco2.csv`, `isco3_to_isco2.csv` | — | ISCO-08 truncation; renormalised per model coverage |
+
+### ISCO-4 detail (multi-index)
+
+Three of the new models carry full ISCO-08 4-digit detail (~430 occupations). To
+fit the v2 architecture without fabricating county × ISCO-4 employment data
+(Statistics Estonia does not publish it — see "Known limitations" below), scores
+are kept at their native granularity in `scores_long.csv`, and the county-level
+matrix join collapses them to ISCO-2 via the truncation crosswalks.
+
+What this gives you:
+- **`output/charts/<model>_2021_census/09_top_isco4_detailed_occupations.png`** —
+  per-model bar chart of the top-30 ISCO-4 occupations by exposure, coloured by
+  ISCO major group.
+- **`output/charts/_cross_model/10_isco4_rank_correlation.png`** — Spearman
+  rank correlation between every pair of ISCO-4-native models, surfacing whether
+  the indices agree on which occupations are most/least exposed.
+- **Dashboard "🔬 ISCO-4 detail" tab** — sortable, searchable table with every
+  registered model's exposure / aug / auto score side-by-side per ISCO-4 code,
+  plus a `divergence` column (std-dev across models) that flags occupations the
+  literature disagrees on.
 
 ### Future PRs can add
 
-- ILO WP140 as a second `model` (likely `taxonomy=isco4`).
+- ILO-WP140 numeric exposure scores (current registration uses the 4-class
+  categorical published in the tree-plot data; the WP140 paper also publishes
+  continuous scores in its appendix).
+- Cazzaniga IMF SDN 2024/001 complementarity scores — currently substituted by
+  Demirev because the IMF PDF tables aren't retrievable from the build sandbox.
+- JRC Casas appendix CSV — stub aggregator wired, just needs the CSV drop per
+  `data/raw/jrc_casas/README.md`.
 - OSKA-projected employment as a second `scenario` (likely `taxonomy=oska69`).
-- Crosswalks between taxonomies (e.g. `isco4_to_isco2.csv`, `oska69_to_isco2.csv`).
 - **Firm-side companion matrix** at `taxonomy=emtak` (firm counts × omavalitsus). See "EMTAK firm-level extension (planned)" below — this is a parallel deliverable, not a new model/scenario in the v2 pipeline.
 
 No code changes needed beyond registering the new aggregator/builder; matrices/summaries/charts are produced automatically for every viable combo.
@@ -112,6 +141,8 @@ src/
 | `06_estonia_choropleth.png` | Maakond-level 3-panel map (Exposure / Opportunity / Risk). |
 | `07_estonia_municipality_choropleth.png` | Municipality + city-district 3-panel map. ~87 of 90 polygons matched. |
 | `08_municipality_people_affected.png` | Absolute "people affected" (employed × exposure) per locality. Tallinn districts dominate. |
+| `09_top_isco4_detailed_occupations.png` | Top 30 ISCO-08 4-digit occupations by native exposure. Only produced for models whose taxonomy is ISCO-3 or ISCO-4. |
+| `_cross_model/10_isco4_rank_correlation.png` | Spearman rank correlation of ISCO-4 exposure between every pair of ISCO-4-native models. One file shared across all combos. |
 
 ## Data sources used (felten_aei × 2021_census)
 
@@ -179,11 +210,11 @@ Sources:
 
 ## Known limitations (v2 → future)
 
-1. **Single model and scenario registered** — pipeline is scaffolded for more but only `felten_aei × 2021_census` is currently populated.
-2. **ISCO granularity is 2-digit** because that's what RL21154 publishes. Adding ISCO-4 source data (e.g. ILO WP140) requires a crosswalk back to ISCO-2 or a scenario at finer granularity.
-3. **No OSKA Demand-gap layer** — third axis from the plan; deferred.
-4. **No EMTAK / firm-side overlay** — planned as a separate workstream, see next section.
-5. **3 Kohtla-Järve linnaosa not displayed** (Kukruse/Oru/Sompa) — no published data in RL21154.
+1. **Geographic granularity capped at ISCO-2 by data availability.** Statistics Estonia does not publish ISCO-08 4-digit employment crossed with any sub-national geography — RL21154 / RL21157 / RL21158 / TT2109 all top out at the same 51-category "Amet" variable (~ISCO-2). Microdata-level ISCO-4 lives in TÖR (Tax Authority employment register) but requires a 6–12-week aggregate request to Statistics Estonia. The pipeline therefore carries ISCO-4 detail on the **scores side only** — the county-level matrix collapses ISCO-3/4 scores to ISCO-2 via the truncation crosswalks under `data/crosswalks/`, and aggregations are explicit simple means with no fabricated employment splits.
+2. **No OSKA Demand-gap layer** — third axis from the plan; deferred.
+3. **No EMTAK / firm-side overlay** — planned as a separate workstream, see next section.
+4. **3 Kohtla-Järve linnaosa not displayed** (Kukruse/Oru/Sompa) — no published data in RL21154.
+5. **felten_aei reproducibility requires the gitignored AEI raw file.** First run auto-fetches it from Hugging Face (~44 MB, CC-BY). If the fetch fails (sandboxed environment, etc.), `felten_aei` and `felten_aei_isco4` are skipped cleanly; their prior rows in `scores_long.csv` are preserved across partial runs. `ilo_wp140` and `demirev_ai_products` have their raw inputs committed.
 
 ---
 

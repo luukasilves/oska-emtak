@@ -1,0 +1,2664 @@
+{
+  "name": "ISCO-08",
+  "children": [
+    {
+      "name": "0 - Armed forces occupations",
+      "children": [
+        {
+          "name": "01 - Commissioned armed forces officers",
+          "children": [
+            {
+              "name": "011 - Commissioned armed forces officers",
+              "children": [
+                {
+                  "name": "0110 - Commissioned armed forces officers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "02 - Non-commissioned armed forces officers",
+          "children": [
+            {
+              "name": "021 - Non-commissioned armed forces officers",
+              "children": [
+                {
+                  "name": "0210 - Non-commissioned armed forces officers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "03 - Armed forces occupations, other ranks",
+          "children": [
+            {
+              "name": "031 - Armed forces occupations, other ranks",
+              "children": [
+                {
+                  "name": "0310 - Armed forces occupations, other ranks",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 - Managers",
+      "children": [
+        {
+          "name": "11 - Chief executives, senior officials and legislators",
+          "children": [
+            {
+              "name": "111 - Legislators and senior officials",
+              "children": [
+                {
+                  "name": "1111 - Legislators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1112 - Senior government officials",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1113 - Traditional chiefs and heads of village",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "1114 - Senior officials of special-interest organizations",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "112 - Managing directors and chief executives",
+              "children": [
+                {
+                  "name": "1120 - Managing directors and chief executives",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "12 - Administrative and commercial managers",
+          "children": [
+            {
+              "name": "121 - Business services and administration managers",
+              "children": [
+                {
+                  "name": "1211 - Finance managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1212 - Human resource managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1213 - Policy and planning managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1219 - Business services and administration managers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "122 - Sales, marketing and development managers",
+              "children": [
+                {
+                  "name": "1221 - Sales and marketing managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1222 - Advertising and public relations managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1223 - Research and development managers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "13 - Production and specialised services managers",
+          "children": [
+            {
+              "name": "131 - Production managers in agriculture, forestry and fisheries",
+              "children": [
+                {
+                  "name": "1311 - Agricultural and forestry production managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1312 - Aquaculture and fisheries production managers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "132 - Manufacturing, mining, construction, and distribution managers",
+              "children": [
+                {
+                  "name": "1321 - Manufacturing managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1322 - Mining managers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "1323 - Construction managers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "1324 - Supply, distribution and related managers",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "133 - Information and communications technology service managers",
+              "children": [
+                {
+                  "name": "1330 - Information and communications technology service managers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "134 - Professional services managers",
+              "children": [
+                {
+                  "name": "1341 - Child care services managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1342 - Health services managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1343 - Aged care services managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1344 - Social welfare managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1345 - Education managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1346 - Financial and insurance services branch managers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "1349 - Professional services managers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "14 - Hospitality, retail and other services managers",
+          "children": [
+            {
+              "name": "141 - Hotel and restaurant managers",
+              "children": [
+                {
+                  "name": "1411 - Hotel managers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "1412 - Restaurant managers",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "142 - Retail and wholesale trade managers",
+              "children": [
+                {
+                  "name": "1420 - Retail and wholesale trade managers",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "143 - Other services managers",
+              "children": [
+                {
+                  "name": "1431 - Sports, recreation and cultural centre managers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "1439 - Services managers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 - Professionals",
+      "children": [
+        {
+          "name": "21 - Science and engineering professionals",
+          "children": [
+            {
+              "name": "211 - Physical and earth science professionals",
+              "children": [
+                {
+                  "name": "2111 - Physicists and astronomers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2112 - Meteorologists",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2113 - Chemists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2114 - Geologists and geophysicists",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "212 - Mathematicians, actuaries and statisticians",
+              "children": [
+                {
+                  "name": "2120 - Mathematicians, actuaries and statisticians",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "213 - Life science professionals",
+              "children": [
+                {
+                  "name": "2131 - Biologists, botanists, zoologists and related professionals",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2132 - Farming, forestry and fisheries advisers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2133 - Environmental protection professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "214 - Engineering professionals (excluding electrotechnology)",
+              "children": [
+                {
+                  "name": "2141 - Industrial and production engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2142 - Civil engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2143 - Environmental engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2144 - Mechanical engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2145 - Chemical engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2146 - Mining engineers, metallurgists and related professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2149 - Engineering professionals not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "215 - Electrotechnology engineers",
+              "children": [
+                {
+                  "name": "2151 - Electrical engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2152 - Electronics engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2153 - Telecommunications engineers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "216 - Architects, planners, surveyors and designers",
+              "children": [
+                {
+                  "name": "2161 - Building architects",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2162 - Landscape architects",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2163 - Product and garment designers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2164 - Town and traffic planners",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2165 - Cartographers and surveyors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2166 - Graphic and multimedia designers",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "22 - Health professionals",
+          "children": [
+            {
+              "name": "221 - Medical doctors",
+              "children": [
+                {
+                  "name": "2211 - Generalist medical practitioners",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2212 - Specialist medical practitioners",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "222 - Nursing and midwifery professionals",
+              "children": [
+                {
+                  "name": "2221 - Nursing professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2222 - Midwifery professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "223 - Traditional and complementary medicine professionals",
+              "children": [
+                {
+                  "name": "2230 - Traditional and complementary medicine professionals",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "224 - Paramedical practitioners",
+              "children": [
+                {
+                  "name": "2240 - Paramedical practitioners",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "225 - Veterinarians",
+              "children": [
+                {
+                  "name": "2250 - Veterinarians",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "226 - Other health professionals",
+              "children": [
+                {
+                  "name": "2261 - Dentists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2262 - Pharmacists",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2263 - Environmental and occupational health and hygiene professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2264 - Physiotherapists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2265 - Dieticians and nutritionists",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2266 - Audiologists and speech therapists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2267 - Optometrists and ophthalmic opticians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2269 - Health professionals not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "23 - Teaching professionals",
+          "children": [
+            {
+              "name": "231 - University and higher education teachers",
+              "children": [
+                {
+                  "name": "2310 - University and higher education teachers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "232 - Vocational education teachers",
+              "children": [
+                {
+                  "name": "2320 - Vocational education teachers",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "233 - Secondary education teachers",
+              "children": [
+                {
+                  "name": "2330 - Secondary education teachers",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "234 - Primary school and early childhood teachers",
+              "children": [
+                {
+                  "name": "2341 - Primary school teachers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2342 - Early childhood educators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "235 - Other teaching professionals",
+              "children": [
+                {
+                  "name": "2351 - Education methods specialists",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2352 - Special needs teachers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2353 - Other language teachers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2354 - Other music teachers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2355 - Other arts teachers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2356 - Information technology trainers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2359 - Teaching professionals not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "24 - Business and administration professionals",
+          "children": [
+            {
+              "name": "241 - Finance professionals",
+              "children": [
+                {
+                  "name": "2411 - Accountants",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2412 - Financial and investment advisers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2413 - Financial analysts",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "242 - Administration professionals",
+              "children": [
+                {
+                  "name": "2421 - Management and organization analysts",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2422 - Policy administration professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2423 - Personnel and careers professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2424 - Training and staff development professionals",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "243 - Sales, marketing and public relations professionals",
+              "children": [
+                {
+                  "name": "2431 - Advertising and marketing professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2432 - Public relations professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2433 - Technical and medical sales professionals (excluding ICT)",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2434 - Information and communications technology sales professionals",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "25 - Information and communications technology professionals",
+          "children": [
+            {
+              "name": "251 - Software and applications developers and analysts",
+              "children": [
+                {
+                  "name": "2511 - Systems analysts",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2512 - Software developers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2513 - Web and multimedia developers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2514 - Applications programmers",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "2519 - Software and applications developers and analysts not elsewhere classified",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "252 - Database and network professionals",
+              "children": [
+                {
+                  "name": "2521 - Database designers and administrators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2522 - Systems administrators",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2523 - Computer network professionals",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2529 - Database and network professionals not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "26 - Legal, social and cultural professionals",
+          "children": [
+            {
+              "name": "261 - Legal professionals",
+              "children": [
+                {
+                  "name": "2611 - Lawyers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2612 - Judges",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2619 - Legal professionals not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "262 - Librarians, archivists and curators",
+              "children": [
+                {
+                  "name": "2621 - Archivists and curators",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2622 - Librarians and related information professionals",
+                  "risk": "Automation Potential"
+                }
+              ]
+            },
+            {
+              "name": "263 - Social and religious professionals",
+              "children": [
+                {
+                  "name": "2631 - Economists",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2632 - Sociologists, anthropologists and related professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2633 - Philosophers, historians and political scientists",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2634 - Psychologists",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2635 - Social work and counselling professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2636 - Religious professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "264 - Authors, journalists and linguists",
+              "children": [
+                {
+                  "name": "2641 - Authors and related writers",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "2642 - Journalists",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2643 - Translators, interpreters and other linguists",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "265 - Creative and performing artists",
+              "children": [
+                {
+                  "name": "2651 - Visual artists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2652 - Musicians, singers and composers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2653 - Dancers and choreographers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2654 - Film, stage and related directors and producers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "2655 - Actors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "2656 - Announcers on radio, television and other media",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "2659 - Creative and performing artists not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3 - Technicians and associate professionals",
+      "children": [
+        {
+          "name": "31 - Science and engineering associate professionals",
+          "children": [
+            {
+              "name": "311 - Physical and engineering science technicians",
+              "children": [
+                {
+                  "name": "3111 - Chemical and physical science technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3112 - Civil engineering technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3113 - Electrical engineering technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3114 - Electronics engineering technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3115 - Mechanical engineering technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3116 - Chemical engineering technicians",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3117 - Mining and metallurgical technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3118 - Draughtspersons",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3119 - Physical and engineering science technicians not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "312 - Mining, manufacturing and construction supervisors",
+              "children": [
+                {
+                  "name": "3121 - Mining supervisors",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3122 - Manufacturing supervisors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3123 - Construction supervisors",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "313 - Process control technicians",
+              "children": [
+                {
+                  "name": "3131 - Power production plant operators",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3132 - Incinerator and water treatment plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3133 - Chemical processing plant controllers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3134 - Petroleum and natural gas refining plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3135 - Metal production process controllers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3139 - Process control technicians not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "314 - Life science technicians and related associate professionals",
+              "children": [
+                {
+                  "name": "3141 - Life science technicians (excluding medical)",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3142 - Agricultural technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3143 - Forestry technicians",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "315 - Ship and aircraft controllers and technicians",
+              "children": [
+                {
+                  "name": "3151 - Ships' engineers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3152 - Ships' deck officers and pilots",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3153 - Aircraft pilots and related associate professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3154 - Air traffic controllers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3155 - Air traffic safety electronics technicians",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "32 - Health associate professionals",
+          "children": [
+            {
+              "name": "321 - Medical and pharmaceutical technicians",
+              "children": [
+                {
+                  "name": "3211 - Medical imaging and therapeutic equipment technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3212 - Medical and pathology laboratory technicians",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3213 - Pharmaceutical technicians and assistants",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3214 - Medical and dental prosthetic technicians",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "322 - Nursing and midwifery associate professionals",
+              "children": [
+                {
+                  "name": "3221 - Nursing associate professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3222 - Midwifery associate professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "323 - Traditional and complementary medicine associate professionals",
+              "children": [
+                {
+                  "name": "3230 - Traditional and complementary medicine associate professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "324 - Veterinary technicians and assistants",
+              "children": [
+                {
+                  "name": "3240 - Veterinary technicians and assistants",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "325 - Other health associate professionals",
+              "children": [
+                {
+                  "name": "3251 - Dental assistants and therapists",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3252 - Medical records and health information technicians",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3253 - Community health workers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3254 - Dispensing opticians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3255 - Physiotherapy technicians and assistants",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3256 - Medical assistants",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3257 - Environmental and occupational health inspectors and associates",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3258 - Ambulance workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3259 - Health associate professionals not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "33 - Business and administration associate professionals",
+          "children": [
+            {
+              "name": "331 - Financial and mathematical associate professionals",
+              "children": [
+                {
+                  "name": "3311 - Securities and finance dealers and brokers",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "3312 - Credit and loans officers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3313 - Accounting associate professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3314 - Statistical, mathematical and related associate professionals",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3315 - Valuers and loss assessors",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "332 - Sales and purchasing agents and brokers",
+              "children": [
+                {
+                  "name": "3321 - Insurance representatives",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3322 - Commercial sales representatives",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3323 - Buyers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3324 - Trade brokers",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "333 - Business services agents",
+              "children": [
+                {
+                  "name": "3331 - Clearing and forwarding agents",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3332 - Conference and event planners",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3333 - Employment agents and contractors",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3334 - Real estate agents and property managers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3339 - Business services agents not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "334 - Administrative and specialised secretaries",
+              "children": [
+                {
+                  "name": "3341 - Office supervisors",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3342 - Legal secretaries",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3343 - Administrative and executive secretaries",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3344 - Medical secretaries",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "335 - Regulatory government associate professionals",
+              "children": [
+                {
+                  "name": "3351 - Customs and border inspectors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3352 - Government tax and excise officials",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3353 - Government social benefits officials",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3354 - Government licensing officials",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "3355 - Police inspectors and detectives",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3359 - Regulatory government associate professionals not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "34 - Legal, social, cultural and related associate professionals",
+          "children": [
+            {
+              "name": "341 - Legal, social and religious associate professionals",
+              "children": [
+                {
+                  "name": "3411 - Legal and related associate professionals",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3412 - Social work associate professionals",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3413 - Religious associate professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "342 - Sports and fitness workers",
+              "children": [
+                {
+                  "name": "3421 - Athletes and sports players",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3422 - Sports coaches, instructors and officials",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3423 - Fitness and recreation instructors and program leaders",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "343 - Artistic, cultural and culinary associate professionals",
+              "children": [
+                {
+                  "name": "3431 - Photographers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3432 - Interior designers and decorators",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3433 - Gallery, museum and library technicians",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3434 - Chefs",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "3435 - Other artistic and cultural associate professionals",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "35 - Information and communications technicians",
+          "children": [
+            {
+              "name": "351 - Information and communications technology operations and user support technicians",
+              "children": [
+                {
+                  "name": "3511 - Information and communications technology operations technicians",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3512 - Information and communications technology user support technicians",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3513 - Computer network and systems technicians",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "3514 - Web technicians",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "352 - Telecommunications and broadcasting technicians",
+              "children": [
+                {
+                  "name": "3521 - Broadcasting and audio-visual technicians",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "3522 - Telecommunications engineering technicians",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4 - Clerical support workers",
+      "children": [
+        {
+          "name": "41 - General and keyboard clerks",
+          "children": [
+            {
+              "name": "411 - General office clerks",
+              "children": [
+                {
+                  "name": "4110 - General office clerks",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "412 - Secretaries (general)",
+              "children": [
+                {
+                  "name": "4120 - Secretaries (general)",
+                  "risk": "Automation Potential"
+                }
+              ]
+            },
+            {
+              "name": "413 - Keyboard operators",
+              "children": [
+                {
+                  "name": "4131 - Typists and word processing operators",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4132 - Data entry clerks",
+                  "risk": "Automation Potential"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "42 - Customer services clerks",
+          "children": [
+            {
+              "name": "421 - Tellers, money collectors and related clerks",
+              "children": [
+                {
+                  "name": "4211 - Bank tellers and related clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4212 - Bookmakers, croupiers and related gaming workers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4213 - Pawnbrokers and money-lenders",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4214 - Debt-collectors and related workers",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "422 - Client information workers",
+              "children": [
+                {
+                  "name": "4221 - Travel consultants and clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4222 - Contact centre information clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4223 - Telephone switchboard operators",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4224 - Hotel receptionists",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4225 - Enquiry clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4226 - Receptionists (general)",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4227 - Survey and market research interviewers",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4229 - Client information workers not elsewhere classified",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "43 - Numerical and material recording clerks",
+          "children": [
+            {
+              "name": "431 - Numerical clerks",
+              "children": [
+                {
+                  "name": "4311 - Accounting and bookkeeping clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4312 - Statistical, finance and insurance clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4313 - Payroll clerks",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "432 - Material-recording and transport clerks",
+              "children": [
+                {
+                  "name": "4321 - Stock clerks",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "4322 - Production clerks",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4323 - Transport clerks",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "44 - Other clerical support workers",
+          "children": [
+            {
+              "name": "441 - Other clerical support workers",
+              "children": [
+                {
+                  "name": "4411 - Library clerks",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4412 - Mail carriers and sorting clerks",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4413 - Coding, proof-reading and related clerks",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4414 - Scribes and related workers",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4415 - Filing and copying clerks",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "4416 - Personnel clerks",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "4419 - Clerical support workers not elsewhere classified",
+                  "risk": "Automation Potential"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5 - Service and sales workers",
+      "children": [
+        {
+          "name": "51 - Personal service workers",
+          "children": [
+            {
+              "name": "511 - Travel attendants, conductors and guides",
+              "children": [
+                {
+                  "name": "5111 - Travel attendants and travel stewards",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5112 - Transport conductors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5113 - Travel guides",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "512 - Cooks",
+              "children": [
+                {
+                  "name": "5120 - Cooks",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "513 - Waiters and bartenders",
+              "children": [
+                {
+                  "name": "5131 - Waiters",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5132 - Bartenders",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "514 - Hairdressers, beauticians and related workers",
+              "children": [
+                {
+                  "name": "5141 - Hairdressers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5142 - Beauticians and related workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "515 - Building and housekeeping supervisors",
+              "children": [
+                {
+                  "name": "5151 - Cleaning and housekeeping supervisors in offices, hotels and other establishments",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5152 - Domestic housekeepers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5153 - Building caretakers",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "516 - Other personal services workers",
+              "children": [
+                {
+                  "name": "5161 - Astrologers, fortune-tellers and related workers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "5162 - Companions and valets",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5163 - Undertakers and embalmers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5164 - Pet groomers and animal care workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5165 - Driving instructors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5169 - Personal services workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "52 - Sales workers",
+          "children": [
+            {
+              "name": "521 - Street and market salespersons",
+              "children": [
+                {
+                  "name": "5211 - Stall and market salespersons",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5212 - Street food salespersons",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "522 - Shop salespersons",
+              "children": [
+                {
+                  "name": "5221 - Shop keepers",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "5222 - Shop supervisors",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "5223 - Shop sales assistants",
+                  "risk": "The Big Unknown"
+                }
+              ]
+            },
+            {
+              "name": "523 - Cashiers and ticket clerks",
+              "children": [
+                {
+                  "name": "5230 - Cashiers and ticket clerks",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "524 - Other sales workers",
+              "children": [
+                {
+                  "name": "5241 - Fashion and other models",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5242 - Sales demonstrators",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "5243 - Door to door salespersons",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "5244 - Contact centre salespersons",
+                  "risk": "Automation Potential"
+                },
+                {
+                  "name": "5245 - Service station attendants",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "5246 - Food service counter attendants",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5249 - Sales workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "53 - Personal care workers",
+          "children": [
+            {
+              "name": "531 - Child care workers and teachers' aides",
+              "children": [
+                {
+                  "name": "5311 - Child care workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5312 - Teachers' aides",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "532 - Personal care workers in health services",
+              "children": [
+                {
+                  "name": "5321 - Health care assistants",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5322 - Home-based personal care workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5329 - Personal care workers in health services not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "54 - Protective services workers",
+          "children": [
+            {
+              "name": "541 - Protective services workers",
+              "children": [
+                {
+                  "name": "5411 - Fire-fighters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5412 - Police officers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5413 - Prison guards",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5414 - Security guards",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "5419 - Protective services workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "6 - Skilled agricultural, forestry and fishery workers",
+      "children": [
+        {
+          "name": "61 - Market-oriented skilled agricultural workers",
+          "children": [
+            {
+              "name": "611 - Market gardeners and crop growers",
+              "children": [
+                {
+                  "name": "6111 - Field crop and vegetable growers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6112 - Tree and shrub crop growers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6113 - Gardeners, horticultural and nursery growers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6114 - Mixed crop growers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "612 - Animal producers",
+              "children": [
+                {
+                  "name": "6121 - Livestock and dairy producers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6122 - Poultry producers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6123 - Apiarists and sericulturists",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "6129 - Animal producers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "613 - Mixed crop and animal producers",
+              "children": [
+                {
+                  "name": "6130 - Mixed crop and animal producers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "62 - Market-oriented skilled forestry, fishery and hunting workers",
+          "children": [
+            {
+              "name": "621 - Forestry and related workers",
+              "children": [
+                {
+                  "name": "6210 - Forestry and related workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "622 - Fishery workers, hunters and trappers",
+              "children": [
+                {
+                  "name": "6221 - Aquaculture workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6222 - Inland and coastal waters fishery workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6223 - Deep-sea fishery workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "6224 - Hunters and trappers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "63 - Subsistence farmers, fishers, hunters and gatherers",
+          "children": [
+            {
+              "name": "631 - Subsistence crop farmers",
+              "children": [
+                {
+                  "name": "6310 - Subsistence crop farmers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "632 - Subsistence livestock farmers",
+              "children": [
+                {
+                  "name": "6320 - Subsistence livestock farmers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "633 - Subsistence mixed crop and livestock farmers",
+              "children": [
+                {
+                  "name": "6330 - Subsistence mixed crop and livestock farmers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "634 - Subsistence fishers, hunters, trappers and gatherers",
+              "children": [
+                {
+                  "name": "6340 - Subsistence fishers, hunters, trappers and gatherers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7 - Craft and related trades workers",
+      "children": [
+        {
+          "name": "71 - Building and related trades workers, excluding electricians",
+          "children": [
+            {
+              "name": "711 - Building frame and related trades workers",
+              "children": [
+                {
+                  "name": "7111 - House builders",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7112 - Bricklayers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7113 - Stonemasons, stone cutters, splitters and carvers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7114 - Concrete placers, concrete finishers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7115 - Carpenters and joiners",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7119 - Building frame and related trades workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "712 - Building finishers and related trades workers",
+              "children": [
+                {
+                  "name": "7121 - Roofers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7122 - Floor layers and tile setters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7123 - Plasterers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7124 - Insulation workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7125 - Glaziers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7126 - Plumbers and pipe fitters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7127 - Air conditioning and refrigeration mechanics",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "713 - Painters, building structure cleaners and related trades workers",
+              "children": [
+                {
+                  "name": "7131 - Painters and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7132 - Spray painters and varnishers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7133 - Building structure cleaners",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "72 - Metal, machinery and related trades workers",
+          "children": [
+            {
+              "name": "721 - Sheet and structural metal workers, moulders and welders, and related workers",
+              "children": [
+                {
+                  "name": "7211 - Metal moulders and coremakers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7212 - Welders and flamecutters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7213 - Sheet-metal workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7214 - Structural-metal preparers and erectors",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7215 - Riggers and cable splicers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "722 - Blacksmiths, toolmakers and related trades workers",
+              "children": [
+                {
+                  "name": "7221 - Blacksmiths, hammersmiths and forging press workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7222 - Toolmakers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7223 - Metal working machine tool setters and operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7224 - Metal polishers, wheel grinders and tool sharpeners",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "723 - Machinery mechanics and repairers",
+              "children": [
+                {
+                  "name": "7231 - Motor vehicle mechanics and repairers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7232 - Aircraft engine mechanics and repairers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7233 - Agricultural and industrial machinery mechanics and repairers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7234 - Bicycle and related repairers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "73 - Handicraft and printing workers",
+          "children": [
+            {
+              "name": "731 - Handicraft workers",
+              "children": [
+                {
+                  "name": "7311 - Precision-instrument makers and repairers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7312 - Musical instrument makers and tuners",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7313 - Jewellery and precious-metal workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7314 - Potters and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7315 - Glass makers, cutters, grinders and finishers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7316 - Sign writers, decorative painters, engravers and etchers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7317 - Handicraft workers in wood, basketry and related materials",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7318 - Handicraft workers in textile, leather and related materials",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7319 - Handicraft workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "732 - Printing trades workers",
+              "children": [
+                {
+                  "name": "7321 - Pre-press technicians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7322 - Printers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7323 - Print finishing and binding workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "74 - Electrical and electronic trades workers",
+          "children": [
+            {
+              "name": "741 - Electrical equipment installers and repairers",
+              "children": [
+                {
+                  "name": "7411 - Building and related electricians",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7412 - Electrical mechanics and fitters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7413 - Electrical line installers and repairers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "742 - Electronics and telecommunications installers and repairers",
+              "children": [
+                {
+                  "name": "7421 - Electronics mechanics and servicers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7422 - Information and communications technology installers and servicers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "75 - Food processing, wood working, garment and other craft and related trades workers",
+          "children": [
+            {
+              "name": "751 - Food processing and related trades workers",
+              "children": [
+                {
+                  "name": "7511 - Butchers, fishmongers and related food preparers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7512 - Bakers, pastry-cooks and confectionery makers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7513 - Dairy-products makers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7514 - Fruit, vegetable and related preservers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7515 - Food and beverage tasters and graders",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7516 - Tobacco preparers and tobacco products makers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "752 - Wood treaters, cabinet-makers and related trades workers",
+              "children": [
+                {
+                  "name": "7521 - Wood treaters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7522 - Cabinet-makers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7523 - Woodworking-machine tool setters and operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "753 - Garment and related trades workers",
+              "children": [
+                {
+                  "name": "7531 - Tailors, dressmakers, furriers and hatters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7532 - Garment and related pattern-makers and cutters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7533 - Sewing, embroidery and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7534 - Upholsterers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7535 - Pelt dressers, tanners and fellmongers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7536 - Shoemakers and related workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "754 - Other craft and related workers",
+              "children": [
+                {
+                  "name": "7541 - Underwater divers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7542 - Shotfirers and blasters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7543 - Product graders and testers (excluding foods and beverages)",
+                  "risk": "The Big Unknown"
+                },
+                {
+                  "name": "7544 - Fumigators and other pest and weed controllers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "7549 - Craft and related workers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "8 - Plant and machine operators, and assemblers",
+      "children": [
+        {
+          "name": "81 - Stationary plant and machine operators",
+          "children": [
+            {
+              "name": "811 - Mining and mineral processing plant operators",
+              "children": [
+                {
+                  "name": "8111 - Miners and quarriers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8112 - Mineral and stone processing plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8113 - Well drillers and borers and related workers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8114 - Cement, stone and other mineral products machine operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "812 - Metal processing and finishing plant operators",
+              "children": [
+                {
+                  "name": "8121 - Metal processing plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8122 - Metal finishing, plating and coating machine operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "813 - Chemical and photographic products plant and machine operators",
+              "children": [
+                {
+                  "name": "8131 - Chemical products plant and machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8132 - Photographic products machine operators",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "814 - Rubber, plastic and paper products machine operators",
+              "children": [
+                {
+                  "name": "8141 - Rubber products machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8142 - Plastic products machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8143 - Paper products machine operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "815 - Textile, fur and leather products machine operators",
+              "children": [
+                {
+                  "name": "8151 - Fibre preparing, spinning and winding machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8152 - Weaving and knitting machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8153 - Sewing machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8154 - Bleaching, dyeing and fabric cleaning machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8155 - Fur and leather preparing machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8156 - Shoemaking and related machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8157 - Laundry machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8159 - Textile, fur and leather products machine operators not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "816 - Food and related products machine operators",
+              "children": [
+                {
+                  "name": "8160 - Food and related products machine operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "817 - Wood processing and papermaking plant operators",
+              "children": [
+                {
+                  "name": "8171 - Pulp and papermaking plant operators",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "8172 - Wood processing plant operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "818 - Other stationary plant and machine operators",
+              "children": [
+                {
+                  "name": "8181 - Glass and ceramics plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8182 - Steam engine and boiler operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8183 - Packing, bottling and labelling machine operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8189 - Stationary plant and machine operators not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "82 - Assemblers",
+          "children": [
+            {
+              "name": "821 - Assemblers",
+              "children": [
+                {
+                  "name": "8211 - Mechanical machinery assemblers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "8212 - Electrical and electronic equipment assemblers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "8219 - Assemblers not elsewhere classified",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "83 - Drivers and mobile plant operators",
+          "children": [
+            {
+              "name": "831 - Locomotive engine drivers and related workers",
+              "children": [
+                {
+                  "name": "8311 - Locomotive engine drivers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8312 - Railway brake, signal and switch operators",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "832 - Car, van and motorcycle drivers",
+              "children": [
+                {
+                  "name": "8321 - Motorcycle drivers",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "8322 - Car, taxi and van drivers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "833 - Heavy truck and bus drivers",
+              "children": [
+                {
+                  "name": "8331 - Bus and tram drivers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8332 - Heavy truck and lorry drivers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "834 - Mobile plant operators",
+              "children": [
+                {
+                  "name": "8341 - Mobile farm and forestry plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8342 - Earthmoving and related plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8343 - Crane, hoist and related plant operators",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "8344 - Lifting truck operators",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "835 - Ships' deck crews and related workers",
+              "children": [
+                {
+                  "name": "8350 - Ships' deck crews and related workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "9 - Elementary occupations",
+      "children": [
+        {
+          "name": "91 - Cleaners and helpers",
+          "children": [
+            {
+              "name": "911 - Domestic, hotel and office cleaners and helpers",
+              "children": [
+                {
+                  "name": "9111 - Domestic cleaners and helpers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9112 - Cleaners and helpers in offices, hotels and other establishments",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "912 - Vehicle, window, laundry and other hand cleaning workers",
+              "children": [
+                {
+                  "name": "9121 - Hand launderers and pressers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9122 - Vehicle cleaners",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9123 - Window cleaners",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9129 - Other cleaning workers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "92 - Agricultural, forestry and fishery labourers",
+          "children": [
+            {
+              "name": "921 - Agricultural, forestry and fishery labourers",
+              "children": [
+                {
+                  "name": "9211 - Crop farm labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9212 - Livestock farm labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9213 - Mixed crop and livestock farm labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9214 - Garden and horticultural labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9215 - Forestry labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9216 - Fishery and aquaculture labourers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "93 - Labourers in mining, construction, manufacturing and transport",
+          "children": [
+            {
+              "name": "931 - Mining and construction labourers",
+              "children": [
+                {
+                  "name": "9311 - Mining and quarrying labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9312 - Civil engineering labourers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9313 - Building construction labourers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "932 - Manufacturing labourers",
+              "children": [
+                {
+                  "name": "9321 - Hand packers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9329 - Manufacturing labourers not elsewhere classified",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "933 - Transport and storage labourers",
+              "children": [
+                {
+                  "name": "9331 - Hand and pedal vehicle drivers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9332 - Drivers of animal-drawn vehicles and machinery",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9333 - Freight handlers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9334 - Shelf fillers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "94 - Food preparation assistants",
+          "children": [
+            {
+              "name": "941 - Food preparation assistants",
+              "children": [
+                {
+                  "name": "9411 - Fast food preparers",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9412 - Kitchen helpers",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "95 - Street and related sales and service workers",
+          "children": [
+            {
+              "name": "951 - Street and related service workers",
+              "children": [
+                {
+                  "name": "9510 - Street and related service workers",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            },
+            {
+              "name": "952 - Street vendors (excluding food)",
+              "children": [
+                {
+                  "name": "9520 - Street vendors (excluding food)",
+                  "risk": "Not Affected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "96 - Refuse workers and other elementary workers",
+          "children": [
+            {
+              "name": "961 - Refuse workers",
+              "children": [
+                {
+                  "name": "9611 - Garbage and recycling collectors",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9612 - Refuse sorters",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9613 - Sweepers and related labourers",
+                  "risk": "Not Affected"
+                }
+              ]
+            },
+            {
+              "name": "962 - Other elementary workers",
+              "children": [
+                {
+                  "name": "9621 - Messengers, package deliverers and luggage porters",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "9622 - Odd job persons",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9623 - Meter readers and vending-machine collectors",
+                  "risk": "Augmentation Potential"
+                },
+                {
+                  "name": "9624 - Water and firewood collectors",
+                  "risk": "Not Affected"
+                },
+                {
+                  "name": "9629 - Elementary workers not elsewhere classified",
+                  "risk": "Augmentation Potential"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

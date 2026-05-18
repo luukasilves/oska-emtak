@@ -17,7 +17,8 @@ import numpy as np
 import pandas as pd
 
 from common import (
-    CHARTS_DIR, GEOMETRY_DIR, MATRICES_DIR, OMAV_REMAP, RAW, SUMMARIES_DIR,
+    CHARTS_DIR, GEOMETRY_DIR, MATRICES_DIR, OMAV_REMAP, RAW, SCORES_DIR,
+    SUMMARIES_DIR, load_isco_labels,
 )
 
 
@@ -388,6 +389,87 @@ def _build_municipality_summary(matrix: pd.DataFrame) -> pd.DataFrame:
     return grouped
 
 
+def _render_top_isco4_per_model(scores_long: pd.DataFrame, model: str,
+                                  out_dir: Path, top_n: int = 30):
+    """Chart 09 — top-N detailed ISCO-3/4 occupations by exposure for one model.
+
+    No-op for models whose taxonomy is ISCO-2 (no extra detail to show).
+    """
+    sub = scores_long[(scores_long["model"] == model)
+                      & (scores_long["metric"] == "exposure")].copy()
+    if sub.empty:
+        return
+    taxonomy = sub["taxonomy"].iloc[0]
+    if taxonomy not in ("isco3", "isco4"):
+        return  # ISCO-2 detail already covered by chart 05
+
+    labels = load_isco_labels()
+    level = 4 if taxonomy == "isco4" else 3
+    sub["label"] = sub["code"].map(labels[level]).fillna(sub["code"])
+    sub["isco1"] = sub["code"].astype(str).str[0]
+    sub = sub.nlargest(top_n, "value").sort_values("value", ascending=True)
+
+    fig, ax = plt.subplots(figsize=(12, max(7, top_n * 0.3)))
+    colors = sub["isco1"].map(ISCO1_COLORS).fillna(C_NEUTRAL)
+    ax.barh(range(len(sub)), sub["value"], color=colors, edgecolor="white")
+    ax.set_yticks(range(len(sub)))
+    ax.set_yticklabels([f"{c} — {lbl[:55]}" for c, lbl in zip(sub["code"], sub["label"])],
+                       fontsize=8)
+    ax.set_xlabel(f"Exposure score (0–1, native at {taxonomy.upper()})")
+    ax.set_title(f"Top {top_n} detailed occupations by exposure — model: {model}",
+                 fontsize=13, weight="bold")
+    ax.set_xlim(0, max(sub["value"]) * 1.08)
+    ax.spines[["top", "right"]].set_visible(False)
+    # ISCO major-group legend (only those present)
+    present = sorted(sub["isco1"].unique())
+    handles = [plt.Rectangle((0, 0), 1, 1, color=ISCO1_COLORS.get(i, C_NEUTRAL))
+               for i in present]
+    legend_labels = [f"{i} {ISCO1_LABELS.get(i, '?')}" for i in present]
+    ax.legend(handles, legend_labels, loc="lower right", fontsize=8, frameon=False,
+              title="ISCO Major Group", title_fontsize=9)
+    plt.savefig(out_dir / "09_top_isco4_detailed_occupations.png")
+    plt.close()
+    print("  09_top_isco4_detailed_occupations.png")
+
+
+def _render_cross_model_rank_correlation(scores_long: pd.DataFrame, out_root: Path):
+    """Chart 10 — Spearman rank correlation of ISCO-4 exposure across ISCO-4 models.
+
+    JRC Casas is excluded if present (it's ISCO-3 native — would need separate panel).
+    """
+    out_dir = out_root / "_cross_model"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    sub = scores_long[(scores_long["metric"] == "exposure")
+                      & (scores_long["taxonomy"] == "isco4")].copy()
+    if sub["model"].nunique() < 2:
+        print("  [cross-model] skipping rank correlation: need ≥2 ISCO-4 models")
+        return
+
+    wide = sub.pivot_table(index="code", columns="model", values="value")
+    corr = wide.corr(method="spearman")
+    fig, ax = plt.subplots(figsize=(1.7 + 1.2 * len(corr), 1.2 + 1.0 * len(corr)))
+    im = ax.imshow(corr, cmap="RdYlBu_r", vmin=-1, vmax=1)
+    ax.set_xticks(range(len(corr))); ax.set_yticks(range(len(corr)))
+    ax.set_xticklabels(corr.columns, rotation=30, ha="right", fontsize=9)
+    ax.set_yticklabels(corr.index, fontsize=9)
+    for i in range(len(corr)):
+        for j in range(len(corr)):
+            v = corr.iloc[i, j]
+            ax.text(j, i, f"{v:.2f}", ha="center", va="center",
+                    color="white" if abs(v) > 0.5 else "black", fontsize=9)
+    ax.set_title("Spearman rank correlation, ISCO-4 exposure across models",
+                 fontsize=12, weight="bold")
+    fig.colorbar(im, ax=ax, shrink=0.7, label="ρ")
+    fig.text(0.5, -0.02,
+             f"Codes in common: ~{len(wide.dropna()):,} of {len(wide):,} ISCO-4. "
+             "Pairwise correlation uses available overlap.",
+             ha="center", fontsize=8, color="gray")
+    plt.savefig(out_dir / "10_isco4_rank_correlation.png", bbox_inches="tight")
+    plt.close()
+    print(f"  10_isco4_rank_correlation.png  ({len(corr)}×{len(corr)} matrix)")
+
+
 def main():
     matrix_files = sorted(MATRICES_DIR.glob("matrix_*.csv"))
     if not matrix_files:
@@ -398,11 +480,18 @@ def main():
     for p in matrix_files:
         print(f"  {p.name}")
 
+    scores_long = pd.read_csv(SCORES_DIR / "scores_long.csv",
+                              dtype={"taxonomy": str, "code": str})
+
     for matrix_path in matrix_files:
         matrix, summary, model, scenario, taxonomy = _read_combo(matrix_path)
         out_dir = CHARTS_DIR / f"{model}_{scenario}"
         print(f"\n[{model} × {scenario}] taxonomy={taxonomy} → {out_dir}")
         _render(matrix, summary, out_dir)
+        _render_top_isco4_per_model(scores_long, model, out_dir)
+
+    print(f"\n[cross-model] → {CHARTS_DIR}/_cross_model")
+    _render_cross_model_rank_correlation(scores_long, CHARTS_DIR)
 
     print(f"\nAll charts written under {CHARTS_DIR}")
 
