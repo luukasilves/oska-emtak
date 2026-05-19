@@ -1,0 +1,58 @@
+[
+  {
+    "method": "GET",
+    "url": "https://www.tootukassa.ee/et/baromeeter/tabel"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.tootukassa.ee/web/graphql"
+  },
+  {
+    "method": "POST",
+    "url": "https://matomo.tootukassa.ee/matomo.php?action_name=T%C3%B6%C3%B6tukassa&idsite=9&rec=1&r=369516&h=10&m=44&s=33&url=https%3A%2F%2Fwww.tootukassa.ee%2Fet%2Fbaromeeter%2Ftabel%3FperiodId%3D396%26ratingType%3DLABOUR_BALANCE%26mainGroups%3D%26iscoCodes%3D%26areaCodes%3D&_id=600449e055b748c2&_idn=1&send_image=0&_refts=0&pv_id=K5A9Ok&pf_net=381&pf_srv=173&pf_tfr=37&pf_dm1=45&pf_dm2=1224&pf_onl=0&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22147.0.7727.15%22%7D%2C%7B%22brand%22%3A%22Not.A%2FBrand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22147.0.7727.15%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210.15.7%22%7D&cookie=1&res=1280x720"
+  },
+  {
+    "method": "POST",
+    "url": "https://matomo.tootukassa.ee/matomo.php?action_name=T%C3%B6%C3%B6tukassa&idsite=9&rec=1&r=613460&h=10&m=44&s=33&url=https%3A%2F%2Fwww.tootukassa.ee%2Fet%2Fbaromeeter%2Ftabel%3FperiodId%3D396%26ratingType%3DLABOUR_BALANCE%26mainGroups%3D%26iscoCodes%3D%26areaCodes%3D&urlref=%2Fet%2Fbaromeeter%2Ftabel&_id=600449e055b748c2&_idn=0&send_image=0&_refts=0&pv_id=xkKfsl&pf_net=381&pf_srv=173&pf_tfr=37&pf_dm1=45&pf_dm2=1224&pf_onl=0&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22147.0.7727.15%22%7D%2C%7B%22brand%22%3A%22Not.A%2FBrand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22147.0.7727.15%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210.15.7%22%7D&cookie=1&res=1280x720"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.tootukassa.ee/etootukassa/baromeeter/table/excel?periodId=396&ratingType=LABOUR_BALANCE"
+  },
+  {
+    "method": "POST",
+    "url": "https://matomo.tootukassa.ee/matomo.php?e_c=Tekst%20elemendil&e_a=Salvesta%20.XLS%20failina&e_n=Tekst%20elemendil&e_v=&ca=1&idsite=9&rec=1&r=764493&h=10&m=44&s=52&url=https%3A%2F%2Fwww.tootukassa.ee%2Fet%2Fbaromeeter%2Ftabel%3FperiodId%3D396%26ratingType%3DLABOUR_BALANCE%26mainGroups%3D%26iscoCodes%3D%26areaCodes%3D&_id=600449e055b748c2&_idn=0&send_image=0&_refts=0&uadata=%7B%22brands%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22147%22%7D%2C%7B%22brand%22%3A%22Not.A%2FBrand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22147%22%7D%5D%2C%22platform%22%3A%22macOS%22%7D&cookie=1&res=1280x720"
+  }
+]

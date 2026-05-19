@@ -1,0 +1,2745 @@
+isco4,leaf_id,leaf_name_et
+1111,11110001,Minister
+1111,11110002,Riigikogu liige
+1111,11110003,Volikogu esimees
+1111,11110004,Volikogu liige
+1112,11120001,Suursaadik
+1112,11120002,Peadirektor (riigiasutus)
+1112,11120003,Kantsler
+1112,11120004,Asekantsler
+1112,11120005,Riigiarhivaar
+1112,11120007,Linnaosa vanem
+1112,11120008,Linnapea
+1112,11120009,Vallavanem
+1112,11120010,Peakonsul
+1112,11120011,Kohaliku omavalitsuse ameti juht
+1112,11120012,Valla- või linnavalitsuse liige
+1112,11120013,Vallasekretär
+1112,11120015,Riigikontrolör
+1112,11120016,Riigisekretär
+1112,11120017,Õiguskantsler
+1112,11120018,Kohaliku omavalitsuse osakonnajuhataja
+1112,11120019,Kohaliku omavalitsuse teenistusejuhataja
+1112,11120020,Kohtu esimees
+1112,11120021,Ministeeriumi osakonnajuhataja
+1112,11129900,Mujal liigitamata kõrgemad valitsusametnikud
+1114,11140001,Ametiühingu esimees
+1114,11140002,Tööandjate liidu tegevdirektor
+1114,11140003,Erakonna peasekretär
+1114,11140005,Keskkonnakaitseorganisatsiooni peasekretär
+1114,11140006,Inimõigusteorganisatsiooni peasekretär
+1114,11140007,Kutseorganisatsiooni juht
+1114,11140008,Usuorganisatsiooni juht
+1114,11149900,Mujal liigitamata ühiskondlike ja huviorganisatsioonide juhid
+1120,11200001,Suurettevõtte juht
+1120,11200002,Suurettevõtte tegevdirektor
+1120,11200003,Tervishoiuasutuse tegevdirektor või tippjuht
+1120,11200004,Ülikooli rektor
+1120,11200005,Suurettevõtte divisjonijuht
+1120,11209900,Suurettevõtete mujal liigitamata tippjuhid
+1211,12110001,Eelarvedirektor
+1211,12110002,Finantsdirektor
+1211,12110003,Rahandusosakonna juhataja
+1211,12119900,Mujal liigitamata finantsjuhid
+1212,12120001,Töösuhete juht
+1212,12120002,Personalijuht
+1212,12120003,Värbamisjuht
+1212,12120004,Tööhõiveagentuuri juht
+1212,12120005,Tööjõurendi ettevõtte juht
+1212,12129900,Mujal liigitamata personalijuhid 
+1213,12130001,Ettevõtte planeerimisjuht
+1213,12130002,Strateegiajuht
+1213,12130003,Strateegilise planeerimise juht
+1213,12139900,Mujal liigitamata poliitika- ja strateegiajuhid 
+1219,12190001,Haldusteenistuse juht
+1219,12190002,Puhastusteenistuse juht
+1219,12190003,Äriteeninduse juht
+1219,12190004,Rajatiste haldur
+1219,12190005,Haldusdirektor
+1219,12190006,Haldusprorektor
+1219,12190007,Majandusdirektor
+1219,12190008,Üldosakonna juhataja
+1219,12190009,Haldus- ja turvaosakonna juhataja
+1219,12190010,Puhastusteenistusettevõtte juht
+1219,12190011,Puhastusteenistuse osakonnajuht
+1219,12199900,Muud mujal liigitamata äriteenindus- ja haldusjuhid
+1221,12210001,Turundusosakonna juhataja
+1221,12210002,Müügiosakonna juhataja
+1221,12219900,Mujal liigitamata müügi- ja turundusjuhid 
+1222,12220001,Reklaamijuht
+1222,12220002,Suhtekorraldusjuht
+1222,12220003,Kommunikatsiooniosakonna juhataja
+1222,12229900,Mujal liigitamata reklaami- ja suhtekorraldusjuhid 
+1223,12230001,Tootearendusjuht
+1223,12230002,Arendusdirektor
+1223,12230003,Arendusosakonna juhataja
+1223,12230004,Arendusprorektor
+1223,12230005,Kompetentsikeskuse juht
+1223,12230006,Teadus- ja arendusosakonna juhataja
+1223,12230007,Teadusdirektor
+1223,12230008,Teadusasutuse juht
+1223,12239900,Mujal liigitamata teadus- ja arendusjuhid 
+1311,13110001,Metsandusjuht
+1311,13110002,Istanduse juht
+1311,13110003,Põllumajandusettevõtte juht
+1311,13110004,Metsaülem
+1311,13119900,Mujal liigitamata põllumajandus- ja metsandusjuhid 
+1312,13120001,Tootmisjuht vesiviljeluses
+1312,13120002,Kalandustööde juht
+1312,13120003,Traaleriteenistuse juht
+1312,13129900,Mujal liigitamata vesiviljeluse ja kalandusjuhid 
+1321,13210001,Tehase juht
+1321,13210002,Tootmisjuht (töötlev tööstus)
+1321,13210003,Tootmise ja tööde juht (töötlev tööstus)
+1321,13210004,Töötleva tööstuse ettevõtte juht
+1321,13210005,Trükindusettevõtte juht
+1321,13210006,Trükindusosakonna juhataja
+1321,13210007,Laeva ehitus- või remondiettevõtte juht
+1321,13210008,Laeva ehitus- või remondiosakonna juhataja
+1321,13210009,Vee-ettevõtte juht
+1321,13210010,Jäätmekäitlusettevõtte juht
+1321,13210013,Energeetikaettevõtte juht
+1321,13210015,Vee-ettevõtte osakonnajuhataja
+1321,13210017,Jäätmekäitlusettevõtte osakonnajuhataja
+1321,13210018,Energeetikaosakonna juhataja
+1321,13210019,Rongide remondiettevõtte juht
+1321,13210020,Rongide remondiosakonna juhataja
+1321,13210021,Masinate ja seadmete paigaldus- ja remondiettevõtte juht
+1321,13210022,Masinate ja seadmete paigaldus- ja remondiosakonna juhataja
+1321,13219900,Mujal liigitamata töötleva tööstuse juhid 
+1322,13220001,Kaevanduse direktor
+1322,13220002,Tootmisjuht (kaevandus)
+1322,13220003,Tootmisjuht (karjäär)
+1322,13220004,Karjääri juhataja
+1322,13229900,Mujal liigitamata mäetööstuse juhid
+1323,13230001,Ehituse projektijuht
+1323,13230002,Ehitusettevõtja
+1323,13230003,Ehitusettevõtte juht
+1323,13230004,Ehitusosakonna juhataja
+1323,13239900,Mujal liigitamata ehitusjuhid
+1324,13240002,Logistikajuht
+1324,13240003,Raudteejaama juht
+1324,13240004,Tarne- ja turustusjuht
+1324,13240005,Tarneahela juht
+1324,13240006,Transpordiettevõtte juht
+1324,13240007,Linnatranspordi süsteemi juht
+1324,13240008,Laojuht
+1324,13240009,Tolliteenuse juht
+1324,13240010,Transpordiosakonna juhataja
+1324,13249900,"Mujal liigitamata tarne-, turustus- jms juhid"
+1330,13300001,Tarkvara arendusjuht
+1330,13300002,Andmetoimingute juht
+1330,13300003,Andmetöötluse juht
+1330,13300004,Info- ja kommunikatsioonitehnoloogia arendusjuht
+1330,13300005,Infosüsteemide direktor
+1330,13300006,Infotehnoloogiajuht
+1330,13300007,Ringhäälingu ettevõtte juht
+1330,13300008,Ringhäälingu osakonna juhataja
+1330,13300009,IKT ettevõtte juht
+1330,13309900,Mujal liigitamata IKT-juhid 
+1341,13410001,Lasteaia juht
+1341,13410002,Lastehoiukeskuse juht
+1341,13419900,Mujal liigitamata lapsehoiuteenuste juhid
+1342,13420101,Arst-juht
+1342,13420201,Hambaravi osakonna juht
+1342,13420301,Õendusjuht
+1342,13420401,Muu tervishoiuteenuseid osutava struktuuriüksuse juht
+1342,13429900,Mujal liigitamata tervishoiuteenuste juhid
+1343,13430001,Eakate hooldekodu juht
+1343,13430002,Hooldekodu juht
+1343,13430003,Hooldekodu osakonnajuhataja
+1343,13439900,Mujal liigitamata eakate hooldusteenuste juhid 
+1344,13440001,Pereabi teenuste juht
+1344,13440002,Hoolekandekeskuse juht
+1344,13440003,Sotsiaalhoolekande juht
+1344,13440004,Asenduskodu juhataja
+1344,13449900,Mujal liigitamata sotsiaalhoolekande teenuste juhid 
+1345,13450001,Kolledži direktor
+1345,13450002,Dekaan (ülikool)
+1345,13450003,Õppealajuhataja
+1345,13450004,Koolidirektor
+1345,13450005,Autokooli juht
+1345,13450006,Erialaosakonna juhataja
+1345,13450007,Erialaosakonna juhataja asetäitja
+1345,13450008,Filiaali juhataja (haridus- ja koolitusvaldkond)
+1345,13450009,Instituudi juhataja (haridus- ja koolitusvaldkond)
+1345,13450010,Keeltekeskuse juht
+1345,13450011,Keskuse juht (haridus- ja koolitusvaldkond)
+1345,13450012,Kutseõppe osakonna juhataja
+1345,13450013,Osakonnajuhataja (haridus- ja koolitusvaldkond)
+1345,13450014,Teaduskonna juhataja
+1345,13450015,Valdkonna juhataja (kutseõpe)
+1345,13450016,Valdkonnajuht (kutseõpe)
+1345,13450017,Õppekavarühma juht
+1345,13450018,Õppekoha juhataja
+1345,13450019,Õppeosakonna juhataja
+1345,13450020,Õppeprorektor
+1345,13450021,Õppesuundade juht
+1345,13450022,Õppetooli juhataja
+1345,13450023,Üldainete osakonna juhataja
+1345,13459900,Mujal liigitamata haridus- ja koolitusteenuste juhid
+1346,13460001,Pangajuht
+1346,13460002,Krediidiühistu juht
+1346,13460003,Finantsteenuseid osutava asutuse filiaali juht
+1346,13460004,Kindlustusseltsi juht
+1346,13460005,Panganduse osakonnajuhataja
+1346,13460006,Kindlustuse osakonnajuhataja
+1346,13469900,Mujal liigitamata finantsvahendus- ja kindlustusteenuste juhid
+1349,13490001,Arhiivi juht
+1349,13490002,Kunstigalerii juht
+1349,13490004,Õigusteenuseid osutava asutuse juht
+1349,13490005,Raamatukogu juht
+1349,13490006,Muuseumi juht
+1349,13490007,Vangla direktor
+1349,13490008,Õigusosakonna juhataja
+1349,13490009,Rahvusvahelise koostöö juht
+1349,13490010,Turvateenuseid osutava ettevõtte juht
+1349,13490011,Turvaosakonna juhataja
+1349,13490012,Laborijuht
+1349,13490013,Teimimisettevõtte juht
+1349,13490014,Päästeala üksuse juhataja
+1349,13490015,Keskkonnakaitse osakonnajuhataja
+1349,13490016,Raamatukogu osakonnajuhataja
+1349,13490017,Muuseumi osakonnajuhataja
+1349,13490018,Kultuuripärandi valdkonna juht
+1349,13490019,Teimimisosakonna juhataja
+1349,13490020,Arhiivi osakonna juhataja
+1349,13490021,Ehitusliku projekteerimise ettevõtte juht
+1349,13490022,Ehitusliku projekteerimise osakonna juhataja
+1349,13490023,Geomaatika ettevõtte juht
+1349,13490024,Geomaatika osakonna juhataja
+1349,13490025,Kinnisvara- ja katastriosakonna juhataja
+1349,13490026,Raamatupidamis- ja maksualase nõustamisettevõtte juht
+1349,13490027,Raamatupidamisosakonna juhataja
+1349,13490028,Audiitorettevõtte juht
+1349,13499900,Muud mujal liigitamata kutseteenuste juhid
+1411,14110001,Hotellijuht
+1411,14110002,Motellijuht
+1411,14110003,Hostelijuht
+1411,14110004,Majutusosakonna juhataja
+1411,14119900,Mujal liigitamata majutusettevõtte juht
+1412,14120001,Kohviku juht
+1412,14120002,Restorani juht
+1412,14120003,Baaripidaja
+1412,14120004,Toitlustusettevõtte juht
+1412,14120005,Toitlustusosakonna juhataja
+1412,14129900,Mujal liigitamata restoranide ja kohvikute juhid
+1420,14200001,Toiduosakonna juhataja
+1420,14200002,Jaemüügi juht
+1420,14200003,Kaupluse juht
+1420,14200004,Supermarketi juht
+1420,14200005,Apteegi juht
+1420,14200006,Hulgimüügi juht
+1420,14200007,E-poe juht
+1420,14200008,Kaubanduse müügijuht
+1420,14200009,Kaubanduse ostujuht
+1420,14200010,Kaubanduse osakonnajuhataja
+1420,14209900,Mujal liigitamata hulgi- ja jaekaubandusjuhid 
+1431,14310001,Lõbustuspargi juht
+1431,14310002,Piljardisaali juht
+1431,14310003,Kasiino juht
+1431,14310004,Kinojuht
+1431,14310005,Puhkekeskuse juht
+1431,14310006,Ratsutamiskooli juht
+1431,14310007,Spordikeskuse juht
+1431,14310008,Teatrijuht
+1431,14310009,Teemapargi juht
+1431,14310010,Rahvamaja juht
+1431,14310011,Noortekeskuse juht
+1431,14310012,Loominguline juht
+1431,14310013,Teatri osakonna juhataja
+1431,14310014,Spordialaliidu juht
+1431,14310015,Noorsootööasutuse juht
+1431,14319900,"Mujal liigitamata spordi-, vabaaja- ja kultuurikeskuste juhid"
+1439,14390001,Kämpingujuht
+1439,14390002,Konverentsi- ja messikeskuse juht
+1439,14390003,Kontaktikeskuse juht
+1439,14390004,Ostukeskuse juht
+1439,14390005,Reisibüroo juht
+1439,14390006,Autoremonditöökoja juht
+1439,14390007,Parandusteenuseid osutava ettevõtte juht
+1439,14390008,Heaolukeskuse juht
+1439,14390009,Iluteenindusettevõtte juht
+1439,14390010,Iluteenindusosakonna juhataja
+1439,14390011,Tarbeesemete rendi ettevõtte juht
+1439,14390012,Tarbeesemete rendi osakonna juhataja
+1439,14390013,Masinate või seadmete rendi ettevõtte juht
+1439,14390014,Masinate või seadmete rendi osakonna juhataja
+1439,14399900,Muud mujal liigitamata teenuste juhid
+2111,21110001,Astronoom
+2111,21110002,Meditsiinifüüsik
+2111,21110003,Tuumafüüsik
+2111,21110004,Füüsik
+2111,21119900,Mujal liigitamata füüsikud ja astronoomid 
+2112,21120001,Klimatoloog
+2112,21120002,Hüdrometeoroloog
+2112,21120003,Meteoroloog
+2112,21120004,Sünoptik
+2113,21130001,Keemik
+2114,21140002,Geoloog
+2114,21140003,Geofüüsik-okeanograaf
+2114,21140004,Geofüüsik
+2114,21149900,Mujal liigitamata geoloogid ja geofüüsikud
+2120,21200001,Aktuaar
+2120,21200003,Matemaatik
+2120,21200004,Statistik
+2120,21200005,Andmeanalüüsi tippspetsialist
+2120,21209900,"Mujal liigitamata matemaatikud, aktuaarid ja statistikud"
+2131,21310001,Bakterioloog
+2131,21310002,Biokeemik
+2131,21310003,Bioloog
+2131,21310004,Biotehnoloog
+2131,21310005,Botaanik
+2131,21310006,Rakugeneetik
+2131,21310007,Merebioloog
+2131,21310008,Mikrobioloog
+2131,21310009,Molekulaarbioloog
+2131,21310010,Molekulaargeneetik
+2131,21310011,Farmakoloog
+2131,21310012,Zooloog
+2131,21310013,Biolabori kvaliteedispetsialist
+2131,21310014,Kliiniliste uuringute tippspetsialist
+2131,21319900,"Mujal liigitamata bioloogid, botaanikud, zooloogid jms tippspetsialistid"
+2132,21320001,Agronoom
+2132,21320002,Kalandusnõunik
+2132,21320003,Metsandusnõunik
+2132,21320004,Metsandusteadlane
+2132,21320005,Metsateadlane
+2132,21320006,Mullateadlane
+2132,21320007,Loomakasvatusnõunik
+2132,21320008,Jahindusnõunik
+2132,21320009,Maamajanduse konsulent
+2132,21320010,Põllumajandusteadlane
+2132,21329900,"Mujal liigitamata põllumajanduse, metsanduse ja kalanduse nõuandjad"
+2133,21330001,Õhusaaste analüütik
+2133,21330002,Looduskaitseametnik
+2133,21330003,Looduskaitseteadlane
+2133,21330004,Keskkonnanõunik
+2133,21330005,Keskkonnaaudiitor
+2133,21330006,Keskkonnakonsultant
+2133,21330007,Keskkonnauuringute teadlane
+2133,21330008,Keskkonnateadlane
+2133,21330009,Veekvaliteedi analüüsija
+2133,21330010,Kaitseala juhataja
+2133,21330011,Ökoloog
+2133,21339900,Mujal liigitamata keskkonnakaitse tippspetsialistid
+2141,21410001,Tootmisefektiivsuse insener
+2141,21410002,Tööstusinsener
+2141,21410003,Tööstusseadmete insener
+2141,21410004,Tootmisinsener
+2141,21410005,Tootmistehnoloog
+2141,21410006,Tootmise kvaliteedijuht
+2141,21419900,Mujal liigitamata tööstus- ja tootmisinsenerid
+2142,21420001,Ehitusinsener
+2142,21420002,Geotehnikainsener
+2142,21420003,Ehitustehnoloog
+2142,21420004,Ehitusnõunik
+2142,21420005,Tehnovõrkude tippspetsialist
+2142,21420006,Teedeinsener
+2142,21420007,Hüdrotehnikainsener
+2142,21429900,Mujal liigitamata ehitusinsenerid
+2143,21430002,Keskkonnaanalüütik
+2143,21430003,Keskkonnainsener
+2143,21430004,Heitveetöötluse insener
+2143,21430005,Keskkonnatehnoloog
+2143,21439900,Mujal liigitamata keskkonnatehnika tippspetsialistid
+2144,21440001,Lennundusinsener
+2144,21440002,Laevaehitusinsener
+2144,21440003,Laevainsener
+2144,21440004,Mehaanikainsener
+2144,21440005,Masinaehitusinsener
+2144,21440006,Ventilatsiooniinsener
+2144,21449900,Mujal liigitamata mehaanikainsenerid
+2145,21450001,Keemiatehnoloog
+2145,21450002,Kütusetehnoloog
+2145,21450003,Plastitehnoloog
+2145,21450004,Toidutehnoloog
+2145,21459900,Mujal liigitamata keemiainsenerid
+2146,21460002,Mäeinsener
+2146,21460003,Nafta ja maagaasi ammutamise insener
+2146,21469900,"Mujal liigitamata mäetööstuse, metallurgia jms valdkondade tippspetsialistid"
+2149,21490001,Biomeditsiiniinsener
+2149,21490004,Materjalitootmise insener
+2149,21490005,Tuumaenergeetika insener
+2149,21490006,Optikainsener
+2149,21490007,Ohutusinsener
+2149,21490008,Meditsiinitehnika insener
+2149,21490009,Päästeala tippspetsialist
+2149,21499900,Mujal liigitamata tehnikateaduste tippspetsialistid
+2151,21510001,Elektriinsener
+2151,21510002,Elektrienergia tootmise insener
+2151,21510003,Elektromehaanikainsener
+2151,21519900,Mujal liigitamata elektriinsenerid 
+2152,21520001,Arvuti riistvara insener
+2152,21520002,Elektroonikainsener
+2152,21520003,Mõõteseadmete insener
+2152,21520004,Automaatikainsener
+2152,21529900,Mujal liigitamata elektroonikainsenerid 
+2153,21530001,Ringhäälinguinsener
+2153,21530002,Sideinsener
+2153,21530003,Sidetehnoloog
+2153,21539900,Mujal liigitamata telekommunikatsiooniinsenerid 
+2161,21610001,Hoonearhitekt
+2161,21610002,Sisearhitekt
+2161,21610003,Linnaarhitekt
+2161,21619900,Mujal liigitamata ehitusarhitektid 
+2162,21620001,Maastikuarhitekt
+2162,21629900,Mujal liigitamata maastikuarhitektid 
+2163,21630001,Rõivadisainer
+2163,21630002,Moedisainer
+2163,21630003,Tööstusdisainer
+2163,21630004,Ehtedisainer
+2163,21630005,Tootedisainer
+2163,21639900,Mujal liigitamata toote- ja rõivadisainerid 
+2164,21640001,Liiklusplaneerija
+2164,21640002,Linnaplaneerija
+2164,21640003,Transpordikoordinaator
+2164,21640004,Teede tippspetsialist
+2164,21649900,Mujal liigitamata linna- ja liiklusplaneerijad 
+2165,21650001,Katastrimõõdistaja
+2165,21650002,Maamõõtja
+2165,21650003,Kaevandusmarkšeider
+2165,21650004,Geoinformaatik (GIS)
+2165,21650005,Kartograaf
+2165,21650006,Maakorraldaja
+2165,21650007,Topograaf
+2165,21650008,Hüdrograaf
+2165,21659900,Mujal liigitamata kartograafid ja maamõõtjad 
+2166,21660001,Animaator
+2166,21660002,Illustreerija
+2166,21660003,Multimeediadisainer
+2166,21660004,Publikatsioonide kujundaja
+2166,21660005,Veebikujundaja
+2166,21660006,Arvutimängude kujundaja
+2166,21660007,Digitaalkunstnik
+2166,21660008,Graafiline disainer
+2166,21660009,Kujundaja
+2166,21660010,Veebidisainer
+2166,21669900,Mujal liigitamata kujundajad ja multimeediadisainerid 
+2211,22110101,Abiarst (üliõpilane)
+2211,22110102,Erialase spetsialiseerumiseta arst
+2211,22110201,Perearst
+2211,22110301,Kooliarst
+2212,22120101,Anestesioloogia ja intensiivravi arst
+2212,22120201,Dermatoveneroloog
+2212,22120301,Endokrinoloog
+2212,22120401,Erakorralise meditsiini arst
+2212,22120501,Gastroenteroloog
+2212,22120601,Günekoloog
+2212,22120701,Hematoloog
+2212,22120801,Infektsioonhaiguste arst
+2212,22120901,Kardioloog
+2212,22121001,Kardiokirurg
+2212,22121002,Vaskulaarkirurg
+2212,22121003,Kardiovaskulaarkirurg (veresoontekirurgia erialal)
+2212,22121101,Allergoloog-immunoloog või allergoloog
+2212,22121201,Kliiniline mikrobioloog
+2212,22121301,Kohtuarst-ekspert
+2212,22121401,Laboriarst
+2212,22121501,Lastekirurg
+2212,22121601,Meditsiinigeneetik
+2212,22121701,Nefroloog
+2212,22121801,Neurokirurg
+2212,22121901,Neuroloog
+2212,22122001,Oftalmoloog
+2212,22122101,Onkoloog
+2212,22122201,Ortopeed
+2212,22122301,Otorinolarüngoloog
+2212,22122401,Patoloog
+2212,22122501,Pediaater
+2212,22122601,Plastikakirurg
+2212,22122701,Laste- ja noorukitepsühhiaater
+2212,22122702,Psühhiaater
+2212,22122801,Pulmonoloog
+2212,22122901,Radioloog
+2212,22123001,Reumatoloog
+2212,22123101,Sisehaiguste arst
+2212,22123201,Taastusarst
+2212,22123301,Torakaalkirurg
+2212,22123401,Töötervishoiuarst
+2212,22123501,Uroloog
+2212,22123601,Üldkirurg
+2212,22129900,Mujal liigitamata eriarstid
+2221,22210501,Abiõde (üliõpilane)
+2221,22210502,Õde
+2221,22210601,Anesteesia-intensiivraviõde
+2221,22210701,Erakorralise meditsiini õde
+2221,22210801,Diabeediõde
+2221,22210901,Geriaatriaõde
+2221,22211001,Lasteõde
+2221,22211101,Nakkustõrjeõde
+2221,22211201,Onkoloogiaõde
+2221,22211301,Operatsiooniõde
+2221,22211401,Pulmonoloogiaõde
+2221,22211501,Taastusraviõde
+2221,22211601,Koduõde
+2221,22211701,Kooliõde
+2221,22211801,Töötervishoiuõde
+2221,22211901,Pereõde
+2221,22212001,Psühhiaatriaõde
+2221,22219900,Mujal liigitamata õenduse tippspetsialistid
+2222,22220001,Ämmaemand
+2222,22220101,Abiämmaemand (üliõpilane)
+2222,22229900,Mujal liigitamata ämmaemandad
+2230,22300001,Ajurveda terapeut
+2230,22300002,Hiina loodusterapeut
+2230,22300003,Homöopaat
+2230,22309900,Mujal liigitamata täiendmeditsiini ja loodusravi tippspetsialistid
+2240,22400001,Esmatasandi erakorralise abi tippspetsialist
+2240,22409900,Mujal liigitamata erialase kõrgharidusega parameedikud
+2250,22500001,Loomapatoloog
+2250,22500002,Loomaarst
+2250,22500004,Loomaarstiteaduse intern
+2250,22500005,Veterinaarkirurg
+2250,22509900,Mujal liigitamata veterinaararstid
+2261,22610101,Proteesiarst
+2261,22610102,Hambaarst
+2261,22610201,Ortodont
+2261,22610301,Suu- ja näolõualuukirurg
+2261,22619900,Mujal liigitamata hambaarstid
+2262,22620001,Ravimifirma apteeker
+2262,22620002,Apteeker
+2262,22620101,Haiglaapteeker farmatseudi kutsega
+2262,22620201,Haiglaapteeker proviisori kutsega
+2262,22629900,Mujal liigitamata proviisorid ja farmatseudid
+2263,22630001,Keskkonnatervise tippspetsialist
+2263,22630002,Töötervishoiu ja tööohutuse nõunik
+2263,22630003,Tööhügieenik
+2263,22630004,Kiirguskaitse ekspert
+2263,22630005,"Tervisekaitse, töötervishoiu või tööhügieeni tippspetsialist"
+2263,22639900,Mujal liigitamata töötervishoiu ja tööohutuse tippspetsialistid
+2264,22640001,Füsioterapeut
+2265,22650002,Toitlustusteeninduse dietoloog
+2265,22650003,Toitumise tippspetsialist
+2265,22650004,Toitumise tippspetsialist rahvatervise alal
+2265,22650005,Toitumise tippspetsialist spordi alal
+2265,22650006,Dieedi ja toitumise tippspetsialist
+2265,22659900,Mujal liigitamata dieedi ja toitumise tippspetsialistid
+2266,22660005,Audioloog või logopeed
+2267,22670001,Oftalmoloogia optik
+2269,22690002,Kiropraktik
+2269,22690005,Osteopaat
+2269,22690101,Liikumisraviterapeut
+2269,22690201,Liikumisravi spetsialist
+2269,22690301,Loovterapeut
+2269,22690401,Muusikaterapeut
+2269,22690501,Tegevusterapeut
+2269,22690601,Psühhoterapeut (kliinilise psühholoogi haridust eeldav)
+2269,22690602,Kliiniline psühholoog
+2269,22690701,Muu tervishoiu tippspetsialist
+2310,23100001,Lektor
+2310,23100002,Professor
+2310,23100003,Dotsent
+2310,23100004,Assistent (õppejõud)
+2310,23100005,Erialainstruktor
+2310,23100006,Ülikooli koolitusspetsialist
+2310,23100007,Õppejõud-õpetaja
+2310,23109900,Mujal liigitamata ülikoolide ja kõrgkoolide õppejõud
+2320,23200001,Autoõpetuse õpetaja
+2320,23200002,Iluteeninduse õpetaja
+2320,23200003,Kutseõpetaja
+2320,23200004,Kutseõppe koolitusjuht
+2320,23200005,Kutseõppeinstruktor
+2320,23200006,Meister-tehnoloog
+2320,23200007,Praktikajuhendaja
+2320,23200008,Õpetaja (kutseõpe)
+2320,23209900,Mujal liigitamata kutseõpetajad 
+2330,23300001,Üldhariduskooli vanema astme õpetaja
+2330,23300002,Gümnaasiumi vanema astme õpetaja
+2330,23300003,Õpetaja (üldharidusained kutseõppeasutuses)
+2330,23309900,Mujal liigitamata gümnaasiumiõpetajad 
+2341,23410001,Algklasside õpetaja
+2341,23410002,Klassiõpetaja
+2341,23410003,Pikapäevarühma õpetaja
+2341,23410004,Õpetaja (põhiharidus)
+2341,23419900,Mujal liigitamata põhikooli (1.–9. klass) õpetajad
+2342,23420001,Lasteaiaõpetaja
+2342,23420002,Koolieelse lasteasutuse õpetaja
+2342,23420003,Koolieelse lasteasutuse liikumisõpetaja
+2342,23420004,Koolieelse lasteasutuse muusikaõpetaja
+2342,23429900,Mujal liigitamata koolieelse lasteasutuse õpetajad 
+2351,23510001,Õppekava koordinaator
+2351,23510002,Õppekava väljatöötaja
+2351,23510003,Õppemetoodik
+2351,23510004,Õppevahendite tippspetsialist
+2351,23510006,Juhtõpetaja (kutseõpe)
+2351,23510007,Keeleõppe koordinaator
+2351,23510008,Kompetentsijuht
+2351,23510011,Meisterõpetaja (kutseõpe)
+2351,23510012,Sessioonõppe juht
+2351,23510013,Tasemeõppe juhtivspetsialist
+2351,23510014,Õppesuuna juht
+2351,23510015,Haridusnõunik
+2351,23510016,Keskkonnahariduse spetsialist
+2351,23519900,Mujal liigitamata õppemetoodika tippspetsialistid
+2352,23520001,Parandusõppeõpetaja
+2352,23520002,Andekate laste õpetaja
+2352,23520003,Kuulmispuudega õpilaste õpetaja
+2352,23520004,Nägemispuudega õpilaste õpetaja
+2352,23520005,Arendusrühma õpetaja
+2352,23520006,Eripedagoog
+2352,23520007,Haiglaõpetaja
+2352,23520008,Kuuldekabineti juhataja
+2352,23520009,Tüflopedagoog
+2352,23520010,Õpetaja (erikool)
+2352,23520011,Õpetaja (eripedagoog)
+2352,23520012,Õpiabirühma õpetaja
+2352,23529900,Mujal liigitamata eripedagoogid
+2353,23530001,Intensiivkeelekursuse õpetaja
+2353,23530002,Kõnekeele õpetaja
+2353,23530003,Teise keele õpetaja
+2353,23530004,Ringijuht (keeled)
+2353,23539900,Mujal liigitamata huvikoolide ja eratundide keeleõpetajad
+2354,23540001,Kitarriõpetaja
+2354,23540002,Klaveriõpetaja
+2354,23540003,Lauluõpetaja
+2354,23540004,Viiuliõpetaja
+2354,23540005,Muusikastuudio õpetaja
+2354,23540006,Muusikaõpetaja
+2354,23540007,Ringijuht (muusika)
+2354,23549900,Mujal liigitamata huvikoolide ja eratundide muusikaõpetajad
+2355,23550001,Tantsuõpetaja
+2355,23550002,Draamaõpetaja
+2355,23550003,Maaliõpetaja
+2355,23550004,Skulptuuriõpetaja
+2355,23550005,Ringijuht (kunst)
+2355,23559900,Mujal liigitamata huvikoolide ja eratundide kunstiõpetajad
+2356,23560001,Arvutikoolitaja
+2356,23560002,Tarkvarakoolitaja
+2356,23569900,Mujal liigitamata infotehnoloogia erakoolitajad
+2359,23590001,Kirjaoskuse koduõpetaja (eratunnid)
+2359,23590002,Matemaatikaõpetaja (eratunnid)
+2359,23590003,Koolinõustaja
+2359,23590004,Haridustehnoloog
+2359,23590005,Huvijuht
+2359,23590006,Kasvataja
+2359,23590007,Kursusejuhendaja
+2359,23590008,Mentor
+2359,23590009,Praktikakorralduse juht
+2359,23590010,Ringijuht
+2359,23590011,Rühmajuhendaja
+2359,23590012,Hariduse tugitalituse tippspetsialist
+2359,23590013,Õppedisainer
+2359,23590014,Õppenõustaja
+2359,23590015,Õppetöö arendusjuht
+2359,23590016,Muuseumipedagoog
+2359,23590017,Arhiivipedagoog
+2359,23599900,Mujal liigitamata pedagoogika tippspetsialistid
+2411,24110001,Audiitor
+2411,24110002,Atesteeritud raamatupidaja
+2411,24110003,Diplomeeritud raamatupidaja-revident
+2411,24110004,Finantskontroller
+2411,24110005,Pankrotihaldur
+2411,24110006,Juhtivraamatupidaja
+2411,24110007,Kulujuht
+2411,24110008,Peafinantsist
+2411,24110009,Pearaamatupidaja
+2411,24110010,Vanemraamatupidaja
+2411,24110011,Eelarve tippspetsialist
+2411,24119900,Mujal liigitamata raamatupidamise tippspetsialistid
+2412,24120001,Finantsplaneerija
+2412,24120002,Investeerimisnõustaja
+2412,24120003,Võlanõustaja
+2412,24129900,Mujal liigitamata finants- ja investeerimisnõustajad 
+2413,24130001,Võlakirjade analüütik
+2413,24130002,Investeerimisanalüütik
+2413,24130004,Finantsanalüütik
+2413,24130005,Kliendiandmete ekspert
+2413,24130006,Rahapesu tõkestamise ekspert
+2413,24139900,Mujal liigitamata finantsanalüütikud
+2421,24210001,Ärikonsultant
+2421,24210002,Juhtimiskonsultant
+2421,24210003,Organisatsiooni ja meetodite analüütik
+2421,24210004,Arendusjuht
+2421,24210005,Arendusprojektide koordinaator
+2421,24210006,Arenduse tippspetsialist
+2421,24210007,Kvaliteedijuht
+2421,24210008,Rektori nõunik
+2421,24210009,Andmekaitsespetsialist
+2421,24210010,Siseaudiitor
+2421,24210011,Volikogu nõunik
+2421,24210012,Pettuste tõkestamise ekspert
+2421,24219900,Mujal liigitamata juhtimis- ja organisatsioonianalüütikud
+2422,24220002,Poliitikaanalüütik
+2422,24220003,Poliitikanõunik
+2422,24220004,Julgeolekuanalüütik
+2422,24220005,Nimekorraldaja
+2422,24220006,Koostöö koordinaator
+2422,24220007,Rahvusvahelise koostöö koordinaator
+2422,24220008,Rahvusvaheliste suhete juht
+2422,24220009,Rahvusvaheliste suhete nõunik
+2422,24220010,Rahvusvaheliste suhete projektijuht
+2422,24220011,Rahvusvaheliste suhete spetsialist
+2422,24220012,Turvanõunik
+2422,24220013,Strateegiate väljatöötaja
+2422,24220014,Kultuurinõunik
+2422,24220015,Riski tippspetsialist
+2422,24220016,Linnavara tippspetsialist
+2422,24220017,Heakorra ja haljastuse korraldaja
+2422,24220018,Valla piirkonnajuht
+2422,24229900,Mujal liigitamata strateegiate väljatöötajad
+2423,24230001,Karjäärinõustaja
+2423,24230002,Kutseanalüütik
+2423,24230003,Tööanalüütik
+2423,24230004,Personali tippspetsialist
+2423,24230005,Värbamisspetsialist
+2423,24230006,Kutsesuunitluse nõustaja
+2423,24230007,Tasustamise valdkonna juht
+2423,24239900,Mujal liigitamata personali ja karjääri tippspetsialistid
+2424,24240001,Töötajate täiendõppe tippspetsialist
+2424,24240002,Täiendõppe koolitusspetsialist
+2424,24240003,Elukestva õppe juht
+2424,24240004,Koolituskeskuse juhataja
+2424,24240005,Täienduskoolituse juht
+2424,24240006,Täiendusõppeosakonna juhataja
+2424,24249900,Mujal liigitamata töötajate koolituse ja täiendõppe tippspetsialistid
+2431,24310001,Reklaami tippspetsialist
+2431,24310002,Turunduse tippspetsialist
+2431,24310003,Turu-uuringute analüütik
+2431,24310004,Ettevõtluskeskuse juhataja
+2431,24310005,Ettevõtlusspetsialist
+2431,24310006,Kliendisuhete juht
+2431,24310007,Reklaamikirjutaja
+2431,24310008,Reklaamikonsultant
+2431,24310009,Sotsiaalmeedia sisulooja
+2431,24310010,Ärikliendihaldur
+2431,24319900,Mujal liigitamata reklaami ja turunduse tippspetsialistid
+2432,24320001,Suhtekorralduse pressiagent
+2432,24320002,Suhtekorraldaja
+2432,24320003,Pressiesindaja
+2432,24320004,Avalike suhete koordinaator
+2432,24320005,Avalike suhete spetsialist
+2432,24320006,Kommunikatsioonijuht
+2432,24320007,Kommunikatsioonispetsialist
+2432,24329900,Mujal liigitamata avalike suhete tippspetsialistid 
+2433,24330001,Müügiesindaja (tööstusseadmed)
+2433,24330002,Müügiesindaja (meditsiini- ja farmaatsiatooted)
+2433,24330003,Tehnikaseadmete müügiesindaja
+2433,24339900,Mujal liigitamata tehnika- (v.a IKT) ja meditsiinitoodete müügi tippspetsialistid
+2434,24340001,Müügiesindaja (arvutid)
+2434,24340002,Müügiesindaja (kommunikatsioonitehnoloogia)
+2434,24349900,Mujal liigitamata IKT-lahenduste müügi tippspetsialistid 
+2511,25110001,Ärianalüütik (IT)
+2511,25110002,Arvutiteadlane
+2511,25110003,Süsteemianalüütik (IT)
+2511,25110004,Süsteemikonsultant
+2511,25110005,Süsteemidisainer (IT)
+2511,25110006,IKT projektijuht
+2511,25110007,Süsteemiarhitekt
+2511,25110008,IKT tootejuht
+2511,25119900,Mujal liigitamata süsteemianalüütikud   
+2512,25120001,Programmeerija-analüütik
+2512,25120002,Tarkvaradisainer
+2512,25120003,Tarkvaraarendaja
+2512,25120004,Tarkvarainsener
+2512,25129900,Mujal liigitamata tarkvaraarendajad   
+2513,25130001,Animatsioonide programmeerija
+2513,25130002,Arvutimängude programmeerija
+2513,25130003,Veebiarendaja
+2513,25130004,Multimeedia programmeerija
+2513,25130005,Veebilehe arhitekt
+2513,25130006,Veebilehe arendaja
+2513,25139900,Mujal liigitamata veebi- ja multimeediaarendajad 
+2514,25140001,Rakenduste programmeerija
+2514,25140002,Rakenduse administraator (IT)
+2514,25149900,Mujal liigitamata rakenduste programmeerijad  
+2519,25190001,Kvaliteedi tagamise analüütik (arvutid)
+2519,25190002,Tarkvara testija
+2519,25190003,Süsteemide testija
+2519,25190004,IKT peakasutaja
+2519,25199900,Muud mujal liigitamata tarkvara ja rakenduste arendajad
+2521,25210001,Andmehaldur
+2521,25210002,Andmebaasi administraator
+2521,25210003,Andmebaasi analüütik
+2521,25210004,Andmebaasi arhitekt
+2521,25210005,Andmebaasi arendaja
+2521,25219900,Mujal liigitamata andmebaaside projekteerijad ja administraatorid
+2522,25220001,Võrguadministraator (haldur)
+2522,25220002,Süsteemiadministraator (haldur)
+2522,25229900,Mujal liigitamata süsteemiadministraatorid   
+2523,25230001,Kommunikatsioonianalüütik (arvutid)
+2523,25230002,Võrguanalüütik
+2523,25239900,Mujal liigitamata arvutivõrkude tippspetsialistid  
+2529,25290001,Digitaalkriminalistika spetsialist
+2529,25290002,Turvaspetsialist (IKT)
+2529,25290003,Andmekaevandaja
+2529,25299900,Mujal liigitamata andmebaasi ja arvutivõrgu tippspetsialistid
+2611,26110002,Abiprokurör
+2611,26110003,Advokaat
+2611,26110004,Haldusjurist
+2611,26110005,Kohtujurist
+2611,26110006,Kriminaalõiguse jurist
+2611,26110007,Nõuandeadvokaat
+2611,26110008,Omandiõiguse jurist
+2611,26110009,Tsiviilõiguse jurist
+2611,26110010,Vandeadvokaadi abi
+2611,26110011,Vandeadvokaadi vanemabi
+2611,26110012,Vandeadvokaat
+2611,26110013,Patendivolinik
+2611,26119900,"Mujal liigitamata advokaadid, prokurörid ja kohtujuristid"
+2612,26120001,Kohtunik
+2612,26120003,Halduskohtu kohtunik
+2612,26120005,Maakohtu kohtunik
+2612,26120007,Riigikohtunik
+2612,26129900,Mujal liigitamata kohtunikud   
+2619,26190001,Õigusnõunik
+2619,26190003,Juriskonsult
+2619,26190005,Jurist
+2619,26190006,Riigihangete tippspetsialist
+2619,26190007,Rahvastikutoimingute tippspetsialist
+2619,26199900,Mujal liigitamata õigusvaldkonna tippspetsialistid
+2621,26210001,Arhivaar
+2621,26210002,Kunstigalerii kuraator
+2621,26210003,Muuseumi kuraator
+2621,26210004,Varahoidja
+2621,26210005,Galerist
+2621,26210006,Muuseumiteadur
+2621,26210007,Konservaator
+2621,26210008,Arhiivi kuraator
+2621,26219900,Mujal liigitamata arhivaarid ja kuraatorid 
+2622,26220001,Bibliograaf
+2622,26220002,Kataloogija
+2622,26220003,Raamatukoguhoidja
+2622,26220004,Dokumendihaldur
+2622,26229900,Mujal liigitamata raamatukoguhoidjad jms teabe tippspetsialistid
+2631,26310001,Ökonometrist
+2631,26310002,Majandusnõustaja
+2631,26310003,Majandusanalüütik
+2631,26310004,Majandusteadlane
+2631,26310005,Töö-ökonomist
+2631,26310006,Ökonomist
+2631,26319900,Mujal liigitamata majandusteadlased   
+2632,26320001,Antropoloog
+2632,26320002,Arheoloog
+2632,26320003,Kriminoloog
+2632,26320004,Etnoloog
+2632,26320005,Geograaf
+2632,26320006,Sotsioloog
+2632,26320007,Kultuuripärandi nõunik
+2632,26329900,"Mujal liigitamata sotsioloogid, antropoloogid jms tippspetsialistid"
+2633,26330002,Ajaloolane
+2633,26330003,Filosoof
+2633,26330004,Politoloog
+2633,26339900,"Mujal liigitamata filosoofid, ajaloolased ja politoloogid"
+2634,26340001,Psühholoog
+2634,26340003,Koolipsühholoog
+2634,26340004,Organisatsioonipsühholoog
+2634,26340005,Psühhoterapeut
+2634,26340006,Spordipsühholoog
+2634,26349900,Mujal liigitamata psühholoogid   
+2635,26350001,Sõltuvusnõustaja
+2635,26350002,Laste- ja noorsoonõustaja
+2635,26350003,Piirkonna sotsiaalhoolekande ametnik
+2635,26350004,Perenõustaja
+2635,26350005,Abielunõustaja
+2635,26350006,Kriminaalhooldusametnik
+2635,26350007,Sotsiaaltöö valdkonna järelevalveametnik
+2635,26350008,Seksuaalrünnaku ohvrite nõustaja
+2635,26350009,Sotsiaaltöötaja
+2635,26350010,Leinanõustaja
+2635,26350011,Naiste varjupaiga korraldaja
+2635,26350012,Noorsootööjuht
+2635,26350013,Sotsiaalpedagoog
+2635,26350014,Sotsiaaltööjuht
+2635,26350015,Tööhõive- ja järelõppekeskuse juhataja
+2635,26350016,Lastekaitse tippspetsialist
+2635,26350017,Sotsiaaltöö valdkonna juhtumikorraldaja
+2635,26350018,Sotsiaaltöö valdkonna projektijuht
+2635,26350019,Sotsiaalnõunik
+2635,26350020,Kogemusnõustaja
+2635,26350021,Noorsootöötaja
+2635,26359900,Mujal liigitamata sotsiaaltöötajad ja nõustajad 
+2636,26360003,Vaimulik
+2636,26360005,Preester
+2636,26360006,Rabi
+2636,26360007,Abipastor
+2636,26360009,Diakon
+2636,26360011,Kaplan
+2636,26360012,Pastor
+2636,26360013,Kogudusevanem
+2636,26360014,Laama
+2636,26360015,Metropoliit
+2636,26360018,Piiskop
+2636,26360019,Praost
+2636,26360021,Vikaar
+2636,26369900,Mujal liigitamata religioonivaldkonna tippspetsialistid  
+2641,26410001,Kirjanik
+2641,26410002,Raamatutoimetaja
+2641,26410003,Interaktiivse meedia tekstide kirjutaja
+2641,26410004,Romaanikirjanik
+2641,26410005,Näitekirjanik
+2641,26410006,Poeet
+2641,26410007,Stsenarist
+2641,26410009,Tehniline kommunikaator
+2641,26410010,Tehniline kirjutaja
+2641,26410011,Dramaturg
+2641,26410013,Kirjastaja
+2641,26410014,Käsikirjatoimetaja
+2641,26410015,Stsenaariumitoimetaja
+2641,26410016,Teatri kirjandustoimetaja
+2641,26410017,Kirjandusteadlane
+2641,26410018,Trükiste toimetaja (v.a periooodika)
+2641,26419900,Mujal liigitamata kirjanikud   
+2642,26420001,Ajakirjanik
+2642,26420002,Ajalehetoimetaja
+2642,26420003,Ajalehereporter
+2642,26420004,Tele- ja raadiouudiste reporter
+2642,26420005,Ajakirjatoimetaja
+2642,26420006,Erikorrespondent
+2642,26420008,Keeletoimetaja
+2642,26420010,Kolumnist
+2642,26420012,Korrespondent
+2642,26420018,Reporter
+2642,26420019,Spordiajakirjanik
+2642,26420021,Spordireporter
+2642,26420022,Sporditoimetaja
+2642,26420024,Teleuudiste toimetaja
+2642,26420027,Välistoimetaja
+2642,26420028,Teletoimetaja
+2642,26420029,Raadiotoimetaja
+2642,26420030,Meediatoimetaja
+2642,26420031,Ajakirjanduseetika nõunik
+2642,26429900,Mujal liigitamata ajakirjanikud   
+2643,26430001,Tõlk
+2643,26430003,Filoloog
+2643,26430004,Viipekeele tõlk
+2643,26430005,Subtitreerija
+2643,26430006,Tõlkija
+2643,26430007,Tõlkija-toimetaja
+2643,26430008,Keeleteadlane
+2643,26439900,"Mujal liigitamata tõlkijad, tõlgid ja keeleteadlased"
+2651,26510001,Keraamik
+2651,26510002,Pildirestauraator
+2651,26510004,Skulptor
+2651,26510005,Ennistuskunstnik
+2651,26510006,Graafik
+2651,26510007,Graveerimis-söövituskunstnik
+2651,26510008,Joonisfilmi tegija
+2651,26510009,Karikaturist
+2651,26510010,Kommertskunstnik
+2651,26510012,Kujutav kunstnik
+2651,26510013,Kunstiteadlane
+2651,26510014,Kunstnik
+2651,26510015,Maalikunstnik
+2651,26510016,Maastikukunstnik
+2651,26510017,Nukukunstnik
+2651,26510018,Peakunstnik
+2651,26510019,Plakatikunstnik
+2651,26519900,Mujal liigitamata kujutavad kunstnikud  
+2652,26520001,Ansambli juht
+2652,26520002,Helilooja
+2652,26520003,Instrumentaalmuusik
+2652,26520004,Dirigent
+2652,26520005,Arranžeerija
+2652,26520006,Laulja
+2652,26520007,Klaverisaatja
+2652,26520008,Kontsertmeister
+2652,26520009,Laulurepetiitor
+2652,26520010,Muusikajuhataja
+2652,26520011,Muusikateadlane
+2652,26520012,Muusikatoimetaja
+2652,26520013,Transkribeerija
+2652,26520014,Tänavamuusik
+2652,26529900,"Mujal liigitamata muusikud, lauljad ja heliloojad"
+2653,26530001,Koreograaf
+2653,26530002,Balletitantsija
+2653,26530003,Ballettmeister
+2653,26530004,Repetiitor
+2653,26530005,Tantsija
+2653,26539900,Mujal liigitamata tantsijad ja koreograafid 
+2654,26540001,Dokumentaalfilmi režissöör
+2654,26540002,Filmi monteerija
+2654,26540003,Mängufilmi režissöör
+2654,26540004,Peaoperaator
+2654,26540005,Lavastaja
+2654,26540006,Teatriprodutsent
+2654,26540007,Filmiprodutsent
+2654,26540008,Filmitoimetaja
+2654,26540009,"Kunstiline juht (film, teater jms)"
+2654,26540011,Lavastaja assistent
+2654,26540012,Näitejuht
+2654,26540013,Raadiolavastaja
+2654,26540014,Režissööri assistent
+2654,26540015,Teatri tehniline direktor
+2654,26540016,Teatrilavastaja
+2654,26540017,Televisiooni või raadio tehniline direktor
+2654,26540018,Televisioonilavastaja
+2654,26540019,Teleprodutsent
+2654,26540020,Raadioprodutsent
+2654,26549900,"Mujal liigitamata filmi-, teatri- jms lavastajad"
+2655,26550001,Näitleja
+2655,26550002,Mimanss
+2655,26550003,Lugude jutustaja
+2655,26550004,Sõnakunstnik
+2655,26550005,Nukunäitleja
+2655,26559900,Mujal liigitamata näitlejad   
+2656,26560001,Raadiodiktor
+2656,26560003,Uudisteankur
+2656,26560005,Vestlussaate juht
+2656,26560007,Konferansjee
+2656,26560008,Teadustaja
+2656,26560009,Raadio saatejuht
+2656,26560010,Televisioonisaatejuht
+2656,26569900,"Mujal liigitamata raadio, televisiooni jms saatejuhid"
+2659,26590003,Kloun
+2659,26590004,Hüpnotisöör
+2659,26590005,Mustkunstnik
+2659,26590007,Stand-up žanri koomik
+2659,26590012,Loomataltsutaja
+2659,26599900,Mujal liigitamata loomingulised töötajad
+3111,31110001,Keemiatehnik
+3111,31110002,Geoloogiatehnik
+3111,31110003,Meteoroloogiatehnik
+3111,31110004,Füüsikatehnik
+3111,31119900,Mujal liigitamata keemia- ja füüsikateaduste tehnikud
+3112,31120001,Ehitusinspektor
+3112,31120002,Ehitusjärelevalvaja
+3112,31120003,Ehitustehnik
+3112,31120004,Tuletõrjeinspektor
+3112,31120005,Ehitusgeoloogia tehnik
+3112,31120006,Maamõõdutehnik
+3112,31120007,Ehituse eelarvestaja
+3112,31120008,Geoinfospetsialist
+3112,31120010,Maakorraldustehnik
+3112,31120011,Topograafiatehnik
+3112,31120012,Katastrimõõdistamise tehnik
+3112,31120013,Ehituskonsultant
+3112,31120014,Planeeringuspetsialist
+3112,31120015,Tehnovõrkude spetsialist
+3112,31120016,Teede spetsialist
+3112,31129900,Mujal liigitamata ehitustehnikud   
+3113,31130001,Elektrotehnik
+3113,31130002,Elektri jaotusvõrgu tehnik
+3113,31130003,Elektrikäidu juht
+3113,31130004,Elektroenergeetik
+3113,31139900,Mujal liigitamata elektrotehniliste alade tehnikud 
+3114,31140001,Elektroonikatehnik
+3114,31140002,Elektroonik
+3114,31140003,Raadiotehnik
+3114,31140004,Radaritehnik
+3114,31149900,Mujal liigitamata elektroonikatehnikud   
+3115,31150001,Lennundustehnik
+3115,31150002,Laevatehnik
+3115,31150003,Masinaehitustehnik
+3115,31150004,Aerotehnik
+3115,31150005,Autotehnik
+3115,31150006,Diisel- ja külmutusseadmete tehnik-mehaanik
+3115,31150008,Garaaži tehnik-mehaanik
+3115,31150009,Hüdrosõlme tehnik-mehaanik
+3115,31150010,Jahutus- ja külmutusseadmete tehnik
+3115,31150011,Külmutusseadmete tehnik-mehaanik
+3115,31150012,Laevainspektor
+3115,31150013,Masinaehituse eelarvestaja
+3115,31150014,Mehhaniseerimistehnik
+3115,31150015,Mootorite tehnik-mehaanik
+3115,31150016,Mootorsõidukite tehnoülevaataja
+3115,31150017,Puurseadmete tehnik-mehaanik
+3115,31150018,Raadionavigatsiooni tehnik-mehaanik
+3115,31150019,Soojustehnik
+3115,31150020,Transpordivahendite remonditehnik-mehaanik
+3115,31150021,Tõsteseadmete tehnik-mehaanik
+3115,31150022,Tööriistatehnik
+3115,31159900,Mujal liigitamata masinaehitustehnikud   
+3116,31160001,Keemiatööstuse eelarvestaja
+3116,31160002,Keemiatööstuse tehnik
+3116,31160003,Keemialaboritehnik
+3116,31169900,Mujal liigitamata keemiatööstuse tehnikud  
+3117,31170001,Metallurgiatehnik
+3117,31170003,Mäetehnik
+3117,31170004,Lõhketööde tehnik
+3117,31179900,Mujal liigitamata mäe- ja metallurgiatehnikud 
+3118,31180001,Joonestaja
+3118,31180002,Tehniline illustraator
+3118,31189900,Mujal liigitamata joonestajad   
+3119,31190001,Tootmistehnik
+3119,31190002,Kohtuekspertiisi tehnik
+3119,31190003,Ehituse kuluarvestuse tehnik
+3119,31190004,Robotitehnik
+3119,31190005,Tootmisefektiivsuse tehnik
+3119,31190006,Kalibreerija
+3119,31190007,Taatleja
+3119,31190008,Metroloogiatehnik
+3119,31190009,Meeskonna planeerija
+3119,31190010,Defektoskopist
+3119,31199900,Mujal liigitamata füüsika- ja tehnikateaduste tehnikud
+3121,31210001,Kaevanduse ohutustehnika juhataja
+3121,31210002,Kaevanduse töödejuhataja
+3121,31210003,Karjääri töödejuhataja
+3121,31219900,Kaevanduse mujal liigitamata töödejuhatajad  
+3122,31220001,Tööstuse valdkonnakoordinaator
+3122,31220002,Monteerimise töödejuhataja
+3122,31220003,Järeltöötluse töödejuhataja
+3122,31220004,Tootmise töödejuhataja
+3122,31220005,Tootmisjärelevalve inspektor (tööstus)
+3122,31220006,Energeetika töödejuhataja
+3122,31229900,Mujal liigitamata töötleva tööstuse töödejuhatajad 
+3123,31230001,Ehituse töödejuhataja
+3123,31230002,Ehitusplatsi koordinaator
+3123,31230004,Puitmaja ehituse objektijuht
+3123,31239900,Mujal liigitamata ehituse töödejuhatajad  
+3131,31310001,Elektrijaama operaator
+3131,31310005,Päikeseelektrijaama operaator
+3131,31310006,Soojuselektrijaama operaator
+3131,31310007,Tuulejõujaama operaator
+3131,31319900,Mujal liigitamata energiatootmisettevõtete operaatorid  
+3132,31320001,Jäätmepõletustehase operaator
+3132,31320002,Vedelate jäätmete käitlusjaama operaator
+3132,31320003,Pumpla (v.a nafta ja maagaas) operaator
+3132,31320004,Reoveepuhastusjaama operaator
+3132,31320005,Heitveepuhastusjaama operaator
+3132,31320006,Veepuhastusjaama operaator
+3132,31320007,Veehoidla operaator
+3132,31320008,Ventilatsiooniseadmete operaator
+3132,31320009,Kompressorseadmete operaator
+3132,31320010,Muud jäätmepõletustehaste ja veepuhastusjaamade mujal liigitamata operaatorid
+3133,31330001,Kemikaalide filtreerimis- ja eraldamisseadmete operaator
+3133,31330003,Kemikaaliprotsessi tehnik
+3133,31330004,Kemikaalide destillaatori ja reaktori operaator
+3133,31330005,Keemiatööstuse protsessijuhtimistehnik
+3133,31339900,Mujal liigitamata keemiatööstuse protsessijuhtimistehnikud  
+3134,31340001,Segamisoperaator (nafta ja maagaasi rafineerimine)
+3134,31340002,Gaasitehase operaator
+3134,31340004,Naftatöötlemise operaator
+3134,31349900,"Mujal liigitamata naftasaaduste, õlide ja maagaasi töötlemise operaatorid"
+3135,31350001,Kõrgahju operaator
+3135,31350002,Valutsehhi operaator
+3135,31350003,Valtsimismasina operaator
+3135,31359900,Mujal liigitamata metallurgiatööstuse protsessijuhtimistehnikud  
+3139,31390001,Automaatse koosteliini operaator
+3139,31390002,Tööstusrobotite eest vastutav töötaja
+3139,31390003,Juhtimiskilbi operaator (tselluloos ja paber)
+3139,31390005,Tselluloosi keetmise operaator
+3139,31390007,Mehhatroonik-tehnik
+3139,31390008,Pumpla (nafta ja maagaas) operaator
+3139,31399900,Muud tööstuse mujal liigitamata protsessijuhtimistehnikud
+3141,31410001,Bakterioloogiatehnik
+3141,31410002,Biokeemiatehnik
+3141,31410003,Herbaariumitehnik
+3141,31410004,Farmakoloogiatehnik
+3141,31410006,Zooloogiatehnik
+3141,31410007,Biofüüsikatehnik
+3141,31410008,Bioteaduste tehnik
+3141,31410009,Viroloogiatehnik
+3141,31410010,Mikrobioloogiatehnik
+3141,31419900,Mujal liigitamata biotehnikud (v.a meditsiinivaldkonna tehnikud)
+3142,31420001,Piimandustehnik
+3142,31420002,Põllukultuuride viljeluse tehnik
+3142,31420004,Aiandustehnik
+3142,31420005,Linnukasvatustehnik
+3142,31420006,Agrotehnik
+3142,31420007,Mullatehnik
+3142,31420009,Tõuaretustehnik
+3142,31429900,Mujal liigitamata põllumajandustehnikud   
+3143,31430001,Metsandustehnik
+3143,31430002,Metsakasvatustehnik
+3143,31430003,Abimetsaülem
+3143,31430004,Metsavaht
+3143,31439900,Mujal liigitamata metsandustehnikud   
+3151,31510001,Laevamehaanik
+3151,31519900,Mujal liigitamata laevamehaanikud   
+3152,31520001,Laevakapten
+3152,31520002,Esimene tüürimees
+3152,31520003,Jahikapten
+3152,31520004,Loots
+3152,31520005,Sadamakapten
+3152,31520007,Tüürimees
+3152,31520008,Vanemtüürimees
+3152,31520009,Väikelaeva juht
+3152,31520010,Vahitüürimees
+3152,31529900,Mujal liigitamata laevajuhid ja lootsid 
+3153,31530002,Lennuõpetaja
+3153,31530003,Piloot
+3153,31539900,Mujal liigitamata piloodid ja lennumeeskonna liikmed
+3154,31540001,Lennujuht
+3154,31549900,Mujal liigitamata lennujuhid   
+3155,31550001,Lennuohutustehnik
+3155,31559900,Mujal liigitamata lennuohutuselektroonika tehnikud  
+3211,32110101,Abiradioloogiatehnik (üliõpilane)
+3211,32110102,Radioloogiatehnik
+3211,32110201,Meditsiiniliste kuvamis- või raviseadmete tehnik
+3211,32119900,Mujal liigitamata meditsiiniliste kuvamis- ja raviseadmete tehnikud
+3212,32120101,Bioanalüütik
+3212,32120201,Meditsiini- või patoloogialabori tehnik
+3212,32129900,Mujal liigitamata meditsiini- ja patoloogialaborite tehnikud
+3213,32139900,Mujal liigitamata farmaatsiatehnikud ja farmatseudi abilised
+3214,32140101,Meditsiiniliste proteeside tehnik
+3214,32140201,Hambaproteeside tehnik
+3214,32149900,Mujal liigitamata meditsiiniliste ja hambaproteeside tehnikud
+3221,32219900,Mujal liigitamata hooldustöötajad
+3222,32220001,Ämmaemanda abiline
+3230,32300001,Ajurveda loodusravi spetsialist
+3230,32300002,Fütoteraapia spetsialist
+3230,32300003,Hiina loodusravi spetsialist
+3230,32309900,Mujal liigitamata täiendmeditsiini ja loodusravi keskastme
+3240,32400001,Kunstliku seemenduse tehnik
+3240,32400002,Abiloomaarst
+3240,32400003,Veterinaarõde
+3240,32400004,Loomavaktsineerija
+3240,32409900,Mujal liigitamata veterinaartehnikud   
+3251,32510101,Hambaraviõde
+3251,32510201,Suuhügienist
+3251,32519900,Mujal liigitamata hambaraviõed ja hambaravi keskastme spetsialistid
+3252,32520001,Haiguste kodeerija
+3252,32520002,Haigusteregistri tehnik
+3252,32520003,Terviseteabe töötaja
+3252,32520004,Meditsiiniregistrite analüütik
+3252,32520005,Meditsiiniregistrite töötaja
+3252,32529900,Mujal liigitamata meditsiiniregistrite ja terviseteabe keskastme spetsialistid
+3253,32530001,Kohaliku omavalitsuse tervishoiunõustaja
+3253,32530002,Kohaliku omavalitsuse tervisedendaja
+3253,32530003,Kohaliku omavalitsuse tervishoiutöötaja
+3253,32530004,Terviseedenduse spetsialist
+3253,32539900,Mujal liigitamata kohalike omavalitsuste tervishoiutöötajad 
+3254,32540101,Optik
+3254,32540201,Optometrist
+3254,32549900,Mujal liigitamata optometristid ja optikud 
+3255,32550001,Punktimassaažiga ravitseja
+3255,32550002,Elektriravi spetsialist
+3255,32550003,Vesiravi spetsialist
+3255,32550005,Taastusravitehnik
+3255,32550006,Shiatsuteraapia spetsialist
+3255,32550007,Ravikehakultuuriõpetaja assistent
+3255,32550101,Füsioterapeut (TÜ kehalise kasvatuse baas)
+3255,32550201,Massöör
+3255,32559900,Mujal liigitamata abifüsioterapeudid   
+3256,32560101,Hambaarsti eriala praktikant (üliõpilane)
+3256,32560201,Meditsiiniülesvõtete protseduuride assistent
+3256,32569900,Mujal liigitamata abiarstid   
+3257,32570001,Toiduainete sanitaar- ja ohutusinspektor
+3257,32570002,Tervisekaitsespetsialist
+3257,32570003,Töötervishoiu ja tööohutuse inspektor
+3257,32570004,Tooteohutuse inspektor
+3257,32570005,Sanitaarinspektor
+3257,32570006,Töökeskkonnaspetsialist
+3257,32579900,Mujal liigitamata tervisekaitse- ja töötervishoiuinspektorid jms keskastme spetsialistid
+3258,32580001,Kiirabitehnik
+3258,32581001,Erakorralise meditsiini tehnik
+3258,32589900,Mujal liigitamata kiirabitehnikud   
+3259,32590001,HIV nõustaja
+3259,32590002,Pereplaneerimise nõustaja
+3259,32599900,Muud tervishoiu mujal liigitamata keskastme spetsialistid
+3311,33110001,Valuutamaakler
+3311,33110002,Väärtpaberimaakler
+3311,33110003,Aktsiamaakler
+3311,33119900,Mujal liigitamata väärtpaberi- ja valuutamaaklerid ning -vahendajad
+3312,33120001,Laenuhaldur
+3312,33120002,Hüpoteegihaldur
+3312,33120003,Krediidihaldur
+3312,33129900,Mujal liigitamata krediidi- ja laenuhaldurid 
+3313,33130001,Eelarvestaja
+3313,33130002,Finantsspetsialist
+3313,33130003,Raamatupidamise spetsialist
+3313,33130004,Ökonomisti abi
+3313,33139900,Mujal liigitamata raamatupidamise keskastme spetsialistid 
+3314,33140001,Aktuaari assistent
+3314,33140003,Statistika assistent
+3314,33140004,Andmeanalüüsi spetsialist
+3314,33149900,Mujal liigitamata statistilise ja matemaatilise arvestuse jms keskastme spetsialistid
+3315,33150001,Hindaja
+3315,33150002,Nõuete hindaja
+3315,33150003,Nõuete inspektor
+3315,33150004,Kindlustushindaja
+3315,33150005,Kinnisvarahindaja
+3315,33159900,Mujal liigitamata hindajad ja kahjuhindajad 
+3321,33210001,Kindlustusagent
+3321,33210002,Kindlustusmaakler
+3321,33219900,Mujal liigitamata kindlustusagendid   
+3322,33220001,Müügijärgse teeninduse konsultant
+3322,33220002,Müügiesindaja
+3322,33220003,Kaubareisija
+3322,33220004,Turundusspetsialist
+3322,33220005,Sotsiaalmeediaspetsialist
+3322,33229900,Mujal liigitamata müügiesindajad   
+3323,33230001,Hankespetsialist
+3323,33230002,Varustusagent
+3323,33230003,Ostuagent
+3323,33230004,Kaupluse varustaja
+3323,33230005,Varustaja
+3323,33230006,Kaubanduse tootejuht
+3323,33239900,Mujal liigitamata varustajad   
+3324,33240001,Toorainemaakler
+3324,33240002,Toorainefutuuride vahendaja
+3324,33240003,Kaubamaakler
+3324,33249900,Mujal liigitamata kaubamaaklerid   
+3331,33310001,Tollideklarant
+3331,33310002,Tollimaakler
+3331,33310003,Tolliküsimuste eest vastutav isik
+3331,33319900,Mujal liigitamata tollimaaklerid ja ekspedeerijad 
+3332,33320001,Konverentside ja ürituste korraldaja
+3332,33320002,Konverentsikorraldaja
+3332,33320003,Pulmakorraldaja
+3332,33320004,Kontserdikorraldaja
+3332,33329900,Mujal liigitamata ürituste korraldajad
+3333,33330001,Personalivärbaja
+3333,33330002,Tööhõive spetsialist
+3333,33330003,Töövahendaja
+3333,33339900,Mujal liigitamata töövahendajad   
+3334,33340001,Kinnisvaraagent
+3334,33340002,Kinnisvara müüja
+3334,33340003,Kinnisvaramaakler
+3334,33340004,Kinnisvarahaldur
+3334,33340005,Korteriühistu esimees
+3334,33340006,Elamumajanduse ja hoonehalduse spetsialist
+3334,33349900,Mujal liigitamata kinnisvaramaaklerid ja -haldurid
+3339,33390001,Reklaamimüüja
+3339,33390003,Kirjandusagent
+3339,33390004,Kontserdiagent
+3339,33390005,Spordiagent
+3339,33390007,Promootor
+3339,33390008,Reklaamiagent
+3339,33399900,Muud mujal liigitamata äriteenuste agendid
+3341,33410001,Kontorijuhataja
+3341,33410002,Andmesisestuse juht
+3341,33410003,Vastutav registritöötaja
+3341,33410004,Vastutav personalitöötaja
+3341,33410005,Asjaajamise peaspetsialist
+3341,33410006,Tunniplaanikoostaja
+3341,33410007,Klienditoe juht
+3341,33419900,Mujal liigitamata kontorijuhatajad   
+3342,33420001,Asjaajaja õigusküsimustes
+3342,33420002,Rahvastikutoimingute spetsialist
+3343,33430001,Sekretär-asjaajaja
+3343,33430002,Juhiabi
+3343,33430003,Asjaajamise spetsialist
+3343,33430004,Praktikakorraldaja
+3343,33430005,Õppedistsipliini spetsialist
+3343,33430006,Õppeinfo spetsialist
+3343,33430007,Õppekorralduse spetsialist
+3343,33430008,Õppeosakonna spetsialist
+3343,33430009,Õppetöö koordinaator
+3343,33439900,Mujal liigitamata sekretärid-asjaajajad ja -juhiabid 
+3344,33440001,Ravikindlustuse arvelduste sekretär
+3344,33440002,Meditsiiniasutuse sekretär-asjaajaja
+3344,33440003,Meditsiiniala sekretär
+3344,33440004,Meditsiinistenografist
+3344,33440005,Meditsiinialal töötav transkribeerija
+3344,33440006,Patoloogiasekretär
+3344,33440007,Patsiendihoolduse sekretär
+3344,33440008,Meditsiinilabori sekretär
+3344,33449900,Mujal liigitamata meditsiinivaldkonna sekretärid  
+3351,33510002,Tolliinspektor
+3351,33510003,Tolliametnik
+3351,33510004,Immigratsiooniametnik
+3352,33520001,Aktsiisiametnik
+3352,33520002,Maksuinspektor
+3352,33520003,Maksuametnik
+3352,33529900,Mujal liigitamata maksu- ja aktsiisiametnikud 
+3353,33530001,Sotsiaalabi ametnik
+3353,33530002,Sotsiaalkindlustusspetsialist
+3353,33539900,Mujal liigitamata sotsiaalkindlustusametnikud   
+3354,33540001,Ehituslube väljastav ametnik
+3354,33540002,Tegevuslube väljastav ametnik
+3354,33540003,Litsentsiametnik
+3354,33540005,Patendiekspert
+3354,33540006,Kaubamärgiekspert
+3354,33549900,Mujal liigitamata litsentside ja lubade menetlejad
+3359,33590001,Põllumajandusinspektor
+3359,33590004,Hinnainspektor
+3359,33590008,Päästeala spetsialist
+3359,33590009,Keskkonnakaitse spetsialist
+3359,33590010,Keskkonnakaitseinspektor
+3359,33590011,Muinsuskaitse nõunik
+3359,33590012,Vallavaraspetsialist
+3359,33590013,Haljastuse spetsialist
+3359,33590014,KOV järelevalvespetsialist
+3359,33599900,Muud valitsuse mujal liigitamata haldusalade ametnikud
+3411,34110002,Juristiabi
+3411,34110003,Kinnistusregistri ametnik
+3411,34110004,Kohtusekretär
+3411,34110005,Kohtutäitur
+3411,34110006,Äriregistri tehniline sekretär
+3411,34110007,Riigihangete spetsialist
+3411,34110008,Väärteomenetleja
+3411,34119900,Õigusvaldkonna mujal liigitamata keskastme spetsialistid
+3412,34120001,Kohaliku omavalitsuse arendustöötaja
+3412,34120002,Kohaliku omavalitsuse sotsiaalteenuste spetsialist
+3412,34120003,Kriisisekkumise spetsialist
+3412,34120004,Puudega isikute teenuste spetsialist
+3412,34120005,Pereabi teenuste spetsialist
+3412,34120006,Argioskuste õpetaja
+3412,34120007,Vaimse tervise ala abitöötaja
+3412,34120008,Hoolekande abitöötaja
+3412,34120009,Naiste varjupaiga järelevaataja
+3412,34120010,Noorsooteenuste spetsialist
+3412,34120011,Kasvatuspedagoog
+3412,34120012,Sotsiaaltöö spetsialist
+3412,34120013,Tegevusjuhendaja
+3412,34120014,Õpilaskodu kasvataja (erikool)
+3412,34120015,Perevanem
+3412,34120016,Eestkostespetsialist
+3412,34120017,Hoolekandespetsialist
+3412,34120018,Lastekaitsespetsialist
+3412,34120019,Tugiisikuteenuse spetsialist
+3412,34120020,Usaldusisik
+3412,34120022,Noorsootöö spetsialist
+3412,34129900,Sotsiaaltöö mujal liigitamata keskastme spetsialistid
+3413,34130002,Ilmikjutlustaja
+3413,34130004,Nunn
+3413,34130005,Koguduse noorsootöö tegija
+3413,34130006,Pühapäevakooli õpetaja
+3413,34139900,Religioonivaldkonna mujal liigitamata keskastme spetsialistid 
+3421,34210001,Jalgrattur
+3421,34210004,Jalgpallur
+3421,34210009,Motosportlane
+3421,34210010,Suusataja
+3421,34210013,Kergejõustiklane
+3421,34210014,Sportlane
+3421,34210016,Autosportlane
+3421,34210017,Curlingu mängija
+3421,34210020,Korvpallur
+3421,34210023,Laskesuusataja
+3421,34210025,Purjetaja
+3421,34210026,Ratsutaja
+3421,34210032,Ujuja
+3421,34219900,Mujal liigitamata sportlased
+3422,34220001,Spordikohtunik
+3422,34220002,Suusatamistreener
+3422,34220003,Treener
+3422,34220004,Spordiametnik
+3422,34220005,Ujumistreener
+3422,34220006,Ringijuht (sport)
+3422,34220007,Spordimetoodik
+3422,34229900,"Mujal liigitamata treenerid, spordiinstruktorid ja -ametnikud"
+3423,34230001,Aeroobikainstruktor
+3423,34230002,Ratsutamisinstruktor
+3423,34230003,Tervisespordiinstruktor
+3423,34230004,Purjetamisinstruktor
+3423,34230005,Sukeldumisinstruktor
+3423,34230006,Alpinismiinstruktor
+3423,34230008,Langevarjurinstruktor
+3423,34230009,Laskeinstruktor
+3423,34230011,Seiklusraja giid
+3423,34230012,Tervisespordi instruktor
+3423,34230013,Rekreatsioonikorraldaja
+3423,34239900,Mujal liigitamata tervisespordi- ja vabaajateenuste instruktorid
+3431,34310001,Reklaamifotograaf
+3431,34310002,Tööstusfotograaf
+3431,34310003,Fotokorrespondent
+3431,34310004,Fotograaf
+3431,34310005,Portreefotograaf
+3431,34310006,Teadusfotograaf
+3431,34310007,Fotograafia osakonna meister
+3432,34320001,Väljapanekute dekoraator
+3432,34320002,Sisekujundaja
+3432,34320003,Lavakujundaja
+3432,34320004,Toodete väljapaneku spetsialist
+3432,34320005,Vaateakende dekoraator
+3432,34329900,Mujal liigitamata sisekujundajad ja dekoraatorid
+3433,34330001,Galeriitehnik
+3433,34330002,Raamatukogutehnik
+3433,34330003,Muuseumitehnik
+3433,34330004,Taksidermist
+3433,34339900,"Muud galeriide, muuseumide ja raamatukogude mujal liigitamata tehnilised töötajad"
+3434,34340001,Peakokk
+3434,34340002,Toitlustusjuht
+3434,34340003,Toitlustuskompleksi juhataja
+3434,34340004,Vanemkokk
+3434,34349900,Mujal liigitamata peakokad   
+3435,34350001,Kehamaalija
+3435,34350002,Valgustehnik
+3435,34350003,Programmikoordinaator (ringhääling)
+3435,34350005,Rekvisiitor
+3435,34350006,Eriefektide tehnik
+3435,34350007,Lavameister
+3435,34350008,Lavatehnik
+3435,34350011,Tätoveerija
+3435,34350012,Teatritehnik
+3435,34350013,Teatri kostümeerija
+3435,34350014,Režissööri assistent (ringhääling)
+3435,34350015,Teatrikunstnik
+3435,34359900,Muud kunsti- ja kultuurivaldkonna mujal liigitamata keskastme spetsialistid
+3511,35110001,Arvutioperaator
+3511,35110002,Arvuti välisseadmete operaator
+3511,35110003,Arvutiga juhitavate kiirtrükiseadmete operaator
+3511,35119900,Mujal liigitamata IKT operaatorid  
+3512,35120001,Sideassistent (IKT)
+3512,35120002,Arvutiandmebaasi assistent
+3512,35120003,Arvuti kasutajatoe operaator
+3512,35120004,Programmeerimisassistent
+3512,35120005,Arvuti süsteemianalüüsi assistent
+3512,35120006,Arvutihooldusspetsialist
+3512,35120007,IT kasutajatoe spetsialist
+3512,35129900,Mujal liigitamata IKT kasutajatoe tehnikud
+3513,35130001,Arvutivõrgu tehnik
+3513,35130002,Võrgutoe tehnik
+3513,35130003,Arvutivõrgu administraator
+3513,35130004,Süsteemiadministraator
+3513,35139900,Mujal liigitamata arvutivõrkude ja -süsteemide tehnikud
+3514,35140001,Veebmeister
+3514,35140002,Veebisaidi haldur
+3514,35140003,Veebisaidi tehnik
+3514,35149900,Mujal liigitamata veebitehnikud
+3521,35210001,Audiovisuaaloperaator
+3521,35210002,Ringhäälinguseadmete operaator
+3521,35210003,Ringhäälingutehnik
+3521,35210004,Filmioperaator
+3521,35210005,Videooperaator
+3521,35210006,Tootmisjuht (meedia)
+3521,35210007,Helikujundaja
+3521,35210008,Helioperaator
+3521,35210009,Helirežissöör
+3521,35210010,Helitehnik
+3521,35210011,Helitoimetaja
+3521,35210013,Televisioonioperaator
+3521,35210014,Valgustustehnik
+3521,35210015,Videotehnik
+3521,35210016,Montaažirežissöör
+3521,35219900,Mujal liigitamata audiovisuaal- ja ringhäälingutehnikud 
+3522,35220001,Sidetehnik
+3522,35220002,Kaugside operaator
+3522,35220003,Laeva raadiotehnik
+3522,35220006,Raadionavigatsiooni tehnik
+3522,35220007,Satelliitside tehnik
+3522,35220008,Side elektrotehnik-mehaanik
+3522,35220009,Sidedispetšer
+3522,35220010,Telefonitehnik
+3522,35220011,Televisioonitehnik
+3522,35220012,Teleülekandeoperaator
+3522,35229900,Mujal liigitamata telekommunikatsioonitehnikud   
+4110,41100001,Kontoriabiline
+4110,41100002,Kantselei spetsialist
+4110,41109900,Mujal liigitamata kontoriabilised   
+4120,41200001,Sekretär
+4120,41200002,Sekretär-masinakirjutaja
+4120,41200003,Koolitussekretär
+4120,41200004,Õppeala assistent
+4120,41209900,Mujal liigitamata asjaajamise tugitöötajad  
+4131,41310002,Stenografist
+4131,41310003,Masinakirjutaja
+4131,41310004,Tekstitöötleja
+4131,41310005,Protokollija
+4131,41319900,Mujal liigitamata masinakirjutajad jms tekstitöötlejad 
+4132,41320001,Andmesisestusoperaator
+4132,41320002,Andmesisestaja
+4132,41320003,Maksete sisestaja
+4132,41320004,Sõidusoodustuse menetleja
+4211,42110001,Pangateller
+4211,42110002,Rahavahetaja
+4211,42110003,Postkontori letitöötaja
+4211,42110004,Panga kliendihaldur
+4211,42119900,Mujal liigitamata pangatellerid jms klienditeenindajad 
+4212,42120001,Kihlvedude vahendaja
+4212,42120002,Krupjee
+4212,42129900,Mujal liigitamata hasartmängutöötajad
+4213,42130001,Rahalaenaja
+4213,42130002,Pandimajapidaja
+4214,42140001,Inkassaator
+4214,42140003,Võlahaldur
+4221,42210001,Lennupiletite vahendaja
+4221,42210002,Registreerimisleti (Check-in’i) töötaja
+4221,42210003,Reisibüroo töötaja
+4221,42210004,Reisikonsultant
+4221,42210005,Turismiinfo töötaja
+4221,42219900,Mujal liigitamata reisikonsultandid jm reisibüroo klienditeenindajad
+4222,42220001,Klienditeeninduskeskuse infotöötaja
+4222,42220002,Infotelefoni operaator
+4222,42229900,Mujal liigitamata kõne- ja kontaktikeskuse klienditeenindajad
+4223,42230001,Vastamisteenuse operaator
+4223,42230002,Telefonivahendusjaama operaator
+4224,42240001,Hotelli vastuvõtulaua teenindaja
+4224,42240002,Hotelli administraator
+4225,42250001,Infospetsialist
+4225,42250002,Infopunkti klienditeenindaja
+4225,42250003,Klienditoe konsultant
+4225,42250004,Kliendihaldur
+4225,42259900,Mujal liigitamata infopunkti klienditeenindajad  
+4226,42260001,Administraator
+4227,42270001,Turu-uuringute küsitleja
+4227,42270002,Arvamusküsitleja
+4227,42270003,Küsitleja
+4229,42290001,Teenuste määramise küsitleja
+4229,42290002,Teenuste määramise spetsialist
+4229,42290003,Haigla vastuvõtutöötaja
+4229,42299900,Muud mujal liigitamata klienditeenindajad
+4311,43110001,Arveametnik
+4311,43110002,Raamatupidamistöötaja
+4311,43110003,Kuluarvestaja
+4311,43110004,Kaubaarvete kirjutaja
+4311,43110005,Saatedokumentide vormistaja
+4311,43119900,Mujal liigitamata raamatupidamise kontoritöötajad
+4312,43120001,Rahanduse kontoritöötaja
+4312,43120002,Kindlustuse kontoritöötaja
+4312,43120003,Väärtpaberiala kontoritöötaja
+4312,43120004,Statistilise arvestuse kontoritöötaja
+4313,43130001,Palgaarvestaja
+4313,43139900,Mujal liigitamata palgaarvestajad   
+4321,43210001,Kaubalähetaja
+4321,43210002,Laoametnik
+4321,43210003,Kaaluja
+4321,43210004,Laohoidja
+4321,43210005,Jäätmejaama operaator
+4321,43219900,Laoarvestuse mujal liigitamata kontoritöötajad  
+4322,43220001,Tootmisdispetšer
+4322,43220002,Ajaline planeerija (materjalid)
+4322,43220003,Materjali ja toodangu arvestaja
+4322,43229900,Mujal liigitamata tootmisarvestuse kontoritöötajad  
+4323,43230001,Veoteenuste kontrollija
+4323,43230002,Veoteenuste dispetšer
+4323,43230003,Autoveodispetšer
+4323,43230004,Bussidispetšer
+4323,43230005,Jaamadispetšer
+4323,43230006,Jaamakorraldaja
+4323,43230007,Liiklusdispetšer
+4323,43230008,Logistik
+4323,43230009,Maanteeveonduse dispetšer
+4323,43230010,Postivahetuskorraldaja
+4323,43230011,Sadamadispetšer
+4323,43230012,Sadamaterminali inspektor-järelevaataja
+4323,43230013,Sorteermäe korraldaja
+4323,43230014,Stividor
+4323,43230015,Sõidukipargi inspektor-järelevaataja
+4323,43230016,Lendude planeerija
+4323,43230017,Transpordiametnik
+4323,43230018,Veokorraldusjuht
+4323,43239900,Transpordivaldkonna mujal liigitamata kontoritöötajad  
+4411,44110001,Raamatukogu spetsialist
+4411,44110002,Raamatukogu kataloogija
+4411,44110003,Raamatukogu laenutustöötaja
+4411,44119900,Raamatukogutöö mujal liigitamata assistendid  
+4412,44120001,Postisorteerija
+4412,44120002,Postiljon
+4412,44120003,Kuller
+4412,44120004,Saadetiste lähetaja-vastuvõtja
+4412,44129900,Mujal liigitamata posti sorteerijad ja kättetoimetajad
+4413,44130001,Kodeerija
+4413,44130002,Korrektor
+4413,44139900,"Mujal liigitamata kodeerijad, korrektorid jms töötajad"
+4414,44140001,Kirjaabiline
+4414,44149900,Mujal liigitamata kirjaabilised jms töötajad 
+4415,44150001,Dokumentide kopeerija
+4415,44150002,Registritöötaja
+4415,44150003,Arhiivitöö assistent
+4415,44150004,Dokumendihalduse assistent
+4415,44159900,Mujal liigitamata kartoteegi- ja registripidajad 
+4416,44160001,Personalitöö assistent
+4416,44160002,Personalitöötaja
+4416,44169900,Mujal liigitamata personalitöö assistendid  
+4419,44190001,Reklaamiosakonna töötaja
+4419,44190002,Kirjavahetussekretär
+4419,44190003,Telefoniraamatu koostaja
+4419,44190004,Toimetusametnik
+4419,44190005,Meediaspetsialist
+4419,44190006,Valimiste jaoskonnakomisjoni liige
+4419,44199900,Mujal liigitamata kontoritöötajad ja klienditeenindajad
+5111,51110001,Kajutiteenindaja
+5111,51110002,Lennusaatja
+5111,51119900,Mujal liigitamata reisi- ja lennusaatjad 
+5112,51120003,Piletikontrolör (ühistransport)
+5112,51120004,Rongi konduktor
+5112,51129900,Mujal liigitamata kontrolörid ja konduktorid 
+5113,51130001,Kunstigalerii giid
+5113,51130002,Giid-reisisaatja
+5113,51130003,Giid
+5113,51130004,Ekskursioonijuht
+5113,51130005,Reisijuht
+5113,51130006,Turismirühma juht
+5113,51139900,Mujal liigitamata giidid   
+5120,51200001,Kokk
+5131,51310001,Sommeljee
+5131,51310002,Kelner
+5131,51310003,Ettekandja
+5131,51310004,Toitlustuse teenindusjuht
+5131,51310005,Ülemkelner
+5131,51310006,Toitlustuse saaliteenindaja
+5131,51319900,Mujal liigitamata ettekandjad ja kelnerid 
+5132,51320001,Baarmen
+5132,51320002,Baaridaam
+5132,51320003,Barista
+5141,51410001,Habemeajaja
+5141,51410002,Juuksehoolduse spetsialist
+5141,51410003,Juuksur
+5141,51410004,Soengutegija
+5141,51410005,Juuksepikenduste paigaldaja
+5141,51419900,Mujal liigitamata juuksurid   
+5142,51420001,Spaateenindaja
+5142,51420002,Kosmeetik
+5142,51420003,Jumestuskunstnik
+5142,51420004,Maniküürija
+5142,51420005,Pediküürija
+5142,51420006,Salenemiskonsultant
+5142,51420007,Küünetehnik
+5142,51420008,Ripsmetehnik
+5142,51429900,Mujal liigitamata iluteenindajad (v.a juuksurid) 
+5151,51510001,Majapidaja
+5151,51510002,Majutusasutuse majapidamisjuht
+5151,51510003,Haldusspetsialist
+5151,51510004,Majandusspetsialist
+5151,51510005,Mõisa juhataja
+5151,51510006,Vanempuhastusteenindaja
+5151,51510007,Õpilaskodu juhataja
+5151,51510008,Turuhaldur
+5151,51510009,Tervishoiuasutuse majapidamisjuht
+5151,51519900,"Muud kontorite, hotellide jm asutuste mujal liigitamata koristus- ja majapidamistööde juhatajad"
+5152,51520001,Kodumajutusasutuse pidaja
+5152,51520002,Kodumajapidaja
+5152,51529900,Mujal liigitamata kodumajapidajad   
+5153,51530001,Portjee
+5153,51530002,Majahoidja
+5153,51530003,Kirikuteener
+5153,51530004,Sadamavaht
+5153,51530005,Õpilaskodu administraator
+5153,51530006,Saarevaht
+5153,51530007,Kalmistuvaht
+5153,51530008,Turvakodu administraator
+5153,51539900,Muud hoonete mujal liigitamata haldajad  
+5161,51610001,Astroloog
+5161,51610002,Ennustaja
+5161,51610003,Numeroloog
+5161,51619900,"Mujal liigitamata astroloogid, ennustajad jms töötajad"
+5162,51620001,Seltsidaam
+5163,51630001,Palsameerija
+5163,51630002,Matusekorraldaja
+5163,51630003,Kremeerija
+5163,51630004,Surnumatja
+5163,51639900,Mujal liigitamata surnumatjad ja lahkunute korrastajad
+5164,51640001,Koertetreenija
+5164,51640002,Hobusetaltsutaja
+5164,51640003,Loomaaia talitaja
+5164,51640004,Loomaarsti abi
+5164,51640005,Loomahooldaja
+5164,51640006,Teenistuskoerte koolituse instruktor
+5164,51649900,Mujal liigitamata lemmikloomade hooldajad  
+5165,51650001,Sõiduinstruktor
+5165,51659900,Mujal liigitamata sõiduõpetajad   
+5169,51690001,Klubi teenindaja (mees)
+5169,51690002,Klubi teenindaja (naine)
+5169,51690003,Tantsupartner
+5169,51690004,Isiklik saatja
+5169,51699900,Mujal liigitamata isikuteenindajad
+5211,52110001,Kioskimüüja (kioskipidaja)
+5211,52110002,Turumüüja
+5211,52110003,Tänavamüüja (v.a toit)
+5211,52119900,Mujal liigitamata kioski- ja turumüüjad 
+5212,52120001,Tänavakaupleja (toit)
+5212,52120002,Tänaval toidu müüja
+5221,52210001,Väikepoodnik
+5221,52210003,Väikepoepidaja
+5222,52220001,Kassiiride vahetuseülem
+5222,52220002,Müüjate vahetuseülem
+5223,52230001,Müüja (jaemüügiasutus)
+5223,52230002,Müüja (hulgimüügiasutus)
+5230,52300001,Supermarketi kassiir
+5230,52300002,Kaupluse kassiir
+5230,52300003,"Piletimüüja (meelelahutus-, spordisündmused jms)"
+5230,52300004,Kassapidaja-klienditeenindaja
+5230,52300005,Tanklakassiir
+5230,52309900,Mujal liigitamata kassapidajad ja piletimüüjad 
+5241,52410001,Reklaamimodell
+5241,52410002,Kunstimodell
+5241,52419900,Mujal liigitamata rõiva- jm modellid 
+5242,52420001,Demonstraator
+5242,52420002,Tootetutvustaja
+5243,52430001,Lävemüüja
+5243,52430002,Ukselt uksele käiv müüja
+5243,52430003,Esitlusmüüja
+5244,52440001,Kõnekeskuse müüja
+5244,52440002,Klienditeeninduskeskuse müüja
+5244,52440003,E-poe müüja
+5244,52440004,Kaugturundustöötaja
+5244,52440005,Kaugturunduse müüja
+5244,52440006,Telefonimüügi agent
+5244,52449900,Mujal liigitamata telefonimüügi agendid
+5245,52450001,Väikelaevasadama töötaja
+5245,52450002,Tanklatöötaja
+5245,52450003,Autopesula operaator
+5246,52460001,Salatileti töötaja
+5246,52460002,Kohviku letitöötaja
+5246,52460003,Söökla teenindaja
+5246,52460004,Toitlustuse klienditeenindaja
+5246,52460005,Söökla letitöötaja
+5246,52469900,Muud toitlustuse mujal liigitamata letitöötajad  
+5249,52490001,Üüritehingute vahendaja
+5249,52490002,Komplekteerija
+5249,52499900,Mujal liigitamata müügitöötajad
+5311,53110001,Lapsehoidja
+5311,53110002,Pikapäevarühma kasvataja
+5311,53110003,Abikasvataja
+5311,53110004,Kasvataja abi
+5311,53110005,Lastehoiutöötaja
+5311,53110006,Lastekasvataja
+5311,53110007,Päevahoiu töötaja
+5311,53110008,Õpilaskodu kasvataja (v.a erikool)
+5311,53110009,Öökasvataja
+5311,53110010,Lapse tugiisik
+5311,53119900,Mujal liigitamata lapsehoidjad   
+5312,53120001,Õpetaja assistent
+5312,53120002,Pedagoogi abi
+5312,53120003,Õpetaja abi
+5312,53120004,Õpilase tugiisik
+5321,53210001,Hooldaja tervishoiuasutuses
+5321,53210002,Sünnitusabiline (kliinikus või haiglas)
+5321,53210003,Hooldaja hoolekandeasutuses
+5322,53220001,Koduhooldustöötaja
+5322,53220002,Hooldaja (kodus)
+5322,53229900,Mujal liigitamata koduhooldustöötajad   
+5329,53290001,Mujal liigitamata hooldustöötaja tervishoius
+5413,54130001,Vangivalvur
+5413,54130002,Vangla järelevalveinspektor
+5413,54139900,Mujal liigitamata vangivalvurid   
+5414,54140002,Turvamees
+5414,54140003,Muuseumivalvur
+5414,54140004,Uksehoidja
+5414,54140005,Turvaspetsialist
+5414,54140007,Turvatöötaja
+5414,54140008,Häirejuhtimiskeskuse operaator
+5414,54140009,Vahetuseülem (turvateenused)
+5414,54149900,Mujal liigitamata turvatöötajad   
+5419,54190001,Loomapüüdja
+5419,54190002,Rannavalvur
+5419,54190003,Ülekäigukoha valvur
+5419,54190004,Vetelpäästja
+5419,54190005,Liiklusreguleerija
+5419,54190006,Loomakaitsetöötaja
+5419,54199900,Muud mujal liigitamata turvatöötajad
+6111,61110001,Kartulikasvataja
+6111,61110002,Köögiviljakasvataja
+6111,61110004,Põllumajanduse oskustöötaja (põllukultuurid)
+6111,61110006,Teraviljakasvataja
+6111,61119900,Mujal liigitamata põllusaaduste ja köögiviljakasvatajad 
+6112,61120001,Puuviljakasvataja
+6112,61120003,Viinamarjakasvataja
+6112,61120005,Marjakasvataja
+6112,61129900,Mujal liigitamata puuvilja- ja marjakasvatajad 
+6113,61130001,Aednik
+6113,61130002,Maastikuaednik
+6113,61130003,Väikeaiapidaja
+6113,61130004,Seenekasvataja
+6113,61130005,Istikukasvataja
+6113,61130006,Kasvuhooneaednik
+6113,61130007,Pargiaednik
+6113,61130008,Puukooli töötaja
+6113,61130009,Roosikasvataja
+6113,61130010,Seemnekasvataja
+6113,61130011,Taimekooli kasvataja
+6113,61130012,Viljapuude kasvataja
+6113,61130013,Arborist
+6113,61139900,"Mujal liigitamata aednikud, puukooli töötajad ja istikukasvatajad"
+6114,61140001,Segakultuuride kasvataja
+6114,61140002,Põllumajanduse oskustöötaja (segakultuurid)
+6114,61140003,Aiasaaduste kasvataja
+6114,61140004,Taimekasvataja
+6114,61140005,Taimekasvatustalunik
+6114,61149900,Mujal liigitamata eri põllukultuuride kasvatajad 
+6121,61210001,Veisekasvataja
+6121,61210002,Piimakarja kasvataja
+6121,61210003,Koerakasvataja
+6121,61210004,Kitsekasvataja
+6121,61210005,Hobusekasvataja
+6121,61210006,Villapügaja
+6121,61210007,Lambakasvataja
+6121,61210010,Loomakasvataja
+6121,61210011,Lüpsja
+6121,61210012,Põllumajanduse oskustöötaja (karjakasvatus)
+6121,61210013,Seakasvataja
+6121,61210014,Farmijuhataja
+6122,61220002,Linnukasvataja
+6122,61220003,Linnutalitaja
+6122,61220005,Munatootja
+6123,61230001,Mesinik
+6129,61290001,Karusloomakasvataja
+6129,61290005,Laboriloomade kasvataja
+6129,61299900,Muud mujal liigitamata loomakasvatuse oskustöölised
+6130,61300001,Talupidaja (segapõllumajandus)
+6130,61300002,Põllumajanduse oskustöötaja (segapõllumajandus)
+6130,61309900,Mujal liigitamata segapõllumajanduse oskustöölised  
+6210,62100002,Raietööline
+6210,62100003,Metsalangetaja
+6210,62100004,Metsaistutaja
+6210,62100005,Metsanduse oskustöötaja
+6210,62100006,Metsatööline
+6210,62100007,Metsaülevaataja
+6210,62100008,Metsnik
+6210,62100009,Puidumõõdistaja
+6210,62100010,Puidumärgistaja
+6210,62109900,Mujal liigitamata metsanduse jms oskustöölised 
+6221,62210001,Vetikakasvataja
+6221,62210002,Kalakasvataja
+6221,62210006,Kalakasvanduse oskustöötaja
+6221,62219900,Mujal liigitamata vesiviljeluse oskustöölised  
+6222,62220001,Rannikupüügilaeva juht
+6222,62220002,Kalur (rannikuvetes)
+6222,62220003,Kalur (sisevetes)
+6222,62229900,Mujal liigitamata sisevete- ja rannapüügikalurid 
+6223,62230001,Avamerekalur
+6223,62230002,Traallaevakalur
+6223,62230003,Kalalaeva kapten (süvameri)
+6223,62230004,Traaleri kapten (süvameri)
+6223,62239900,Mujal liigitamata avamerekalurid   
+6224,62240004,Jahimees
+6224,62240005,Jääger
+6224,62249900,Mujal liigitamata jahimehed ja karusnahakütid 
+6310,63100001,Oma tarbeks taimekasvatusega tegelev talunik
+6310,63100002,Oma tarbeks aiasaaduste kasvataja
+6310,63100003,Oma tarbeks aedviljade kasvataja
+6320,63200001,Oma tarbeks loomi pidav talunik
+6330,63300001,Oma tarbeks segapõllumajandusega tegelev talunik
+6340,63400001,Oma tarbeks metsasaaduste koguja
+7111,71110001,Majaehitaja
+7111,71110002,Ehitus- ja remonditööline
+7111,71110003,Ehitusmeister
+7111,71119900,Mujal liigitamata üldehitajad   
+7112,71120001,Ehitusplokkide laduja
+7112,71120002,Müürsepp
+7112,71120003,Pottsepp
+7112,71120004,Koldepottsepp
+7112,71120005,Ahjumeister
+7112,71120006,Kivisillutise tegija
+7112,71120007,Korstnaladuja
+7112,71129900,Mujal liigitamata müürsepad jms töölised 
+7113,71130001,Graniidilõikaja
+7113,71130002,Kiviraidur
+7113,71130003,Kivilõikaja
+7113,71130004,Teemantpuurija ja -saagija
+7113,71139900,"Mujal liigitamata kiviraidurid, -tahujad jms töölised"
+7114,71140001,Betoontoodete viimistleja
+7114,71140002,Betoonivalaja
+7114,71140003,Terratsopõranda ehitaja
+7114,71140004,Betoontoodete valmistaja
+7114,71140005,Armeerija
+7114,71149900,"Mujal liigitamata betoneerijad, betoonpindade viimistlejad jms töölised"
+7115,71150001,Ehituspuusepp
+7115,71150002,Avatäidete paigaldaja
+7115,71150003,Laevapuusepp
+7115,71150005,Paadimeister
+7115,71150006,Remondipuusepp
+7115,71150007,Teatripuusepp
+7115,71159900,Mujal liigitamata puusepad   
+7119,71190001,Lammutustööline
+7119,71190002,Valmisdetailidest ehitiste koostaja
+7119,71190003,Tellingupaigaldaja
+7119,71190004,Lammutuse oskustööline
+7119,71190005,Kõrgehitustööline
+7119,71190006,Liikluskorraldusvahendite paigaldaja
+7119,71199900,Muud mujal liigitamata üldehitustöölised
+7121,71210001,Bituumenkatuste ehitaja
+7121,71210002,Plekk-katuste ehitaja
+7121,71210003,Katuseparandaja
+7121,71210004,Kivikatuste ehitaja
+7121,71210005,Plaatkatuste ehitaja
+7121,71210006,Roogkatuste ehitaja
+7121,71210007,Katusepanija
+7121,71219900,Mujal liigitamata katusekatjad   
+7122,71220001,Vaibapaigaldaja
+7122,71220002,Marmorkatete paigaldaja
+7122,71220003,Parketipaigaldaja
+7122,71220004,Plaatija
+7122,71220005,Kivipõranda paigaldaja
+7122,71220006,Mosaiikkatte paigaldaja
+7122,71220007,Puitpõranda paigaldaja
+7122,71229900,Mujal liigitamata põrandapaigaldajad ja plaatijad 
+7123,71230001,Kipsplaadi paigaldaja
+7123,71230003,Dekoratiivkrohvija
+7123,71230004,Krohvija
+7123,71230005,Fassaadikrohvija
+7123,71230006,Stukk-krohvija
+7124,71240001,Heliisoleerija
+7124,71240002,Katelde ja torude isoleerija
+7124,71240003,Isoleerija
+7124,71240004,Külmutus- ja kliimaseadmete isoleerija
+7124,71240005,Soojustaja
+7124,71240006,Termoisoleerija
+7124,71249900,Mujal liigitamata isoleerijad   
+7125,71250001,Autoklaasija
+7125,71250002,Klaasija
+7125,71250003,Katuseklaasija
+7125,71250004,Sõidukiklaasija
+7125,71259900,Mujal liigitamata klaasijad   
+7126,71260001,Gaasiseadmete monteerija
+7126,71260002,Torustikumonteerija
+7126,71260003,Torustikupaigaldaja
+7126,71260004,Kaevumeister
+7126,71260005,Sanitaartehnik
+7126,71260006,Torulukksepp
+7126,71260007,Koostelukksepp
+7126,71269900,Mujal liigitamata torulukksepad   
+7127,71270001,Kliimaseadmete mehaanik
+7127,71270002,Külmutusseadmete mehaanik
+7127,71270003,Külmutus- ja kliimaseadmete mehaanik
+7127,71279900,Muud kliima- ja külmutusseadmete mujal liigitamata mehaanikud
+7131,71310001,Ehitusmaaler
+7131,71310002,Tapeetija
+7131,71310003,Dekoratsioonimaalija
+7131,71310004,Filmidekoratsioonide maalija
+7131,71310005,Metalltarindite värvija
+7131,71310006,Laevakere värvija
+7131,71319900,Mujal liigitamata ehitusmaalrid jms töölised 
+7132,71320001,Tootevärvija
+7132,71320002,Tootelakkija
+7132,71320003,Sõidukivärvija
+7132,71329900,Mujal liigitamata pihustusseadmetega värvijad-lakkijad  
+7133,71330001,Fassaadipuhastaja
+7133,71330002,Korstnapühkija
+7133,71330003,Liivjugapuhastusseadme operaator (hoonefassaadid)
+7133,71339900,Mujal liigitamata ehitustarindite puhastajad  
+7211,72110001,Kärnivalmistaja
+7211,72110002,Metalli valuvormide valmistaja
+7211,72119900,Mujal liigitamata valuvormide ja kärnide valmistajad
+7212,72120001,Jootja
+7212,72120002,Leeklõikaja
+7212,72120003,Keevitaja
+7212,72129900,Mujal liigitamata keevitajad ja leeklõikajad 
+7213,72130001,Katelsepp
+7213,72130002,Vasksepp
+7213,72130003,Lehtmetalli valtsija
+7213,72130004,Plekksepp
+7213,72130005,Autoplekksepp
+7213,72139900,Mujal liigitamata lehtmetallitöölised   
+7214,72140001,Metallkonstruktsioonide püstitaja
+7214,72140002,Metallkonstruktsioonide ettevalmistaja
+7214,72140003,Neetija
+7214,72149900,Mujal liigitamata metallkonstruktsioonide valmistajad ja monteerijad
+7215,72150002,Taglastaja
+7215,72150003,Laeva taglastaja
+7215,72150006,Tõsteseadmete montöör
+7215,72150007,Tõsteseadmete trossimehaanik
+7215,72150008,Troppija
+7215,72159900,Mujal liigitamata troppijad ja trossijätkajad 
+7221,72210001,Sepp
+7221,72210002,Metallivormija
+7221,72210003,Vasarasepp
+7221,72210004,Hobuserautaja
+7221,72210005,Stantsija
+7221,72219900,"Mujal liigitamata sepad, stantsijad jms oskustöölised"
+7222,72220001,Stantsivalmistaja
+7222,72220002,Relvasepp
+7222,72220003,Rakiselukksepp
+7222,72220004,Lukksepp
+7222,72220005,Šabloonilukksepp
+7222,72220006,Tööriistalukksepp
+7222,72229900,Mujal liigitamata tööriistavalmistajad jms töölised 
+7223,72230001,Metallipuurpingi operaator
+7223,72230002,Metallitööpingi operaator
+7223,72230003,Metallitööpingi seadistaja
+7223,72230004,Metallitööpingi seadistaja-operaator
+7223,72230005,Metallitreial
+7223,72230006,Metallifreesija
+7223,72230007,Metallifreespingi operaator
+7223,72230008,Metallifreespingi seadistaja
+7223,72230009,Metalltoodete valmistamise operaator
+7223,72230010,Programmjuhtimispingi seadistaja (metall)
+7223,72230011,Treial (metall)
+7223,72230012,Metallitreipingi seadistaja
+7223,72230013,Programmjuhtimispingi operaator (metall)
+7223,72239900,Mujal liigitamata metallitöötluspinkide seadistajad ja operaatorid
+7224,72240001,Noateritaja
+7224,72240002,Metalliviimistleja
+7224,72240003,Metallilihvija
+7224,72240004,Tööriistateritaja
+7224,72240005,Metallilihvija (ketasinstrumendiga)
+7224,72240006,Metallipoleerija
+7224,72240007,Metallipuhastaja
+7224,72240008,Metalliteritaja
+7224,72240009,Saeteritaja
+7224,72240011,Teritaja
+7224,72240012,Valutoodete viimistleja
+7224,72249900,"Mujal liigitamata metallilihvijad, -poleerijad ja tööriistateritajad"
+7231,72310001,Pidurisüsteemide mehaanik
+7231,72310002,Diiselmootorite mehaanik (maanteetransport)
+7231,72310003,Mootoripaigaldaja (mootorsõidukid)
+7231,72310004,Garaažimehaanik
+7231,72310005,Mootorrattamehaanik
+7231,72310006,Mootorsõidukite mootori ja kütusesüsteemi mehaanik
+7231,72310007,Sõidukite elektromehaaniliste osade mehaanik
+7231,72310008,Sõidukimehaanik
+7231,72310009,Sõidukite remondimehaanik
+7231,72310010,Väikemootorite mehaanik
+7231,72310011,Autolukksepp
+7231,72310012,Automehaanik
+7231,72310013,Autoremonditehnik
+7231,72310014,Bussimehaanik
+7231,72310015,Transporditehnika töökoja meister
+7231,72310016,Rehvitehnik
+7231,72310017,Mootoridiagnostik
+7231,72319900,Mujal liigitamata mootorsõidukimehaanikud ja -lukksepad
+7232,72320001,Lennukite keremehaanik
+7232,72320002,Lennukimootori lukksepp
+7232,72320003,Lennukimehaanik
+7232,72320005,Õhusõidukite hooldusmehaanik
+7232,72320006,Lennunduse hooldusmehaanik
+7232,72320008,Reaktiivmootorite mehaanik
+7232,72329900,Mujal liigitamata õhusõidukimehaanikud ja -lukksepad
+7233,72330001,Ehitusmasinate mehaanik
+7233,72330002,Põllumajandusmasinate remondimehaanik
+7233,72330003,Kaevandusmasinate mehaanik
+7233,72330004,Statsionaarsete mootorite monteerija
+7233,72330005,Rongimootorite mehaanik
+7233,72330006,Tehnikahooldusinsener
+7233,72330007,Remondilukksepp
+7233,72330008,Põllumajandus- ja tööstusmasinate seadistaja
+7233,72330009,Põllumajandus- ja tööstusmasinate hooldaja
+7233,72330010,Laevamasinate monteerija
+7233,72330011,Laevamotorist
+7233,72339900,Mujal liigitamata põllumajandus- ja tööstusmasinate mehaanikud ning lukksepad
+7234,72340001,Jalgrattamehaanik
+7234,72340002,Jalgrattaparandaja
+7234,72340003,Lapsevankrite parandaja
+7234,72340004,Ratastooliparandaja
+7234,72349900,Mujal liigitamata jalgrataste jms sõidukite mehaanikud
+7311,73110002,Kirurgiliste instrumentide valmistaja
+7311,73110003,Kellassepp
+7311,73110004,Fotograafiaseadmete parandaja
+7311,73110005,Fotograafiaseadmete valmistaja
+7311,73110007,Navigatsiooniriistade parandaja
+7311,73110008,Navigatsiooniriistade valmistaja
+7311,73110011,Täppisriistade kalibreerija
+7311,73110012,Täppisriistade parandaja
+7311,73110013,Täppisriistade valmistaja
+7311,73119900,Mujal liigitamata täppisinstrumentide valmistajad ja parandajad
+7312,73120001,Vaskpillide parandaja
+7312,73120002,Klaverihäälestaja
+7312,73120003,Keelpillimeister
+7312,73120004,Puupuhkpillimeister
+7312,73120006,Akordionimeister
+7312,73120007,Klaverikeelestaja
+7312,73120010,Orelihäälestaja
+7312,73120011,Orelimeister
+7312,73120012,Pillihäälestaja
+7312,73120016,Õppevahendite hooldemeister
+7312,73129900,Mujal liigitamata pillimeistrid ja -häälestajad
+7313,73130001,Emailija (ehtekunst)
+7313,73130002,Vääriskivide paigaldaja
+7313,73130003,Kullassepp
+7313,73130004,Juveliir
+7313,73130005,Hõbesepp
+7313,73139900,Mujal liigitamata juveeli- ja väärismetallitöötlejad 
+7314,73140002,Potisepp
+7314,73140003,Savi- ja portselantoodete valaja
+7314,73140004,Savi- ja portselantoodete vormija
+7314,73149900,Mujal liigitamata savi- ja portselanimeistrid 
+7315,73150001,Klaasipuhuja
+7315,73150002,Klaasilõikaja
+7315,73150004,Klaasilihvija
+7315,73150005,Klaasikoja tööline
+7315,73150008,Klaasi töötlemise operaator
+7315,73159900,"Mujal liigitamata klaasipuhujad, -lõikajad, -lihvijad ja -viimistlejad"
+7316,73160001,Dekoratiivvärvija
+7316,73160002,Klaasidekoraator
+7316,73160003,Klaasigraveerija
+7316,73160006,Keraamikadekoraator
+7316,73169900,"Mujal liigitamata klaasi, keraamika jms materjalide dekoratiivmaalijad, graveerijad ja söövitajad"
+7317,73170001,Korvipunuja
+7317,73170002,Harjameister
+7317,73170004,Korvmööbli valmistaja
+7317,73170005,Puutoodete valmistaja
+7317,73170007,Õlgtoodete valmistaja
+7317,73179900,"Mujal liigitamata puidust, punumis- jm materjalidest tooteid valmistavad käsitöömeistrid"
+7318,73180001,Vaibameister
+7318,73180002,Vaibakuduja
+7318,73180003,Kangur
+7318,73180004,Kuduja
+7318,73180005,Nahameister
+7318,73180006,Tekstiilkiudude kraasija
+7318,73180008,Tekstiilimeister
+7318,73180010,Heegeldaja
+7318,73180012,Käsitöö tekstiilimeister
+7318,73180013,Tekstiilkiu ettevalmistaja
+7318,73180014,Tekstiiltoodete valmistaja
+7318,73180015,Võrgupunuja
+7318,73189900,"Mujal liigitamata tekstiil-, nahk- jms tooteid valmistavad käsitöömeistrid"
+7319,73190001,Küünalde käsitsi valmistaja
+7319,73190003,Kivitoodete käsitsi valmistaja
+7319,73199900,Mujal liigitamata käsitöömeistrid
+7321,73210001,Fotograveerija
+7321,73210003,Plaadimontöör (siidtrükk)
+7321,73210004,Trükiplaatide valmistaja
+7321,73210005,Laduja
+7321,73210006,Elektroonilise trükiettevalmistuse tehnik
+7321,73210007,Küljendaja
+7321,73210008,Trükimasina seadistaja
+7321,73219900,Mujal liigitamata trükiettevalmistajad   
+7322,73220001,Digitaalse trükipressi operaator
+7322,73220002,Trükimasina sööturi operaator
+7322,73220003,Fleksotrükimasina operaator
+7322,73220006,Siidtrükkal
+7322,73220007,Siidtrükimasina operaator
+7322,73220008,Väikese trükipressi operaator
+7322,73220009,Tekstiilitrükkal
+7322,73220010,Rulltrükimasina operaator
+7322,73220011,Trükimasina operaator
+7322,73220012,Trükkal
+7322,73229900,Mujal liigitamata trükkalid   
+7323,73230001,Raamatuköitja
+7323,73230002,Lõikuri operaator
+7323,73230003,Fooliumtrükimasina operaator
+7323,73230004,Voltimismasina operaator
+7323,73230005,Köitemasina operaator
+7323,73230006,Liimköitemasina operaator
+7323,73230007,Seljaköitemasina operaator
+7323,73230008,Kogumismasina operaator
+7323,73230010,Köitekoja tööline
+7323,73230011,Poognajärjestaja
+7323,73230012,Raamatukohrutaja
+7323,73230014,Raamatuviimistleja
+7323,73230015,Raamatuõmbleja
+7323,73239900,Mujal liigitamata trükiste järeltöötlejad  
+7411,74110001,Hoonete remondielektrik
+7411,74110002,Ehituselektrik
+7411,74110003,Elektrik
+7411,74110004,Ehituse elektrik-energeetik
+7411,74110005,Hoolduselektrik
+7411,74110006,Installatsioonitööde elektrik
+7411,74110007,Kaevanduselektrik
+7411,74110009,Remondi- ja hoolduselektrik
+7411,74110010,Teatrielektrik
+7411,74110011,Valgustuselektrik
+7411,74119900,Mujal liigitamata ehituselektrikud   
+7412,74120001,Autoelektrik
+7412,74120002,Elektrigeneraatorite paigaldaja
+7412,74120003,Elektromehaanik
+7412,74120004,Liftimehaanik
+7412,74120005,Elektriarvestite hoolduselektrik
+7412,74120006,Elektriseadmete hoolduselektrik
+7412,74120007,Jaotusvõrgu elektrik
+7412,74120008,Külmutus- ja kliimaseadmete elektrik
+7412,74120009,Laevaelektrik
+7412,74120011,Signalisatsioonielektrik
+7412,74120012,Trammielektrik
+7412,74120013,Tööriistaelektrik
+7412,74120014,Vedurielektrik
+7412,74129900,Mujal liigitamata elektriseadmete mehaanikud ja paigaldajad
+7413,74130001,Elektrikaablite ühendaja
+7413,74130002,Liinielektrik
+7413,74130003,Elektrijuhtmete paigaldaja
+7413,74130004,Kaablimontöör
+7413,74130005,Kontaktvõrgu hoolduselektrik
+7413,74130006,Õhuliini elektrik
+7413,74139900,Mujal liigitamata elektriliinide paigaldajad ja hooldajad
+7421,74210001,Sularahaautomaatide mehaanik
+7421,74210002,Avioonikamehaanik
+7421,74210003,Elektroonikaseadmete hooldaja
+7421,74210004,Elektroonikamehaanik
+7421,74210005,Koopiamasinate mehaanik
+7421,74210006,Audio-videoseadmete elektroonik-seadistaja
+7421,74210007,Audio-videotehnik
+7421,74210008,Elektroonikaseadmete mehaanik
+7421,74210009,Meditsiiniseadmete elektroonik-seadistaja
+7421,74210010,Raadiomontöör
+7421,74210011,Raadioparandaja
+7421,74210013,Tehniliste süsteemide spetsialist
+7421,74210014,Televisioonitehnika parandaja
+7421,74210015,Tööriistaelektroonik-seadistaja
+7421,74210016,Tööstusseadmete elektroonik-seadistaja
+7421,74219900,Mujal liigitamata elektroonikaseadmete mehaanikud ja hooldajad
+7422,74220001,Sidetehnoloogia hooldaja
+7422,74220002,Arvutiseadmete koostaja
+7422,74220003,Arvutiriistvara paigaldaja
+7422,74220004,Andme- ja sidekaablite paigaldaja
+7422,74220005,Sideseadmete mehaanik
+7422,74220007,IKT-seadmete remonditööline
+7422,74220008,Telegraafi- ja telefoniseadmete mehaanik
+7422,74220010,IKT-seadmete paigaldaja 
+7422,74229900,Mujal liigitamata IKT-seadmete paigaldajad ja hooldajad
+7511,75110001,Lihunik
+7511,75110002,Kalafileerija
+7511,75110003,Kalatöötleja
+7511,75110004,Kalamarineerija
+7511,75110006,Kalasoolaja
+7511,75110007,Kalasuitsutaja
+7511,75110008,Konditustaja
+7511,75110009,Lihalõikaja
+7511,75110010,Lihamarineerija
+7511,75110011,Liharookija
+7511,75110012,Lihasoolaja
+7511,75110013,Lihasuitsutaja
+7511,75110014,Lihatöötleja
+7511,75110016,Rümbatükeldaja
+7511,75110017,Vorstitegija
+7511,75119900,"Mujal liigitamata lihatöötlejad, kalakäitlejad jms töölised"
+7512,75120001,Pagar
+7512,75120002,Šokolaadivalmistaja
+7512,75120003,Kondiiter
+7512,75120004,Biskviidivalmistaja
+7512,75120007,Kondiitritoodete valmistaja
+7512,75120008,Leivaküpsetaja
+7512,75120009,Maiustusevalmistaja
+7512,75120012,Pagar-kondiiter
+7512,75120013,Šokolaadivalaja
+7512,75120014,Šokolaadivormija
+7512,75120015,Tainasegaja
+7512,75129900,"Mujal liigitamata pagarid, kondiitrid ja maiustuste valmistajad"
+7513,75130001,Võimeister
+7513,75130002,Juustumeister
+7513,75130003,Jäätisevalmistaja
+7513,75130004,Piimatoodete valmistaja
+7513,75139900,Mujal liigitamata piimatöötlejad   
+7514,75140001,Aedviljade ja puuviljade marineerija
+7514,75140002,Köögiviljade konserveerija
+7514,75140003,Moositegija
+7514,75140005,Puuviljasegude valmistaja
+7514,75140006,Puuviljade konserveerija
+7514,75140007,Mahlategija
+7514,75149900,Mujal liigitamata puu- ja köögivilja ning marjade töötlejad
+7515,75150001,Toidu kvaliteedimääraja
+7515,75150002,Toidudegusteerija
+7515,75150003,Jookide degusteerija
+7515,75150004,Veinidegusteerija
+7515,75150007,Liha kvaliteedimääraja
+7515,75150009,Mahladegusteerija
+7515,75150013,Maitseainete kvaliteedimääraja
+7515,75159900,Mujal liigitamata toidu ja jookide degusteerijad ja hindajad
+7521,75210001,Puidukuivatioperaator
+7521,75210002,Puidukuivatusahju operaator
+7521,75210003,Spoonikuivataja
+7521,75210004,Puidukuivataja
+7521,75210005,Puidutöötleja
+7521,75210006,Puidu ettevalmistaja
+7521,75210007,Puidusorteerija
+7521,75219900,Mujal liigitamata puidutöötlejad   
+7522,75220001,Tisler
+7522,75220003,Mööblitisler
+7522,75220005,Puitšabloonide valmistaja
+7522,75220006,Aamissepp
+7522,75220007,Kirstutegija
+7522,75220008,Klaveritisler
+7522,75220009,Laudsepp
+7522,75220010,Pildiraamide tegija
+7522,75220011,Puidupainutaja
+7522,75220012,Puitmööbli viimistleja
+7522,75220013,Puunikerdaja
+7522,75220014,Puidurestauraator
+7522,75220015,Puittoodete viimistleja
+7522,75229900,Mujal liigitamata tislerid jms töölised
+7523,75230001,Puulõikemasina operaator
+7523,75230002,Mööblitootmismasina operaator
+7523,75230003,Puidu täppissaagija
+7523,75230004,Puidutöötlemismasina operaator
+7523,75230005,Puidutreial
+7523,75230006,Puidutreipingi operaator
+7523,75230007,Puidutöötlemismasina seadistaja
+7523,75230008,Puidutöötlemismasina seadistaja-operaator
+7523,75230009,Puidutöötlemismasina seadistusoperaator
+7523,75239900,Mujal liigitamata puidutöötluspinkide seadistajad ja operaatorid
+7531,75310001,Naisterätsep
+7531,75310002,Köösner
+7531,75310003,Kübarategija
+7531,75310005,Rätsep
+7531,75310006,Parukategija
+7531,75319900,"Mujal liigitamata rätsepad, köösnerid ja kübarategijad"
+7532,75320002,Juurdelõikaja
+7532,75320003,Rõivalõigete valmistaja
+7532,75329900,Mujal liigitamata rõiva- jms lekaalide valmistajad ning juurdelõikajad
+7533,75330001,Tikkija
+7533,75330002,Õmbleja
+7533,75339900,"Mujal liigitamata õmblejad, tikkijad jms töölised"
+7534,75340001,Mööblipolsterdaja
+7534,75340002,Madratsivalmistaja
+7534,75340003,Ortopeediliste abivahendite polsterdaja
+7534,75340004,Sõidukipolsterdaja
+7534,75340005,Pehme mööbli valmistaja
+7534,75349900,Mujal liigitamata polsterdajad jms töölised 
+7535,75350001,Loomanahkade sortija
+7535,75359900,Mujal liigitamata toorkarusnaha ettevalmistajad ja parkalid
+7536,75360001,Kingsepp
+7536,75360002,Ortopeediliste jalatsite valmistaja
+7536,75360003,Sadulsepp
+7536,75360004,Jalatsivalmistaja
+7536,75360005,Nahktoodete valmistaja
+7536,75369900,Mujal liigitamata kingsepad jms töölised 
+7541,75410004,Allveetöötaja
+7541,75419900,Mujal liigitamata allveetöötajad   
+7542,75420002,Lõhkaja
+7542,75420003,Lõhkemeister
+7542,75429900,Mujal liigitamata lõhkajad ja õhkijad 
+7543,75430001,Tootesortija
+7543,75430002,Kvaliteedikontrolör (v.a toidud ja joogid)
+7543,75430003,Villaliigitaja
+7543,75439900,Mujal liigitamata toodete (v.a toidud ja joogid) testijad
+7544,75440001,Fumigeerija
+7544,75440002,Kahjuritõrjuja
+7544,75449900,Mujal liigitamata kahjuri- ja umbrohutõrjujad 
+7549,75490001,Optiliste läätsede viimistleja
+7549,75499900,Muud mujal liigitamata oskus- ja käsitöölised
+8111,81110002,Kaevur
+8111,81110003,Kaevandusseadmete operaator
+8111,81110004,Karjääritööline
+8111,81110006,Kaevandusveoki operaator
+8111,81119900,"Mujal liigitamata kaevurid ja karjääritöölised, mäeseadmete operaatorid"
+8112,81120002,Purusti operaator (maavarade või kivimite töötlemine)
+8112,81120005,Masinaoperaator (kivide raiumine või töötlemine)
+8112,81120006,Kivitöötlusmasina operaator
+8112,81120007,Mineraalitöötlusmasina operaator
+8112,81129900,Muud maavarade rikastamise seadmete ja kivitöötlusmasinate operaatorid
+8113,81130001,Puurseadmete operaator
+8113,81130002,Sihipuurija
+8113,81139900,Mujal liigitamata puurseadmete operaatorid
+8114,81140001,Valatud betoontoodete masina operaator
+8114,81140003,Betoonitootmismasina operaator
+8114,81140004,Tööstusliku teemantlihvimismasina operaator
+8114,81140005,Kivilihvimismasina operaator
+8114,81140006,Kivigraveerimise operaator
+8114,81140007,Kivilõikamise operaator
+8114,81140008,Tsementtoodete valmistamise operaator
+8114,81140009,Asfalditootmismasina operaator
+8114,81149900,"Mujal liigitamata tsement-, kivi- jm mineraalsete toodete masinate operaatorid"
+8121,81210001,Valukopa operaator
+8121,81210002,Metallipressimismasina operaator
+8121,81210003,Metallisulatusahju operaator
+8121,81210004,Terasevaltsija
+8121,81219900,Mujal liigitamata metallitootmisseadmete operaatorid
+8122,81220001,Metalliviimistlusmasina operaator
+8122,81220002,Metallikatmise operaator
+8122,81229900,Mujal liigitamata metallitöötlusmasinate operaatorid  
+8131,81310002,Lõhkeainete tootmise masina operaator
+8131,81310003,Ravimite ja hügieenitarvete masinate operaatorid
+8131,81310004,Farmaatsiatoodete valmistamise operaator
+8131,81310005,Keemiaseadmete ja -masinate operaatorid
+8131,81310009,Kemikaalide töötleja
+8131,81319900,Mujal liigitamata keemiatoodete seadmete ja masinate operaatorid
+8132,81320003,Fotode ilmutusmasina operaator
+8132,81320006,Fotograafiatoodete töötleja
+8132,81320007,Fotode trükkija
+8132,81329900,Muud fotograafiatoodete mujal liigitamata masinate operaatorid
+8141,81410002,Kummipressimismasina operaator
+8141,81410004,Kummitoodete valmistamise operaator
+8141,81410005,Rehvivalmistaja
+8141,81410006,Rehviparandaja
+8141,81410007,Vulkaniseerija
+8141,81419900,Mujal liigitamata kummitoodete masinate operaatorid
+8142,81420001,Plastlaminaadi pressi operaator
+8142,81420003,Plastist kaablimantlite masina operaator
+8142,81420004,Plastipressimismasina operaator
+8142,81420005,Plastivormija
+8142,81420006,Plastpaatide ehitaja
+8142,81420007,Plastpudelite puhumismasina operaator
+8142,81420008,Plasttoodete masina operaator
+8142,81429900,Mujal liigitamata plasttoodete masinate operaatorid
+8143,81430001,Papptoodete masina operaator
+8143,81430002,Ümbrike ja paberkottide valmistamise masina operaator
+8143,81430003,Paberkarpide masina operaator
+8143,81430004,Pabertoodete masina operaator
+8151,81510001,Kamm-masina operaator
+8151,81510002,Tekstiilkiu ettevalmistusmasina operaator
+8151,81510003,Niidi ja lõnga ketrusmasina operaator
+8151,81510004,Niidi ja lõnga korrutusmasina operaator
+8151,81510005,Niidi ja lõnga poolimismasina operaator
+8151,81519900,"Mujal liigitamata ettevalmistus-, ketrus- ja poolimismasinate operaatorid"
+8152,81520001,Vaibakudumismasina operaator
+8152,81520002,Kudumismasina operaator
+8152,81529900,Mujal liigitamata kudumismasinate operaatorid
+8153,81530001,Tikkimismasina operaator
+8153,81530002,Õmblusmasina operaator
+8153,81530003,Masinõmbleja
+8153,81530004,Jalatsite masinõmbleja
+8154,81540002,Riidevärvimismasina operaator
+8154,81540003,Tekstiilkiuvärvimise operaator
+8154,81540004,Vaibapuhastuse operaator
+8154,81549900,"Mujal liigitamata pleegitus-, värvimis- ja puhastusmasinate operaatorid"
+8155,81550006,Nahatöötluse operaator
+8156,81560001,Jalatsitootmismasina operaator
+8156,81569900,Mujal liigitamata jalatsitootmis- jms masinate operaatorid
+8157,81570001,Keemilise puhastuse masina operaator
+8157,81570002,Pesumasina operaator
+8157,81570003,Triikimismasina operaator
+8157,81579900,Mujal liigitamata pesumasinate operaatorid
+8159,81590004,Tekstiilimustrite masina operaator
+8159,81590005,Juurdelõikusmasina operaator
+8159,81599900,"Muud tekstiil-, karusnahk- ja nahktoodete mujal liigitamata masinate operaatorid"
+8160,81600001,Pagaritoodete masina operaator
+8160,81600002,Leivaküpsetusmasina operaator
+8160,81600003,Šokolaadimasina operaator
+8160,81600006,Piimatoodete masina operaator
+8160,81600007,Kalatöötlemismasina operaator
+8160,81600008,Lihatöötlemismasina operaator
+8160,81600009,Piimatöötlemismasina operaator
+8160,81600010,Alkoholidestilleerimise operaator
+8160,81600011,Karastusjookide tootmise operaator
+8160,81600012,Köögiviljatöötluse operaator
+8160,81600014,Lihatoodete valmistamise operaator
+8160,81600015,Mölder
+8160,81600016,Pudelipesu operaator
+8160,81600019,Teraviljatöötluse operaator
+8160,81600021,Õllepruulija
+8160,81600022,Maitseainete tootmise operaator
+8160,81609900,Mujal liigitamata toiduainete jms toodete masina operaator
+8160,81609901,Toiduainete jms toodete masina seadistaja
+8171,81710002,Tselluloosi- ja paberipeenesti operaator
+8171,81710003,Poognamasina operaator (tselluloos ja paber)
+8171,81710004,Vanapaberi ümbertöötluse operaator
+8171,81710005,Paberitootmisseadmete operaatorid
+8171,81710006,Puiduhakkeseadmete operaator (paberi tootmine)
+8171,81719900,Mujal liigitamata tselluloosi- ja paberitootmisseadmete operaatorid
+8172,81720001,Ketassae operaator
+8172,81720002,Palgilõikamisseadmete operaator
+8172,81720003,Vineeripressi operaator
+8172,81720004,Saeveski operaator
+8172,81720005,Saeveskihöövli operaator
+8172,81720006,Spooni ringkoorimismasina operaator
+8172,81720007,Lintsae operaator
+8172,81720008,Puidutöötlemisseadmete operaator
+8172,81720009,Spooni höövelkoorimismasina operaator
+8172,81729900,Mujal liigitamata puidutöötlemisseadmete operaatorid
+8181,81810002,Savisegamismasina operaator
+8181,81810004,Klaasisegu segamismasina operaator
+8181,81810005,Klaasiahju operaator
+8181,81810008,Keraamikatoodete valmistamise operaator
+8181,81810009,Klaasitootmismasina operaator
+8181,81810010,Klaasiviimistlusmasina operaator
+8181,81810013,Savi- ja portselantoodete masina operaator
+8181,81819900,Mujal liigitamata klaasi- ja keraamikaahjude jms operaatorid
+8182,81820003,Katlamaja operaator
+8182,81820004,Katlaoperaator
+8182,81829900,Mujal liigitamata aurumasinate ja -katelde operaatorid
+8183,81830001,Märgistamismasina operaator
+8183,81830002,Pakkemasina operaator
+8183,81830003,Pakkimismasina operaator
+8183,81830004,Villimismasina operaator
+8183,81839900,"Mujal liigitamata pakke-, villimis- ja märgistusseadmete operaatorid"
+8189,81890001,Trossi- ja köiejätkamismasina operaator
+8189,81890002,Eritööde puhastusteenindaja
+8189,81899900,Muud mujal liigitamata seadme- ja masinaoperaatorid
+8211,82110001,Lennukikoostaja
+8211,82110002,Sõidukimootorite koostaja
+8211,82110006,Sõidukikoostaja
+8211,82110007,Haakeriistade koostaja
+8211,82110008,Mehaaniliste seadmete koostaja
+8211,82119900,Mujal liigitamata mehaaniliste seadmete koostajad
+8212,82120001,Elektriseadmete koostaja
+8212,82120002,Elektromehaanikaseadmete koostaja
+8212,82120003,Elektroonikaseadmete koostaja
+8212,82120004,Telefonikoostaja
+8212,82120006,Traadimähkimismasina operaator
+8212,82129900,Mujal liigitamata elektri- ja elektroonikaseadmete koostajad
+8219,82190002,Jalgrataste koostaja
+8219,82190003,Kastiehitaja
+8219,82190004,Avatäidete koostaja
+8219,82190005,Prilliraamide koostaja
+8219,82190006,Puitmööbli koostaja/paigaldaja
+8219,82190007,Ehete koostaja
+8219,82190009,Nahktoodete koostaja
+8219,82190010,Metalltoodete koostaja (v.a mehaanilised tooted)
+8219,82190011,Papptoodete koostaja
+8219,82190013,Plasttoodete koostaja
+8219,82190015,Kummitoodete koostaja
+8219,82190016,Päikesevarjude koostaja
+8219,82190017,Tekstiiltoodete koostaja
+8219,82190018,Puidutoodete koostaja
+8219,82190019,Segatoodete koostaja
+8219,82199900,Muud mujal liigitamata koostajad
+8311,83110001,Vedurijuht
+8311,83110003,Rongijuht
+8311,83110004,Raudtee eriveeremi juht
+8311,83119900,Mujal liigitamata veduri- ja rongijuhid
+8312,83120001,Raudtee pidurdusseadmete operaator
+8312,83120002,Raudtee pöörmeseadja
+8312,83120004,Kaubarongi vagunisaatja
+8312,83120005,Raudteevaht
+8312,83120006,Rongikoostaja
+8312,83129900,Muud raudtee mujal liigitamata liiklustöötajad
+8321,83210001,Motokuller
+8321,83210004,Mootorratta juht
+8322,83220001,Sõiduautojuht
+8322,83220002,Taksojuht
+8322,83220003,Pakiauto juht
+8322,83220004,Kaubabussi juht
+8322,83220005,Kiirabiautojuht
+8322,83220006,Sõidukiparkija
+8322,83229900,"Mujal liigitamata sõiduauto-, takso- ja pakiautojuhid"
+8331,83310001,Bussijuht
+8331,83310002,Trammijuht
+8331,83310003,Trollibussijuht
+8332,83320001,Betooniauto juht
+8332,83320002,Prügiauto juht
+8332,83320003,Veoauto juht
+8332,83320004,Autorongi juht
+8332,83320005,Paakauto juht
+8332,83329900,Mujal liigitamata veoautojuhid
+8341,83410001,Kombainijuht
+8341,83410002,Palgiveoki juht (metsas)
+8341,83410003,Traktorist
+8341,83410004,Forvarderijuht
+8341,83410005,Metsatöömasinate juht
+8341,83410006,Põllumajandusmasinate juht
+8341,83410007,Harvesterioperaator
+8341,83419900,Mujal liigitamata põllu- ja metsamasinate juhid
+8342,83420001,Buldooserijuht
+8342,83420002,Ekskavaatorijuht
+8342,83420003,Esikopaga laaduri juht
+8342,83420004,Rammnuia juht
+8342,83420005,Teerullijuht
+8342,83420006,Lumesaha juht
+8342,83420007,Asfaldilaoturi juht
+8342,83420008,Teehöövli juht
+8342,83420009,Maaparandusmasina juht
+8342,83420010,Teehooldusmasina juht
+8342,83420011,Freesijuht
+8342,83429900,"Mujal liigitamata maaparandus-, tee- jms masinate juhid"
+8343,83430002,Istelifti operaator
+8343,83430003,Kraanajuht
+8343,83430005,Kaevanduslifti operaator
+8343,83430006,Suusatõstuki operaator
+8343,83430007,Autokraana juht
+8343,83430008,Sadamatõstuki juht
+8343,83430009,Tornkraana juht
+8343,83430010,Kuivlasti dokker
+8343,83439900,"Mujal liigitamata kraana-, tõstuki- jm tõsteseadmete juhid"
+8344,83440001,Kahveltõstukijuht
+8344,83440002,Tõstukauto juht
+8344,83449900,Mujal liigitamata kahveltõstukite jms masinate juhid
+8350,83500001,Pootsman
+8350,83500002,Parvlaeva madrus
+8350,83500003,Madrus
+8350,83500004,Vedurlaeva madrus
+8350,83500005,Majakavaht
+8350,83500006,Paadimees
+8350,83509900,Laeva tekimeeskonna mujal liigitamata liikmed jms töötajad
+9111,91110001,Kodukoristaja
+9111,91110002,Koduabiline
+9112,91120001,Õhusõiduki koristaja
+9112,91120002,Hotelli koristaja
+9112,91120003,Tualetiteenindaja
+9112,91120004,Kontori koristaja
+9112,91120005,Hotelli toateenija
+9112,91120006,Koristaja (asutuses)
+9112,91120007,Majanduse abitööline
+9112,91120008,Puhastusteenindaja
+9112,91129900,"Mujal liigitamata koristajad ja abilised kontoris, hotellis jms asutustes"
+9121,91210001,Käsitsi pesupesija
+9121,91210002,Käsitsi pressija
+9121,91210003,Triikija
+9121,91210004,Pesukorraldaja
+9121,91210005,Pesunaine
+9121,91210006,Rõivapuhastaja
+9121,91210007,Pesumaja tööline
+9121,91219900,Mujal liigitamata pesupesijad ja triikijad
+9122,91220001,Sõidukipesija (käsitsi)
+9123,91230001,Aknapesija
+9129,91290001,Vaibapuhastaja
+9129,91290003,Grafitieemaldaja
+9129,91290004,Basseinipuhastaja
+9129,91290005,Vesijugapuhastusseadme tööline
+9129,91290006,Koguhoidja-säilitaja
+9129,91299900,Mujal liigitamata muid puhastustöid tegevad lihttöölised
+9211,92110001,Puuviljakorjaja
+9211,92110002,Aedviljakorjaja
+9211,92110003,Niisutustööline
+9211,92110004,Põllutööline
+9211,92110005,Raba lihttööline
+9211,92110006,Marjakorjaja
+9211,92119900,Mujal liigitamata taimekasvatuse lihttöölised
+9212,92120001,Farmi lihttööline
+9212,92120002,Mesila lihttööline
+9212,92120003,Tallitööline
+9212,92120004,Karjatalitaja
+9212,92129900,Mujal liigitamata loomakasvatuse lihttöölised
+9213,92130001,Segapõllumajanduse lihttööline
+9213,92139900,Mujal liigitamata segapõllumajanduse lihttöölised
+9214,92140001,Aianduse lihttööline
+9214,92140002,Muruniitja
+9214,92140003,Puukooli lihttööline
+9214,92140004,Haljastuse lihttööline
+9214,92140005,Kasvuhoone lihttööline
+9214,92149900,Mujal liigitamata aianduse lihttöölised
+9215,92150001,Metsanduse lihttööline
+9215,92150002,Puuistutaja
+9215,92159900,Mujal liigitamata metsanduse lihttöölised
+9216,92160001,Kalakasvatuse lihttööline
+9216,92160002,Kalanduse lihttööline
+9216,92169900,Mujal liigitamata kalapüügi ja vesiviljeluse lihttöölised
+9311,93110001,Kaevanduse lihttööline
+9311,93110002,Karjääri lihttööline
+9311,93119900,Mujal liigitamata mäetööstuse lihttöölised
+9312,93120001,Ehituslihttööline (rajatised)
+9312,93120002,Tammide hooldustööline
+9312,93120003,Hauakaevaja
+9312,93120004,Kaevukaevaja
+9312,93120005,Kraavikaevaja
+9312,93120006,Teeremonditööline
+9312,93120007,Maanteetööline
+9312,93120008,Mullatööline
+9312,93120009,Pinnase ettevalmistaja
+9312,93120010,Tammitööline
+9312,93120011,Raudteeremondi tööline
+9312,93129900,Mujal liigitamata rajatiste ehituse lihttöölised
+9313,93130001,Müürsepa abiline (hooned)
+9313,93130002,Ehituslihttööline (hooned)
+9313,93130003,Hoonelammutuse lihttööline
+9313,93130004,Mördikäru lükkaja (hooned)
+9313,93130005,Betooniabitööline (hooned)
+9313,93130006,Ehitusabitööline (hooned)
+9313,93130007,Ehituskoristustööline (hooned)
+9313,93130008,Hoonehooldustööline
+9313,93139900,Mujal liigitamata hooneehituse lihttöölised
+9321,93210001,Etiketikleepija
+9321,93210002,Käsitsipakkija
+9321,93210003,Kotitäitja
+9321,93219900,Mujal liigitamata pakkijad
+9329,93290001,Pudelisorteerija tehases
+9329,93290002,Tehase abitööline
+9329,93290005,Koostamislihttööline
+9329,93290006,Materjalivedaja
+9329,93290007,Mähisekerija
+9329,93290009,Pealelööja (sepaabiline)
+9329,93290010,Tehnopesija
+9329,93299900,Muud töötleva tööstuse mujal liigitamata lihttöölised
+9331,93310001,Jalgrattakuller
+9331,93310002,Rikšajuht
+9331,93310003,Pedaalsõidukijuht (velotakso)
+9331,93319900,Mujal liigitamata käsi- ja pedaalsõidukijuhid
+9332,93320001,Loomveoki juht
+9333,93330001,Pagasikäitleja
+9333,93330002,Laadija
+9333,93330003,Kaimadrus
+9333,93339900,Mujal liigitamata transporditöölised ja laadijad 
+9334,93340001,Öine kaubaladuja
+9334,93340002,Kaubaladuja
+9334,93340003,Kaubakäitleja
+9334,93349900,Mujal liigitamata kaubaladujad
+9411,94110001,Kiirtoidutellimuste täitja
+9411,94110002,Hamburgerivalmistaja
+9411,94110003,Pitsavalmistaja
+9411,94110004,Kiirtoidu valmistaja
+9411,94119900,Mujal liigitamata kiirtoitlustuse abitöölised
+9412,94120001,Käsitsi nõudepesija
+9412,94120002,Köögi abitööline
+9412,94120003,Köögiabiline
+9412,94120004,Köögikäskjalg
+9412,94120005,Köögiteenija
+9412,94120006,Koka abi
+9412,94120007,Baari abiline
+9412,94129900,Mujal liigitamata köögiabilised
+9510,95100002,Autode valvaja
+9510,95100003,Jooksupoiss
+9510,95100004,Tasuta ajalehtede jagaja
+9510,95100005,Reklaamlehtede jagaja
+9510,95100007,Plakatikleepija
+9510,95109900,Tänaval jms kohtades mujal liigitamata teenuse osutajad
+9520,95200001,Tänavakaubitseja
+9520,95209900,Mujal liigitamata välimüüjad (v.a toidu- ja joogimüüjad)
+9611,96110001,Prügivedaja
+9611,96110002,Prügikoguja
+9611,96119900,Mujal liigitamata jäätmekogujad ja -laadijad
+9612,96120001,Prügi ringlussevõtu tööline
+9612,96120002,Prügisorteerija
+9612,96129900,Mujal liigitamata jäätmesortijad
+9613,96130001,Pargikoristaja
+9613,96130002,Tänavapühkija
+9613,96130003,Tootmispindade koristaja
+9613,96130004,Kojamees
+9613,96139900,"Mujal liigitamata välikoristajad, tootmishoonete koristajad jms lihttöölised"
+9621,96210001,Pakikandja
+9621,96210002,Käskjalg
+9621,96210003,Ajalehtede kättetoimetaja
+9621,96219900,"Mujal liigitamata käskjalad, pakkide kättetoimetajad ja pakikandjad"
+9622,96220001,Üldtööline
+9622,96220002,Halduse abitööline
+9622,96220003,Kinnisvarahooldaja
+9622,96220004,Remondi abitööline
+9622,96229900,Mujal liigitamata halduse abitöölised
+9623,96230001,Näidufikseerija
+9623,96230002,Müügiautomaatidest rahakoguja
+9623,96239900,Mujal liigitamata arvestikontrolörid ning müügi- ja parkimisautomaatide rahakogujad
+9624,96240001,Küttepuude koguja
+9624,96240002,Veekandja
+9629,96290001,Riidehoiutöötaja
+9629,96290002,Laadaplatsi töötaja
+9629,96290003,Parklatöötaja
+9629,96290004,"Piletikontrolör (teatris, kinos)"
+9629,96290005,Kohanäitaja
+9629,96290006,Valvur
+9629,96290007,Valvur-riidehoidja
+9629,96290008,Parkimiskontrolör
+9629,96290009,Julgestaja üritustel
+9629,96290010,Kärupaigaldaja
+9629,96290011,PKT lihttööline
+9629,96290012,Õpilasmalevlane
+9629,96299900,Muud mujal liigitamata lihttöölised

@@ -48,11 +48,56 @@ def build_2021_census():
     return out.reset_index(drop=True)
 
 
+def build_2025q4_palgad_isco4():
+    """Build employment weights from palgad.stat.ee scrape — ISCO-4 admin data.
+
+    Source: data/raw/palgad_stat_ee/workers_long.csv (one row per gender per cell;
+    cells with fewer than 20 persons are suppressed by stat.ee and recorded with
+    count=NaN). We sum M+F to total employment per (isco4, county). Suppressed
+    cells produce no row (the matrix builder will treat them as zero / missing).
+
+    Skips cleanly if the scrape hasn't been run yet.
+    """
+    path = RAW / "palgad_stat_ee" / "workers_long.csv"
+    if not path.exists():
+        print("    [2025q4_palgad_isco4] skipping: workers_long.csv not present "
+              "(run scripts/scrape_palgad_stat_ee.py)")
+        return pd.DataFrame()
+
+    df = pd.read_csv(path, dtype={"isco4": str, "count": "Int64"})
+    # Sum M + F per (isco4, county). Drop suppressed (count is NaN).
+    df = df.dropna(subset=["count"])
+    df = df[df["gender"].isin(["M", "F"])]
+    agg = (df.groupby(["isco4", "name_et", "county", "county_name"], as_index=False)
+             ["count"].sum())
+
+    # Maakond rows need uppercase names ("HARJU MAAKOND") so the summary
+    # derivation in build_matrix.py (filters via str.endswith("MAAKOND")) picks
+    # them up — matches the REL2021 convention. The national row ("Kogu Eesti")
+    # stays mixed-case to match how chart 04 selects it.
+    location_name = agg["county_name"].where(
+        agg["county"] == "all", agg["county_name"].str.upper()
+    )
+
+    out = pd.DataFrame({
+        "scenario": "2025q4_palgad_isco4",
+        "taxonomy": "isco4",
+        "code": agg["isco4"].astype(str),
+        "location_code": agg["county"].astype(str),
+        "location_name": location_name.astype(str),
+        "code_label": agg["name_et"].astype(str),
+        "employed": agg["count"].astype(int),
+        "source": "palgad_stat_ee_2025q4",
+    })
+    return out.reset_index(drop=True)
+
+
 # =====================================================================================
 # Registry
 # =====================================================================================
 SCENARIOS = {
     "2021_census": build_2021_census,
+    "2025q4_palgad_isco4": build_2025q4_palgad_isco4,
 }
 
 
