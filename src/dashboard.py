@@ -100,6 +100,48 @@ def load_scores_long() -> pd.DataFrame:
 
 
 @st.cache_data
+def load_tier_flags() -> pd.DataFrame | None:
+    path = SUMMARIES_DIR / "tier_flags_isco4.csv"
+    if not path.exists():
+        return None
+    df = pd.read_csv(path, dtype={"isco4_code": str, "isco2_code": str})
+    df["isco4_code"] = df["isco4_code"].str.zfill(4)
+    df["isco_major"] = df["isco4_code"].str[0]
+    return df
+
+
+@st.cache_data
+def load_palgad_workers() -> pd.DataFrame | None:
+    """ISCO-4 × maakond headcounts from palgad.stat.ee 2025 Q4 admin records."""
+    path = RAW / "palgad_stat_ee" / "workers_long.csv"
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    df = df.dropna(subset=["isco4"])
+    df["isco4_code"] = df["isco4"].astype(int).astype(str).str.zfill(4)
+    df["count"] = pd.to_numeric(df["count"], errors="coerce").fillna(0).astype(int)
+    df = df[df["gender"].isin(["M", "F"])]
+    grouped = (df.groupby(["isco4_code", "name_et", "county_name"], as_index=False)["count"]
+                 .sum())
+    grouped["isco2_code"] = grouped["isco4_code"].str[:2]
+    grouped["isco_major"] = grouped["isco4_code"].str[0]
+    return grouped
+
+
+@st.cache_data
+def load_barometer() -> pd.DataFrame | None:
+    path = RAW / "tootukassa_barometer" / "barometer_long.csv"
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    df["isco4_code"] = df["isco4"].astype(int).astype(str).str.zfill(4)
+    df["indicator"] = pd.to_numeric(df["indicator"], errors="coerce")
+    df["isco2_code"] = df["isco4_code"].str[:2]
+    df["isco_major"] = df["isco4_code"].str[0]
+    return df
+
+
+@st.cache_data
 def load_maakond_geo() -> gpd.GeoDataFrame:
     g = gpd.read_file(RAW / "maakond.geojson")
     g["maakond_name"] = g["MNIMI"].str.replace(" maakond", "", regex=False).str.upper() + " MAAKOND"
@@ -511,62 +553,368 @@ def build_isco4_table(scores_long: pd.DataFrame) -> pd.DataFrame:
     return wide[front + rest]
 
 
-def render_isco4_tab(scores_long: pd.DataFrame):
-    st.markdown("### ISCO-4 detailed-occupation view (multi-index)")
-    st.caption(
-        "One row per detailed occupation (ISCO-08 4-digit, ~430 codes), with exposure / "
-        "augmentation / automation scores from each registered ISCO-3 or ISCO-4 model. "
-        "**`divergence`** is the standard deviation of exposure across models — high "
-        "values flag occupations where the literature disagrees."
-    )
+TIER_QUINTILE_ORDER = ["Robust High", "Contested High", "Mixed", "Consensus Low", "Insufficient coverage"]
+TIER_COLORS = {
+    "Robust High": "#b30000", "Contested High": "#e34a33", "Mixed": "#fdcc8a",
+    "Consensus Low": "#2c7fb8", "Insufficient coverage": "#cccccc",
+}
 
-    table = build_isco4_table(scores_long)
-    if table.empty:
-        st.info("No ISCO-3/4 native models registered yet. Add one in `src/fetch_ai_scores.py` "
-                "and re-run the pipeline.")
+
+def render_isco4_tab(scores_long: pd.DataFrame):
+    st.markdown("### ISCO-4 detailed-occupation view (multi-index + tier flags)")
+
+    tier = load_tier_flags()
+    if tier is None or tier.empty:
+        st.info("No `tier_flags_isco4.csv` found. Run `python3 src/build_tier_flags.py` "
+                "to produce the cross-model ensemble table, then refresh.")
+        table = build_isco4_table(scores_long)
+        if not table.empty:
+            st.dataframe(table, use_container_width=True, height=540)
         return
 
-    c1, c2 = st.columns([1, 2])
+    st.caption(
+        "One row per ISCO-08 4-digit code. Joins the three ISCO-4-native exposure "
+        "models (felten_aei_isco4, ilo_wp140, demirev_ai_products), Estonian "
+        "employment from palgad.stat.ee, and Töötukassa national balance/demand. "
+        "**Tier labels** rest on inter-model agreement (see `TIER_FLAGS.md`)."
+    )
+
+    c1, c2, c3, c4 = st.columns(4)
     with c1:
-        majors = sorted(table["isco_major"].unique())
+        tier_choice = st.selectbox(
+            "Tier framing",
+            ["quintile", "ensemble"],
+            format_func=lambda x: f"tier_label_{x}",
+            help="Quintile counts top/bottom-quintile membership across models. "
+                 "Ensemble thresholds on standardized z-score + dispersion.",
+        )
+        tier_col = f"tier_label_{tier_choice}"
+    with c2:
+        tier_filter = st.multiselect(
+            "Tier filter",
+            options=TIER_QUINTILE_ORDER,
+            default=[],
+        )
+    with c3:
+        majors = sorted(tier["isco_major"].unique())
         chosen_majors = st.multiselect(
-            "ISCO major group filter",
+            "ISCO major group",
             options=majors,
             format_func=lambda x: f"{x} {ISCO1_LABELS.get(x, '')}",
         )
-    with c2:
-        q = st.text_input("Search by occupation title (English)").strip().lower()
+    with c4:
+        q = st.text_input("Search title (English)").strip().lower()
 
-    view = table.copy()
+    view = tier.copy()
+    if tier_filter:
+        view = view[view[tier_col].isin(tier_filter)]
     if chosen_majors:
         view = view[view["isco_major"].isin(chosen_majors)]
     if q:
-        view = view[view["isco4_title_en"].str.lower().str.contains(q, na=False)]
+        view = view[view["isco4_label"].fillna("").str.lower().str.contains(q, na=False)]
 
-    sort_col = "divergence" if "divergence" in view.columns and view["divergence"].notna().any() else "mean_exposure"
-    view = view.sort_values(sort_col, ascending=False, na_position="last")
+    view = view.sort_values(["ensemble_z_mean", "employment_estonia"],
+                            ascending=[False, False], na_position="last")
 
-    st.caption(f"{len(view):,} occupations after filter.  Default sort: **{sort_col}** (descending).")
-    st.dataframe(view, use_container_width=True, height=540)
+    # Top KPI strip
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Occupations shown", f"{len(view):,}")
+    k2.metric("Estonia employment (filtered)", f"{int(view['employment_estonia'].sum()):,}")
+    rh = (view[tier_col] == "Robust High").sum()
+    ch = (view[tier_col] == "Contested High").sum()
+    k3.metric("Robust High in view", f"{rh}")
+    k4.metric("Contested High in view", f"{ch}")
+
+    # Tier distribution bar (always over the filtered view)
+    dist = view[tier_col].value_counts().reindex(TIER_QUINTILE_ORDER).fillna(0).astype(int)
+    fig_tier = px.bar(
+        x=dist.values, y=dist.index, orientation="h",
+        labels={"x": "ISCO-4 count", "y": ""},
+        color=dist.index, color_discrete_map=TIER_COLORS,
+        title=f"Tier distribution ({tier_col})",
+    )
+    fig_tier.update_layout(height=260, showlegend=False)
+    st.plotly_chart(fig_tier, use_container_width=True)
+
+    # Scatter: ensemble z vs divergence, sized by employment, coloured by tier
+    plot_df = view.dropna(subset=["ensemble_z_mean", "ensemble_z_sd"]).copy()
+    if not plot_df.empty:
+        plot_df["size_emp"] = plot_df["employment_estonia"].clip(lower=20)
+        fig_sc = px.scatter(
+            plot_df, x="ensemble_z_mean", y="ensemble_z_sd",
+            size="size_emp", color=tier_col,
+            color_discrete_map=TIER_COLORS,
+            hover_name="isco4_label",
+            hover_data={"isco4_code": True, "employment_estonia": True,
+                        "size_emp": False, tier_col: True},
+            labels={"ensemble_z_mean": "Ensemble mean z (exposure consensus →)",
+                    "ensemble_z_sd": "Dispersion across models (↑ disagreement)"},
+            title="Where models agree (low dispersion) vs disagree (high dispersion)",
+            size_max=40,
+        )
+        fig_sc.update_layout(height=440,
+                             legend={"orientation": "h", "yanchor": "bottom", "y": 1.02})
+        st.plotly_chart(fig_sc, use_container_width=True)
+
+    # Detailed table
+    display_cols = [
+        "isco4_code", "isco4_label", "isco2_label", "employment_estonia",
+        "ensemble_z_mean", "ensemble_z_sd", "n_models",
+        "felten_aei_isco4_exposure", "ilo_wp140_exposure", "demirev_ai_products_exposure",
+        "top_quintile_count", "bottom_quintile_count",
+        tier_col,
+        "tootukassa_balance_national", "tootukassa_demand_national",
+        "notes",
+    ]
+    display_cols = [c for c in display_cols if c in view.columns]
+    st.dataframe(view[display_cols], use_container_width=True, height=480)
 
     st.download_button(
-        "Download ISCO-4 detail as CSV",
+        "Download filtered tier-flags CSV",
         data=view.to_csv(index=False),
-        file_name="isco4_multi_model_detail.csv",
+        file_name="tier_flags_isco4_filtered.csv",
         mime="text/csv",
     )
 
-    st.markdown("""
-    **Reading guide.** Each occupation has an `exposure_<model>` column from each
-    model registered at ISCO-3 or ISCO-4. The matrix on the **Map** and **Occupations**
-    tabs aggregates these to ISCO-2 via `data/crosswalks/isco4_to_isco2.csv` and
-    `isco3_to_isco2.csv` (simple-mean per ISCO-2 parent, renormalised over codes
-    each model actually covers — no fabricated weights).
+    with st.expander("How to read tier framings"):
+        st.markdown("""
+- **`tier_label_quintile`** counts how many of the 3 models place this code in
+  their top (or bottom) quintile. "Robust High" = top-quintile in ≥ 2 of 3
+  AND dispersion below the median of top-quintile codes.
+- **`tier_label_ensemble`** thresholds the standardized ensemble z-score
+  (`ensemble_z_mean ≥ +1.0` for Robust High, with the same dispersion check).
+  Stricter — picks ~7 vs ~33 under the quintile rule.
+- **Augmentation/automation split is *not* collapsed into a tier label**:
+  cross-model Spearman on that axis is ~0, so any single labeling would be a
+  political choice masquerading as analytics. Raw per-model values stay in
+  `scores_long.csv`.
+- **Töötukassa balance/demand** are independent of the exposure tier
+  (national-level only here; per-county view in the Barometer tab).
+        """)
 
-    Statistics Estonia does not publish ISCO-4 × county employment counts (RL21154
-    caps at ISCO-2). The ISCO-4 richness is therefore on the *score* side only —
-    the geographic distribution still uses honest ISCO-2 census counts.
-    """)
+
+def render_isco4_maakond_tab():
+    st.markdown("### ISCO-4 × maakond — Estonian employment (palgad.stat.ee 2025 Q4)")
+    workers = load_palgad_workers()
+    if workers is None or workers.empty:
+        st.info("`data/raw/palgad_stat_ee/workers_long.csv` not found. Run "
+                "`python3 scripts/scrape_palgad_stat_ee.py --counties=each` to populate.")
+        return
+
+    # 15 maakonnad in canonical order
+    MAAKOND_ORDER = [
+        "Harju maakond", "Hiiu maakond", "Ida-Viru maakond", "Jõgeva maakond",
+        "Järva maakond", "Lääne maakond", "Lääne-Viru maakond", "Põlva maakond",
+        "Pärnu maakond", "Rapla maakond", "Saare maakond", "Tartu maakond",
+        "Valga maakond", "Viljandi maakond", "Võru maakond",
+    ]
+    counties = workers[workers["county_name"].isin(MAAKOND_ORDER)].copy()
+    national = workers[workers["county_name"] == "Kogu Eesti"].copy()
+
+    st.caption(
+        f"Source: palgad.stat.ee admin records (TÖR/MTA), 2025 Q4. "
+        f"{counties['isco4_code'].nunique()} ISCO-4 codes × {len(MAAKOND_ORDER)} maakonnad. "
+        f"Cells <20 workers are suppressed at source and shown as 0."
+    )
+
+    c1, c2 = st.columns([1, 2])
+    with c1:
+        majors = sorted(counties["isco_major"].unique())
+        chosen_majors = st.multiselect(
+            "ISCO major group",
+            options=majors,
+            format_func=lambda x: f"{x} {ISCO1_LABELS.get(x, '')}",
+            key="isco4_mk_major",
+        )
+    with c2:
+        q = st.text_input(
+            "Search by occupation (Estonian title from palgad.stat.ee)",
+            key="isco4_mk_search",
+        ).strip().lower()
+
+    view = counties.copy()
+    if chosen_majors:
+        view = view[view["isco_major"].isin(chosen_majors)]
+    if q:
+        view = view[view["name_et"].fillna("").str.lower().str.contains(q, na=False)]
+    nat_view = national[national["isco4_code"].isin(view["isco4_code"].unique())]
+
+    # KPIs
+    k1, k2, k3 = st.columns(3)
+    k1.metric("ISCO-4 codes in view", f"{view['isco4_code'].nunique():,}")
+    k2.metric("National total (filtered)", f"{int(nat_view['count'].sum()):,}")
+    k3.metric("County total (filtered, sum of 15)", f"{int(view['count'].sum()):,}")
+
+    # Heatmap: top-N ISCO-4 by national employment × 15 maakonnad
+    top_n = st.slider("Top N ISCO-4 codes (by national employment) for heatmap",
+                      10, 50, 25, key="isco4_mk_top_n")
+    top_codes = (nat_view.sort_values("count", ascending=False)
+                          .head(top_n)["isco4_code"].tolist())
+    if top_codes:
+        pivot = (view[view["isco4_code"].isin(top_codes)]
+                 .pivot_table(index="isco4_code", columns="county_name",
+                              values="count", aggfunc="sum", fill_value=0))
+        pivot = pivot.reindex(columns=[c for c in MAAKOND_ORDER if c in pivot.columns])
+        pivot = pivot.reindex(top_codes)
+        # Build label index for readability
+        label_map = (view.drop_duplicates("isco4_code").set_index("isco4_code")["name_et"]
+                     .to_dict())
+        pivot.index = [f"{c} · {label_map.get(c, '')}" for c in pivot.index]
+        fig_hm = px.imshow(
+            pivot, aspect="auto", color_continuous_scale="YlOrRd",
+            labels={"color": "Employed"},
+            title=f"Top-{top_n} ISCO-4 occupations × 15 maakonnad",
+        )
+        fig_hm.update_layout(height=520, xaxis={"side": "top"})
+        st.plotly_chart(fig_hm, use_container_width=True)
+
+    # Single-code drill-down
+    st.markdown("---")
+    st.markdown("#### Drill into one occupation")
+    code_options = (view.sort_values("count", ascending=False)
+                        .drop_duplicates("isco4_code")[["isco4_code", "name_et"]])
+    if code_options.empty:
+        st.info("No codes match the current filters.")
+        return
+    picked = st.selectbox(
+        "ISCO-4 code",
+        options=code_options["isco4_code"].tolist(),
+        format_func=lambda c: f"{c} — {code_options.set_index('isco4_code').loc[c, 'name_et']}",
+        key="isco4_mk_pick",
+    )
+    sub = view[view["isco4_code"] == picked].set_index("county_name")["count"]
+    sub = sub.reindex(MAAKOND_ORDER).fillna(0).astype(int)
+    fig_bar = px.bar(
+        x=sub.index, y=sub.values,
+        labels={"x": "", "y": "Employed (2025 Q4)"},
+        title=f"{picked} — {code_options.set_index('isco4_code').loc[picked, 'name_et']}",
+    )
+    fig_bar.update_layout(height=340)
+    st.plotly_chart(fig_bar, use_container_width=True)
+
+
+BAROMETER_BALANCE_LABELS = {
+    1: "1 — Major surplus", 2: "2 — Surplus",
+    3: "3 — Balanced", 4: "4 — Shortage", 5: "5 — Major shortage",
+}
+BAROMETER_DEMAND_LABELS = {
+    1: "1 — Much less", 2: "2 — Less",
+    3: "3 — Same", 4: "4 — More", 5: "5 — Much more",
+}
+
+
+def render_barometer_tab():
+    st.markdown("### Töötukassa barometer — labour balance & demand at ISCO-4 × maakond")
+    bar = load_barometer()
+    if bar is None or bar.empty:
+        st.info("`data/raw/tootukassa_barometer/barometer_long.csv` not found. Run "
+                "`python3 scripts/scrape_tootukassa_barometer.py` first.")
+        return
+
+    periods = sorted(bar["period_id"].unique().tolist())
+    st.caption(
+        f"Source: Töötukassa OSKA barometer, period {periods}. Indicator scale 1–5: "
+        "for **balance**, 1=major surplus → 5=major shortage; "
+        "for **demand**, 1=much less hiring → 5=much more hiring. "
+        f"{bar['isco4_code'].nunique()} ISCO-4 codes × 16 locations (Kogu Eesti + 15 maakonnad)."
+    )
+
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        rating_type = st.radio(
+            "Indicator",
+            options=["LABOUR_BALANCE", "LABOUR_DEMAND"],
+            format_func=lambda x: "Balance (surplus ↔ shortage)" if x == "LABOUR_BALANCE"
+                                 else "Demand (less ↔ more hiring)",
+            key="barometer_type",
+        )
+    with c2:
+        majors = sorted(bar["isco_major"].dropna().unique())
+        chosen_majors = st.multiselect(
+            "ISCO major group",
+            options=majors,
+            format_func=lambda x: f"{x} {ISCO1_LABELS.get(x, '')}",
+            key="barometer_major",
+        )
+    with c3:
+        q = st.text_input(
+            "Search by occupation (Estonian title)",
+            key="barometer_search",
+        ).strip().lower()
+
+    sub = bar[bar["rating_type"] == rating_type].copy()
+    if chosen_majors:
+        sub = sub[sub["isco_major"].isin(chosen_majors)]
+    if q:
+        sub = sub[sub["occupation_et"].fillna("").str.lower().str.contains(q, na=False)]
+
+    if sub.empty:
+        st.warning("No rows after filters.")
+        return
+
+    MAAKOND_ORDER = [
+        "Kogu Eesti", "Harju maakond", "Hiiu maakond", "Ida-Viru maakond",
+        "Jõgeva maakond", "Järva maakond", "Lääne maakond", "Lääne-Viru maakond",
+        "Põlva maakond", "Pärnu maakond", "Rapla maakond", "Saare maakond",
+        "Tartu maakond", "Valga maakond", "Viljandi maakond", "Võru maakond",
+    ]
+    label_lookup = BAROMETER_BALANCE_LABELS if rating_type == "LABOUR_BALANCE" else BAROMETER_DEMAND_LABELS
+
+    # National-only distribution chart
+    nat = sub[sub["location_name"] == "Kogu Eesti"].copy()
+    nat["bucket"] = nat["indicator"].round().astype("Int64").map(label_lookup)
+    nat_dist = (nat.groupby("bucket").size().reindex(list(label_lookup.values()))
+                  .fillna(0).astype(int))
+    fig_dist = px.bar(
+        x=nat_dist.index, y=nat_dist.values,
+        color=nat_dist.index,
+        color_discrete_map={
+            label_lookup[1]: "#2c7fb8", label_lookup[2]: "#7fcdbb",
+            label_lookup[3]: "#ffffcc", label_lookup[4]: "#fdae61",
+            label_lookup[5]: "#d7191c",
+        },
+        labels={"x": "Indicator bucket", "y": "ISCO-4 codes"},
+        title=f"National distribution of {rating_type.replace('_', ' ').lower()} per ISCO-4 code",
+    )
+    fig_dist.update_layout(height=320, showlegend=False)
+    st.plotly_chart(fig_dist, use_container_width=True)
+
+    # Heatmap — most-distinctive codes (max-min indicator across maakonnad)
+    pivot = (sub.pivot_table(index=["isco4_code", "occupation_et"],
+                             columns="location_name",
+                             values="indicator", aggfunc="first")
+             .reset_index())
+    pivot["range"] = (pivot[[c for c in MAAKOND_ORDER if c in pivot.columns and c != "Kogu Eesti"]]
+                      .max(axis=1)
+                      - pivot[[c for c in MAAKOND_ORDER if c in pivot.columns and c != "Kogu Eesti"]]
+                        .min(axis=1))
+    top_n = st.slider("Show top-N most regionally-varying ISCO-4 codes", 10, 60, 30,
+                      key="barometer_top_n")
+    pivot = pivot.sort_values("range", ascending=False).head(top_n)
+    pivot["row_label"] = pivot["isco4_code"] + " · " + pivot["occupation_et"].fillna("").str[:60]
+    heat_cols = [c for c in MAAKOND_ORDER if c in pivot.columns]
+    heat = pivot.set_index("row_label")[heat_cols]
+    fig_hm = px.imshow(
+        heat, aspect="auto",
+        color_continuous_scale="RdBu_r" if rating_type == "LABOUR_BALANCE" else "RdYlGn",
+        zmin=1, zmax=5,
+        labels={"color": "Indicator (1-5)"},
+        title=f"Most regionally-varying ISCO-4 codes for {rating_type.replace('_', ' ').lower()}",
+    )
+    fig_hm.update_layout(height=560, xaxis={"side": "top"})
+    st.plotly_chart(fig_hm, use_container_width=True)
+
+    # Raw data table
+    st.markdown("---")
+    show_cols = ["isco4_code", "occupation_et", "location_name", "indicator", "rating_type"]
+    st.dataframe(sub[show_cols].sort_values(["isco4_code", "location_name"]),
+                 use_container_width=True, height=300)
+    st.download_button(
+        "Download filtered barometer CSV",
+        data=sub[show_cols].to_csv(index=False),
+        file_name="barometer_filtered.csv",
+        mime="text/csv",
+    )
 
 
 # ----- Main --------------------------------------------------------------------------
@@ -593,8 +941,15 @@ def main():
         + (f"  |  **ISCO filter:** {', '.join(ctrl['isco1_filter'])}" if ctrl["isco1_filter"] else "")
     )
 
-    tabs = st.tabs(["🗺️ Map", "👥 Occupations", "🤝 AEI breakdown",
-                    "🔬 ISCO-4 detail", "📊 Data"])
+    tabs = st.tabs([
+        "🗺️ Map (ISCO-2)",
+        "👥 Occupations",
+        "🤝 AEI breakdown",
+        "🔬 ISCO-4 detail + tiers",
+        "🏛️ ISCO-4 × maakond",
+        "🌡️ Töötukassa barometer",
+        "📊 Data",
+    ])
     scores_long = load_scores_long()
     with tabs[0]:
         render_map_tab(filtered, matrix, ctrl)
@@ -605,6 +960,10 @@ def main():
     with tabs[3]:
         render_isco4_tab(scores_long)
     with tabs[4]:
+        render_isco4_maakond_tab()
+    with tabs[5]:
+        render_barometer_tab()
+    with tabs[6]:
         render_data_tab(filtered)
 
 
