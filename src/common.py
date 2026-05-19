@@ -142,6 +142,76 @@ def load_bls_crosswalk():
     return df
 
 
+def isco_parent(code: str, level: int) -> str:
+    """Truncate an ISCO code to a coarser level (e.g. '2511' → '25' at level=2)."""
+    return str(code)[:level]
+
+
+def load_isco_labels():
+    """Return a dict[level] = {code: English title} for ISCO levels 1-4.
+
+    ISCO-4 titles come straight from the BLS crosswalk. Coarser levels are
+    derived: ISCO-3 = most-common ISCO-4 title in that group; ISCO-2 = manual
+    standard labels (Estonia's RL21154 only uses ISCO-2 labels in Estonian, so
+    we keep canonical short English equivalents here). ISCO-1 = the standard
+    nine major-group titles.
+    """
+    bls = load_bls_crosswalk()
+    isco4 = (bls.drop_duplicates("isco4")
+                .set_index("isco4")["isco_title"]
+                .astype(str)
+                .to_dict())
+
+    # ISCO-3: pick the shortest title among each group's ISCO-4 members as a
+    # readable default. (Full ISCO-3 standard titles aren't in the BLS file.)
+    bls_isco3 = bls.copy()
+    bls_isco3["isco3"] = bls_isco3["isco4"].str[:3]
+    isco3 = (bls_isco3.sort_values("isco_title", key=lambda s: s.str.len())
+                      .drop_duplicates("isco3")
+                      .set_index("isco3")["isco_title"]
+                      .astype(str)
+                      .to_dict())
+
+    isco2 = {
+        "01": "Armed forces officers", "02": "Armed forces NCOs", "03": "Armed forces, other",
+        "11": "Chief executives & legislators", "12": "Administrative & commercial mgrs",
+        "13": "Production & specialized services mgrs", "14": "Hospitality, retail & other svc mgrs",
+        "21": "Science & engineering professionals", "22": "Health professionals",
+        "23": "Teaching professionals", "24": "Business & administration professionals",
+        "25": "ICT professionals", "26": "Legal, social & cultural professionals",
+        "31": "Science & engineering technicians", "32": "Health associate professionals",
+        "33": "Business & administration assoc professionals",
+        "34": "Legal, social, cultural assoc professionals",
+        "35": "ICT technicians",
+        "41": "General & keyboard clerks", "42": "Customer services clerks",
+        "43": "Numerical & material recording clerks", "44": "Other clerical support workers",
+        "51": "Personal service workers", "52": "Sales workers",
+        "53": "Personal care workers", "54": "Protective services workers",
+        "61": "Market-oriented skilled agricultural",
+        "62": "Market-oriented skilled forestry/fishery/hunting",
+        "63": "Subsistence farmers, fishers, hunters & gatherers",
+        "71": "Building & related trades workers (excl electricians)",
+        "72": "Metal, machinery & related trades", "73": "Handicraft & printing workers",
+        "74": "Electrical & electronics trades workers",
+        "75": "Food, wood, garment & other craft trades",
+        "81": "Stationary plant & machine operators", "82": "Assemblers",
+        "83": "Drivers & mobile plant operators",
+        "91": "Cleaners & helpers",
+        "92": "Agricultural, forestry & fishery labourers",
+        "93": "Labourers in mining, construction, manufacturing & transport",
+        "94": "Food preparation assistants",
+        "95": "Street & related sales & service workers",
+        "96": "Refuse workers & other elementary workers",
+    }
+    isco1 = {
+        "0": "Armed forces", "1": "Managers", "2": "Professionals",
+        "3": "Technicians", "4": "Clerical", "5": "Service & Sales",
+        "6": "Skilled agriculture", "7": "Skilled trades",
+        "8": "Plant operators", "9": "Elementary",
+    }
+    return {1: isco1, 2: isco2, 3: isco3, 4: isco4}
+
+
 def parse_rl21154_location_code(code):
     """Decompose a 14-character RL21154 Elukoht code.
 
