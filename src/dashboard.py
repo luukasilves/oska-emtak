@@ -129,6 +129,27 @@ def load_palgad_workers() -> pd.DataFrame | None:
 
 
 @st.cache_data
+def load_vertical_long() -> pd.DataFrame | None:
+    """Vertical × maakond long matrix from build_vertical_matrix.py."""
+    path = SUMMARIES_DIR / "vertical_county_matrix_long.csv"
+    if not path.exists():
+        return None
+    return pd.read_csv(path)
+
+
+@st.cache_data
+def load_vertical_map() -> pd.DataFrame | None:
+    """ISCO-4 → vertical crosswalk (editable)."""
+    from common import CROSSWALKS
+    path = CROSSWALKS / "isco4_to_vertical.csv"
+    if not path.exists():
+        return None
+    df = pd.read_csv(path, dtype={"from_code": str, "to_code": str})
+    df["from_code"] = df["from_code"].str.zfill(4)
+    return df
+
+
+@st.cache_data
 def load_barometer() -> pd.DataFrame | None:
     path = RAW / "tootukassa_barometer" / "barometer_long.csv"
     if not path.exists():
@@ -229,15 +250,30 @@ def render_sidebar(combos):
     st.sidebar.title("Estonia AI exposure")
     st.sidebar.caption("v2 explorer — interactive view of the pipeline outputs.")
 
+    st.sidebar.info(
+        "**These filters drive 4 tabs:**  \n"
+        "🗺️ Map · 👥 Occupations · 🤝 AEI · 📊 Data\n\n"
+        "**Other 4 tabs have their own controls** and ignore this sidebar:  \n"
+        "🔬 ISCO-4 detail · 🏛️ ISCO-4 × maakond · 📐 Vertikaalid × maakond · 🌡️ Töötukassa barometer",
+        icon="ℹ️",
+    )
+
     model_options = sorted({m for m, _ in combos})
     scenario_options = sorted({s for _, s in combos})
-    model = st.sidebar.selectbox("Model", model_options, index=0)
-    scenario = st.sidebar.selectbox("Scenario", scenario_options, index=0)
+    model = st.sidebar.selectbox(
+        "Model", model_options, index=0,
+        help="Used by Map · AEI · Data tabs (Occupations uses the same matrix).",
+    )
+    scenario = st.sidebar.selectbox(
+        "Scenario", scenario_options, index=0,
+        help="Used by Map · Data tabs.",
+    )
 
     geo_level = st.sidebar.radio(
         "Geography",
         ["maakond (15 counties)", "municipality + linnaosa (~90)"],
         index=0,
+        help="Map tab only.",
     )
     geo_level_key = "maakond" if geo_level.startswith("maakond") else "municipality"
 
@@ -246,15 +282,20 @@ def render_sidebar(combos):
         list(METRIC_DISPLAY.keys()),
         format_func=lambda x: METRIC_DISPLAY[x][0],
         index=0,
+        help="Map tab only.",
     )
 
     isco1_filter = st.sidebar.multiselect(
         "ISCO major groups (optional filter)",
         options=list(ISCO1_LABELS.keys()),
         format_func=lambda x: f"{x} {ISCO1_LABELS[x]}",
+        help="Filters Map · Occupations · Data tabs.",
     )
 
-    top_n = st.sidebar.slider("Top N occupations to show", 5, 25, 10)
+    top_n = st.sidebar.slider(
+        "Top N occupations to show", 5, 25, 10,
+        help="Occupations tab only.",
+    )
 
     st.sidebar.markdown("---")
     st.sidebar.caption(
@@ -717,8 +758,17 @@ def render_isco4_maakond_tab():
         f"Cells <20 workers are suppressed at source and shown as 0."
     )
 
-    c1, c2 = st.columns([1, 2])
+    ALL_MAAKONNAD = "Kõik 15 maakonda"
+    c1, c2, c3 = st.columns([1.2, 1, 1.6])
     with c1:
+        chosen_maakond = st.selectbox(
+            "Maakond",
+            options=[ALL_MAAKONNAD] + MAAKOND_ORDER,
+            index=0,
+            key="isco4_mk_county",
+            help="Vali üks maakond, et näha ainult selle andmeid; vaikimisi näidatakse kõiki 15 koos.",
+        )
+    with c2:
         majors = sorted(counties["isco_major"].unique())
         chosen_majors = st.multiselect(
             "ISCO major group",
@@ -726,7 +776,7 @@ def render_isco4_maakond_tab():
             format_func=lambda x: f"{x} {ISCO1_LABELS.get(x, '')}",
             key="isco4_mk_major",
         )
-    with c2:
+    with c3:
         q = st.text_input(
             "Search by occupation (Estonian title from palgad.stat.ee)",
             key="isco4_mk_search",
@@ -737,38 +787,81 @@ def render_isco4_maakond_tab():
         view = view[view["isco_major"].isin(chosen_majors)]
     if q:
         view = view[view["name_et"].fillna("").str.lower().str.contains(q, na=False)]
+
+    single_county = chosen_maakond != ALL_MAAKONNAD
+    view_for_county = view[view["county_name"] == chosen_maakond] if single_county else view
     nat_view = national[national["isco4_code"].isin(view["isco4_code"].unique())]
 
-    # KPIs
+    # KPIs (the third one adapts to the maakond selection)
     k1, k2, k3 = st.columns(3)
     k1.metric("ISCO-4 codes in view", f"{view['isco4_code'].nunique():,}")
     k2.metric("National total (filtered)", f"{int(nat_view['count'].sum()):,}")
-    k3.metric("County total (filtered, sum of 15)", f"{int(view['count'].sum()):,}")
+    if single_county:
+        k3.metric(f"{chosen_maakond} total",
+                  f"{int(view_for_county['count'].sum()):,}")
+    else:
+        k3.metric("County total (filtered, sum of 15)",
+                  f"{int(view['count'].sum()):,}")
 
-    # Heatmap: top-N ISCO-4 by national employment × 15 maakonnad
-    top_n = st.slider("Top N ISCO-4 codes (by national employment) for heatmap",
-                      10, 50, 25, key="isco4_mk_top_n")
-    top_codes = (nat_view.sort_values("count", ascending=False)
-                          .head(top_n)["isco4_code"].tolist())
-    if top_codes:
-        pivot = (view[view["isco4_code"].isin(top_codes)]
-                 .pivot_table(index="isco4_code", columns="county_name",
-                              values="count", aggfunc="sum", fill_value=0))
-        pivot = pivot.reindex(columns=[c for c in MAAKOND_ORDER if c in pivot.columns])
-        pivot = pivot.reindex(top_codes)
-        # Build label index for readability
-        label_map = (view.drop_duplicates("isco4_code").set_index("isco4_code")["name_et"]
-                     .to_dict())
-        pivot.index = [f"{c} · {label_map.get(c, '')}" for c in pivot.index]
-        fig_hm = px.imshow(
-            pivot, aspect="auto", color_continuous_scale="YlOrRd",
-            labels={"color": "Employed"},
-            title=f"Top-{top_n} ISCO-4 occupations × 15 maakonnad",
+    top_n = st.slider(
+        "Top N ISCO-4 codes" + (" in this maakond" if single_county else " (by national employment) for heatmap"),
+        10, 50, 25, key="isco4_mk_top_n",
+    )
+    label_map = (view.drop_duplicates("isco4_code").set_index("isco4_code")["name_et"]
+                  .to_dict())
+
+    if single_county:
+        # Ranked bar chart for the chosen maakond
+        ranked = (view_for_county.groupby(["isco4_code"], as_index=False)["count"].sum()
+                                 .sort_values("count", ascending=False).head(top_n))
+        ranked["label"] = ranked["isco4_code"].map(label_map).fillna("")
+        ranked["display"] = ranked["isco4_code"] + " · " + ranked["label"]
+        # Note about suppression: at source, cells <20 are suppressed → shown as 0
+        n_zero = int((ranked["count"] == 0).sum())
+        if n_zero:
+            st.caption(f"⚠️  {n_zero} koodi top-{top_n} hulgas näitab 0 — need on suppressitud (<20 töötajat). "
+                       f"Täpsema (residual-constrained) hinnangu jaoks vt vertikaalide maatriksit.")
+        fig_bar = px.bar(
+            ranked.sort_values("count", ascending=True),  # ascending → highest on top
+            x="count", y="display", orientation="h",
+            labels={"count": "Töötajaid (2025 Q4)", "display": ""},
+            color="count", color_continuous_scale="YlOrRd",
+            title=f"Top-{top_n} ISCO-4 ametid maakonnas {chosen_maakond}",
         )
-        fig_hm.update_layout(height=520, xaxis={"side": "top"})
-        st.plotly_chart(fig_hm, use_container_width=True)
+        fig_bar.update_layout(height=max(420, 22 * len(ranked) + 80), showlegend=False)
+        fig_bar.update_coloraxes(showscale=False)
+        st.plotly_chart(fig_bar, use_container_width=True)
 
-    # Single-code drill-down
+        # Downloadable CSV for the chosen maakond
+        export = (view_for_county[["isco4_code", "name_et", "isco_major", "isco2_code", "count"]]
+                  .rename(columns={"count": "employed_2025q4"})
+                  .sort_values("employed_2025q4", ascending=False))
+        st.download_button(
+            f"⬇️ Laadi alla CSV: {chosen_maakond} × ISCO-4 ({len(export)} koodi)",
+            data=export.to_csv(index=False).encode("utf-8"),
+            file_name=f"isco4_{chosen_maakond.replace(' ', '_')}_2025q4.csv",
+            mime="text/csv",
+        )
+    else:
+        # Original heatmap: top-N ISCO-4 by national employment × 15 maakonnad
+        top_codes = (nat_view.sort_values("count", ascending=False)
+                              .head(top_n)["isco4_code"].tolist())
+        if top_codes:
+            pivot = (view[view["isco4_code"].isin(top_codes)]
+                     .pivot_table(index="isco4_code", columns="county_name",
+                                  values="count", aggfunc="sum", fill_value=0))
+            pivot = pivot.reindex(columns=[c for c in MAAKOND_ORDER if c in pivot.columns])
+            pivot = pivot.reindex(top_codes)
+            pivot.index = [f"{c} · {label_map.get(c, '')}" for c in pivot.index]
+            fig_hm = px.imshow(
+                pivot, aspect="auto", color_continuous_scale="YlOrRd",
+                labels={"color": "Employed"},
+                title=f"Top-{top_n} ISCO-4 occupations × 15 maakonnad",
+            )
+            fig_hm.update_layout(height=520, xaxis={"side": "top"})
+            st.plotly_chart(fig_hm, use_container_width=True)
+
+    # Single-code drill-down (always shows all 15 maakonnad — highlights selected one if any)
     st.markdown("---")
     st.markdown("#### Drill into one occupation")
     code_options = (view.sort_values("count", ascending=False)
@@ -784,13 +877,177 @@ def render_isco4_maakond_tab():
     )
     sub = view[view["isco4_code"] == picked].set_index("county_name")["count"]
     sub = sub.reindex(MAAKOND_ORDER).fillna(0).astype(int)
+    bar_colors = ["#d62728" if c == chosen_maakond else "#1f77b4" for c in sub.index] \
+                  if single_county else None
     fig_bar = px.bar(
         x=sub.index, y=sub.values,
         labels={"x": "", "y": "Employed (2025 Q4)"},
         title=f"{picked} — {code_options.set_index('isco4_code').loc[picked, 'name_et']}",
     )
+    if bar_colors:
+        fig_bar.update_traces(marker_color=bar_colors)
     fig_bar.update_layout(height=340)
     st.plotly_chart(fig_bar, use_container_width=True)
+
+
+def render_verticals_tab():
+    st.markdown("### Ametivertikaalid × maakond — AI-mõjutatud kaetus (2025 Q4)")
+    long = load_vertical_long()
+    vmap = load_vertical_map()
+    if long is None or long.empty:
+        st.info("`data/processed/summaries/vertical_county_matrix_long.csv` puudub. "
+                "Käivita `python3 src/build_vertical_matrix.py`.")
+        return
+
+    st.caption(
+        "Vertikaalid = funktsionaalsed temaatilised koondgrupid, mis koondavad ISCO-4 "
+        "ametid (vt `data/crosswalks/isco4_to_vertical.csv`). Read on järjestatud "
+        "AI-ekspositsiooni konsensuse järgi (felten_aei_isco4 + ILO WP140 + demirev). "
+        "Lahter = inimeste arv maakonnas (palgad.stat.ee 2025 Q4). "
+        "<20 hõivega lahtrid täidetud jääk-piirangu meetodiga riigi summa pealt — "
+        "lülita allpool 'alampiir / hinnang / ülempiir' vahel."
+    )
+
+    # Controls
+    c1, c2, c3 = st.columns([1.2, 1.2, 2])
+    with c1:
+        value_choice = st.radio(
+            "Lahtri väärtus",
+            options=["people_estimate", "people_lower", "people_upper", "suppression_share"],
+            format_func=lambda x: {
+                "people_estimate": "Hinnang (jääk-piirang)",
+                "people_lower": "Alampiir (teadaolev)",
+                "people_upper": "Ülempiir (teoreetiline)",
+                "suppression_share": "Suppressiooni osakaal",
+            }[x],
+            key="verticals_value",
+        )
+    with c2:
+        max_top = int(long["vertical_id"].nunique())
+        top_n = st.slider("Mitu vertikaali kuvada (top-N AI-ekspositsiooni järgi)",
+                          5, max_top, min(20, max_top), key="verticals_top_n")
+    with c3:
+        st.metric("Vertikaale kokku", max_top)
+        st.caption(f"Andmed: {long['county_name'].nunique()} maakonda × {max_top} vertikaali = "
+                   f"{len(long):,} lahtrit")
+
+    # Top-N verticals
+    rank = (long[["vertical_id", "vertical_label", "priority_rank",
+                  "vertical_ensemble_z", "vertical_employment_national",
+                  "tier_label_dominant"]]
+            .drop_duplicates("vertical_id")
+            .sort_values("priority_rank"))
+    top_ids = rank.head(top_n)["vertical_id"].tolist()
+    sub = long[long["vertical_id"].isin(top_ids)].copy()
+
+    # Canonical maakond order (employment-descending-ish)
+    MAAKOND_ORDER = [
+        "Harju maakond", "Tartu maakond", "Ida-Viru maakond", "Pärnu maakond",
+        "Lääne-Viru maakond", "Viljandi maakond", "Rapla maakond", "Võru maakond",
+        "Järva maakond", "Saare maakond", "Jõgeva maakond", "Valga maakond",
+        "Põlva maakond", "Lääne maakond", "Hiiu maakond",
+    ]
+    sub["county_short"] = sub["county_name"].str.replace(" maakond", "", regex=False)
+    county_short_order = [c.replace(" maakond", "") for c in MAAKOND_ORDER]
+
+    # Build heatmap
+    pv = sub.pivot_table(index="vertical_id", columns="county_short",
+                         values=value_choice, aggfunc="sum", fill_value=0)
+    pv = pv.reindex(index=top_ids, columns=county_short_order, fill_value=0)
+    # Pretty row labels with rank + Estonian name
+    rank_in = rank.set_index("vertical_id").loc[top_ids]
+    pv.index = [f"{int(rank_in.loc[v, 'priority_rank']):2d}. {rank_in.loc[v, 'vertical_label']}"
+                for v in top_ids]
+
+    color_scale = "Purples" if value_choice != "suppression_share" else "Oranges"
+    hover_fmt = ".1%" if value_choice == "suppression_share" else ",.0f"
+    fig = px.imshow(
+        pv, aspect="auto", color_continuous_scale=color_scale,
+        labels={"color": {"people_estimate": "Hinnang (inimest)",
+                          "people_lower": "Alampiir (inimest)",
+                          "people_upper": "Ülempiir (inimest)",
+                          "suppression_share": "Suppressioon"}[value_choice]},
+        title=f"AI-mõjutatud ametivertikaalid × maakond (top {len(top_ids)})",
+    )
+    fig.update_layout(height=max(420, 28 * len(top_ids) + 80), xaxis={"side": "top"})
+    fig.update_traces(hovertemplate=("<b>%{y}</b><br>%{x}: %{z:" + hover_fmt + "}<extra></extra>"))
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Ranking table beneath
+    st.markdown("#### Vertikaalide pingerida")
+    rank_show = rank.copy()
+    rank_show["vertical_ensemble_z"] = rank_show["vertical_ensemble_z"].round(2)
+    st.dataframe(
+        rank_show.rename(columns={
+            "priority_rank": "#",
+            "vertical_id": "ID",
+            "vertical_label": "Vertikaal",
+            "vertical_ensemble_z": "AI-ekspositsioon (z)",
+            "vertical_employment_national": "Hõive riigis (teadaolev)",
+            "tier_label_dominant": "Domineeriv tier (ISCO-4)",
+        }),
+        use_container_width=True, hide_index=True,
+    )
+
+    # Drill-down: pick a vertical, see member ISCO-4 codes
+    st.markdown("---")
+    st.markdown("#### Süveneda ühte vertikaali — ISCO-4 alamkoodid")
+    picked = st.selectbox(
+        "Vertikaal",
+        options=top_ids,
+        format_func=lambda v: f"{int(rank_in.loc[v, 'priority_rank']):2d}. "
+                              f"{rank_in.loc[v, 'vertical_label']}",
+        key="verticals_pick",
+    )
+    if vmap is not None:
+        tf = load_tier_flags()
+        members = vmap[vmap["to_code"] == picked].copy()
+        if tf is not None:
+            members = members.merge(
+                tf[["isco4_code", "isco4_label", "employment_estonia",
+                    "ensemble_z_mean", "tier_label_ensemble"]],
+                left_on="from_code", right_on="isco4_code", how="left",
+            )
+        members = members.sort_values("ensemble_z_mean", ascending=False)
+        st.caption(f"{len(members)} ISCO-4 koodi vertikaalis `{picked}`")
+        st.dataframe(
+            members[["from_code", "vertical_label", "isco4_label",
+                     "employment_estonia", "ensemble_z_mean", "tier_label_ensemble"]]
+                .rename(columns={
+                    "from_code": "ISCO-4",
+                    "vertical_label": "Vertikaal",
+                    "isco4_label": "Amet (EN)",
+                    "employment_estonia": "Hõive riigis",
+                    "ensemble_z_mean": "Ekspositsioon (z)",
+                    "tier_label_ensemble": "Tier",
+                }),
+            use_container_width=True, hide_index=True,
+        )
+
+    # Per-county breakdown for the picked vertical
+    cell = sub[sub["vertical_id"] == picked].copy()
+    cell["county_short"] = cell["county_name"].str.replace(" maakond", "", regex=False)
+    cell["county_short"] = pd.Categorical(cell["county_short"],
+                                          categories=county_short_order, ordered=True)
+    cell = cell.sort_values("county_short")
+    fig2 = px.bar(
+        cell, x="county_short",
+        y=["people_lower", "people_estimate", "people_upper"],
+        barmode="group",
+        labels={"value": "Inimeste arv", "county_short": "", "variable": ""},
+        title=f"{rank_in.loc[picked, 'vertical_label']} — alampiir / hinnang / ülempiir maakonniti",
+        color_discrete_map={
+            "people_lower": "#888",
+            "people_estimate": C_VERTICAL_PURPLE,
+            "people_upper": "#cfc1e6",
+        },
+    )
+    fig2.update_layout(height=340)
+    st.plotly_chart(fig2, use_container_width=True)
+
+
+# Color used by render_verticals_tab; matches the heatmap purple
+C_VERTICAL_PURPLE = "#6A4C93"
 
 
 BAROMETER_BALANCE_LABELS = {
@@ -947,6 +1204,7 @@ def main():
         "🤝 AEI breakdown",
         "🔬 ISCO-4 detail + tiers",
         "🏛️ ISCO-4 × maakond",
+        "📐 Vertikaalid × maakond",
         "🌡️ Töötukassa barometer",
         "📊 Data",
     ])
@@ -962,8 +1220,10 @@ def main():
     with tabs[4]:
         render_isco4_maakond_tab()
     with tabs[5]:
-        render_barometer_tab()
+        render_verticals_tab()
     with tabs[6]:
+        render_barometer_tab()
+    with tabs[7]:
         render_data_tab(filtered)
 
 
