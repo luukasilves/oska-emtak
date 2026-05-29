@@ -1,0 +1,429 @@
+from_taxonomy,from_code,to_taxonomy,to_code,weight,vertical_label,note
+isco4,1111,vertical,V13_management_exec,1.0,Juhtimine,Legislators
+isco4,1112,vertical,V13_management_exec,1.0,Juhtimine,Senior government officials
+isco4,1114,vertical,V13_management_exec,1.0,Juhtimine,Senior officials of special-interest organizations
+isco4,1120,vertical,V13_management_exec,1.0,Juhtimine,Managing directors and chief executives
+isco4,1211,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Finance managers
+isco4,1212,vertical,V11_hr,1.0,Personal ja organisatsioon,Human resource managers
+isco4,1213,vertical,V13_management_exec,1.0,Juhtimine,Policy and planning managers
+isco4,1219,vertical,V13_management_exec,1.0,Juhtimine,Business services and administration managers not elsewhere classified
+isco4,1221,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Sales and marketing managers
+isco4,1222,vertical,V06_marketing_advertising,1.0,Turundus ja reklaam,Advertising and public relations managers
+isco4,1223,vertical,V13_management_exec,1.0,Juhtimine,Research and development managers
+isco4,1311,vertical,V13_management_exec,1.0,Juhtimine,Agricultural and forestry production managers
+isco4,1312,vertical,V13_management_exec,1.0,Juhtimine,Aquaculture and fisheries production managers
+isco4,1321,vertical,V13_management_exec,1.0,Juhtimine,Manufacturing managers
+isco4,1322,vertical,V13_management_exec,1.0,Juhtimine,Mining managers
+isco4,1323,vertical,V13_management_exec,1.0,Juhtimine,Construction managers
+isco4,1324,vertical,V13_management_exec,1.0,Juhtimine,"Supply, distribution and related managers"
+isco4,1330,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Information and communications technology service managers
+isco4,1341,vertical,V13_management_exec,1.0,Juhtimine,Child care services managers
+isco4,1342,vertical,V13_management_exec,1.0,Juhtimine,Health services managers
+isco4,1343,vertical,V13_management_exec,1.0,Juhtimine,Aged care services managers
+isco4,1344,vertical,V13_management_exec,1.0,Juhtimine,Social welfare managers
+isco4,1345,vertical,V13_management_exec,1.0,Juhtimine,Education managers
+isco4,1346,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Financial and insurance services branch managers
+isco4,1349,vertical,V12_legal,1.0,Õigus,Professional services managers not elsewhere classified
+isco4,1411,vertical,V13_management_exec,1.0,Juhtimine,Hotel managers
+isco4,1412,vertical,V13_management_exec,1.0,Juhtimine,Restaurant managers
+isco4,1420,vertical,V13_management_exec,1.0,Juhtimine,Retail and wholesale trade managers
+isco4,1431,vertical,V13_management_exec,1.0,Juhtimine,"Sports, recreation and cultural centre managers"
+isco4,1439,vertical,V13_management_exec,1.0,Juhtimine,Services managers not elsewhere classified
+isco4,2111,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Physicists and astronomers
+isco4,2112,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Meteorologists
+isco4,2113,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Chemists
+isco4,2114,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Geologists and geophysicists
+isco4,2120,vertical,V09_data_analytics,1.0,Andmed ja analüütika,"Mathematicians, actuaries and statisticians"
+isco4,2131,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,"Biologists, botanists, zoologists and related professionals"
+isco4,2132,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,"Farming, forestry and fisheries advisers"
+isco4,2133,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Environmental protection professionals
+isco4,2141,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Industrial and production engineers
+isco4,2142,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Civil engineers
+isco4,2143,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Environmental engineers
+isco4,2144,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Mechanical engineers
+isco4,2145,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Chemical engineers
+isco4,2146,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,"Mining engineers, metallurgists and related professionals"
+isco4,2149,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Engineering professionals not elsewhere classified
+isco4,2151,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Electrical engineers
+isco4,2152,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Electronics engineers
+isco4,2153,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Telecommunications engineers
+isco4,2161,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Building architects
+isco4,2162,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Landscape architects
+isco4,2163,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Product and garment designers
+isco4,2164,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Town and traffic planners
+isco4,2165,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Cartographers and surveyors
+isco4,2166,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Graphic and multimedia designers
+isco4,2211,vertical,V20_healthcare,1.0,Tervishoid,Generalist medical practitioners 
+isco4,2212,vertical,V20_healthcare,1.0,Tervishoid,Specialist medical practitioners 
+isco4,2221,vertical,V20_healthcare,1.0,Tervishoid,Nursing professionals
+isco4,2222,vertical,V20_healthcare,1.0,Tervishoid,Midwifery professionals
+isco4,2230,vertical,V20_healthcare,1.0,Tervishoid,Traditional and complementary medicine professionals
+isco4,2240,vertical,V20_healthcare,1.0,Tervishoid,Paramedical practitioners
+isco4,2250,vertical,V20_healthcare,1.0,Tervishoid,Veterinarians
+isco4,2261,vertical,V20_healthcare,1.0,Tervishoid,Dentists
+isco4,2262,vertical,V20_healthcare,1.0,Tervishoid,Pharmacists
+isco4,2263,vertical,V20_healthcare,1.0,Tervishoid,Environmental and occupational health and hygiene professionals
+isco4,2264,vertical,V20_healthcare,1.0,Tervishoid,Physiotherapists 
+isco4,2265,vertical,V20_healthcare,1.0,Tervishoid,Dieticians and nutritionists
+isco4,2266,vertical,V20_healthcare,1.0,Tervishoid,Audiologists and speech therapists
+isco4,2267,vertical,V20_healthcare,1.0,Tervishoid,Optometrists and ophthalmic opticians
+isco4,2269,vertical,V20_healthcare,1.0,Tervishoid,Health professionals not elsewhere classified
+isco4,2310,vertical,V21_education,1.0,Haridus,University and higher education teachers
+isco4,2320,vertical,V21_education,1.0,Haridus,Vocational education teachers
+isco4,2330,vertical,V21_education,1.0,Haridus,Secondary education teachers
+isco4,2341,vertical,V21_education,1.0,Haridus,Primary school teachers
+isco4,2342,vertical,V21_education,1.0,Haridus,Early childhood educators
+isco4,2351,vertical,V21_education,1.0,Haridus,Education methods specialists
+isco4,2352,vertical,V21_education,1.0,Haridus,Special needs teachers
+isco4,2353,vertical,V21_education,1.0,Haridus,Other language teachers
+isco4,2354,vertical,V21_education,1.0,Haridus,Other music teachers
+isco4,2355,vertical,V21_education,1.0,Haridus,Other arts teachers
+isco4,2356,vertical,V21_education,1.0,Haridus,Information technology trainers
+isco4,2359,vertical,V21_education,1.0,Haridus,Teaching professionals not elsewhere classified
+isco4,2411,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Accountants
+isco4,2412,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Financial and investment advisers
+isco4,2413,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Financial analysts
+isco4,2421,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Management and organization analysts
+isco4,2422,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Policy administration professionals
+isco4,2423,vertical,V11_hr,1.0,Personal ja organisatsioon,Personnel and careers professionals
+isco4,2424,vertical,V11_hr,1.0,Personal ja organisatsioon,Training and staff development professionals
+isco4,2431,vertical,V06_marketing_advertising,1.0,Turundus ja reklaam,Advertising and marketing professionals
+isco4,2432,vertical,V06_marketing_advertising,1.0,Turundus ja reklaam,Public relations professionals
+isco4,2433,vertical,V09_data_analytics,1.0,Andmed ja analüütika,Technical and medical sales professionals (excluding ICT)
+isco4,2434,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Information and communications technology sales professionals
+isco4,2511,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Systems analysts
+isco4,2512,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Software developers
+isco4,2513,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Web and multimedia developers
+isco4,2514,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Applications programmers
+isco4,2519,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Software and applications developers and analysts not elsewhere classified
+isco4,2521,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Database designers and administrators
+isco4,2522,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Systems administrators
+isco4,2523,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Computer network professionals
+isco4,2529,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Database and network professionals not elsewhere classified
+isco4,2611,vertical,V12_legal,1.0,Õigus,Lawyers
+isco4,2612,vertical,V12_legal,1.0,Õigus,Judges
+isco4,2619,vertical,V12_legal,1.0,Õigus,Legal professionals not elsewhere classified
+isco4,2621,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Archivists and curators
+isco4,2622,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Librarians and related information professionals
+isco4,2631,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Economists
+isco4,2632,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,"Sociologists, anthropologists and related professionals"
+isco4,2633,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,"Philosophers, historians and political scientists"
+isco4,2634,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Psychologists
+isco4,2635,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Social work and counselling professionals
+isco4,2636,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Religious professionals
+isco4,2641,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Authors and related writers
+isco4,2642,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Journalists
+isco4,2643,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia","Translators, interpreters and other linguists"
+isco4,2651,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Visual artists
+isco4,2652,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia","Musicians, singers and composers"
+isco4,2653,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Dancers and choreographers
+isco4,2654,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia","Film, stage and related directors and producers"
+isco4,2655,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Actors
+isco4,2656,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia","Announcers on radio, television and other media"
+isco4,2659,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Creative and performing artists not elsewhere classified
+isco4,3111,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Chemical and physical science technicians
+isco4,3112,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Civil engineering technicians
+isco4,3113,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Electrical engineering technicians
+isco4,3114,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Electronics engineering technicians
+isco4,3115,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Mechanical engineering technicians
+isco4,3116,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Chemical engineering technicians
+isco4,3117,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Mining and metallurgical technicians
+isco4,3118,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Draughtspersons
+isco4,3119,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Physical and engineering science technicians not elsewhere classified
+isco4,3121,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Mining supervisors
+isco4,3122,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Manufacturing supervisors
+isco4,3123,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Construction supervisors
+isco4,3131,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Power production plant operators
+isco4,3132,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Incinerator and water treatment plant operators
+isco4,3133,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Chemical processing plant controllers
+isco4,3134,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Petroleum and natural gas refining plant operators
+isco4,3135,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Metal production process controllers
+isco4,3139,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Process control technicians not elsewhere classified
+isco4,3141,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Life science technicians (excluding medical)
+isco4,3142,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Agricultural technicians
+isco4,3143,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Forestry technicians
+isco4,3151,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Ships' engineers
+isco4,3152,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Ships' deck officers and pilots
+isco4,3153,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Aircraft pilots and related associate professionals
+isco4,3154,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Air traffic controllers
+isco4,3155,vertical,V17_research_science,1.0,Teadus ja tehnilised tippspetsialistid,Air traffic safety electronics technicians
+isco4,3211,vertical,V20_healthcare,1.0,Tervishoid,Medical imaging and therapeutic equipment technicians
+isco4,3212,vertical,V20_healthcare,1.0,Tervishoid,Medical and pathology laboratory technicians 
+isco4,3213,vertical,V20_healthcare,1.0,Tervishoid,Pharmaceutical technicians and assistants
+isco4,3214,vertical,V20_healthcare,1.0,Tervishoid,Medical and dental prosthetic technicians
+isco4,3221,vertical,V20_healthcare,1.0,Tervishoid,Nursing associate professionals
+isco4,3222,vertical,V20_healthcare,1.0,Tervishoid,Midwifery associate professionals
+isco4,3230,vertical,V20_healthcare,1.0,Tervishoid,Traditional and complementary medicine associate professionals
+isco4,3240,vertical,V20_healthcare,1.0,Tervishoid,Veterinary technicians and assistants
+isco4,3251,vertical,V20_healthcare,1.0,Tervishoid,Dental assistants and therapists
+isco4,3252,vertical,V20_healthcare,1.0,Tervishoid,Medical records and health information technicians
+isco4,3253,vertical,V20_healthcare,1.0,Tervishoid,Community health workers
+isco4,3254,vertical,V20_healthcare,1.0,Tervishoid,Dispensing opticians
+isco4,3255,vertical,V20_healthcare,1.0,Tervishoid,Physiotherapy technicians and assistants
+isco4,3256,vertical,V20_healthcare,1.0,Tervishoid,Medical assistants
+isco4,3257,vertical,V20_healthcare,1.0,Tervishoid,Environmental and occupational health inspectors and associates
+isco4,3258,vertical,V20_healthcare,1.0,Tervishoid,Ambulance workers
+isco4,3259,vertical,V20_healthcare,1.0,Tervishoid,Health associate professionals not elsewhere classified
+isco4,3311,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Securities and finance dealers and brokers
+isco4,3312,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Credit and loans officers
+isco4,3313,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Accounting associate professionals
+isco4,3314,vertical,V09_data_analytics,1.0,Andmed ja analüütika,"Statistical, mathematical and related associate professionals"
+isco4,3315,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Valuers and loss assessors
+isco4,3321,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Insurance representatives
+isco4,3322,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Commercial sales representatives
+isco4,3323,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Buyers
+isco4,3324,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Trade brokers
+isco4,3331,vertical,V16_logistics_supply_admin,1.0,Logistika ja tarneahela kontoritöö,Clearing and forwarding agents
+isco4,3332,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Conference and event planners
+isco4,3333,vertical,V16_logistics_supply_admin,1.0,Logistika ja tarneahela kontoritöö,Employment agents and contractors
+isco4,3334,vertical,V16_logistics_supply_admin,1.0,Logistika ja tarneahela kontoritöö,Real estate agents and property managers
+isco4,3339,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Business services agents not elsewhere classified
+isco4,3341,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Office supervisors
+isco4,3342,vertical,V12_legal,1.0,Õigus,Legal secretaries
+isco4,3343,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Administrative and executive secretaries
+isco4,3344,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Medical secretaries
+isco4,3351,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Customs and border inspectors
+isco4,3352,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Government tax and excise officials
+isco4,3353,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Government social benefits officials
+isco4,3354,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Government licensing officials
+isco4,3359,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Regulatory government associate professionals not elsewhere classified
+isco4,3411,vertical,V12_legal,1.0,Õigus,Legal and related associate professionals
+isco4,3412,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Social work associate professionals
+isco4,3413,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Religious associate professionals
+isco4,3421,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Athletes and sports players
+isco4,3422,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,"Sports coaches, instructors and officials"
+isco4,3423,vertical,V19_social_cultural,1.0,Sotsiaal- ja kultuuritöö,Fitness and recreation instructors and program leaders
+isco4,3431,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Photographers
+isco4,3432,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Interior designers and decorators
+isco4,3433,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia","Gallery, museum and library technicians"
+isco4,3434,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Chefs
+isco4,3435,vertical,V14_translation_media,1.0,"Tõlge, keel ja meedia",Other artistic and cultural associate professionals
+isco4,3511,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Information and communications technology operations technicians
+isco4,3512,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Information and communications technology user support technicians
+isco4,3513,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Computer network and systems technicians
+isco4,3514,vertical,V07_it_software,1.0,IT ja tarkvaraarendus,Web technicians
+isco4,3521,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Broadcasting and audio-visual technicians
+isco4,3522,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Telecommunications engineering technicians
+isco4,4110,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,General office clerks
+isco4,4120,vertical,V10_admin_secretarial,1.0,Haldus ja sekretäritöö,Secretaries (general)
+isco4,4131,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Typists and word processing operators
+isco4,4132,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Data entry clerks
+isco4,4211,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Bank tellers and related clerks
+isco4,4212,vertical,V18_other_clerical,1.0,Muu kontoritöö,"Bookmakers, croupiers and related gaming workers"
+isco4,4213,vertical,V18_other_clerical,1.0,Muu kontoritöö,Pawnbrokers and money-lenders
+isco4,4214,vertical,V03_banking_insurance,1.0,Pangandus ja kindlustus,Debt-collectors and related workers
+isco4,4221,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Travel consultants and clerks
+isco4,4222,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Contact centre information clerks
+isco4,4223,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Telephone switchboard operators
+isco4,4224,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Hotel receptionists
+isco4,4225,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Enquiry clerks
+isco4,4226,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Receptionists (general)
+isco4,4227,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Survey and market research interviewers
+isco4,4229,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Client information workers not elsewhere classified
+isco4,4311,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Accounting and bookkeeping clerks
+isco4,4312,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,"Statistical, finance and insurance clerks"
+isco4,4313,vertical,V02_finance_accounting,1.0,Rahandus ja raamatupidamine,Payroll clerks
+isco4,4321,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Stock clerks
+isco4,4322,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Production clerks
+isco4,4323,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Transport clerks
+isco4,4411,vertical,V12_legal,1.0,Õigus,Library clerks
+isco4,4412,vertical,V18_other_clerical,1.0,Muu kontoritöö,Mail carriers and sorting clerks
+isco4,4413,vertical,V18_other_clerical,1.0,Muu kontoritöö,"Coding, proof-reading and related clerks"
+isco4,4414,vertical,V18_other_clerical,1.0,Muu kontoritöö,Scribes and related workers
+isco4,4415,vertical,V01_data_clerical,1.0,Andmesisestus ja kontoritöötlus,Filing and copying clerks
+isco4,4416,vertical,V11_hr,1.0,Personal ja organisatsioon,Personnel clerks
+isco4,4419,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Clerical support workers not elsewhere classified
+isco4,5111,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Travel attendants and travel stewards
+isco4,5112,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Transport conductors
+isco4,5113,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Travel guides
+isco4,5120,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Cooks
+isco4,5131,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Waiters
+isco4,5132,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Bartenders
+isco4,5141,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Hairdressers
+isco4,5142,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Beauticians and related workers
+isco4,5151,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,"Cleaning and housekeeping supervisors in offices, hotels and other establishments"
+isco4,5152,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Domestic housekeepers
+isco4,5153,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Building caretakers
+isco4,5161,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,"Astrologers, fortune-tellers and related workers"
+isco4,5162,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Companions and valets
+isco4,5163,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Undertakers and embalmers
+isco4,5164,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Pet groomers and animal care workers
+isco4,5165,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Driving instructors
+isco4,5169,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Personal services workers not elsewhere classified
+isco4,5211,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Stall and market salespersons
+isco4,5212,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Street food salespersons
+isco4,5221,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Shopkeepers
+isco4,5222,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Shop supervisors
+isco4,5223,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Shop sales assistants
+isco4,5230,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Cashiers and ticket clerks
+isco4,5241,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Fashion and other models
+isco4,5242,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Sales demonstrators
+isco4,5243,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Door to door salespersons
+isco4,5244,vertical,V04_customer_service,1.0,Klienditugi ja kontaktikeskus,Contact centre salespersons
+isco4,5245,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Service station attendants
+isco4,5246,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Food service counter attendants
+isco4,5249,vertical,V05_sales_retail,1.0,Müük ja jaekaubandus,Sales workers not elsewhere classified
+isco4,5311,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Child care workers
+isco4,5312,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Teachers' aides
+isco4,5321,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Health care assistants
+isco4,5322,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Home-based personal care workers
+isco4,5329,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Personal care workers in health services not elsewhere classified
+isco4,5413,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Prison guards
+isco4,5414,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Security guards
+isco4,5419,vertical,V22_service_personal,1.0,Isiku- ja teenindustöö,Protective services workers not elsewhere classified
+isco4,6111,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Field crop and vegetable growers
+isco4,6112,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Tree and shrub crop growers
+isco4,6113,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Gardeners, horticultural and nursery growers"
+isco4,6114,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Mixed crop growers
+isco4,6121,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Livestock and dairy producers
+isco4,6122,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Poultry producers
+isco4,6123,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Apiarists and sericulturists
+isco4,6129,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Animal producers not elsewhere classified
+isco4,6130,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Mixed crop and animal producers
+isco4,6210,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Forestry and related workers
+isco4,6221,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Aquaculture workers
+isco4,6222,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Inland and coastal waters fishery workers
+isco4,6223,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Deep-sea fishery workers
+isco4,6224,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Hunters and trappers
+isco4,6310,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Subsistence crop farmers
+isco4,6320,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Subsistence livestock farmers
+isco4,6330,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Subsistence mixed crop and livestock farmers
+isco4,6340,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Subsistence fishers, hunters, trappers and gatherers"
+isco4,7111,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,House builders
+isco4,7112,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Bricklayers and related workers
+isco4,7113,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Stonemasons, stone cutters, splitters and carvers"
+isco4,7114,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Concrete placers, concrete finishers and related workers"
+isco4,7115,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Carpenters and joiners
+isco4,7119,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Building frame and related trades workers not elsewhere classified
+isco4,7121,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Roofers
+isco4,7122,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Floor layers and tile setters
+isco4,7123,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Plasterers
+isco4,7124,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Insulation workers
+isco4,7125,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Glaziers
+isco4,7126,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Plumbers and pipe fitters
+isco4,7127,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Air conditioning and refrigeration mechanics
+isco4,7131,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Painters and related workers
+isco4,7132,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Spray painters and varnishers
+isco4,7133,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Building structure cleaners
+isco4,7211,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Metal moulders and coremakers
+isco4,7212,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Welders and flamecutters
+isco4,7213,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Sheet-metal workers
+isco4,7214,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Structural-metal preparers and erectors
+isco4,7215,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Riggers and cable splicers
+isco4,7221,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Blacksmiths, hammersmiths and forging press workers"
+isco4,7222,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Toolmakers and related workers
+isco4,7223,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Metal working machine tool setters and operators
+isco4,7224,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Metal polishers, wheel grinders and tool sharpeners"
+isco4,7231,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Motor vehicle mechanics and repairers
+isco4,7232,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Aircraft engine mechanics and repairers
+isco4,7233,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Agricultural and industrial machinery mechanics and repairers
+isco4,7234,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Bicycle and related repairers
+isco4,7311,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Precision-instrument makers and repairers
+isco4,7312,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Musical instrument makers and tuners
+isco4,7313,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Jewellery and precious-metal workers
+isco4,7314,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Potters and related workers
+isco4,7315,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Glass makers, cutters, grinders and finishers"
+isco4,7316,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Sign writers, decorative painters, engravers and etchers"
+isco4,7317,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Handicraft workers in wood, basketry and related materials"
+isco4,7318,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Handicraft workers in textile, leather and related materials"
+isco4,7319,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Handicraft workers not elsewhere classified
+isco4,7321,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Pre-press technicians
+isco4,7322,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Printers 
+isco4,7323,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Print finishing and binding workers
+isco4,7411,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Building and related electricians
+isco4,7412,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Electrical mechanics and fitters
+isco4,7413,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Electrical line installers and repairers 
+isco4,7421,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Electronics mechanics and servicers
+isco4,7422,vertical,V08_it_infra_telecom,1.0,IT-taristu ja telekom,Information and communications technology installers and servicers
+isco4,7511,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Butchers, fishmongers and related food preparers"
+isco4,7512,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Bakers, pastry-cooks and confectionery makers"
+isco4,7513,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Dairy-products makers
+isco4,7514,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Fruit, vegetable and related preservers"
+isco4,7515,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Food and beverage tasters and graders
+isco4,7521,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Wood treaters
+isco4,7522,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Cabinet-makers and related workers
+isco4,7523,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Woodworking-machine tool setters and operators
+isco4,7531,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Tailors, dressmakers, furriers and hatters"
+isco4,7532,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Garment and related pattern-makers and cutters
+isco4,7533,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Sewing, embroidery and related workers"
+isco4,7534,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Upholsterers and related workers
+isco4,7535,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,"Pelt dressers, tanners and fellmongers"
+isco4,7536,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Shoemakers and related workers
+isco4,7541,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Underwater divers
+isco4,7542,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Shotfirers and blasters
+isco4,7543,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Product graders and testers (excluding foods and beverages)
+isco4,7544,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Fumigators and other pest and weed controllers
+isco4,7549,vertical,V23_agri_trades,1.0,Põllumajandus ja oskustöö,Craft and related workers not elsewhere classified
+isco4,8111,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Miners and quarriers
+isco4,8112,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Mineral and stone processing plant operators
+isco4,8113,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Well drillers and borers and related workers
+isco4,8114,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Cement, stone and other mineral products machine operators"
+isco4,8121,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Metal processing plant operators
+isco4,8122,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Metal finishing, plating and coating machine operators"
+isco4,8131,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Chemical products plant and machine operators
+isco4,8132,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Photographic products machine operators
+isco4,8141,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Rubber products machine operators
+isco4,8142,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Plastic products machine operators
+isco4,8143,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Paper products machine operators
+isco4,8151,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Fibre preparing, spinning and winding machine operators"
+isco4,8152,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Weaving and knitting machine operators
+isco4,8153,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Sewing machine operators
+isco4,8154,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Bleaching, dyeing and fabric cleaning machine operators"
+isco4,8155,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Fur and leather preparing machine operators
+isco4,8156,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Shoemaking and related machine operators
+isco4,8157,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Laundry machine operators
+isco4,8159,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Textile, fur and leather products machine operators not elsewhere classified"
+isco4,8160,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Food and related products machine operators
+isco4,8171,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Pulp and papermaking plant operators
+isco4,8172,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Wood processing plant operators
+isco4,8181,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Glass and ceramics plant operators
+isco4,8182,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Steam engine and boiler operators
+isco4,8183,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Packing, bottling and labelling machine operators"
+isco4,8189,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Stationary plant and machine operators not elsewhere classified
+isco4,8211,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Mechanical machinery assemblers
+isco4,8212,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Electrical and electronic equipment assemblers
+isco4,8219,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Assemblers not elsewhere classified
+isco4,8311,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Locomotive engine drivers
+isco4,8312,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Railway brake, signal and switch operators"
+isco4,8321,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Motorcycle drivers
+isco4,8322,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Car, taxi and van drivers"
+isco4,8331,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Bus and tram drivers
+isco4,8332,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Heavy truck and lorry drivers
+isco4,8341,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Mobile farm and forestry plant operators
+isco4,8342,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Earthmoving and related plant operators
+isco4,8343,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Crane, hoist and related plant operators"
+isco4,8344,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Lifting truck operators
+isco4,8350,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Ships' deck crews and related workers
+isco4,9111,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Domestic cleaners and helpers
+isco4,9112,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Cleaners and helpers in offices, hotels and other establishments"
+isco4,9121,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Hand launderers and pressers
+isco4,9122,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Vehicle cleaners
+isco4,9123,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Window cleaners
+isco4,9129,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Other cleaning workers
+isco4,9211,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Crop farm labourers
+isco4,9212,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Livestock farm labourers
+isco4,9213,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Mixed crop and livestock farm labourers
+isco4,9214,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Garden and horticultural labourers
+isco4,9215,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Forestry labourers
+isco4,9216,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Fishery and aquaculture labourers
+isco4,9311,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Mining and quarrying labourers
+isco4,9312,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Civil engineering labourers
+isco4,9313,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Building construction labourers
+isco4,9321,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Hand packers
+isco4,9329,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Manufacturing labourers not elsewhere classified
+isco4,9331,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Hand and pedal vehicle drivers
+isco4,9332,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Drivers of animal-drawn vehicles and machinery
+isco4,9333,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Freight handlers
+isco4,9334,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Shelf fillers
+isco4,9411,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Fast food preparers
+isco4,9412,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Kitchen helpers
+isco4,9510,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Street and related service workers
+isco4,9520,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Street vendors (excluding food)
+isco4,9611,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Garbage and recycling collectors
+isco4,9612,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Refuse sorters
+isco4,9613,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Sweepers and related labourers
+isco4,9621,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,"Messengers, package deliverers and luggage porters"
+isco4,9622,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Odd job persons
+isco4,9623,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Meter readers and vending-machine collectors
+isco4,9624,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Water and firewood collectors
+isco4,9629,vertical,V24_operators_elementary,1.0,Operaatorid ja lihttöö,Elementary workers not elsewhere classified
