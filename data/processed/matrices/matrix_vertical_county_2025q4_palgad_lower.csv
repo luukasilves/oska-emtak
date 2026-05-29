@@ -1,0 +1,24 @@
+priority_rank,vertical_id,vertical_label,vertical_ensemble_z,vertical_employment_national,tier_label_dominant,Kogu Eesti (15 mk),Harju maakond,Tartu maakond,Ida-Viru maakond,Pärnu maakond,Lääne-Viru maakond,Viljandi maakond,Rapla maakond,Võru maakond,Järva maakond,Saare maakond,Jõgeva maakond,Valga maakond,Põlva maakond,Lääne maakond,Hiiu maakond
+1,V04_customer_service,Klienditugi ja kontaktikeskus,1.5581278360305515,18722,Contested High,17520,13414,1897,698,675,194,164,45,110,64,129,21,20,29,60,0
+2,V03_banking_insurance,Pangandus ja kindlustus,1.2867688566331115,12473,Contested High,12140,9132,1518,195,447,169,218,65,67,89,73,46,46,24,51,0
+3,V09_data_analytics,Andmed ja analüütika,1.1994165841179378,2453,Contested High,2303,1885,398,0,20,0,0,0,0,0,0,0,0,0,0,0
+4,V06_marketing_advertising,Turundus ja reklaam,1.063870523195888,5488,Mixed,5113,4457,454,108,46,26,0,22,0,0,0,0,0,0,0,0
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,0.9299951624402812,22841,Contested High,21772,14864,2678,1082,1003,590,417,244,244,266,221,30,83,0,50,0
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,0.8755829579081504,2186,Mixed,1918,1413,237,125,75,21,47,0,0,0,0,0,0,0,0,0
+7,V10_admin_secretarial,Haldus ja sekretäritöö,0.8425031992209523,21256,Contested High,19671,13947,2651,794,741,376,281,133,217,119,197,86,75,28,26,0
+8,V02_finance_accounting,Rahandus ja raamatupidamine,0.7645954719302349,16265,Contested High,15368,11122,1628,716,541,329,227,138,133,112,177,0,47,106,59,33
+9,V11_hr,Personal ja organisatsioon,0.6956604311031247,4067,Contested High,3660,3012,393,127,79,27,22,0,0,0,0,0,0,0,0,0
+10,V07_it_software,IT ja tarkvaraarendus,0.6444724291489657,19614,Contested High,19087,15876,2988,105,57,27,34,0,0,0,0,0,0,0,0,0
+11,V21_education,Haridus,0.5191423390376819,37516,Contested High,34905,16741,6603,2587,1634,1464,985,872,490,694,752,426,567,407,520,163
+12,V08_it_infra_telecom,IT-taristu ja telekom,0.46874723434024207,10917,Contested High,9969,7875,1367,389,200,68,49,21,0,0,0,0,0,0,0,0
+13,V12_legal,Õigus,0.37881214000802294,5770,Mixed,5216,4010,848,158,108,34,29,0,0,0,29,0,0,0,0,0
+14,V05_sales_retail,Müük ja jaekaubandus,0.3594456873378824,49162,Contested High,47868,28008,6180,2996,2944,1745,1288,629,749,580,874,503,465,330,454,123
+15,V13_management_exec,Juhtimine,0.270000236332669,34892,Mixed,31874,20309,4103,1751,1654,1051,581,478,398,304,417,233,247,165,183,0
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,0.1844688898234382,13683,Mixed,12086,5836,2121,1015,708,510,538,145,277,169,166,128,272,160,41,0
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,0.09263281850010066,31433,Mixed,27043,18164,4791,1664,844,329,385,118,141,82,202,174,29,50,70,0
+18,V14_translation_media,"Tõlge, keel ja meedia",0.037334984481245614,7849,Mixed,6620,5285,947,69,164,50,48,0,25,0,32,0,0,0,0,0
+19,V20_healthcare,Tervishoid,-0.008042830754325185,29163,Mixed,25484,14281,5593,1773,1174,434,611,151,348,151,310,166,213,230,49,0
+20,V18_other_clerical,Muu kontoritöö,-0.01226093196225533,2502,Mixed,2119,1570,215,89,109,20,61,0,33,0,22,0,0,0,0,0
+21,V22_service_personal,Isiku- ja teenindustöö,-0.11855645783160883,46494,Mixed,41482,23909,5933,3164,2094,1501,1289,272,859,261,627,343,172,347,595,116
+22,V24_operators_elementary,Operaatorid ja lihttöö,-0.6638258271875987,114324,Mixed,104996,53031,13016,9265,7128,4767,3148,2119,2703,2474,1715,1607,1123,1331,1214,355
+23,V23_agri_trades,Põllumajandus ja oskustöö,-0.6671681699843546,74029,Mixed,59269,29666,7666,3650,4186,2127,2784,1343,1414,1069,1302,1148,1435,974,369,136

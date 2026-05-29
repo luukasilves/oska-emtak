@@ -1,0 +1,346 @@
+priority_rank,vertical_id,vertical_label,county,county_name,people_lower,people_estimate,people_upper,n_hidden,n_isco4_total,n_isco4_with_data,suppression_share,vertical_ensemble_z,vertical_employment_national,tier_label_dominant
+1,V04_customer_service,Klienditugi ja kontaktikeskus,harju,Harju maakond,13414.0,13415.779310344828,13471.0,3.0,11,10,0.004231311706629055,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,hiiu,Hiiu maakond,0.0,117.89773245508273,418.0,22.0,11,0,1.0,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,ida_viru,Ida-Viru maakond,698.0,739.0238388048732,907.0,11.0,11,8,0.23042998897464168,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,jarva,Järva maakond,64.0,166.61201816936844,444.0,20.0,11,2,0.8558558558558559,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,jogeva,Jõgeva maakond,21.0,133.11201816936844,420.0,21.0,11,1,0.95,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,laane,Lääne maakond,60.0,166.39773245508272,440.0,20.0,11,2,0.8636363636363636,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,laane_viru,Lääne-Viru maakond,194.0,275.12141666560905,517.0,17.0,11,5,0.6247582205029013,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,parnu,Pärnu maakond,675.0,714.2325555267479,884.0,11.0,11,7,0.23642533936651583,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,polva,Põlva maakond,29.0,141.11201816936844,428.0,21.0,11,1,0.9322429906542056,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,rapla,Rapla maakond,45.0,157.11201816936844,444.0,21.0,11,1,0.8986486486486487,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,saare,Saare maakond,129.0,214.34868939288177,471.0,18.0,11,4,0.7261146496815286,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,tartu,Tartu maakond,1897.0,1907.3124668435014,2011.0,6.0,11,9,0.05668821481849826,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,valga,Valga maakond,20.0,128.39773245508272,419.0,21.0,11,1,0.9522673031026253,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,viljandi,Viljandi maakond,164.0,250.83570237989477,506.0,18.0,11,4,0.6758893280632411,1.5581278360305515,18722,Contested High
+1,V04_customer_service,Klienditugi ja kontaktikeskus,voru,Võru maakond,110.0,194.70474999894236,433.0,17.0,11,5,0.745958429561201,1.5581278360305515,18722,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,harju,Harju maakond,9132.0,9132.0,9132.0,0.0,6,6,0.0,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,hiiu,Hiiu maakond,0.0,40.96560846560847,228.0,12.0,6,0,1.0,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,ida_viru,Ida-Viru maakond,195.0,217.96560846560845,385.0,10.0,6,1,0.4935064935064935,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,jarva,Järva maakond,89.0,111.96560846560847,279.0,10.0,6,1,0.6810035842293907,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,jogeva,Jõgeva maakond,46.0,68.96560846560847,236.0,10.0,6,1,0.8050847457627118,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,laane,Lääne maakond,51.0,73.96560846560847,241.0,10.0,6,1,0.7883817427385892,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,laane_viru,Lääne-Viru maakond,169.0,188.00407000407,340.0,9.0,6,2,0.5029411764705882,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,parnu,Pärnu maakond,447.0,466.4470899470899,618.0,9.0,6,2,0.2766990291262136,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,polva,Põlva maakond,24.0,55.96560846560846,233.0,11.0,6,1,0.8969957081545065,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,rapla,Rapla maakond,65.0,87.96560846560847,255.0,10.0,6,1,0.7450980392156863,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,saare,Saare maakond,73.0,95.96560846560847,263.0,10.0,6,1,0.7224334600760456,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,tartu,Tartu maakond,1518.0,1532.9271469271469,1651.0,7.0,6,3,0.08055723803755299,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,valga,Valga maakond,46.0,68.96560846560847,236.0,10.0,6,1,0.8050847457627118,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,viljandi,Viljandi maakond,218.0,240.96560846560845,408.0,10.0,6,1,0.46568627450980393,1.2867688566331115,12473,Contested High
+2,V03_banking_insurance,Pangandus ja kindlustus,voru,Võru maakond,67.0,89.96560846560847,257.0,10.0,6,1,0.7392996108949417,1.2867688566331115,12473,Contested High
+3,V09_data_analytics,Andmed ja analüütika,harju,Harju maakond,1885.0,1885.0,1885.0,0.0,3,3,0.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,hiiu,Hiiu maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,ida_viru,Ida-Viru maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,jarva,Järva maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,jogeva,Jõgeva maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,laane,Lääne maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,laane_viru,Lääne-Viru maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,parnu,Pärnu maakond,20.0,29.027692307692305,115.0,5.0,3,1,0.8260869565217391,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,polva,Põlva maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,rapla,Rapla maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,saare,Saare maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,tartu,Tartu maakond,398.0,398.0,398.0,0.0,3,3,0.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,valga,Valga maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,viljandi,Viljandi maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+3,V09_data_analytics,Andmed ja analüütika,voru,Võru maakond,0.0,11.747692307692308,114.0,6.0,3,0,1.0,1.1994165841179378,2453,Contested High
+4,V06_marketing_advertising,Turundus ja reklaam,harju,Harju maakond,4457.0,4457.0,4457.0,0.0,3,3,0.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,hiiu,Hiiu maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,ida_viru,Ida-Viru maakond,108.0,116.18857142857144,165.0,3.0,3,2,0.34545454545454546,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,jarva,Järva maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,jogeva,Jõgeva maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,laane,Lääne maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,laane_viru,Lääne-Viru maakond,26.0,48.85333333333334,121.0,5.0,3,1,0.7851239669421488,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,parnu,Pärnu maakond,46.0,68.85333333333334,141.0,5.0,3,1,0.6737588652482269,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,polva,Põlva maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,rapla,Rapla maakond,22.0,44.85333333333333,117.0,5.0,3,1,0.811965811965812,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,saare,Saare maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,tartu,Tartu maakond,454.0,457.42857142857144,492.0,2.0,3,2,0.07723577235772358,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,valga,Valga maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,viljandi,Viljandi maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+4,V06_marketing_advertising,Turundus ja reklaam,voru,Võru maakond,0.0,32.75809523809524,114.0,6.0,3,0,1.0,1.063870523195888,5488,Mixed
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,harju,Harju maakond,14864.0,14864.0,14902.0,2.0,9,8,0.0025499932894913436,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,hiiu,Hiiu maakond,0.0,131.95630100893257,342.0,18.0,9,0,1.0,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,ida_viru,Ida-Viru maakond,1082.0,1119.2932519836545,1234.0,8.0,9,7,0.12317666126418152,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,jarva,Järva maakond,266.0,336.6931431141957,513.0,13.0,9,4,0.48148148148148145,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,jogeva,Jõgeva maakond,30.0,148.95630100893257,353.0,17.0,9,1,0.9150141643059491,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,laane,Lääne maakond,50.0,155.95630100893257,354.0,16.0,9,1,0.8587570621468926,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,laane_viru,Lääne-Viru maakond,590.0,636.9288795140188,780.0,10.0,9,6,0.24358974358974358,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,parnu,Pärnu maakond,1003.0,1043.665721619282,1174.0,9.0,9,6,0.14565587734241908,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,polva,Põlva maakond,0.0,131.95630100893257,342.0,18.0,9,0,1.0,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,rapla,Rapla maakond,244.0,323.28447438354556,510.0,14.0,9,3,0.5215686274509804,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,saare,Saare maakond,221.0,294.02131648880874,468.0,13.0,9,4,0.5277777777777778,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,tartu,Tartu maakond,2678.0,2682.068376068376,2754.0,4.0,9,8,0.027596223674655047,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,valga,Valga maakond,83.0,183.0739480677561,387.0,16.0,9,2,0.7855297157622739,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,viljandi,Viljandi maakond,417.0,474.04652657284237,626.0,11.0,9,6,0.33386581469648563,0.9299951624402812,22841,Contested High
+5,V01_data_clerical,Andmesisestus ja kontoritöötlus,voru,Võru maakond,244.0,315.0991581517897,491.0,13.0,9,4,0.5030549898167006,0.9299951624402812,22841,Contested High
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,harju,Harju maakond,1413.0,1413.0,1413.0,0.0,3,3,0.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,hiiu,Hiiu maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,ida_viru,Ida-Viru maakond,125.0,133.85714285714286,201.0,4.0,3,1,0.3781094527363184,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,jarva,Järva maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,jogeva,Jõgeva maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,laane,Lääne maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,laane_viru,Lääne-Viru maakond,21.0,37.43609022556391,116.0,5.0,3,1,0.8189655172413793,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,parnu,Pärnu maakond,75.0,83.85714285714286,151.0,4.0,3,1,0.5033112582781457,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,polva,Põlva maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,rapla,Rapla maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,saare,Saare maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,tartu,Tartu maakond,237.0,245.85714285714286,313.0,4.0,3,1,0.24281150159744408,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,valga,Valga maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,viljandi,Viljandi maakond,47.0,55.85714285714286,123.0,4.0,3,1,0.6178861788617886,0.8755829579081504,2186,Mixed
+6,V16_logistics_supply_admin,Logistika ja tarneahela kontoritöö,voru,Võru maakond,0.0,24.015037593984964,114.0,6.0,3,0,1.0,0.8755829579081504,2186,Mixed
+7,V10_admin_secretarial,Haldus ja sekretäritöö,harju,Harju maakond,13947.0,13955.777777777777,13985.0,2.0,12,12,0.002717196996782267,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,hiiu,Hiiu maakond,0.0,166.47577331559026,456.0,24.0,12,0,1.0,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,ida_viru,Ida-Viru maakond,794.0,845.4715896020243,1041.0,13.0,12,7,0.2372718539865514,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,jarva,Järva maakond,119.0,264.47577331559023,537.0,22.0,12,2,0.7783985102420856,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,jogeva,Jõgeva maakond,86.0,231.47577331559026,504.0,22.0,12,2,0.8293650793650794,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,laane,Lääne maakond,26.0,180.80910664892357,463.0,23.0,12,1,0.9438444924406048,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,laane_viru,Lääne-Viru maakond,376.0,478.7374056573141,718.0,18.0,12,5,0.4763231197771588,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,parnu,Pärnu maakond,741.0,812.5050824249909,1026.0,15.0,12,7,0.2777777777777778,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,polva,Põlva maakond,28.0,182.80910664892357,465.0,23.0,12,1,0.9397849462365592,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,rapla,Rapla maakond,133.0,265.8968259471692,532.0,21.0,12,3,0.75,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,saare,Saare maakond,197.0,311.6878945277115,558.0,19.0,12,4,0.6469534050179212,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,tartu,Tartu maakond,2651.0,2693.2751322751324,2841.0,10.0,12,8,0.06687785990848293,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,valga,Valga maakond,75.0,220.47577331559026,493.0,22.0,12,2,0.847870182555781,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,viljandi,Viljandi maakond,281.0,390.5634926138359,642.0,19.0,12,4,0.5623052959501558,0.8425031992209523,21256,Contested High
+7,V10_admin_secretarial,Haldus ja sekretäritöö,voru,Võru maakond,217.0,326.5634926138359,578.0,19.0,12,4,0.6245674740484429,0.8425031992209523,21256,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,harju,Harju maakond,11122.0,11130.0,11160.0,2.0,8,8,0.0034050179211469536,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,hiiu,Hiiu maakond,33.0,108.87594544888663,318.0,15.0,8,1,0.8962264150943396,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,ida_viru,Ida-Viru maakond,716.0,764.3161593526299,925.0,11.0,8,4,0.22594594594594594,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,jarva,Järva maakond,112.0,187.87594544888663,397.0,15.0,8,1,0.7178841309823678,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,jogeva,Jõgeva maakond,0.0,88.87594544888663,304.0,16.0,8,0,1.0,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,laane,Lääne maakond,59.0,134.87594544888663,344.0,15.0,8,1,0.8284883720930233,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,laane_viru,Lääne-Viru maakond,329.0,392.22888662535723,595.0,14.0,8,2,0.4470588235294118,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,parnu,Pärnu maakond,541.0,590.9561593526299,769.0,12.0,8,3,0.2964889466840052,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,polva,Põlva maakond,106.0,169.22888662535723,372.0,14.0,8,2,0.7150537634408602,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,rapla,Rapla maakond,138.0,201.22888662535723,404.0,14.0,8,2,0.6584158415841584,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,saare,Saare maakond,177.0,240.22888662535723,443.0,14.0,8,2,0.600451467268623,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,tartu,Tartu maakond,1628.0,1646.6216931216932,1761.0,7.0,8,5,0.07552526973310619,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,valga,Valga maakond,47.0,123.22888662535722,332.0,15.0,8,1,0.858433734939759,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,viljandi,Viljandi maakond,227.0,290.22888662535723,493.0,14.0,8,2,0.539553752535497,0.7645954719302349,16265,Contested High
+8,V02_finance_accounting,Rahandus ja raamatupidamine,voru,Võru maakond,133.0,196.22888662535723,399.0,14.0,8,2,0.6666666666666666,0.7645954719302349,16265,Contested High
+9,V11_hr,Personal ja organisatsioon,harju,Harju maakond,3012.0,3012.0,3012.0,0.0,4,4,0.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,hiiu,Hiiu maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,ida_viru,Ida-Viru maakond,127.0,147.19203703703704,222.0,5.0,4,3,0.42792792792792794,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,jarva,Järva maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,jogeva,Jõgeva maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,laane,Lääne maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,laane_viru,Lääne-Viru maakond,27.0,53.7637037037037,160.0,7.0,4,1,0.83125,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,parnu,Pärnu maakond,79.0,99.19203703703704,174.0,5.0,4,3,0.5459770114942529,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,polva,Põlva maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,rapla,Rapla maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,saare,Saare maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,tartu,Tartu maakond,393.0,409.3401851851852,469.0,4.0,4,4,0.16204690831556504,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,valga,Valga maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,viljandi,Viljandi maakond,22.0,51.388703703703705,155.0,7.0,4,1,0.8580645161290322,0.6956604311031247,4067,Contested High
+9,V11_hr,Personal ja organisatsioon,voru,Võru maakond,0.0,32.68037037037037,152.0,8.0,4,0,1.0,0.6956604311031247,4067,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,harju,Harju maakond,15876.0,15876.0,15876.0,0.0,7,7,0.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,hiiu,Hiiu maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,ida_viru,Ida-Viru maakond,105.0,135.96430587930587,295.0,10.0,7,4,0.6440677966101694,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,jarva,Järva maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,jogeva,Jõgeva maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,laane,Lääne maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,laane_viru,Lääne-Viru maakond,27.0,65.54930587930588,274.0,13.0,7,1,0.9014598540145985,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,parnu,Pärnu maakond,57.0,91.92430587930588,285.0,12.0,7,2,0.8,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,polva,Põlva maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,rapla,Rapla maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,saare,Saare maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,tartu,Tartu maakond,2988.0,2990.296296296296,3007.0,1.0,7,7,0.006318589956767542,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,valga,Valga maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,viljandi,Viljandi maakond,34.0,72.54930587930588,281.0,13.0,7,1,0.8790035587188612,0.6444724291489657,19614,Contested High
+10,V07_it_software,IT ja tarkvaraarendus,voru,Võru maakond,0.0,42.41294224294224,266.0,14.0,7,0,1.0,0.6444724291489657,19614,Contested High
+11,V21_education,Haridus,harju,Harju maakond,16741.0,16741.0,16741.0,0.0,12,12,0.0,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,hiiu,Hiiu maakond,163.0,356.41441563775663,562.0,21.0,12,3,0.7099644128113879,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,ida_viru,Ida-Viru maakond,2587.0,2634.895199537305,2739.0,8.0,12,10,0.05549470609711574,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,jarva,Järva maakond,694.0,810.5255267488677,998.0,16.0,12,6,0.3046092184368738,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,jogeva,Jõgeva maakond,426.0,592.058860082201,787.0,19.0,12,4,0.45870393900889456,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,laane,Lääne maakond,520.0,680.8588600822011,881.0,19.0,12,4,0.4097616345062429,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,laane_viru,Lääne-Viru maakond,1464.0,1533.5968717781075,1692.0,12.0,12,7,0.1347517730496454,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,parnu,Pärnu maakond,1634.0,1710.2229587346292,1843.0,11.0,12,8,0.1134020618556701,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,polva,Põlva maakond,407.0,559.9079828892186,749.0,18.0,12,5,0.45660881174899864,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,rapla,Rapla maakond,872.0,980.0190940003297,1157.0,15.0,12,6,0.24632670700086431,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,saare,Saare maakond,752.0,887.3746495558852,1075.0,17.0,12,6,0.30046511627906974,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,tartu,Tartu maakond,6603.0,6639.210989010989,6736.0,7.0,12,10,0.019744655581947743,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,valga,Valga maakond,567.0,700.2588600822011,890.0,17.0,12,5,0.36292134831460676,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,viljandi,Viljandi maakond,985.0,1073.5968717781075,1232.0,13.0,12,6,0.200487012987013,0.5191423390376819,37516,Contested High
+11,V21_education,Haridus,voru,Võru maakond,490.0,656.058860082201,851.0,19.0,12,4,0.42420681551116335,0.5191423390376819,37516,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,harju,Harju maakond,7875.0,7881.037037037037,7894.0,1.0,11,11,0.0024068913098555865,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,hiiu,Hiiu maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,ida_viru,Ida-Viru maakond,389.0,436.60382672882673,693.0,16.0,11,6,0.43867243867243866,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,jarva,Järva maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,jogeva,Jõgeva maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,laane,Lääne maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,laane_viru,Lääne-Viru maakond,68.0,131.3816045066045,429.0,19.0,11,3,0.8414918414918415,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,parnu,Pärnu maakond,200.0,250.6779008029008,523.0,17.0,11,5,0.6175908221797323,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,polva,Põlva maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,rapla,Rapla maakond,21.0,93.60508935508936,420.0,21.0,11,1,0.95,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,saare,Saare maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,tartu,Tartu maakond,1367.0,1396.7162698412699,1538.0,9.0,11,8,0.11118335500650195,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,valga,Valga maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,viljandi,Viljandi maakond,49.0,116.42327117327117,429.0,20.0,11,2,0.8857808857808858,0.46874723434024207,10917,Contested High
+12,V08_it_infra_telecom,IT-taristu ja telekom,voru,Võru maakond,0.0,76.31937506937507,418.0,22.0,11,0,1.0,0.46874723434024207,10917,Contested High
+13,V12_legal,Õigus,harju,Harju maakond,4010.0,4011.3571428571427,4029.0,1.0,7,7,0.0047158103747828245,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,hiiu,Hiiu maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,ida_viru,Ida-Viru maakond,158.0,179.4383903133903,329.0,9.0,7,3,0.5197568389057751,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,jarva,Järva maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,jogeva,Jõgeva maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,laane,Lääne maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,laane_viru,Lääne-Viru maakond,34.0,74.15377932940862,281.0,13.0,7,1,0.8790035587188612,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,parnu,Pärnu maakond,108.0,132.78621640034683,298.0,10.0,7,3,0.6375838926174496,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,polva,Põlva maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,rapla,Rapla maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,saare,Saare maakond,29.0,69.15377932940862,276.0,13.0,7,1,0.894927536231884,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,tartu,Tartu maakond,848.0,857.5687830687831,924.0,4.0,7,6,0.08225108225108226,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,valga,Valga maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,viljandi,Viljandi maakond,29.0,69.15377932940862,276.0,13.0,7,1,0.894927536231884,0.37881214000802294,5770,Mixed
+13,V12_legal,Õigus,voru,Võru maakond,0.0,47.04851617151388,266.0,14.0,7,0,1.0,0.37881214000802294,5770,Mixed
+14,V05_sales_retail,Müük ja jaekaubandus,harju,Harju maakond,28008.0,28008.137931034482,28065.0,3.0,13,12,0.0020309994655264563,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,hiiu,Hiiu maakond,123.0,291.0241508172543,579.0,24.0,13,1,0.7875647668393783,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,ida_viru,Ida-Viru maakond,2996.0,3021.6126789557825,3186.0,10.0,13,9,0.05963590709353421,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,jarva,Järva maakond,580.0,698.7070512501547,941.0,19.0,13,6,0.383634431455898,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,jogeva,Jõgeva maakond,503.0,633.6908174839209,883.0,20.0,13,5,0.43035107587768967,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,laane,Lääne maakond,454.0,582.7999083930118,834.0,20.0,13,5,0.4556354916067146,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,laane_viru,Lääne-Viru maakond,1745.0,1791.079345622449,1973.0,12.0,13,9,0.11556006082108464,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,parnu,Pärnu maakond,2944.0,2990.079345622449,3172.0,12.0,13,9,0.07187894073139975,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,polva,Põlva maakond,330.0,488.0241508172543,767.0,23.0,13,2,0.5697522816166884,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,rapla,Rapla maakond,629.0,721.3161421592456,952.0,17.0,13,7,0.3392857142857143,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,saare,Saare maakond,874.0,958.9297785228821,1178.0,16.0,13,8,0.25806451612903225,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,tartu,Tartu maakond,6180.0,6182.201787994892,6275.0,5.0,13,11,0.015139442231075698,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,valga,Valga maakond,465.0,593.7999083930118,845.0,20.0,13,5,0.44970414201183434,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,viljandi,Viljandi maakond,1288.0,1347.9732850163884,1554.0,14.0,13,8,0.17117117117117117,0.3594456873378824,49162,Contested High
+14,V05_sales_retail,Müük ja jaekaubandus,voru,Võru maakond,749.0,852.6237179168214,1091.0,18.0,13,6,0.31347387717690195,0.3594456873378824,49162,Contested High
+15,V13_management_exec,Juhtimine,harju,Harju maakond,20309.0,20343.29917898194,20442.0,7.0,23,21,0.006506212699344487,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,hiiu,Hiiu maakond,0.0,318.48451363038583,874.0,46.0,23,0,1.0,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,ida_viru,Ida-Viru maakond,1751.0,1846.2263841905221,2169.0,22.0,23,15,0.19271553711387737,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,jarva,Järva maakond,304.0,551.4188942007959,1045.0,39.0,23,7,0.7090909090909091,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,jogeva,Jõgeva maakond,233.0,497.00345302432527,1012.0,41.0,23,5,0.7697628458498024,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,laane,Lääne maakond,183.0,441.4201196909919,962.0,41.0,23,4,0.8097713097713097,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,laane_viru,Lääne-Viru maakond,1051.0,1205.0123656802966,1621.0,30.0,23,11,0.351634793337446,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,parnu,Pärnu maakond,1654.0,1776.0970701914719,2129.0,25.0,23,14,0.22310944105213715,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,polva,Põlva maakond,165.0,429.00345302432527,944.0,41.0,23,5,0.8252118644067796,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,rapla,Rapla maakond,478.0,681.9605608674625,1162.0,36.0,23,8,0.5886402753872634,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,saare,Saare maakond,417.0,639.7326196909919,1139.0,38.0,23,7,0.6338893766461808,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,tartu,Tartu maakond,4103.0,4167.433857521788,4426.0,17.0,23,16,0.07297785811116132,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,valga,Valga maakond,247.0,492.00345302432527,1007.0,40.0,23,6,0.7547169811320755,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,viljandi,Viljandi maakond,581.0,787.006015412917,1246.0,35.0,23,8,0.5337078651685393,0.270000236332669,34892,Mixed
+15,V13_management_exec,Juhtimine,voru,Võru maakond,398.0,628.8980608674625,1120.0,38.0,23,6,0.6446428571428572,0.270000236332669,34892,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,harju,Harju maakond,5836.0,5846.662169312169,5931.0,5.0,13,12,0.016017534985668522,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,hiiu,Hiiu maakond,0.0,163.5515059015059,494.0,26.0,13,0,1.0,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,ida_viru,Ida-Viru maakond,1015.0,1080.6728021978022,1357.0,18.0,13,6,0.2520265291083272,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,jarva,Järva maakond,169.0,299.1515059015059,625.0,24.0,13,2,0.7296,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,jogeva,Jõgeva maakond,128.0,255.87372812372814,565.0,23.0,13,3,0.7734513274336283,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,laane,Lääne maakond,41.0,189.5515059015059,516.0,25.0,13,1,0.9205426356589147,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,laane_viru,Lääne-Viru maakond,510.0,585.4737281237282,890.0,20.0,13,4,0.42696629213483145,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,parnu,Pärnu maakond,708.0,783.473728123728,1088.0,20.0,13,4,0.3492647058823529,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,polva,Põlva maakond,160.0,283.87372812372814,597.0,23.0,13,3,0.7319932998324958,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,rapla,Rapla maakond,145.0,272.87372812372814,582.0,23.0,13,3,0.7508591065292096,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,saare,Saare maakond,166.0,281.7515059015059,603.0,23.0,13,2,0.724709784411277,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,tartu,Tartu maakond,2121.0,2148.077513227513,2292.0,9.0,13,10,0.07460732984293193,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,valga,Valga maakond,272.0,380.87372812372814,690.0,22.0,13,4,0.6057971014492753,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,viljandi,Viljandi maakond,538.0,607.2653947903948,899.0,19.0,13,5,0.40155728587319245,0.1844688898234382,13683,Mixed
+16,V19_social_cultural,Sotsiaal- ja kultuuritöö,voru,Võru maakond,277.0,385.87372812372814,695.0,22.0,13,4,0.6014388489208633,0.1844688898234382,13683,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,harju,Harju maakond,18164.0,18200.205085259568,18696.0,28.0,49,40,0.028455284552845527,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,hiiu,Hiiu maakond,0.0,369.3336304102303,1862.0,98.0,49,0,1.0,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,ida_viru,Ida-Viru maakond,1664.0,1908.832541477478,3051.0,73.0,49,20,0.4546050475254015,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,jarva,Järva maakond,82.0,420.11140818800806,1906.0,96.0,49,2,0.9569779643231899,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,jogeva,Jõgeva maakond,174.0,478.85044327572734,1922.0,92.0,49,5,0.9094693028095734,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,laane,Lääne maakond,70.0,400.05877660906066,1875.0,95.0,49,3,0.9626666666666667,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,laane_viru,Lääne-Viru maakond,329.0,628.7798000008736,2039.0,90.0,49,7,0.8386463952918097,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,parnu,Pärnu maakond,844.0,1089.4535695836935,2364.0,80.0,49,15,0.6429780033840947,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,polva,Põlva maakond,50.0,388.11140818800806,1874.0,96.0,49,2,0.9733191035218783,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,rapla,Rapla maakond,118.0,449.0737766090607,1904.0,94.0,49,4,0.9380252100840336,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,saare,Saare maakond,202.0,491.34576491315426,1912.0,90.0,49,7,0.8943514644351465,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,tartu,Tartu maakond,4791.0,4925.852144020529,5684.0,47.0,49,33,0.15710767065446868,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,valga,Valga maakond,29.0,386.11140818800806,1872.0,97.0,49,1,0.9845085470085471,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,viljandi,Viljandi maakond,385.0,666.9264666675402,2076.0,89.0,49,8,0.8145472061657033,0.09263281850010066,31433,Mixed
+17,V17_research_science,Teadus ja tehnilised tippspetsialistid,voru,Võru maakond,141.0,453.9537766090607,1908.0,93.0,49,5,0.9261006289308176,0.09263281850010066,31433,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",harju,Harju maakond,5285.0,5285.0,5285.0,0.0,15,15,0.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",hiiu,Hiiu maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",ida_viru,Ida-Viru maakond,69.0,153.29468864468865,601.0,28.0,15,2,0.8851913477537438,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",jarva,Järva maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",jogeva,Jõgeva maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",laane,Lääne maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",laane_viru,Lääne-Viru maakond,50.0,134.29468864468865,582.0,28.0,15,2,0.9140893470790378,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",parnu,Pärnu maakond,164.0,229.31135531135533,639.0,25.0,15,3,0.7433489827856025,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",polva,Põlva maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",rapla,Rapla maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",saare,Saare maakond,32.0,123.69468864468864,583.0,29.0,15,1,0.9451114922813036,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",tartu,Tartu maakond,947.0,971.3809523809524,1175.0,12.0,15,11,0.19404255319148936,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",valga,Valga maakond,0.0,100.26611721611721,570.0,30.0,15,0,1.0,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",viljandi,Viljandi maakond,48.0,133.4661172161172,580.0,28.0,15,1,0.9172413793103448,0.037334984481245614,7849,Mixed
+18,V14_translation_media,"Tõlge, keel ja meedia",voru,Võru maakond,25.0,116.69468864468864,576.0,29.0,15,1,0.9565972222222222,0.037334984481245614,7849,Mixed
+19,V20_healthcare,Tervishoid,harju,Harju maakond,14281.0,14348.256366047746,14775.0,26.0,32,22,0.03343485617597293,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,hiiu,Hiiu maakond,0.0,322.4300927621992,1216.0,64.0,32,0,1.0,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,ida_viru,Ida-Viru maakond,1773.0,1933.7814961414285,2666.0,47.0,32,13,0.33495873968492124,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,jarva,Järva maakond,151.0,439.34313624046007,1329.0,62.0,32,2,0.8863807373965388,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,jogeva,Jõgeva maakond,166.0,456.8846382167447,1344.0,62.0,32,2,0.8764880952380952,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,laane,Lääne maakond,49.0,359.8278200349265,1227.0,62.0,32,2,0.9600651996740016,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,laane_viru,Lääne-Viru maakond,434.0,669.571326528433,1517.0,57.0,32,5,0.7139090309822017,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,parnu,Pärnu maakond,1174.0,1358.163809806025,2105.0,49.0,32,13,0.44228028503562944,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,polva,Põlva maakond,230.0,497.48518169500556,1370.0,60.0,32,4,0.8321167883211679,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,rapla,Rapla maakond,151.0,441.8846382167447,1329.0,62.0,32,2,0.8863807373965388,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,saare,Saare maakond,310.0,575.2539563985629,1431.0,59.0,32,4,0.7833682739343116,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,tartu,Tartu maakond,5593.0,5711.905640483399,6296.0,37.0,32,17,0.11165819567979669,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,valga,Valga maakond,213.0,495.5721382167447,1372.0,61.0,32,3,0.8447521865889213,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,viljandi,Viljandi maakond,611.0,846.9832054104205,1675.0,56.0,32,7,0.635223880597015,-0.008042830754325185,29163,Mixed
+19,V20_healthcare,Tervishoid,voru,Võru maakond,348.0,599.6565538011603,1450.0,58.0,32,6,0.76,-0.008042830754325185,29163,Mixed
+20,V18_other_clerical,Muu kontoritöö,harju,Harju maakond,1570.0,1570.4137931034484,1627.0,3.0,5,4,0.03503380454824831,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,hiiu,Hiiu maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,ida_viru,Ida-Viru maakond,89.0,104.9704433497537,241.0,8.0,5,1,0.6307053941908713,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,jarva,Järva maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,jogeva,Jõgeva maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,laane,Lääne maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,laane_viru,Lääne-Viru maakond,20.0,45.32338452622428,191.0,9.0,5,1,0.8952879581151832,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,parnu,Pärnu maakond,109.0,124.9704433497537,261.0,8.0,5,1,0.5823754789272031,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,polva,Põlva maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,rapla,Rapla maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,saare,Saare maakond,22.0,47.32338452622428,193.0,9.0,5,1,0.8860103626943006,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,tartu,Tartu maakond,215.0,230.97044334975368,367.0,8.0,5,1,0.4141689373297003,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,valga,Valga maakond,0.0,34.676325702694875,190.0,10.0,5,0,1.0,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,viljandi,Viljandi maakond,61.0,76.9704433497537,213.0,8.0,5,1,0.7136150234741784,-0.01226093196225533,2502,Mixed
+20,V18_other_clerical,Muu kontoritöö,voru,Võru maakond,33.0,58.32338452622428,204.0,9.0,5,1,0.8382352941176471,-0.01226093196225533,2502,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,harju,Harju maakond,23909.0,23952.291443167305,24194.0,15.0,28,23,0.011779780110771266,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,hiiu,Hiiu maakond,116.0,425.11444069007786,1123.0,53.0,28,3,0.8967052537845058,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,ida_viru,Ida-Viru maakond,3164.0,3345.3609025615397,3867.0,37.0,28,13,0.1817946728730282,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,jarva,Järva maakond,261.0,537.7945753702126,1192.0,49.0,28,6,0.7810402684563759,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,jogeva,Jõgeva maakond,343.0,638.3871679628052,1312.0,51.0,28,4,0.7385670731707317,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,laane,Lääne maakond,595.0,819.4396179282986,1469.0,46.0,28,8,0.5949625595643295,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,laane_viru,Lääne-Viru maakond,1501.0,1724.4217999974371,2337.0,44.0,28,8,0.35772357723577236,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,parnu,Pärnu maakond,2094.0,2299.7583384589757,2854.0,40.0,28,12,0.2662929222144359,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,polva,Põlva maakond,347.0,642.89704938573,1316.0,51.0,28,4,0.736322188449848,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,rapla,Rapla maakond,272.0,546.8840623727431,1203.0,49.0,28,6,0.7738985868661679,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,saare,Saare maakond,627.0,889.7601838358211,1520.0,47.0,28,7,0.5875,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,tartu,Tartu maakond,5933.0,6046.070403809084,6503.0,30.0,28,18,0.08765185299092726,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,valga,Valga maakond,172.0,501.1144406900779,1179.0,53.0,28,2,0.8541136556403732,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,viljandi,Viljandi maakond,1289.0,1469.1012340899147,2087.0,42.0,28,10,0.38236703402012456,-0.11855645783160883,46494,Mixed
+21,V22_service_personal,Isiku- ja teenindustöö,voru,Võru maakond,859.0,1088.6043396799769,1733.0,46.0,28,8,0.5043277553375649,-0.11855645783160883,46494,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,harju,Harju maakond,53031.0,53202.008477507276,53943.0,48.0,73,57,0.01690673488682498,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,hiiu,Hiiu maakond,355.0,1164.9272047016723,2977.0,138.0,73,7,0.8807524353375882,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,ida_viru,Ida-Viru maakond,9265.0,9740.737340561096,11032.0,93.0,73,38,0.16017041334300217,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,jarva,Järva maakond,2474.0,3043.5553510908867,4621.0,113.0,73,22,0.46461804804154944,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,jogeva,Jõgeva maakond,1607.0,2287.2765634664775,4001.0,126.0,73,17,0.5983504123969008,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,laane,Lääne maakond,1214.0,1896.7145455577472,3589.0,125.0,73,17,0.6617442184452493,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,laane_viru,Lääne-Viru maakond,4767.0,5245.316616491255,6762.0,105.0,73,30,0.2950310559006211,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,parnu,Pärnu maakond,7128.0,7559.435111918295,8914.0,94.0,73,35,0.20035898586493156,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,polva,Põlva maakond,1331.0,2008.4690166015773,3706.0,125.0,73,17,0.6408526713437669,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,rapla,Rapla maakond,2119.0,2757.2254278172795,4418.0,121.0,73,21,0.5203712086917157,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,saare,Saare maakond,1715.0,2353.4379479058366,3995.0,120.0,73,19,0.5707133917396746,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,tartu,Tartu maakond,13016.0,13344.69949960155,14669.0,87.0,73,39,0.11268661803803941,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,valga,Valga maakond,1123.0,1826.1782118181256,3555.0,128.0,73,13,0.6841068917018284,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,viljandi,Viljandi maakond,3148.0,3675.2486369811977,5257.0,111.0,73,27,0.4011793798744531,-0.6638258271875987,114324,Mixed
+22,V24_operators_elementary,Operaatorid ja lihttöö,voru,Võru maakond,2703.0,3246.7700479797254,4869.0,114.0,73,25,0.4448552064078866,-0.6638258271875987,114324,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,harju,Harju maakond,29666.0,29991.741024419218,31110.0,76.0,81,62,0.04641594342655095,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,hiiu,Hiiu maakond,136.0,989.9357913617795,3157.0,159.0,81,3,0.956921127652835,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,ida_viru,Ida-Viru maakond,3650.0,4326.93255552439,6310.0,140.0,81,20,0.4215530903328051,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,jarva,Järva maakond,1069.0,1763.2369894327144,3786.0,143.0,81,16,0.7176439513998943,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,jogeva,Jõgeva maakond,1148.0,1790.0602750506052,3751.0,137.0,81,19,0.6939482804585444,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,laane,Lääne maakond,369.0,1153.1667722230236,3257.0,152.0,81,9,0.8867055572612834,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,laane_viru,Lääne-Viru maakond,2127.0,2794.926465181984,4711.0,136.0,81,21,0.5485035024410954,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,parnu,Pärnu maakond,4186.0,4720.505750673169,6523.0,123.0,81,32,0.35827073432469725,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,polva,Põlva maakond,974.0,1670.9687563500077,3729.0,145.0,81,15,0.7388039688924645,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,rapla,Rapla maakond,1343.0,1981.8274513830447,3965.0,138.0,81,20,0.6612862547288777,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,saare,Saare maakond,1302.0,1966.4273573980824,3981.0,141.0,81,19,0.6729464958553127,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,tartu,Tartu maakond,7666.0,8183.157168404452,9737.0,109.0,81,40,0.2126938482078669,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,valga,Valga maakond,1435.0,2074.8235571778346,4114.0,141.0,81,17,0.6511910549343705,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,viljandi,Viljandi maakond,2784.0,3428.1867843746145,5368.0,136.0,81,21,0.481371087928465,-0.6671681699843546,74029,Mixed
+23,V23_agri_trades,Põllumajandus ja oskustöö,voru,Võru maakond,1414.0,2072.1033010450788,4112.0,142.0,81,18,0.6561284046692607,-0.6671681699843546,74029,Mixed
