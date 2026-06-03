@@ -66,6 +66,10 @@ def load_combos() -> list[tuple[str, str]]:
     combos = []
     for p in sorted(MATRICES_DIR.glob("matrix_*.csv")):
         df = pd.read_csv(p, nrows=1)
+        # Skip wide-format matrices (e.g. matrix_vertical_county_*.csv) that
+        # don't follow the model×scenario schema; those load via load_vertical_long().
+        if "model" not in df.columns or "scenario" not in df.columns:
+            continue
         combos.append((df["model"].iloc[0], df["scenario"].iloc[0]))
     return combos
 
